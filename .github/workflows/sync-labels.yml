@@ -1,0 +1,70 @@
+# .github/workflows/sync-labels.yml (in your TEMPLATE repository)
+name: Sync Labels from Template (Script)
+
+on:
+  workflow_dispatch:
+    inputs:
+      template_repo:
+        description: 'template-repository (owner/repo)'
+        required: true
+
+jobs:
+  sync-labels-script:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+
+    steps:
+      - name: Sync Labels using github-script
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const templateRepo = "${{ github.event.inputs.template_repo }}";
+            const [templateOwner, templateRepoName] = templateRepo.split('/');
+            const targetOwner = context.repo.owner;
+            const targetRepoName = context.repo.repo;
+
+            console.log(`Workspaceing labels from template: <span class="math-inline">\{templateOwner\}/</span>{templateRepoName}`);
+            console.log(`Syncing labels to target: <span class="math-inline">\{targetOwner\}/</span>{targetRepoName}`);
+        
+
+            try {
+              // Get labels from template repository (handles pagination)
+              const templateLabels = await github.paginate(github.rest.issues.listLabelsForRepo, {
+                owner: templateOwner,
+                repo: templateRepoName,
+              });
+              console.log(`Found ${templateLabels.length} labels in template.`);
+
+              // Get existing labels from target repository (handles pagination)
+              const targetLabels = await github.paginate(github.rest.issues.listLabelsForRepo, {
+                owner: targetOwner,
+                repo: targetRepoName,
+              });
+              const targetLabelNames = new Set(targetLabels.map(label => label.name.toLowerCase()));
+              console.log(`Found ${targetLabels.length} existing labels in target.`);
+
+              // Create labels in target repository if they don't exist
+              let createdCount = 0;
+              for (const label of templateLabels) {
+                if (!targetLabelNames.has(label.name.toLowerCase())) {
+                  console.log(`Creating label: ${label.name}`);
+                  await github.rest.issues.createLabel({
+                    owner: targetOwner,
+                    repo: targetRepoName,
+                    name: label.name,
+                    color: label.color,
+                    description: label.description || '', // Ensure description is not null
+                  });
+                  createdCount++;
+                } else {
+                  console.log(`Label already exists: ${label.name}`);
+                  // Optional: Update existing label color/description if needed here
+                }
+              }
+              console.log(`Successfully created ${createdCount} new labels.`);
+
+            } catch (error) {
+              core.setFailed(`Label synchronization failed: ${error.message}`);
+            }
