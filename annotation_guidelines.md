@@ -1,4 +1,4 @@
-# Annotationsrichtlinien für Historische Regesten
+# Annotationrichtlinien für Historische Regesten
 
 ## Allgemeine Prinzipien
 
@@ -215,7 +215,8 @@ Eine Position, die an eine Institution –Kirche, Kloster etc. – gebunden ist 
 * Text: **aep.**  
   Annotation: [Type: KirchlichesAmt, Value: "aep."]
 * Text: **epp.**  
-  Annotation: [Type: KirchlichesAmt, Value: "epp."] * Text: **episc.**  
+  Annotation: [Type: KirchlichesAmt, Value: "epp."]
+* Text: **episc.**  
   Annotation: [Type: KirchlichesAmt, Value: "episc."]
 * Text: **antistes**  
   Annotation: [Type: KirchlichesAmt, Value: "antistes"]
@@ -271,24 +272,24 @@ Eine Position, die an eine Institution –Kirche, Kloster etc. – gebunden ist 
 * Text: **can. sub expect. preb.**  
   Annotation: [Type: KirchlichesAmt, Value: "can. sub expect. preb."]
 * Text: **can. et preb. ac supplem.**  
-  Annotations: [Type: KirchlichesAmt, Value: "can. et preb. ac supplem."]
+  Annotation: [Type: KirchlichesAmt, Value: "can. et preb. ac supplem."]
 * Text: **canonicatus seu prebenda**  
-  Annotations: [Type: KirchlichesAmt, Value: "canonicatus seu prebenda"]
+  Annotation: [Type: KirchlichesAmt, Value: "canonicatus seu prebenda"]
 * Text: **card.**  
   Annotation: [Type: KirchlichesAmt, Value: "card."]
 * Text: **presb. card.**  
-  Annotations: [Type: KirchlichesAmt, Value: "presb. card."]
+  Annotation: [Type: KirchlichesAmt, Value: "presb. card."]
   * **Hinweis:** Vgl. KirchlicherStand
 * Text: **diac. card.**  
-  Annotations: [Type: KirchlichesAmt, Value: "diac. card."]
+  Annotation: [Type: KirchlichesAmt, Value: "diac. card."]
   * **Hinweis:** Vgl. KirchlicherStand
 * Text: **ep. card.**  
-  Annotations: [Type: KirchlichesAmt, Value: "ep. card."]
+  Annotation: [Type: KirchlichesAmt, Value: "ep. card."]
   * **Hinweis:** Vgl. KirchlicherStand
 * Text: **vic. generalis**  
-  Annotations: [Type: KirchlichesAmt, Value: "vic. generalis"]
+  Annotation: [Type: KirchlichesAmt, Value: "vic. generalis"]
 * Text: **mag. gen.**  
-  Annotations:[Type: KirchlichesAmt, Value: "mag. gen."]
+  Annotation:[Type: KirchlichesAmt, Value: "mag. gen."]
 
 #### Label: WeltlichesAmt
 
@@ -711,7 +712,7 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Fac
 * Text: facult. **reconciliandi**  
   Annotation: [Type: FacultasZusatz, Value: "reconciliandi"]
 * Text: **alternativa** facult. **disponendi**  
-  Annotations: 
+  Annotation: 
   - [Type: FacultasZusatz, Value: "alternativa"]
   - [Type: FacultasZusatz, Value: "disponendi"]
 
@@ -773,7 +774,7 @@ Einführung in die Besitztümer einer Pfründe
 * Text: **m. introduc. in possess.**  
   Annotation: [Type: Introductio, Value: "m. introduc. in possess."]
 * Text: **in possessionem** bonorum eorum eccl. **introducat**  
-  Annotations: 
+  Annotation: 
   - [Type: Introductio, Value: "in possessionem"]
   - [Type: Introductio, Value: "introducat"]
 
@@ -1423,7 +1424,7 @@ An dieser Stelle sollen weitere ambige Fälle gesammelt werden und unsere Entsch
 ### Kombinationen aus mehreren Kategorien
 Ein Eintrag, der mehrere Entitäten beschreibt, wird in entsprechende Einzelannotationen aufgeteilt.
   * Beispiel: Text: can. et preb. eccl. Sleswic.
-    Annotations:
+    Annotation:
     - [Type: KirchlichesAmt, Value: "can. et preb."]
     - [Type: Institution, Value: "eccl."]
     - [Type: Diözese, Value: "Sleswic."]
