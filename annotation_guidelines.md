@@ -1399,7 +1399,7 @@ exakte oder ungefähre Datumsangaben
 ##### Standard Examples:
 
 * Text: **9 apr. 1410**  
-  Annotation: [Type: Datum, Value: "9 apr. 1410."]
+  Annotation: [Type: Datum, Value: "9 apr. 1410"]
 
 #### Label: Quelle
 
