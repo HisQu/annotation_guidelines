@@ -1029,7 +1029,7 @@ Handlungen, die von einer anderen Person als dem Papst bzw. von nicht-Personen a
 * Text: **vac. p. prom.**  
   Annotation: [Type: EventNichtPapst, Value: "vac. p. prom."]
 
-#### Other Examples:
+##### Other Examples:
 
 * Text: **vac. p. n. prom.**  
   Annotation: [Type: EventNichtPapst, Value: "vac. p. n. prom."]
