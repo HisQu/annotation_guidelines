@@ -52,31 +52,42 @@ Explizit nicht als Namenszusatz gelten kirchliche Ämter (Albertus **el. Ratisp.
 
 #### Label: Papst
 
+##### Beschreibung:
+Die Namen der Päpste kommen auch dekliniert vor, z.B. "Bonifatio VIII" statt "Bonifatius VIII"; ebenso: "pape" statt "papa". Achtung: Nicht als Papst getaggt werden Patrozinien, die ohne die Ordinalzahl (z.B. VIII) oder den Zusatz "papa" vorkommen, z.B.: Bonifatii in dem Kontext "eccl. s. Bonifatii Halberstad.".
+
 ##### Standard Examples:
 
 * Text: **Bonifatius IX.**  
   Annotation: [Type: Papst, Value: "Bonifatius IX."]
-
-##### Other Examples:
-
 * Text: **papa**  
   Annotation: [Type: Papst, Value: "papa"]
+  * **Häufigkeit:** 480x in den Bänden 1-9, pape: 5307x in den Bänden 1-9.
+* Text: **Bonifatio VIII papa**  
+  Annotation: [Type: Papst, Value: "Bonifatio VIII papa"]  
 
 ### Kategorie: Vita
 
 #### Label: Verwandtschaft
 
+##### Beschreibung:
+In den Regesten wird für viele Personen eine Verwandtschaftbeziehung angegeben. Die unter den Examples gelisteten Beispiele können auch dekliniert vorkommen. Die deklinierten Formen sollen ebenfalls das Label "Verwandtschaft" erhalten, z.B. uxoris statt uxor.
+
 ##### Standard Examples:
 
 * Text: Albertus de Smolsco presb. Wladislav. dioc. **nepos** aep. Gneznen.  
   Annotation: [Type: Verwandtschaft, Value: "nepos"]
-* Text: **uxor**  
-  Annotation: [Type: Verwandtschaft, Value: "uxor"]
+  * **Häufigkeit:** 403x in den Bänden 1-9
+* Text: **ux.**  
+  Annotation: [Type: Verwandtschaft, Value: "ux."]
+  * **Häufigkeit:** 1878x in den Bänden 1-2 und 5-9
 * Text: **genitor**  
   Annotation: [Type: Verwandtschaft, Value: "genitor"]
 
 ##### Other Examples:
 
+* Text: **uxor**  
+  Annotation: [Type: Verwandtschaft, Value: "uxor"]
+  * **Häufigkeit:** 936x in den Bänden 1-5 und 9
 * Text: **filius**  
   Annotation: [Type: Verwandtschaft, Value: "filius"]
 * Text: **filia**  
@@ -87,8 +98,9 @@ Explizit nicht als Namenszusatz gelten kirchliche Ämter (Albertus **el. Ratisp.
   Annotation: [Type: Verwandtschaft, Value: "frater"]
 * Text: **relicta**  
   Annotation: [Type: Verwandtschaft, Value: "relicta"]
-* Text: … **natus**
+* Text: (unknown) **natus** (unknown)
   Annotation: [Type: Verwandtschaft, Value: "natus"]
+  * **Hinweis:** (unknown) steht hier als Platzhalter für den Namen des Vaters, z.B. "Bernhardus natus Johannis Berlin", wobei Johannes Berlin der Vater von Bernhardus ist. Oder: "Alexander nob. viri Semonithi ducis Masouie natus", wobei Semonithus der Vater des Alexander ist.
 
 #### Label: Familiar
 
@@ -103,8 +115,9 @@ Explizit nicht als Namenszusatz gelten kirchliche Ämter (Albertus **el. Ratisp.
 
 ##### Other Examples:
 
-* Text: **xxx** pape  
-  Annotation: [Type: Familiar, Value: "xxx"]
+* Text: **(unknown)** pape  
+  Annotation: [Type: Familiar, Value: "(unknow)"]
+  * **Hinweis:** Neben den oben genannten Beispielen "acolit. pape" und "parafrenarius pape" kann es noch weitere Ämter geben, die im direkten Umfeld des Papstes ausgeübt werden. Diese potentiellen Ämter, die im Regest durch die direkte Nähe zum Wort "pape" gekennzeichnet sind, werden hier durch den Platzhalter (unknown) bezeichnet. Dieser Platzhalter soll ebenfalls das Label "Familiar" bekommen.
 
 #### Label: SozialerStand
 
@@ -170,17 +183,23 @@ Explizit nicht als Namenszusatz gelten kirchliche Ämter (Albertus **el. Ratisp.
 
 #### Label: KirchlicherStand
 
+##### Beschreibung:
+Der kirchliche Stand ergibt sich aus dem Empfang der niederen Weihen (Lektor, Akoluth, Subdiakon etc.) und der höheren Weihen (Diakonat, Presbyterat, Episkopat); er schlägt sich auch in der generellen Unterscheidung zwischen Laien und Klerikern nieder (laic. = Laie; cler. = Kleriker).
+
 ##### Standard Examples:
 
+* Text: **presb.**  
+  Annotation: [Type: KirchlicherStand, Value: "presb."]
+  * **Hinweis:** vgl. KirchlichesAmt
 * Text: **laic.**  
   Annotation: [Type: KirchlicherStand, Value: "laic."]
-* Text: **cler.**  
-  Annotation: [Type: KirchlicherStand, Value: "cler."]
 * Text: **in minore ord. constit.**  
   Annotation: [Type: KirchlicherStand, Value: "in minore ord. constit."]
 
 ##### Other Examples:
 
+* Text: **cler.**  
+  Annotation: [Type: KirchlicherStand, Value: "cler."]
 * Text: **acol.**  
   Annotation: [Type: KirchlicherStand, Value: "acol."]
 * Text: **lect.**  
@@ -191,14 +210,11 @@ Explizit nicht als Namenszusatz gelten kirchliche Ämter (Albertus **el. Ratisp.
 * Text: **diac.**  
   Annotation: [Type: KirchlicherStand, Value: "diac."]
   * **Hinweis:** vgl. KirchlichesAmt
-* Text: **presb.**  
-  Annotation: [Type: KirchlicherStand, Value: "presb."]
-  * **Hinweis:** vgl. KirchlichesAmt
 
 #### Label: KirchlichesAmt
 
-##### Beschreibung:
-Eine Position, die an eine Institution –Kirche, Kloster etc. – gebunden ist und mit Einnahmen verbunden ist.
+##### Beschreibung
+Eine Position, die an eine Institution –Kirche, Kloster etc. – gebunden ist und mit Einnahmen verbunden ist. Durch die Implikation einer festen Stelle mit Einnahmen unterscheiden sich die hier in den Beispielen erfassten kirchlichen Ämter (z.B. presb. card. = Kardinalpriester mit einer Titelkirche) von den unter dem Label KirchlichesAmt gesammelten kirchlichen Weihen (z.B. presb. = Priester, i.e. Person, die die Priesterweihe empfangen hat).
 
 ##### Standard Examples:
 
@@ -379,8 +395,8 @@ Eine Position, die an eine Institution –Kirche, Kloster etc. – gebunden ist 
 
 ##### Standard Examples:
 
-* Text: **studens**  
-  Annotation: [Type: Bildung, Value: "studens"]
+* Text: **licent.**  
+  Annotation: [Type: Bildung, Value: "licent."]
 * Text: **scol.**  
   Annotation: [Type: Bildung, Value: "scol."]
 * Text: **bac. in decr.**  
@@ -388,11 +404,11 @@ Eine Position, die an eine Institution –Kirche, Kloster etc. – gebunden ist 
 
 ##### Other Examples:
 
+* Text: **studens**  
+  Annotation: [Type: Bildung, Value: "studens"]
 * Text: **lic.**   
   Annotation: [Type: Bildung, Value: "lic."]
   * **Hinweis:** Nur selten steht lic. für das Lizenziat, i.d.R. nur in Verbindung mit einem Namen. Häufiger steht es für die päpstliche Lizenz und wird dann als Event getaggt.
-* Text: **licent.**  
-  Annotation: [Type: Bildung, Value: "licent."]
 * Text: **lic. in decr.**    
   Annotation: [Type: Bildung, Value: "lic. in decr."]
 * Text: **lic. in leg.**  
@@ -410,13 +426,15 @@ Eine Position, die an eine Institution –Kirche, Kloster etc. – gebunden ist 
 
 #### Label: VitaZusatz
 
+##### Beschreibung:
+Weitere Informationen zur Person, z.B. in Form von längeren Relativsätzen.
+
 ##### Standard Examples:
 
 * Text: **adh.**  
   Annotation: [Type: VitaZusatz, Value: "adh."] 
 * Text: **qui per multos annos cur. secutus est absque consolatione benef. et ratione alicuius proc. Magnis expensis oppressus est**  
   Annotation: [Type: VitaZusatz, Value: "qui per multos annos cur. secutus est absque consolatione benef. et ratione alicuius proc. Magnis expensis oppressus est"]
-  * **Hinweis:** Weitere Informationen zur Person, z.B. in Form von längeren Relativsätzen.
 
 #### Label: Orden
 
@@ -600,13 +618,13 @@ Befreiung, Außerkraftsetzung kirchlicher Gesetze
 
 * Text: **disp.**  
   Annotation: [Type: Dispensatio, Value: "disp."]
+
+##### Other Examples:
+
 * Text: **disp.** sup. def. nat.  
   Annotation: [Type: Dispensatio, Value: "disp."]
 * Text: **disp.** super def. etat. et super prom. ad sacr. ord.  
   Annotation: [Type: Dispensatio, Value: "disp."]
-
-##### Other Examples:
-
 * Text: de **disp.** ut d. Theordericus d. prepos. unac. alio benef. recip. valeat    
   Annotation: [Type: Dispensatio, Value: "disp."]
 
@@ -677,13 +695,13 @@ Erlaubnis. Vgl. Lizenz und Concessio (?)
 
 * Text: **facult.** resign.  
   Annotation: [Type: Facultas, Value: "facult."]
+
+##### Other Examples:
+
 * Text: **facult.** absol. eos, qui…  
   Annotation: [Type: Facultas, Value: "facult."]
 * Text: **facult.** absol. 100 person.  
   Annotation: [Type: Facultas, Value: "facult."]
-
-##### Other Examples:
-
 * Text: **facult.** absol. in casibus, in quibus …  
   Annotation: [Type: Facultas, Value: "facult."]  
 * Text: **facult.** reconciliandi  
@@ -700,15 +718,17 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Fac
 
 * Text: facult. **resign.**  
   Annotation: [Type: FacultasZusatz, Value: "resign."]
-* Text: facult. **absol. eos, qui…**  
-  Annotation: [Type: FacultasZusatz, Value: "absol. eos, qui…"]
+* Text: facult. **absol. eos, qui (unknown)**  
+  Annotation: [Type: FacultasZusatz, Value: "absol. eos, qui (unknown)"]
+  * **Hinweis:** (unknown) steht für den Rest des Relativsatzes.
 * Text: facult. **absol. 100 person.**  
   Annotation: [Type: FacultasZusatz, Value: "absol. 100 person."]
 
 ##### Other Examples:
 
-* Text: facult. **absol. in casibus, in quibus …**  
-  Annotation: [Type: FacultasZusatz, Value: "absol. in casibus, in quibus …"]
+* Text: facult. **absol. in casibus, in quibus (unknown)**  
+  Annotation: [Type: FacultasZusatz, Value: "absol. in casibus, in quibus (unknown)"]
+  * **Hinweis:** (unknown) steht für den Rest des Relativsatzes.
 * Text: facult. **reconciliandi**  
   Annotation: [Type: FacultasZusatz, Value: "reconciliandi"]
 * Text: **alternativa** facult. **disponendi**  
@@ -727,10 +747,13 @@ Wiederherstellung der Befähigung zur Ausübung einer Rechtshandlung
   Annotation: [Type: Habilitatio, Value: "habil."]
 * Text: **rehab.**  
   Annotation: [Type: Habilitatio, Value: "rehab."]
+
+##### Other Examples: 
+
 * Text: **rehabilitatio**  
-  Annotation: [Type: Habilitatio, Value: "rehabilitatio."]
+  Annotation: [Type: Habilitatio, Value: "rehabilitatio"]
 * Text: **habilitatio**  
-  Annotation: [Type: Habilitatio, Value: "habilitatio."]
+  Annotation: [Type: Habilitatio, Value: "habilitatio"]
 
 #### Label: Indulgentia
 
@@ -762,7 +785,7 @@ Einverleibung einer kirchlichen Institution durch eine andere
 * Text: **inkorp.**  
   Annotation: [Type: Incorporatio, Value: "inkorp."]
 * Text: **unio**  
-  Annotation: [Type: Incorporatio, Value: "unio."]
+  Annotation: [Type: Incorporatio, Value: "unio"]
 
 #### Label: Introductio
 
@@ -798,7 +821,7 @@ Reiseerlaubnis und Schutzbrief
 * Text: **litt. passus**  
   Annotation: [Type: LitteraPassus, Value: "litt. passus"]
 * Text: **littera passus**  
-  Annotation: [Type: LitteraPassus, Value: "littera passus."]
+  Annotation: [Type: LitteraPassus, Value: "littera passus"]
 
 #### Label: Licentia
 
@@ -811,11 +834,11 @@ Sondererlaubnis
   Annotation: [Type: Licentia, Value: "lic."]
 * Text: **m. lic.**  
   Annotation: [Type: Licentia, Value: "m. lic."]
-* Text: **lic.** de ante diem  
-  Annotation: [Type: Licentia, Value: "lic."]
 
 ##### Other Examples:
 
+* Text: **lic.** de ante diem  
+  Annotation: [Type: Licentia, Value: "lic."]
 * Text: **lic.** armuciis de vario et griseo utendi  
   Annotation: [Type: Licentia, Value: "lic."]
 * Text: **lic.** visitandi Sepulcrum Dominicum  
@@ -850,7 +873,7 @@ Ermahnung durch den Papst
 ##### Standard Examples:
 
 * Text: **monitorium penale**  
-  Annotation: [Type: Monitorium, Value: "monitorium penale."]
+  Annotation: [Type: Monitorium, Value: "monitorium penale"]
 
 #### Label: Moratorium
 
@@ -860,9 +883,9 @@ Zahlungsaufschub
 ##### Standard Examples:
 
 * Text: de **moratorio**  
-  Annotation: [Type: Moratorium, Value: "moratorio."]
+  Annotation: [Type: Moratorium, Value: "moratorio"]
 * Text: **moratorium**  
-  Annotation: [Type: Moratorium, Value: "moratorium."]
+  Annotation: [Type: Moratorium, Value: "moratorium"]
 
 ##### Hinweis
 Hauptsächlich in RG 10 (?)
@@ -888,10 +911,13 @@ Vorrecht, Prärogative
 
 * Text: **prerog.** ad instrar pape fam.  
   Annotation: [Type: Prerogativa, Value: "prerog."]
-* Text: **prerog.** pape fam. in absentia  
-  Annotation: [Type: Prerogativa, Value: "prerog."]
 * Text: **antelatio**  
   Annotation: [Type: Prerogativa, Value: "antelatio"]
+
+##### Other Examples:
+
+* Text: **prerog.** pape fam. in absentia  
+  Annotation: [Type: Prerogativa, Value: "prerog."]
 
 #### Label: Prorogatio
 
@@ -902,6 +928,9 @@ Fristverlängerung
 
 * Text: **prorog.**  
   Annotation: [Type: Prorogatio, Value: "prorog."]
+
+##### Other Examples: 
+
 * Text: cum **prorog.** term. solut. ad 1 an. propter incertitudinem taxe  
   Annotation: [Type: Prorogatio, Value: "prorog."]
 
@@ -928,13 +957,13 @@ Bestimmungen zur Verleihung eines Benefizes
   Annotation: [Type: Provisio, Value: "m. prov."]
 * Text: **nova prov.**  
   Annotation: [Type: Provisio, Value: "nova prov."]
-* Text: **prov. si neutri**  
-  Annotation: [Type: Provisio, Value: "prov. si neutri"]
 
 ##### Other Examples:
 
+* Text: **prov. si neutri**  
+  Annotation: [Type: Provisio, Value: "prov. si neutri"]
 * Text: **prov. si nulli**  
-  Annotation: [Type: Provisio, Value: "prov. si nulli."]
+  Annotation: [Type: Provisio, Value: "prov. si nulli"]
 * Text: **surrog.** ad iur.  
   Annotation: [Type: Provisio, Value: "surrog."]
 * Text: **gr. expect.**  
@@ -972,15 +1001,15 @@ Sicherheitsbrief für flüchtige Personen
 * Text: **salv. cond.**  
   Annotation: [Type: SalvusConductus, Value: "salv. cond."]
 * Text: **salvus conductus**  
-  Annotation: [Type: SalvusConductus, Value: "salvus conductus."]
+  Annotation: [Type: SalvusConductus, Value: "salvus conductus"]
 * Text: **salc. cond.**  
-  Annotation: [Type: SalvusConductus, Value: "salc. (!) cond."]
+  Annotation: [Type: SalvusConductus, Value: "salc. cond."]
   * **Hinweis:** Achtung: im Digitalisat von Band 3 falsch eingelesen als salc. statt salv.
 
 #### Label: UndefinierteGnade
 
 ##### Beschreibung:
-Gnaden, die nicht explizit den Begriff der gewährten Gnade – Abolitio, Absolution, Dispens etc. – , sondern nur den Inhalt der Gnade [de alt. port.] oder den allgemeinen Terminus gratia angeben.
+Gnaden, die nicht explizit den Begriff der gewährten Gnade – Abolitio, Absolution, Dispens etc. – , sondern nur den Inhalt der Gnade [de alt. port.] oder den allgemeinen Terminus gratia angeben. Hier ist keine vollständige Liste möglich.
 
 ##### Standard Examples:
 
@@ -1341,7 +1370,7 @@ Zahlungen an den Papst für die Verleihung einer Pfründe.
 * Text: **annat.**  
   Annotation: [Type: Annaten, Value: "annat."]
 * Text: **annata**  
-  Annotation: [Type: Annaten, Value: "annata."]
+  Annotation: [Type: Annaten, Value: "annata"]
 
 #### Label: Servitien
 
@@ -1384,12 +1413,27 @@ Klauseln, die andere Regelungen / Tatsachen außer Kraft setzen. Derogationen (?
 
 ##### Standard Examples:
 
-* Text: **n. o.** alt. s. Nicolai  
+* Text: **n. o.** can. et preb.
   Annotation: [Type: NonObstantien, Value: "n. o."]
+  * **Häufigkeit** 4459x in den Bänden 1-9
+
+##### Other Examples:
+
+* Text: **n. o.** par. eccl.
+  Annotation: [Type: NonObstantien, Value: "n. o."]
+  * **Häufigkeit** 2665x in den Bänden 2-4 und 6-8
 * Text: **n. o.** def. nat.  
   Annotation: [Type: NonObstantien, Value: "n. o."]
-* Text: **n.o.** statut.  
-  Annotation: [Type: NonObstantien, Value: "n.o."]
+  * **Häufigkeit** 1044x in den Bänden 2-4 und 6-8
+* Text: **n. o.** perp. vicar.  
+  Annotation: [Type: NonObstantien, Value: "n. o."]
+  * **Häufigkeit** 243x nur in den Bänden 7+8
+* Text: **n. o.** perp. s. c. vicar.  
+  Annotation: [Type: NonObstantien, Value: "n. o."]
+  * **Häufigkeit** 122x, nur in den Bänden 7-8
+* Text: **n. o.** statut.  
+  Annotation: [Type: NonObstantien, Value: "n. o."]
+  * **Häufigkeit** 13x, nur in Band 3
 
 #### Label: Datum
 
