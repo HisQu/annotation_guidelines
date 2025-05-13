@@ -173,13 +173,13 @@ In den Regesten wird für viele Personen eine Verwandtschaftbeziehung angegeben.
   Annotation: [Type: SozialerStand, Value: "opid."]
 * Text: **bar.**  
   Annotation: [Type: SozialerStand, Value: "bar."]
-  * **Hinweis:** Wenn kein Herrschaftsgebiet genannt wird: WeltlichesAmt.
+  * **Hinweis:** Wenn kein Herrschaftsgebiet genannt wird; vgl. WeltlichesAmt.
 * Text: **com.**  
   Annotation: [Type: SozialerStand, Value: "com."]
-  * **Hinweis:** Wenn kein Herrschaftsgebiet genannt wird: WeltlichesAmt.
+  * **Hinweis:** Wenn kein Herrschaftsgebiet genannt wird; vgl. WeltlichesAmt.
 * Text: **dux**  
   Annotation: [Type: SozialerStand, Value: "dux"]
-  * **Hinweis:** Wenn kein Herrschaftsgebiet genannt wird: WeltlichesAmt.
+  * **Hinweis:** Wenn kein Herrschaftsgebiet genannt wird; vgl. WeltlichesAmt.
 
 #### Label: KirchlicherStand
 
