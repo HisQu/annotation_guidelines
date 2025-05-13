@@ -178,7 +178,7 @@ In den Regesten wird für viele Personen eine Verwandtschaftbeziehung angegeben.
   Annotation: [Type: SozialerStand, Value: "com."]
   * **Hinweis:** Wenn kein Herrschaftsgebiet genannt wird: WeltlichesAmt.
 * Text: **dux**  
-  Annotation: [Type: SozialerStand, Value: "dux."]
+  Annotation: [Type: SozialerStand, Value: "dux"]
   * **Hinweis:** Wenn kein Herrschaftsgebiet genannt wird: WeltlichesAmt.
 
 #### Label: KirchlicherStand
@@ -310,7 +310,7 @@ Eine Position, die an eine Institution –Kirche, Kloster etc. – gebunden ist 
 #### Label: WeltlichesAmt
 
 ##### Beschreibung:
-Eine Position, die an eine Institution –Kirche, Kloster etc. – gebunden ist und mit Einnahmen verbunden ist.
+Eine Position, die an eine Institution, z.B. Königreich, gebunden ist und mit Einnahmen verbunden ist.
 
 ##### Standard Examples:
 
@@ -336,7 +336,7 @@ Eine Position, die an eine Institution –Kirche, Kloster etc. – gebunden ist 
 #### Label: Verwaltungsamt
 
 ##### Beschreibung:
-Eine Position, die an eine Institution –Kirche, Kloster etc. – gebunden ist und mit Einnahmen verbunden ist.
+Eine Position, die an eine Institution, z.B. apostolische Kammer, gebunden ist und mit Einnahmen verbunden ist.
 
 ##### Standard Examples:
 
