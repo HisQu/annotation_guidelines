@@ -110,14 +110,16 @@ In den Regesten wird für viele Personen eine Verwandtschaftbeziehung angegeben.
   Annotation: [Type: Familiar, Value: "fam."]
 * Text: **acolit.** pape  
   Annotation: [Type: Familiar, Value: "acolit."]
-* Text: **parafrenarius** pape  
-  Annotation: [Type: Familiar, Value: "parafrenarius pape"]
+* Text: **cap.** ap. sed.  
+  Annotation: [Type: Familiar, Value: "cap."]
 
 ##### Other Examples:
 
-* Text: **(unknown)** pape  
-  Annotation: [Type: Familiar, Value: "(unknow)"]
-  * **Hinweis:** Neben den oben genannten Beispielen "acolit. pape" und "parafrenarius pape" kann es noch weitere Ämter geben, die im direkten Umfeld des Papstes ausgeübt werden. Diese potentiellen Ämter, die im Regest durch die direkte Nähe zum Wort "pape" gekennzeichnet sind, werden hier durch den Platzhalter (unknown) bezeichnet. Dieser Platzhalter soll ebenfalls das Label "Familiar" bekommen.
+* Text: **parafrenarius** pape  
+  Annotation: [Type: Familiar, Value: "parafrenarius pape"]
+* Text: **(unknown)** pape bzw. ap. sed. 
+  Annotation: [Type: Familiar, Value: "(unknown)"]
+  * **Hinweis:** Neben den oben genannten Beispielen "acolit. pape" und "cap. ap. sed." kann es noch weitere Ämter geben, die im direkten Umfeld des Papstes ausgeübt werden. Diese kirchlichen Ämter, die im Regest durch die direkte Nähe zum Wort "pape" bzw. "ap. sed." gekennzeichnet sind, werden hier durch den Platzhalter (unknown) bezeichnet. Dieser Platzhalter soll ebenfalls das Label "Familiar" bekommen.
 
 #### Label: SozialerStand
 
@@ -180,6 +182,8 @@ In den Regesten wird für viele Personen eine Verwandtschaftbeziehung angegeben.
 * Text: **dux**  
   Annotation: [Type: SozialerStand, Value: "dux"]
   * **Hinweis:** Wenn kein Herrschaftsgebiet genannt wird; vgl. WeltlichesAmt.
+* Text: **mercator**  
+  Annotation: [Type: SozialerStand, Value: "mercator"] 
 
 #### Label: KirchlicherStand
 
@@ -267,8 +271,6 @@ Eine Position, die an eine Institution –Kirche, Kloster etc. – gebunden ist 
   Annotation: [Type: KirchlichesAmt, Value: "scolast."]
 * Text: **rect.**  
   Annotation: [Type: KirchlichesAmt, Value: "rect."]
-* Text: **capel.**  
-  Annotation: [Type: KirchlichesAmt, Value: "capel."]
 * Text: **lect.**  
   Annotation: [Type: KirchlichesAmt, Value: "lect."]
   * **Hinweis:** Lektor im Kloster, selten: KirchlicherStand, s. Notizen unten.
@@ -306,6 +308,10 @@ Eine Position, die an eine Institution –Kirche, Kloster etc. – gebunden ist 
   Annotation: [Type: KirchlichesAmt, Value: "vic. generalis"]
 * Text: **mag. gen.**  
   Annotation:[Type: KirchlichesAmt, Value: "mag. gen."]
+* Text: **precept.**  
+  Annotation:[Type: KirchlichesAmt, Value: "precept."]
+* Text: **capellan.**  
+  Annotation:[Type: KirchlichesAmt, Value: "capellan."]     
 
 #### Label: WeltlichesAmt
 
@@ -1109,8 +1115,12 @@ Vor allem weltliche Verwaltungseinheiten, z.B. Herzogtümer.
 
 * Text: **op.**  
   Annotation: [Type: Verwaltungseinheit, Value: "op."]
+* Text: **op. imp.**  
+  Annotation: [Type: Verwaltungseinheit, Value: "op. imp."]
 * Text: **Slesia**  
-  Annotation: [Type: Verwaltungseinheit, Value: "Slesia."]
+  Annotation: [Type: Verwaltungseinheit, Value: "Slesia"]
+* Text: **villa**  
+  Annotation: [Type: Verwaltungseinheit, Value: "villa"]
 
 #### Label: Diözese
 
@@ -1170,6 +1180,15 @@ Kirchen, Klöster, Universitäten, etc.
   Annotation: [Type: Institution, Value: "pen."]
 * Text: **abbatia**  
   Annotation: [Type: Institution, Value: "abbatia"]
+* Text: **hosp. paup.**  
+  Annotation: [Type: Institution, Value: "hosp. paup."]
+* Text: **conv.** mon. 
+  Annotation: [Type: Institution, Value: "conv."]
+* Text: **dom.**
+  Annotation: [Type: Institution, Value: "dom."]
+  * **Hinweis:** Achtung: dom. nur als Institution taggen, wenn es für domus steht, nicht für dominus.
+* Text: **domus**
+  Annotation: [Type: Institution, Value: "domus"]
 
 #### Label: Titelkirche
 
@@ -1480,7 +1499,8 @@ Begriffe wie „apud cur.“ (an der Kurie), „Noviforum“ (Neumarkt) und „c
 Bei der Abkürzung "lect." gibt es (wenigstens für das RG 3) noch Klärungsbedarf, weil es selten für Lektor und häufiger für einen Vermerk zum Geschäftsgang (lectio) zu stehen scheint. Wenn lect. am Ende des Regests steht, dann wird es nicht ausgezeichnet.
 
 ### Ort/Diözese
-Steht nach der Angabe der Weihe (subdiac, diac., presb. , ep. etc.) der Name einer Stadt so muss diese als Diözese getaggt werden, weil Weihen auf Diözesen, nicht auf Städte erfolgen: Henricus de Bocholdia al. d. Foet cler. Traiect.).
+Steht nach der Angabe der Weihe (subdiac, diac., presb. , ep. etc.) der Name einer Stadt so muss diese als Diözese getaggt werden, weil Weihen auf Diözesen, nicht auf Städte erfolgen. Beispiele: Henricus de Bocholdia al. d. Foet cler. Traiect.); ep. Vulterran. 
+Achtung: Bei prepos. Plocen. wird Plocen. als Ort, nicht als Diözese, getaggt. Ebenso: Die Ortsbezeichnungen nach e.m. (extra muros = außerhalb der Mauern von) werden immer als Ort getaggt, z.B. e.m. Traiect. 
 In Fällen wie “Prag. et Olumuc. dioc.” Ist davon auszugehen, dass das erste dioc. Weggefallen ist. Es werden also sowohl Prag. als auch Olumuc. als Diözesen getaggt.
 Wenn marchio (Markgraf) vor Brandenburg. steht, wird Brandenburg. als Verwaltungseinheit (nicht als Ort oder Diözese) getaggt.
 
