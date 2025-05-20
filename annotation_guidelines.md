@@ -179,6 +179,9 @@ In den Regesten wird für viele Personen eine Verwandtschaftbeziehung angegeben.
 * Text: **com.**  
   Annotation: [Type: SozialerStand, Value: "com."]
   * **Hinweis:** Wenn kein Herrschaftsgebiet genannt wird; vgl. WeltlichesAmt.
+* Text: **comes**  
+  Annotation: [Type: SozialerStand, Value: "comes"]
+  * **Hinweis:** Wenn kein Herrschaftsgebiet genannt wird; vgl. WeltlichesAmt.
 * Text: **dux**  
   Annotation: [Type: SozialerStand, Value: "dux"]
   * **Hinweis:** Wenn kein Herrschaftsgebiet genannt wird; vgl. WeltlichesAmt.
@@ -334,6 +337,9 @@ Eine Position, die an eine Institution, z.B. Königreich, gebunden ist und mit E
   * **Hinweis:** Wenn ein Herrschaftsgebiet genannt wird, ansonsten: SozialerStand.
 * Text: **dux**  
   Annotation: [Type: WeltlichesAmt, Value: "dux."]
+  * **Hinweis:** Wenn ein Herrschaftsgebiet genannt wird, ansonsten: SozialerStand.
+* Text: **com.**  
+  Annotation: [Type: WeltlichesAmt, Value: "com."]
   * **Hinweis:** Wenn ein Herrschaftsgebiet genannt wird, ansonsten: SozialerStand.
 * Text: **comes**  
   Annotation: [Type: WeltlichesAmt, Value: "comes"]
