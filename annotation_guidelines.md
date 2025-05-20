@@ -773,16 +773,6 @@ Indulgenz
 * Text: **indulg.**  
   Annotation: [Type: Indulgentia, Value: "indulg."]
 
-#### Label: Indultum
-
-##### Beschreibung:
-Der Begriff indulgentia darf nicht mit dem Begriff indultum verwechselt werden, der im allgemeinen Sinn von gratia, licentia oder dispensatio gebraucht wird. (?)
-
-##### Standard Examples:
-
-* Text: **indult.**  
-  Annotation: [Type: Indultum, Value: "indult."]
-
 #### Label: Incorporatio
 
 ##### Beschreibung:
