@@ -1208,7 +1208,7 @@ Kirchen, Klöster, Universitäten, etc.
 * Text: **dom.**  
   Annotation: [Type: Institution, Value: "dom."]
   * **Hinweis:** Achtung: dom. nur als Institution taggen, wenn es für domus steht, nicht für dominus.
-* Text: **domus**
+* Text: **domus**  
   Annotation: [Type: Institution, Value: "domus"]
 
 #### Label: Titelkirche
