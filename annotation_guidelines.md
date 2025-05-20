@@ -2,7 +2,7 @@
 
 ## Allgemeine Prinzipien
 
-1. Die Annotation von Regesten dient der strukturierten Erfassung relevanter Entitäten zur besseren Analyse und maschinellen Verarbeitung. Annotiert werden all diejenigen Begriffe bzw. Konzepte, für die sich ein Forschungsinteresse in der Forschungsliteratur nachweisen lässt. Darüber hinaus wird unsere Auswahl von einer Umfrage in der historischen Forschungsgemeinschaft zu Forschungsfragen und -interessen ergänzt. 
+1. Die Annotation von Regesten dient der strukturierten Erfassung relevanter Entitäten zur besseren Analyse und maschinellen Verarbeitung. Annotiert werden all diejenigen Begriffe bzw. Konzepte, für die sich ein Forschungsinteresse in der Forschungsliteratur nachweisen lässt. Neben der Forschungsliteratur berücksichtigen wir ebenfalls die Ergebnisse einer von uns in der historischen Forschungsgemeinschaft durchgeführten Umfrage zu früheren, aktuellen und geplanten Forschungsvorhaben mit Bezug zum RG. 
 2. Die Annotation umfasst derzeit vier Oberbegriffe: Person, Vita, Event und Varia. Diese haben wiederum mehrere Unterkategorien.
 3. Hinweis zur Darstellung: Der Fettdruck kennzeichnet, welche Wörter mit dem Kategorielabel getaggt werden sollen und welche nicht.  
 4. Es werden nur Wörter ausgezeichnet, die auch explizit im Regest stehen – d.h. Wörter, die nur mitgedacht werden müssen, z.B. (prov.) de eccl., werden nicht berücksichtigt. Abkürzungspunkte müssen in die Annotationen aufgenommen werden; ebenso die Endpunkte nach der Quellenangabe (?).
