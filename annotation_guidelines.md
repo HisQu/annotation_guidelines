@@ -183,7 +183,9 @@ In den Regesten wird für viele Personen eine Verwandtschaftbeziehung angegeben.
   Annotation: [Type: SozialerStand, Value: "dux"]
   * **Hinweis:** Wenn kein Herrschaftsgebiet genannt wird; vgl. WeltlichesAmt.
 * Text: **mercator**  
-  Annotation: [Type: SozialerStand, Value: "mercator"] 
+  Annotation: [Type: SozialerStand, Value: "mercator"]
+* Text: **incola**  
+  Annotation: [Type: SozialerStand, Value: "incola"] 
 
 #### Label: KirchlicherStand
 
