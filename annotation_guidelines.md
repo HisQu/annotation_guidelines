@@ -1205,7 +1205,7 @@ Kirchen, Klöster, Universitäten, etc.
   Annotation: [Type: Institution, Value: "hosp. paup."]
 * Text: **conv.** mon.  
   Annotation: [Type: Institution, Value: "conv."]
-* Text: **dom.**
+* Text: **dom.**  
   Annotation: [Type: Institution, Value: "dom."]
   * **Hinweis:** Achtung: dom. nur als Institution taggen, wenn es für domus steht, nicht für dominus.
 * Text: **domus**
