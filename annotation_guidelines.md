@@ -1203,7 +1203,7 @@ Kirchen, Klöster, Universitäten, etc.
   Annotation: [Type: Institution, Value: "abbatia"]
 * Text: **hosp. paup.**  
   Annotation: [Type: Institution, Value: "hosp. paup."]
-* Text: **conv.** mon. 
+* Text: **conv.** mon.
   Annotation: [Type: Institution, Value: "conv."]
 * Text: **dom.**
   Annotation: [Type: Institution, Value: "dom."]
