@@ -617,6 +617,35 @@ Erklärung
 * Text: **decl.**  
   Annotation: [Type: Declaratio, Value: "decl."]
 
+#### Label: Derogatio
+
+##### Beschreibung: 
+Klauseln, die andere Regelungen / Tatsachen außer Kraft setzen; vgl. das Label NonObstantien.
+
+##### Standard Examples:
+
+* Text: de **derog.**  
+  Annotation: [Type: Derogatio, Value: "derog."]
+* Text: c. **derog.**  
+  Annotation: [Type: Derogatio, Value: "derog."]
+
+#### Label: DerogatioZusatz
+
+##### Beschreibung:
+Kennzeichnung des Gnadeninhalts der Derogatio. Der gesamte Gnadeninhalt wird mit dem Label DerogatioZusatz getaggt, nicht aber die Gnade derog. selbst.
+
+##### Standard Examples:
+
+* Text: c. derog. **statut. d. eccl. quod nullus nisi can. actu prebend. et capitul. inibi dign. assequi val.** 6. decb. 1437 S 342 193v.
+  Annotation: [Type: DerogatioZusatz, Value: "statut. d. eccl. quod nullus nisi can. actu prebend. et capitul. inibi dign. assequi val."]
+
+##### Other Examples:
+
+* Text: de derog. **antelationum quibusdam aliis prerog. curialium habentibus in concil. Basil. existentibus conc. ratione gr. expect. sue** s.d. 24. apr. 31 20. decb. 1436 S 329 239rs.
+  Annotation: [Type: DerogatioZusatz, Value: "antelationum quibusdam aliis prerog. curialium habentibus in concil. Basil. existentibus conc. ratione gr. expect. sue"]
+* Text: c. derog. **statutis eccl. s. Petri de optando** 18. aug. 1463 S 566 89r, L 582 63v-65r.
+  Annotation: [Type: DerogatioZusatz, Value: "statutis eccl. s. Petri de optando"]
+
 #### Label: Dispensatio
 
 ##### Beschreibung:
@@ -1420,7 +1449,7 @@ Dauer eines Dispens etc.
 #### Label: NonObstantien
 
 ##### Beschreibung:
-Klauseln, die andere Regelungen / Tatsachen außer Kraft setzen. Derogationen (?)
+Klauseln, die andere Regelungen / Tatsachen außer Kraft setzen; vgl. die Label Derogatio und DerogatioZusatz.
 
 ##### Standard Examples:
 
