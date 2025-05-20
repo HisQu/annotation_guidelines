@@ -795,7 +795,7 @@ Wiederherstellung der Befähigung zur Ausübung einer Rechtshandlung
 #### Label: Indulgentia
 
 ##### Beschreibung:
-Indulgenz
+Indulgenz, Ablass
 
 ##### Standard Examples:
 
