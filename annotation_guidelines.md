@@ -2,15 +2,15 @@
 
 ## Allgemeine Prinzipien
 
-Die Annotation von Regesten dient der strukturierten Erfassung relevanter Entitäten zur besseren Analyse und maschinellen Verarbeitung.
-Die Annotation umfasst vier Oberbegriffe: Person, Vita, Event und Varia. Diese haben wiederum mehrere Unterkategorien.  
-Hinweis zur Darstellung: Der Fettdruck kennzeichnet, welche Wörter mit dem Kategorielabel getaggt werden sollen und welche nicht.  
-Es werden nur Wörter ausgezeichnet, die auch explizit im Regest stehen – d.h. Wörter, die nur mitgedacht werden müssen, z.B. (prov.) de eccl., werden nicht berücksichtigt. Abkürzungspunkte müssen in die Annotationen aufgenommen werden; ebenso die Endpunkte nach der Quellenangabe (?).
-Die Präposition de wird nur beim Namenszusatz und beim SozialenStand mitgetaggt: Johannis **de Yselsteine** (de Yselsteine = Namenszusatz), Ghiselbertus de Lochorst **de nob. gen.** (de nob. gen. = SozialerStand); ansonsten: **de eccl.** (eccl. = Institution), **de locis interdictis** (locis interdictis = UndefinierteGnade) etc. Ebenso bei anderen Präpositionen: post ob. (?)
+1. Die Annotation von Regesten dient der strukturierten Erfassung relevanter Entitäten zur besseren Analyse und maschinellen Verarbeitung. Annotiert werden all diejenigen Begriffe bzw. Konzepte, für die sich ein Forschungsinteresse in der Forschungsliteratur nachweisen lässt. Darüber hinaus wird unsere Auswahl von einer Umfrage in der historischen Forschungsgemeinschaft zu Forschungsfragen und -interessen ergänzt. 
+2. Die Annotation umfasst derzeit vier Oberbegriffe: Person, Vita, Event und Varia. Diese haben wiederum mehrere Unterkategorien.
+3. Hinweis zur Darstellung: Der Fettdruck kennzeichnet, welche Wörter mit dem Kategorielabel getaggt werden sollen und welche nicht.  
+4. Es werden nur Wörter ausgezeichnet, die auch explizit im Regest stehen – d.h. Wörter, die nur mitgedacht werden müssen, z.B. (prov.) de eccl., werden nicht berücksichtigt. Abkürzungspunkte müssen in die Annotationen aufgenommen werden; ebenso die Endpunkte nach der Quellenangabe (?).
+5. Die Präposition de wird nur beim Namenszusatz und beim SozialenStand mitgetaggt: Johannis **de Yselsteine** (de Yselsteine = Namenszusatz), Ghiselbertus de Lochorst **de nob. gen.** (de nob. gen. = SozialerStand); ansonsten: **de eccl.** (eccl. = Institution), **de locis interdictis** (locis interdictis = UndefinierteGnade) etc. Ebenso bei anderen Präpositionen: post ob. (?)
 
 ## Strukturierung der Labels und Beispiele
 
-Jede Kategorie (Person, Vita, Event, Varia) enthält eine Liste von Labels. Für jedes Label werden "Standardbeispiele" und "Sonstige Beispiele" aufgeführt. Jedes Beispiel umfasst den Kontext und das zu annotierende Textfragment, wobei das Fragment in doppelten Sternchen (`**`) eingeschlossen ist. Die erwartete Annotation wird im Format `[Type: Value]` angegeben. Bei Beispielen, die mehrere Annotationen ergeben, werden alle aufgeführt.
+Jede Kategorie (Person, Vita, Event, Varia) enthält eine Liste von Labels (Unterkategorien). Für jedes Label werden "Standardbeispiele" (Standard Examples) und "Sonstige Beispiele" (Other Examples) aufgeführt. Jedes Beispiel umfasst den Kontext und das zu annotierende Textfragment, wobei das Fragment in doppelten Sternchen (`**`) eingeschlossen ist. Die erwartete Annotation wird im Format `[Type: Value]` angegeben. Bei Beispielen, die mehrere Annotationen ergeben, werden alle aufgeführt.
 
 ### Kategorie: Person
 
