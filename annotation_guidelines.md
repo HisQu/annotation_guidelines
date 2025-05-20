@@ -1476,13 +1476,19 @@ Verweise auf Dokumente oder Handschriften.
 
 ## Unklare Fälle und Richtlinien zur Entscheidung
 
-### Doppeldeutige Begriff
+### Domic.
+Im Abkürzungsverzeichnis des RG steht für domic. nur domicella/domicellus (Ritterfräulein, Stiftsdame; Knappe, Junker [kurialer Ehrentitel]), auch wenn man domicellarius (Domherr) erwarten würde.
+
+### Doppeldeutige Begriffe
 Manche Begriffe können in mehreren Kategorien fallen. Beispiel: „alt.“ kann für ein Objekt (Altar), als auch für ein kirchliches Amt (ein Altarist, also ein Priester, der Gottesdienste an diesem Altar abhält und dafür ein Einkommen erhält) stehen. Wir haben uns dazu entschieden, alt. als Objekt zu taggen. 
 An dieser Stelle sollen weitere ambige Fälle gesammelt werden und unsere Entscheidungen festgehalten werden:
   - alt. = Objekt
   - par. eccl. = Institution
   - archidiac. = KirchlichesAmt
   - vic. = KirchlichesAmt
+
+### Fit mentio
+Fit mentio wird nicht getaggt.
 
 ### Kombinationen aus mehreren Kategorien
 Ein Eintrag, der mehrere Entitäten beschreibt, wird in entsprechende Einzelannotationen aufgeteilt.
@@ -1492,46 +1498,40 @@ Ein Eintrag, der mehrere Entitäten beschreibt, wird in entsprechende Einzelanno
     - [Type: Institution, Value: "eccl."]
     - [Type: Diözese, Value: "Sleswic."]
 
-### Unklare oder vage Ortsangaben
-Begriffe wie „apud cur.“ (an der Kurie), „Noviforum“ (Neumarkt) und „castrum“ (Burg) werden als "OrtImplizit" erfasst.
-
 ### Lect.
 Bei der Abkürzung "lect." gibt es (wenigstens für das RG 3) noch Klärungsbedarf, weil es selten für Lektor und häufiger für einen Vermerk zum Geschäftsgang (lectio) zu stehen scheint. Wenn lect. am Ende des Regests steht, dann wird es nicht ausgezeichnet.
 
-### Ort/Diözese
+### maior und minor prebenda / ecclesia
+Bei Fällen wie „incorp. maioris preb. eccl.“, bei denen nicht immer gleich klar ist, ob sich das Adjektiv maior/minor auf die Präbende oder die Kirche bezieht, wird es grundsätzlich gemeinsam mit preb. mit dem Tag „KirchlichesAmt“ versehen (also nicht zu eccl. gezogen). 
+
+### Ort vs. Diözese
 Steht nach der Angabe der Weihe (subdiac, diac., presb. , ep. etc.) der Name einer Stadt so muss diese als Diözese getaggt werden, weil Weihen auf Diözesen, nicht auf Städte erfolgen. Beispiele: Henricus de Bocholdia al. d. Foet cler. Traiect.); ep. Vulterran. 
 Achtung: Bei prepos. Plocen. wird Plocen. als Ort, nicht als Diözese, getaggt. Ebenso: Die Ortsbezeichnungen nach e.m. (extra muros = außerhalb der Mauern von) werden immer als Ort getaggt, z.B. e.m. Traiect. 
 In Fällen wie “Prag. et Olumuc. dioc.” Ist davon auszugehen, dass das erste dioc. Weggefallen ist. Es werden also sowohl Prag. als auch Olumuc. als Diözesen getaggt.
 Wenn marchio (Markgraf) vor Brandenburg. steht, wird Brandenburg. als Verwaltungseinheit (nicht als Ort oder Diözese) getaggt.
 
-### Domic.
-Im Abkürzungsverzeichnis des RG steht für domic. nur domicella/domicellus (Ritterfräulein, Stiftsdame; Knappe, Junker [kurialer Ehrentitel]), auch wenn man domicellarius (Domherr) erwarten würde.
-
-### Fit mentio
-Fit mentio wird nicht getaggt.
-
-### maior und minor prebenda / ecclesia
-Bei Fällen wie „incorp. maioris preb. eccl.“, bei denen nicht immer gleich klar ist, ob sich das Adjektiv maior/minor auf die Präbende oder die Kirche bezieht, wird es grundsätzlich gemeinsam mit preb. mit dem Tag „KirchlichesAmt“ versehen (also nicht zu eccl. gezogen). 
+### Quellen
+Für jede Quelle wird je ein Tag „Quelle“ vergeben, z.B. *C 1 4* (Quelle), *Ind. 323 127.* (Quelle)
+Aber: *047 40 et 40v.* wird als eine Quelle getaggt.
 
 ### Thematische- / Topik-Tags
 Wir haben uns aus zeitökonomischen Gründen dazu entschieden, keine thematischen Tags zu vergeben (z.B. „Geburtsdefekt“ für def. nat., „Interdikt“ für locis interdictis, „Ehe“ für matrim. usw.). Allerdings sollen die Nutzer/innen der fertigen Anwendung explizit darauf hingewiesen werden, dass sie bestimmte Themen, wie gewohnt, über die entsprechenden RG-Abkürzungen abrufen können. 
 Beispielanfrage (falsch): Gib mir alle Ehefälle aus dem RG aus.
 Beispielanfrage (richtig): Gib mir alle matrim. Fälle aus dem RG aus.
 
+### Titelkirchen
+Da die Namen derjenigen Kirchen, die Kardinalbischöfen, -priestern und -diakonen mit ihrer Ernennung zum Kardinal verliehen wurden, eine Mischform zwischen den Tags „Institution“, „Ort“ und „Patrozinium“ darstellen und ihre Anzahl zugleich finit ist, haben wir uns für einen eigenen Tag „Titelkirche“ entschieden. Man erkennt sie v.a. daran, dass in ihrer Nähe im Regest ein Kardinal genannt wird (ep. card., presb. card., diac. card.). In diesen Fällen wird ausnahmsweise darauf verzichtet, zusätzlich das Patrozinium oder den Ort als solche gesondert zu taggen. Beispiele: 
+- presb. card. **tit. s. Laurentii in Damaso**
+- diac. card. (tit.) **s. Georgii ad Velum Aureum**
+- ep. **Portuen.** card.
+
 ### Ungünstige Trennung von zwei oder mehreren Wörtern
 Manchmal kommt es vor, dass zwei Wörter, die eigentlich gemeinsam getaggt werden sollten (m. incorp.; ep. card.), durch andere Wörter getrennt werden (m. (Sigismundo Rom. Et Vng. rege) incorp.; ep. Portuen. card.). Behelfsmäßig haben wir jetzt beide Teile einzeln mit dem Tag Incorporatio bzw. KirchlichesAmt versehen - eine Lösung dafür muss noch gefunden werden, damit die Zuordnung eindeutig und konsistent ist (z.B. Pfeilverbindungen in Inception, die anzeigen, dass zwei Wörter zusammen unter ein Tag gehören).(?)
+
+### Unklare oder vage Ortsangaben
+Begriffe wie „apud cur.“ (an der Kurie), „Noviforum“ (Neumarkt) und „castrum“ (Burg) werden als "OrtImplizit" erfasst.
 
 ### Zusätze
 Die Tags AbsolutioZusatz, CassatioZusatz, DispensatioZusatz, FacultasZusatz, LicentiaZusatz und ProrogatioZusatz dienen der Kennzeichnung des jeweiligen Gnadeninhalts im Regest (Bsp. s. jeweils oben). Wir verfahren so, dass der gesamte Gnadeninhalt, der oft bis zur Datumsangabe reicht, getaggt wird, nicht nur einzelne Wörter, da dieses Vorgehen sich bei mehreren Annotatoren als fehleranfälliger erwiesen hat. Beispiele: 
 - LicentiaZusatz: lic. **retin. scolast., can. et par. eccl. ad 5 an.** 24 iul. 1409; nicht nur: **retin.** oder **retin. scolast.**
 - ProrogatioZusatz: cum prorog. **term. solut. ad 1 an. propter incertitudinem taxe** 14 dec. 1409; nicht nur: **term.** oder **term. solut.**
-
-### Titelkirchen
-Da die Namen derjenigen Kirchen, die Kardinalbischöfen, -priestern und -diakonen mit ihrer Ernennung zum Kardinal verliehen wurden, eine Mischform zwischen den Tags „Institution“, „Ort“ und „Patrozinium“ darstellen und ihre Anzahl zugleich finit ist, haben wir uns für einen eigenen Tag „Titelkirche“ entschieden. Man erkennt sie v.a. daran, dass in ihrer Nähe im Regest ein Kardinal genannt wird (ep. card., presb. card., diac. card.). In diesen Fällen wird ausnahmsweise darauf verzichtet, zusätzlich das Patrozinium oder den Ort als solche gesondert zu taggen. Beispiele: 
-- presb. card. **tit. s. Laurentii in Damaso**
-- diac. card. (tit.) **s. Georgii ad Velum Aureum**
-- ep. **Portuen.** card. 
-
-### Quellen
-Für jede Quelle wird je ein Tag „Quelle“ vergeben, z.B. *C 1 4* (Quelle), *Ind. 323 127.* (Quelle)
-Aber: *047 40 et 40v.* wird als eine Quelle getaggt.
