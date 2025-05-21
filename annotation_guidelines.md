@@ -513,6 +513,17 @@ Tilgung, z.B. von Inhabilität
 * Text: **abol. macule infamie**  
   Annotation: [Type: Abolitio, Value: "abol. macule infamie."]
 
+#### Label: AbolitioZusatz
+
+##### Beschreibung:
+Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label AbolitioZusatz getaggt, nicht aber die Gnade abol. selbst.
+
+##### Standard Examples:
+
+* Text: m. abol. inhabil., **quia sacr. ord. una die per Matheum ep. olim Placentin. indebite recepit, n. o. proc. per mag. Angelum de Balionibus aud. gen. cam. ap. instructo** 4 mart. 1412 L 158 130.  
+  Annotation: [Type: AbolitioZusatz, Value: "quia sacr. ord. una die per Matheum ep. olim Placentin. indebite recepit, n. o. proc. per mag. Angelum de Balionibus aud. gen. cam. ap. instructo"]
+
+
 #### Label: Absolutio
 
 ##### Beschreibung:
