@@ -1169,7 +1169,9 @@ Handlungen, die von einer anderen Person als dem Papst bzw. von nicht-Personen a
 * Text: **solv.**    
   Annotation: [Type: EventNichtPapst, Value: "solv."]  
 * Text: **iuram. fidel.**    
-  Annotation: [Type: EventNichtPapst, Value: "iuram. fidel."]    
+  Annotation: [Type: EventNichtPapst, Value: "iuram. fidel."]
+* Text: **constit. iudices appellat.**    
+  Annotation: [Type: EventNichtPapst, Value: "constit. iudices appellat."]    
 
 * **Hinweis:** Achtung: Erstmal nur Groberfassung, z.B. de qua **litig.**
 
