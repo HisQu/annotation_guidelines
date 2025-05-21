@@ -1189,14 +1189,16 @@ Eine kirchliche Verwaltungseinheit.
 
 * Text: **Traiect. dioc.**  
   Annotation: [Type: Diözese, Value: "Traiect. dioc."]
+* Text: **dioc. Traiect.**  
+  Annotation: [Type: Diözese, Value: "dioc. Traiect."]
+
+
+##### Other Examples:
+
 * Text: **Magunt. dioc.**  
   Annotation: [Type: Diözese, Value: "Magunt. dioc."]
 * Text: **Colon. dioc.**  
   Annotation: [Type: Diözese, Value: "Colon. dioc."]
-
-##### Other Examples:
-
-* Liste mit Diözesen des RG hierher (?)
 
 #### Label: Institution
 
