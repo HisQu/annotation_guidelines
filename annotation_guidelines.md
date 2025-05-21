@@ -2,7 +2,8 @@
 
 ## Allgemeine Prinzipien
 
-**1. Ziel und Umfang der Annotation:**  
+### 1. Ziel und Umfang der Annotation:
+
 Die Annotation von Regesten dient der strukturierten Erfassung relevanter Entitäten zur besseren Analyse und maschinellen Verarbeitung.  
 Annotiert werden all jene Begriffe bzw. Konzepte, für die sich ein Forschungsinteresse in der wissenschaftlichen Literatur nachweisen lässt. Neben der Forschungsliteratur berücksichtigen wir ebenfalls die Ergebnisse einer von uns in der historischen Forschungsgemeinschaft durchgeführten Umfrage zu früheren, aktuellen und geplanten Forschungsvorhaben mit Bezug zum Repertorium Germanicum.   
 Nicht getaggte Inhalte können dennoch durch KI-gestützte Verfahren erfasst werden. Annotiert werden ausschließlich Begriffe, die explizit im Regesttext vorkommen – Begriffe, die nur implizit mitgedacht werden müssen, z.B. (prov.) de eccl., bleiben unberücksichtigt.  
@@ -14,10 +15,12 @@ In allen anderen Fällen wird nur der relevante Hauptbegriff annotiert, nicht di
 
 * Entsprechendes gilt für weitere Präpositionen wie post ob. etc.
 
-**2. Kategorien:**  
+### 2. Kategorien:
+
 Die Annotation umfasst derzeit vier Hauptkategorien: Person, Vita, Event und Varia. Diese verfügen jeweils über mehrere Unterkategorien.  
 
-**3. Darstellung im Guidelines-Dokument:**  
+### 3. Darstellung im Guidelines-Dokument:
+
 Der Fettdruck kennzeichnet, welche Wörter mit dem Kategorielabel getaggt werden sollen und welche nicht.    
 
 ## Strukturierung der Labels und Beispiele
