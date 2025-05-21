@@ -348,6 +348,10 @@ Eine Position, die an eine Institution, z.B. Königreich, gebunden ist und mit E
   * **Hinweis:** Wenn ein Herrschaftsgebiet genannt wird, ansonsten: SozialerStand.
 * Text: **patron.**  
   Annotation: [Type: WeltlichesAmt, Value: "patron."]
+* Text: **imperator**    
+  Annotation: [Type: WeltlichesAmt, Value: "imperator"]
+* Text: **rex elect.**    
+  Annotation: [Type: WeltlichesAmt, Value: "rex elect."]
 
 #### Label: Verwaltungsamt
 
@@ -1131,6 +1135,10 @@ Handlungen, die von einer anderen Person als dem Papst bzw. von nicht-Personen a
   Annotation: [Type: EventNichtPapst, Value: "litig."]
 * Text: **indebite assec. fuit**  
   Annotation: [Type: EventNichtPapst, Value: "indebite assec. fuit"]
+* Text: **destin.**    
+  Annotation: [Type: EventNichtPapst, Value: "destin."]
+* Text: **solv.**    
+  Annotation: [Type: EventNichtPapst, Value: "solv."]  
 
 * **Hinweis:** Achtung: Erstmal nur Groberfassung, z.B. de qua **litig.**
 
