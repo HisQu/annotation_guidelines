@@ -13,7 +13,7 @@ Die Präposition *de* wird nur beim Label Namenszusatz und SozialerStand mitgeta
 In allen anderen Fällen wird nur der relevante Hauptbegriff annotiert, nicht die Präposition:
 * **de eccl.** (eccl. = Institution), **de locis interdictis** (locis interdictis = UndefinierteGnade) etc.  
 
-* Entsprechendes gilt für weitere Präpositionen wie post ob. etc.
+Entsprechendes gilt für weitere Präpositionen wie post ob. etc.
 
 ### 2. Kategorien:
 
