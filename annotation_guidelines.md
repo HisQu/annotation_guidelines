@@ -9,8 +9,9 @@ Annotiert werden all jene Begriffe bzw. Konzepte, für die sich ein Forschungsin
 Nicht getaggte Inhalte können dennoch durch KI-gestützte Verfahren erfasst werden. Annotiert werden ausschließlich Begriffe, die explizit im Regesttext vorkommen – Begriffe, die nur implizit mitgedacht werden müssen, z.B. (prov.) de eccl., bleiben unberücksichtigt.  
 Abkürzungspunkte und Endpunkte nach der Quellenangabe, sind Teil der Annotation und werden entsprechend mit ausgezeichnet.      
 Die Präposition *de* wird nur beim Label Namenszusatz und SozialerStand mitgetaggt: 
-* Johannis **de Yselsteine** (de Yselsteine = Namenszusatz), Ghiselbertus de Lochorst **de nob. gen.** (de nob. gen. = SozialerStand)  
-In allen anderen Fällen wird nur der relevante Hauptbegriff annotiert, nicht die Präposition:
+* Johannis **de Yselsteine** (de Yselsteine = Namenszusatz), Ghiselbertus de Lochorst **de nob. gen.** (de nob. gen. = SozialerStand)    
+
+In allen anderen Fällen wird nur der relevante Hauptbegriff annotiert, nicht die Präposition:  
 * **de eccl.** (eccl. = Institution), **de locis interdictis** (locis interdictis = UndefinierteGnade) etc.  
 
 Entsprechendes gilt für weitere Präpositionen wie post ob. etc.
