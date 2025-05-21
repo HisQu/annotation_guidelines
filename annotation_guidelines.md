@@ -119,8 +119,8 @@ In den Regesten wird für viele Personen eine Verwandtschaftbeziehung angegeben.
 * Text: (unknown) **natus** (unknown)
   Annotation: [Type: Verwandtschaft, Value: "natus"]
   * **Hinweis:** (unknown) steht hier als Platzhalter für den Namen des Vaters, z.B. "Bernhardus natus Johannis Berlin", wobei Johannes Berlin der Vater von Bernhardus ist. Oder: "Alexander nob. viri Semonithi ducis Masouie natus", wobei Semonithus der Vater des Alexander ist.
-* Text: **consanguinei**  
-  Annotation: [Type: Verwandtschaft, Value: "consanguinei"]
+* Text: **consanguineus**  
+  Annotation: [Type: Verwandtschaft, Value: "consanguineus"]
 
 #### Label: Familiar
 
