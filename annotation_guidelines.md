@@ -17,7 +17,9 @@ Entsprechendes gilt für weitere Präpositionen wie post ob. etc.
 
 ### 2. Kategorien:
 
-Die Annotation umfasst derzeit vier Hauptkategorien: Person, Vita, Event und Varia. Diese verfügen jeweils über mehrere Unterkategorien.  
+Die Annotation erfolgt derzeit anhand einer Vielzahl von **basalen Kategorien**, also kleinster logisch abgrenzbarer Einheiten im Regesttext. Diese basalen Kategorien bilden die Grundlage der Auszeichnung.
+Behelfsmäßig sind diese Basiskategorien in vier übergeordnete Kategorien gruppiert: Person, Vita, Event und Varia. Diese dienen der besseren Übersichtlichkeit und Navigation innerhalb der Guidelines.
+Perspektivisch werden diese übergeordneten Kategorien durch andere/weitere **semantische Kategorien** ersetzt bzw. ergänzt. Semantische Kategorien entstehen aus der Kombination mehrerer basaler Kategorien. Ein und dieselbe basale Einheit kann dabei mehreren semantischen Kategorien zugeordnet werden. Die semantischen Kategorien befinden sich aktuell im Aufbau und werden schrittweise in die Guidelines integriert.
 
 ### 3. Darstellung im Guidelines-Dokument:
 
