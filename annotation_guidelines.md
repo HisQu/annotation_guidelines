@@ -40,7 +40,7 @@ Bei der Annotation von Personen unterscheiden wir vier Unterkategorien:
 
 * Text: **Henricus** de Bocholdia    
   Annotation: [Type: Vorname, Value: "Henricus"]
-* Text: **Floora** relicta Magni Bootes armig.
+* Text: **Floora** relicta Magni Bootes armig.  
   Annotation: [Type: Vorname, Value: "Floora"] 
 
 #### Label: Namenszusatz
