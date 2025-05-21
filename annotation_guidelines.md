@@ -51,11 +51,11 @@ Bei der Annotation von Personen unterscheiden wir vier Unterkategorien:
   Annotation: [Type: Namenszusatz, Value: "Berolczhaimer"]
 * Text: lokale Herkunft / Adelsprädikat: Henricus **de Bocholdia**  
   Annotation: [Type: Namenszusatz, Value: "de Bocholdia"]  
-* Text: Alternative Namensformen: Bertholdus **Schomaker al. dictus Dives**  
+* Text: Alternative Namensformen: Bertholdus **Schomaker al. dictus Dives** 
   Annotation: [Type: Namenszusatz, Value: "Schomaker al. dictus Dives"]
 * Text: Alternative Namensformen: Bertholdus **Denen (Deynen) de Wildunghen**  
   Annotation: [Type: Namenszusatz, Value: "Denen (Deynen) de Wildunghen"]
-* Text: Alternative Namensformen: Fridericum **Baecht iuniorem**
+* Text: Alternative Namensformen: Fridericum **Baecht iuniorem**  
   Annotation: [Type: Namenszusatz, Value: "Baecht iuniorem"] 
 
 ##### Hinweis 
