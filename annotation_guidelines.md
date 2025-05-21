@@ -613,6 +613,16 @@ Bestätigung
 * Text: **conf.**  
   Annotation: [Type: Confirmatio, Value: "conf."]
 
+#### Label: ConfirmatioZusatz
+
+##### Beschreibung:
+Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label ConfirmatioZusatz getaggt, nicht aber die Gnade conf. selbst.
+
+##### Standard Examples:
+
+* Text: conf. **emptionem pratorum ac al. bonorum in villa Diczisow Constant. dioc. ac donationem iuris patron. super par. eccl. in dicta villa ex possess. Eberhardi Burgermaister incole dicti op. factam** 22 oct. 1411 L 157 113.
+  Annotation: [Type: ConfirmatioZusatz, Value: "emptionem pratorum ac al. bonorum in villa Diczisow Constant. dioc. ac donationem iuris patron. super par. eccl. in dicta villa ex possess. Eberhardi Burgermaister incole dicti op. factam"]
+
 #### Label: Declaratio
 
 ##### Beschreibung:
