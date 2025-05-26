@@ -8,22 +8,6 @@ Die Annotation von Regesten dient der strukturierten Erfassung relevanter Entit�
 Annotiert werden all jene Begriffe bzw. Konzepte, für die sich ein Forschungsinteresse in der wissenschaftlichen Literatur nachweisen lässt. Neben der Forschungsliteratur berücksichtigen wir ebenfalls die Ergebnisse einer von uns in der historischen Forschungsgemeinschaft durchgeführten Umfrage zu früheren, aktuellen und geplanten Forschungsvorhaben mit Bezug zum Repertorium Germanicum.   
 Nicht getaggte Inhalte können dennoch durch KI-gestützte Verfahren erfasst werden. Annotiert werden ausschließlich Begriffe, die explizit im Regesttext vorkommen – Begriffe, die nur implizit mitgedacht werden müssen, z.B. (prov.) de eccl., bleiben unberücksichtigt.  
 Abkürzungspunkte und Endpunkte nach der Quellenangabe, sind Teil der Annotation und werden entsprechend mit ausgezeichnet.      
-Die Präposition *de* wird nur beim Label Namenszusatz und SozialerStand mitgetaggt: 
-* Johannis **de Yselsteine** (de Yselsteine = Namenszusatz), Ghiselbertus de Lochorst **de nob. gen.** (de nob. gen. = SozialerStand)    
-
-In allen anderen Fällen wird nur der relevante Hauptbegriff annotiert, nicht die Präposition:  
-* **de eccl.** (eccl. = Institution), **de locis interdictis** (locis interdictis = UndefinierteGnade) etc.  
-
-Entsprechendes gilt für weitere Präpositionen wie post ob. etc.
-
-Alle Angaben in Klammern, die eine Alternative darstellen, werden in den Tag ihres Bezugsausdruckes miteinbezogen, inkl. Klammern:  
-- Henricus **de Gerpstede (Gherbstede)** -> Namenszusatz: de Gerpstede (Gherbstede)
-- **Erhardus (Gerardus)** -> Vorname: Erhardus (Gerardus)
-- **24 oct. 13 (20 sept. 1413)** -> Datum: 24 oct. 13 (20 sept. 1413)
-- **056 148 (ASO 2 11).** -> Quelle: 056 148 (ASO 2 11).  
-Bei “frei stehenden” Angaben in Klammern werden die Klammern ignoriert.  
-- (**33,33 fl.**) -> Geldsumme: 33,33 fl.
-- (procur. mag. Bruno Boghel) -> Verwaltungsamt: procur.; Bildung: mag.; Vorname: Bruno; Namenszusatz: Boghel  
 
 ### 2. Kategorien:
 
@@ -1611,6 +1595,17 @@ An dieser Stelle sollen weitere ambige Fälle gesammelt werden und unsere Entsch
 ### Fit mentio
 Fit mentio wird nicht getaggt.
 
+### Klammern
+
+Alle Angaben in Klammern, die eine Alternative darstellen, werden in den Tag ihres Bezugsausdruckes miteinbezogen, inkl. Klammern:  
+- Henricus **de Gerpstede (Gherbstede)** -> Namenszusatz: de Gerpstede (Gherbstede)
+- **Erhardus (Gerardus)** -> Vorname: Erhardus (Gerardus)
+- **24 oct. 13 (20 sept. 1413)** -> Datum: 24 oct. 13 (20 sept. 1413)
+- **056 148 (ASO 2 11).** -> Quelle: 056 148 (ASO 2 11).  
+Bei “frei stehenden” Angaben in Klammern werden die Klammern ignoriert.  
+- (**33,33 fl.**) -> Geldsumme: 33,33 fl.
+- (procur. mag. Bruno Boghel) -> Verwaltungsamt: procur.; Bildung: mag.; Vorname: Bruno; Namenszusatz: Boghel  
+
 ### Kombinationen aus mehreren Kategorien
 Ein Eintrag, der mehrere Entitäten beschreibt, wird in entsprechende Einzelannotationen aufgeteilt.
   * Beispiel: Text: can. et preb. eccl. Sleswic.
@@ -1632,6 +1627,15 @@ Bei Fällen wie „incorp. maioris preb. eccl.“, bei denen nicht immer gleich 
 - Die Ortsbezeichnungen nach e.m. (extra muros = außerhalb der Mauern von) werden immer als Ort getaggt, z.B. e.m. Traiect.
 - In Fällen wie “Prag. et Olumuc. dioc.” Ist davon auszugehen, dass das erste dioc. Weggefallen ist. Es werden also sowohl Prag. als auch Olumuc. als Diözesen getaggt.
 - Wenn marchio (Markgraf) vor Brandenburg. steht, wird Brandenburg. als Verwaltungseinheit (nicht als Ort oder Diözese) getaggt.
+
+### Präpositionen
+
+Die Präposition *de* wird nur beim Label Namenszusatz und SozialerStand mitgetaggt: 
+* Johannis **de Yselsteine** (de Yselsteine = Namenszusatz), Ghiselbertus de Lochorst **de nob. gen.** (de nob. gen. = SozialerStand)    
+In allen anderen Fällen wird nur der relevante Hauptbegriff annotiert, nicht die Präposition:  
+* **de eccl.** (eccl. = Institution), **de locis interdictis** (locis interdictis = UndefinierteGnade) etc.  
+
+Entsprechendes gilt für weitere Präpositionen wie post ob. etc.
 
 ### Quellen
 Für jede Quelle wird je ein Tag „Quelle“ vergeben, z.B. *C 1 4* (Quelle), *Ind. 323 127.* (Quelle)
