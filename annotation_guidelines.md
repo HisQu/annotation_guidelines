@@ -374,6 +374,8 @@ Eine Position, die an eine Institution, z.B. Königreich, gebunden ist und mit E
   Annotation: [Type: WeltlichesAmt, Value: "proconsul"]
 * Text: **consul**    
   Annotation: [Type: WeltlichesAmt, Value: "consul"]
+* Text: **burggravius**    
+  Annotation: [Type: WeltlichesAmt, Value: "burggravius"]  
  
 #### Label: Verwaltungsamt
 
