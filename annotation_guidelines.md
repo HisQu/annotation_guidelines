@@ -130,16 +130,14 @@ In den Regesten wird für viele Personen eine Verwandtschaftbeziehung angegeben.
   Annotation: [Type: Familiar, Value: "fam."]
 * Text: **acolit.** pape  
   Annotation: [Type: Familiar, Value: "acolit."]
-* Text: **cap.** ap. sed.  
-  Annotation: [Type: Familiar, Value: "cap."]
 
 ##### Other Examples:
 
 * Text: **parafrenarius** pape  
   Annotation: [Type: Familiar, Value: "parafrenarius pape"]
-* Text: **(unknown)** pape bzw. ap. sed. 
+* Text: **(unknown)** pape
   Annotation: [Type: Familiar, Value: "(unknown)"]
-  * **Hinweis:** Neben den oben genannten Beispielen "acolit. pape" und "cap. ap. sed." kann es noch weitere Ämter geben, die im direkten Umfeld des Papstes ausgeübt werden. Diese kirchlichen Ämter, die im Regest durch die direkte Nähe zum Wort "pape" bzw. "ap. sed." gekennzeichnet sind, werden hier durch den Platzhalter (unknown) bezeichnet. Dieser Platzhalter soll ebenfalls das Label "Familiar" bekommen.
+  * **Hinweis:** Neben den oben genannten Beispielen "acolit. pape" und "parafrenarius pape" kann es noch weitere Ämter geben, die im direkten Umfeld des Papstes ausgeübt werden. Diese kirchlichen Ämter, die im Regest durch die direkte Nähe zum Wort "pape" gekennzeichnet sind, werden hier durch den Platzhalter (unknown) bezeichnet. Dieser Platzhalter soll ebenfalls das Label "Familiar" bekommen. Wieder entfernt aus der Kategorie "Familiar" haben wir Fälle wie "cap. ap. sed." oder "script. litt. ap.", da es sich bei ihnen zwar um Bedienstete der Kurie,  nicht aber zwangsläufig um Familiare handelt.
 
 #### Label: SozialerStand
 
