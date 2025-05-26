@@ -1294,8 +1294,8 @@ Information zur Beziehung einer kirchlichen Institution zur Kurie, insbesondere 
 
 ##### Standard Examples:
 
-* Text: eccl. b. Marie castri Aldenburg. **Rom. eccl. immed. subiect.**  
-  Annotation: [Type: Institution, Value: "Rom. eccl. immed. subiect."]
+* Text: eccl. b. Marie castri Aldenburg. Rom. eccl. **immed. subiect.**  
+  Annotation: [Type: Institution, Value: "immed. subiect."]
 
 #### Label: Titelkirche
 
