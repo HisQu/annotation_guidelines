@@ -370,7 +370,11 @@ Eine Position, die an eine Institution, z.B. Königreich, gebunden ist und mit E
   Annotation: [Type: WeltlichesAmt, Value: "imperator"]
 * Text: **rex elect.**    
   Annotation: [Type: WeltlichesAmt, Value: "rex elect."]
-
+* Text: **proconsul**    
+  Annotation: [Type: WeltlichesAmt, Value: "proconsul"]
+* Text: **consul**    
+  Annotation: [Type: WeltlichesAmt, Value: "consul"]
+ 
 #### Label: Verwaltungsamt
 
 ##### Beschreibung:
@@ -393,9 +397,6 @@ Eine Position, die an eine Institution, z.B. apostolische Kammer, gebunden ist u
   Annotation: [Type: Verwaltungsamt, Value: "collect."]
 * Text: **consilarius**  
   Annotation: [Type: Verwaltungsamt, Value: "consilarius"]
-* Text: **cons.**  
-  Annotation: [Type: Verwaltungsamt, Value: "cons."]
-  * **Hinweis:** Konsul.
 * Text: **cubic.**  
   Annotation: [Type: Verwaltungsamt, Value: "cubic."]
 * Text: **cursor**  
