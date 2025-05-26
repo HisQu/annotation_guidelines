@@ -1,0 +1,71 @@
+name: release-guidelines
+
+on:
+  pull_request:
+    types: [closed]
+    branches: [main]
+
+jobs:
+  semver:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    # 1) Aktuelle Version aus Datei lesen
+    - id: read_version
+      run: echo "VERSION=$(cat VERSION)" >> "$GITHUB_OUTPUT"
+
+    # 2) SemVer-Bump anhand der Checkboxen
+    - id: bump
+      run: |
+        CUR=${{ steps.read_version.outputs.VERSION }}
+        IFS='.' read -r MAJ MIN PAT <<< "$CUR"
+
+        BODY=$(jq -r '.pull_request.body' < "$GITHUB_EVENT_PATH")
+
+        if   echo "$BODY" | grep -iq '\[x\].*major'; then
+             ((MAJ+=1)); MIN=0; PAT=0
+        elif echo "$BODY" | grep -iq '\[x\].*minor'; then
+             ((MIN+=1)); PAT=0
+        else
+             ((PAT+=1))
+        fi
+
+        echo "NEW=$MAJ.$MIN.$PAT" >> "$GITHUB_OUTPUT"
+
+
+    # 3) PR‑Titel + Beschreibung für das CHANGELOG aufbereiten
+    - id: changelog_entry
+      run: |
+        TITLE="${{ github.event.pull_request.title }}"
+
+        BODY=$(jq -r '.pull_request.body' < "$GITHUB_EVENT_PATH")
+        BODY=$(printf '%s\n' "$BODY" | awk '/^### Versionierung/{exit} {print}')
+        BODY=$(printf '%s\n' "$BODY" | grep -vE '^###')
+        BODY=$(printf '%s\n' "$BODY" | sed '/./,$!d')
+        BODY=$(printf '%s\n' "$BODY" | sed 's/^/  /')
+        {
+          echo 'ENTRY<<EOF'
+          printf '## v%s (%s)\n### %s\n%s\n' \
+                 "${{ steps.bump.outputs.NEW }}" "$(date +%Y-%m-%d)" \
+                 "$TITLE" "$BODY"
+          echo 'EOF'
+        } >> "$GITHUB_OUTPUT"
+
+
+    # 4) Änderungen committen & taggen
+    - run: |
+        printf '%s\n' "${{ steps.changelog_entry.outputs.ENTRY }}" | \
+          cat - CHANGELOG.md > tmp && mv tmp CHANGELOG.md
+
+        echo "${{ steps.bump.outputs.NEW }}" > VERSION
+
+        git config user.name "release-bot"
+        git config user.email "bot@example.com"
+        git add VERSION CHANGELOG.md
+        git commit -m "chore(release): v${{ steps.bump.outputs.NEW }}"
+        git tag "v${{ steps.bump.outputs.NEW }}"
+        git push origin HEAD:main
+        git push origin "v${{ steps.bump.outputs.NEW }}"
