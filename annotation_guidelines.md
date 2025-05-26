@@ -16,6 +16,15 @@ In allen anderen Fällen wird nur der relevante Hauptbegriff annotiert, nicht di
 
 Entsprechendes gilt für weitere Präpositionen wie post ob. etc.
 
+Alle Angaben in Klammern, die eine Alternative darstellen, werden in den Tag ihres Bezugsausdruckes miteinbezogen, inkl. Klammern:  
+- Henricus **de Gerpstede (Gherbstede)** -> Namenszusatz: de Gerpstede (Gherbstede)
+- **Erhardus (Gerardus)** -> Vorname: Erhardus (Gerardus)
+- **24 oct. 13 (20 sept. 1413)** -> Datum: 24 oct. 13 (20 sept. 1413)
+- **056 148 (ASO 2 11).** -> Quelle: 056 148 (ASO 2 11).  
+Bei “frei stehenden” Angaben in Klammern werden die Klammern ignoriert.  
+- (**33,33 fl.**) -> Geldsumme: 33,33 fl.
+- (procur. mag. Bruno Boghel) -> Verwaltungsamt: procur.; Bildung: mag.; Vorname: Bruno; Namenszusatz: Boghel  
+
 ### 2. Kategorien:
 
 Die Annotation erfolgt derzeit anhand einer Vielzahl von **basalen Kategorien**, also kleinster logisch abgrenzbarer Einheiten im Regesttext. Diese basalen Kategorien bilden die Grundlage der Auszeichnung.
@@ -56,9 +65,16 @@ Bei der Annotation von Personen unterscheiden wir vier Unterkategorien:
 * Text: Alternative Namensformen: Bertholdus **Denen (Deynen) de Wildunghen**  
   Annotation: [Type: Namenszusatz, Value: "Denen (Deynen) de Wildunghen"]
 * Text: Alternative Namensformen: Fridericum **Baecht iuniorem**  
-  Annotation: [Type: Namenszusatz, Value: "Baecht iuniorem"] 
+  Annotation: [Type: Namenszusatz, Value: "Baecht iuniorem"]
+* Text: Alternative Namensformen: **Florentin. nunc.**  
+  Annotation: [Type: Namenszusatz, Value: "Florentin. nunc."]
+
+##### Other Examples:
+* Text: castrum **das Newhaus nunc.** 
+  Annotation: [Type: Namenszusatz, Value: "das Newhaus nunc."]
 
 ##### Hinweis 
+Namenszusätze können sowohl für
 Explizit nicht als Namenszusatz gelten kirchliche Ämter (Albertus **el. Ratisp.** /Angelus **abb. mon. in Runa**), weltliche Ämter (Antonius **dux Brabantie**), Identifikation über eine andere Person (Alexander **nob. viri Semonithi ducis Masouie** natus).
 
 #### Label: PersonImplizit
@@ -243,7 +259,7 @@ Der kirchliche Stand ergibt sich aus dem Empfang der niederen Weihen (Lektor, Ak
 #### Label: KirchlichesAmt
 
 ##### Beschreibung
-Eine Position, die an eine Institution –Kirche, Kloster etc. – gebunden ist und mit Einnahmen verbunden ist. Durch die Implikation einer festen Stelle mit Einnahmen unterscheiden sich die hier in den Beispielen erfassten kirchlichen Ämter (z.B. presb. card. = Kardinalpriester mit einer Titelkirche) von den unter dem Label KirchlichesAmt gesammelten kirchlichen Weihen (z.B. presb. = Priester, i.e. Person, die die Priesterweihe empfangen hat).
+Eine Position, die an eine Institution –Kirche, Kloster etc. – gebunden ist und mit Einnahmen verbunden ist. Durch die Implikation einer festen Stelle mit Einnahmen unterscheiden sich die hier in den Beispielen erfassten kirchlichen Ämter (z.B. presb. card. = Kardinalpriester mit einer Titelkirche) von den unter dem Label KirchlichesAmt gesammelten kirchlichen Weihen (z.B. presb. = Priester, i.e. Person, die die Priesterweihe empfangen hat). Es wird sowohl der Amtsträger (decanus) als auch das Amt (decanatus) getaggt.
 
 ##### Standard Examples:
 
@@ -374,7 +390,7 @@ Eine Position, die an eine Institution, z.B. Königreich, gebunden ist und mit E
 #### Label: Verwaltungsamt
 
 ##### Beschreibung:
-Eine Position, die an eine Institution, z.B. apostolische Kammer, gebunden ist und mit Einnahmen verbunden ist.
+Eine Position, die an eine Institution, z.B. apostolische Kammer, gebunden ist und mit Einnahmen verbunden ist. Es wird sowohl der Amtsträger (subcollector) als auch das Amt (officium subcollectorie) getaggt.
 
 ##### Standard Examples:
 
@@ -426,6 +442,8 @@ Eine Position, die an eine Institution, z.B. apostolische Kammer, gebunden ist u
   Annotation: [Type: Verwaltungsamt, Value: "secret."]
 * Text: **secr.**  
   Annotation: [Type: Verwaltungsamt, Value: "secr."]
+* Text: **subcollector**  
+  Annotation: [Type: Verwaltungsamt, Value: "subcollector"]  
 * Text: **tab.**  
   Annotation: [Type: Verwaltungsamt, Value: "tab."]
 
@@ -459,6 +477,8 @@ Eine Position, die an eine Institution, z.B. apostolische Kammer, gebunden ist u
   Annotation: [Type: Bildung, Value: "mag. in art."]
 * Text: **decr. doct.**  
   Annotation: [Type: Bildung, Value: "decr. doct."]
+* Text: **aud. gen.**  
+  Annotation: [Type: Bildung, Value: "aud. gen."]
 
 * **Hinweis:** Und entsprechende Permutationen (mag. in art. / art. mag. …, utriusque iuris, theol. … Bitte ergänzen).
 
@@ -1276,6 +1296,16 @@ Kirchen, Klöster, Universitäten, etc.
 * Text: **domus**  
   Annotation: [Type: Institution, Value: "domus"]
 
+#### Label: InstitutionZusatz
+
+##### Beschreibung:
+Information zur Beziehung einer kirchlichen Institution zur Kurie, insbesondere die direkte Unterstellung unter den Papst (Exemption). 
+
+##### Standard Examples:
+
+* Text: eccl. b. Marie castri Aldenburg. **Rom. eccl. immed. subiect.**  
+  Annotation: [Type: Institution, Value: "Rom. eccl. immed. subiect."]
+
 #### Label: Titelkirche
 
 ##### Beschreibung:
@@ -1426,7 +1456,7 @@ unspezifizierte Objekte.
 #### Label: Ort
 
 ##### Beschreibung:
-Namen von Städten und Dörfern (s. Notizen unten).
+Namen von Städten, Dörfern und Bergen (s. Notizen unten).
 
 ##### Standard Examples:
 
@@ -1436,6 +1466,11 @@ Namen von Städten und Dörfern (s. Notizen unten).
   Annotation: [Type: Ort, Value: "Magdeburg."]
 * Text: in castro **Quernfort**  
   Annotation: [Type: Ort, Value: "Quernfort"]
+
+##### Other Examples:
+* Text: in **Rauhen** et in **Schlechthin Kulm** castris
+  Annotation: [Type: Ort, Value: "Rauhen"]
+  Annotation: [Type: Ort, Value: "Schlechthin Kulm"]
 
 #### Label: OrtImplizit
 
