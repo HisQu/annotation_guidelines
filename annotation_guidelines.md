@@ -431,6 +431,10 @@ Eine Position, die an eine Institution, z.B. apostolische Kammer, gebunden ist u
   Annotation: [Type: Verwaltungsamt, Value: "subcollector"]  
 * Text: **tab.**  
   Annotation: [Type: Verwaltungsamt, Value: "tab."]
+* Text: **iud.**  
+  Annotation: [Type: Verwaltungsamt, Value: "iud."]
+* Text: **iudex**  
+  Annotation: [Type: Verwaltungsamt, Value: "iudex"] 
 
 #### Label: Bildung
 
