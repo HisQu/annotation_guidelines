@@ -517,6 +517,8 @@ Religiöse Ordensgemeinschaften
 
 * **Hinweis:** Die Kategorie Event zerfällt in die zwei Unterkategorien "Gnadenerweise/Indulta/Gratiae" und “EventNichtPapst”. Die Unterkategorie "Gnadenerweise" umfasst alle Labels von "Abolitio" bis einschließlich "UndefinierteGnade" und bezieht sich auf Handlungen, die vom Papst ausgehen (i.e. Gnaden, die vom Papst gewährt werden). Die Labels der Unterkategorie "EventNichtPapst" beziehen sich auf Handlungen des Petenten oder einer anderen Person, die im Regest auftritt. Zu einem späteren Zeitpunkt, wenn wir mehr Daten ausgewertet haben, könnte es sinnvoll sein, die Labels der Unterkategorie "Gnadenerweise/Indulta/Gratiae" nach kirchenrechtlichen (oder anderen) Kriterien zu gruppieren und ggf. weiter zu unterteilen (z.B. disp. de def. nat.; disp. de def. et. ...).
 
+### Event: Gnadenerweise/Indult/Gratiae
+
 #### Label: Abolitio
 
 ##### Beschreibung:
@@ -1120,6 +1122,8 @@ Gnaden, die nicht explizit den Begriff der gewährten Gnade – Abolitio, Absolu
   Annotation: [Type: UndefinierteGnade, Value: "fruct. percip."]
 * Text: de **visitatione et reformatione**  
   Annotation: [Type: UndefinierteGnade, Value: "visitatione et reformatione"]
+
+### Event: EventNichtPapst
 
 #### Label: EventNichtPapst
 
