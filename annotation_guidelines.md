@@ -1610,7 +1610,8 @@ Alle Angaben in Klammern, die eine Alternative darstellen, werden in den Tag ihr
 - Henricus **de Gerpstede (Gherbstede)** -> Namenszusatz: de Gerpstede (Gherbstede)
 - **Erhardus (Gerardus)** -> Vorname: Erhardus (Gerardus)
 - **24 oct. 13 (20 sept. 1413)** -> Datum: 24 oct. 13 (20 sept. 1413)
-- **056 148 (ASO 2 11).** -> Quelle: 056 148 (ASO 2 11).  
+- **056 148 (ASO 2 11).** -> Quelle: 056 148 (ASO 2 11).
+- **Berpenick (Berporch)** -> Ort: Berpenick (Berporch)
 Bei “frei stehenden” Angaben in Klammern werden die Klammern ignoriert.  
 - (**33,33 fl.**) -> Geldsumme: 33,33 fl.
 - (procur. mag. Bruno Boghel) -> Verwaltungsamt: procur.; Bildung: mag.; Vorname: Bruno; Namenszusatz: Boghel  
