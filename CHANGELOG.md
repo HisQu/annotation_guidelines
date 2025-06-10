@@ -1,3 +1,7 @@
+## v0.3.0 (2025-06-10)
+### Update annotation_guidelines.md
+  4 m. arg. als Beispiel bei Geldsumme hinzugefügt
+  
 ## v0.2.0 (2025-06-10)
 ### Update annotation_guidelines.md
   Ein Beispiel für alternative Ortsnamen bei den Hinweisen unten hinzugefügt (Berpenick (Berporch)).
