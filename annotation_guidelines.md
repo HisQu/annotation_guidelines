@@ -1528,6 +1528,8 @@ Geldbeträge in historischen Einheiten (Betrag und Währung).
 
 * Text: **9 fl.**  
   Annotation: [Type: Geldsumme, Value: "9 fl."]
+* Text: **4 m. arg.**  
+  Annotation: [Type: Geldsumme, Value: "4 m. arg."]
 
 #### Label: Dauer
 
