@@ -1,3 +1,7 @@
+## v0.2.0 (2025-06-10)
+### Update annotation_guidelines.md
+  Ein Beispiel für alternative Ortsnamen bei den Hinweisen unten hinzugefügt (Berpenick (Berporch)).
+  
 ## v0.1.3 (2025-06-10)
 ### Update annotation_guidelines.md
   succentor (Kirchenmusiker) bei KirchlichesAmt hinzugefügt
