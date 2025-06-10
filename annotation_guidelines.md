@@ -338,7 +338,9 @@ Eine Position, die an eine Institution –Kirche, Kloster etc. – gebunden ist 
 * Text: **cap.**  
   Annotation:[Type: KirchlichesAmt, Value: "cap."]
 * Text: **succentor**  
-  Annotation:[Type: KirchlichesAmt, Value: "succentor"]       
+  Annotation:[Type: KirchlichesAmt, Value: "succentor"]
+* Text: **capn.**  
+  Annotation:[Type: KirchlichesAmt, Value: "capn."] 
 
 #### Label: WeltlichesAmt
 
