@@ -1,3 +1,7 @@
+## v0.4.0 (2025-06-10)
+### Update annotation_guidelines.md
+  capn. (capellania = Kaplanei) hinzugefügt zu KirchlichesAmt
+  
 ## v0.3.0 (2025-06-10)
 ### Update annotation_guidelines.md
   4 m. arg. als Beispiel bei Geldsumme hinzugefügt
