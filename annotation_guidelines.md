@@ -1295,7 +1295,9 @@ Handlungen, die von einer anderen Person als dem Papst bzw. von nicht-Personen a
 * Text: **constit. iudices appellat.**    
   Annotation: [Type: EventNichtPapst, Value: "constit. iudices appellat."]
 * Text: **quond.**    
-  Annotation: [Type: EventNichtPapst, Value: "quond."]     
+  Annotation: [Type: EventNichtPapst, Value: "quond."]
+* Text: asa**d.**    
+  Annotation: [Type: EventNichtPapst, Value: "d."]      
 
 * **Hinweis:** Achtung: Erstmal nur Groberfassung, z.B. de qua **litig.**
 
@@ -1615,6 +1617,8 @@ Implizite Ortsangaben (s. Notizen unten).
   Annotation: [Type: OrtImplizit, Value: "castro"]
 * Text: **cripta**   
   Annotation: [Type: OrtImplizit, Value: "cripta"]
+* Text: a**sa**d.   
+  Annotation: [Type: OrtImplizit, Value: "sa"]
 
 #### Label: Kollatur
 
