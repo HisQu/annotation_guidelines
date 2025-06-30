@@ -54,7 +54,7 @@ Bei der Annotation von Personen unterscheiden wir vier Unterkategorien:
   Annotation: [Type: Namenszusatz, Value: "Florentin. nunc."]
 
 ##### Other Examples:
-* Text: castrum **das Newhaus nunc.** 
+* Text: castrum **das Newhaus nunc.**   
   Annotation: [Type: Namenszusatz, Value: "das Newhaus nunc."]
 
 ##### Hinweis 
