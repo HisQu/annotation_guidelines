@@ -72,13 +72,13 @@ Explizit nicht als Namenszusatz gelten kirchliche Ämter (Albertus **el. Ratisp.
 
 ##### Standard Examples:
 
-* Text: **alii**
+* Text: **alii**  
   Annotation: [Type: Personengruppe, Value: "alii"]
-* Text: quidem **8000 et infra** lim. eccl. s. Nicolai
+* Text: quidem **8000 et infra** lim. eccl. s. Nicolai  
   Annotation: [Type: Personengruppe, Value: "8000 et infra"]
-* Text: **6000 parochiani**
+* Text: **6000 parochiani**  
   Annotation: [Type: Personengruppe, Value: "6000 parochiani"]
-* Text: Proconsules et consules et **commune** op. D. Traiect. dioc.
+* Text: Proconsules et consules et **commune** op. D. Traiect. dioc.  
   Annotation: [Type: Personengruppe, Value: "commune"]
 
 #### Label: Papst
