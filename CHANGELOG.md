@@ -1,3 +1,7 @@
+## v0.7.3 (2025-06-30)
+### Update annotation_guidelines.md
+  def. nat. (p.s.) als DispensatioZusatz
+  
 ## v0.7.2 (2025-06-30)
 ### Update annotation_guidelines.md
   Civitasnova (Neustadt) als weiteres Beispiel für Ort 
