@@ -1,3 +1,7 @@
+## v0.5.0 (2025-06-30)
+### Update annotation_guidelines.md
+  privatio als Gnade hinzugefügt
+  
 ## v0.4.0 (2025-06-10)
 ### Update annotation_guidelines.md
   capn. (capellania = Kaplanei) hinzugefügt zu KirchlichesAmt
