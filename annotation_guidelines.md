@@ -750,7 +750,7 @@ Kennzeichnung des Gnadeninhalts der Derogatio. Der gesamte Gnadeninhalt wird mit
 
 ##### Standard Examples:
 
-* Text: c. derog. **statut. d. eccl. quod nullus nisi can. actu prebend. et capitul. inibi dign. assequi val.** 6. decb. 1437 S 342 193v.
+* Text: c. derog. **statut. d. eccl. quod nullus nisi can. actu prebend. et capitul. inibi dign. assequi val.** 6. decb. 1437 S 342 193v.  
   Annotation: [Type: DerogatioZusatz, Value: "statut. d. eccl. quod nullus nisi can. actu prebend. et capitul. inibi dign. assequi val."]
 
 ##### Other Examples:
