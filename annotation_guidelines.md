@@ -435,6 +435,8 @@ Eine Position, die an eine Institution, z.B. apostolische Kammer, gebunden ist u
   Annotation: [Type: Verwaltungsamt, Value: "consilarius"]
 * Text: **cubic.**  
   Annotation: [Type: Verwaltungsamt, Value: "cubic."]
+* Text: **cubic. ap. secretorum**  
+  Annotation: [Type: Verwaltungsamt, Value: "cubic. ap. secretorum"]
 * Text: **cursor**  
   Annotation: [Type: Verwaltungsamt, Value: "cursor"]
 * Text: **not.**  
@@ -924,6 +926,16 @@ Indulgenz, Ablass
 * Text: **indulg.**  
   Annotation: [Type: Indulgentia, Value: "indulg."]
 
+#### Label: IndulgentiaZusatz
+
+##### Beschreibung:
+Inhalt der Indulgenz, des Ablasses
+
+##### Standard Examples:
+
+* Text: de indulg. **ne de def. et disp. de cetero mentionem facere teneatur et de exped. litt. sub prima data** 30 sept. 1455  
+  Annotation: [Type: IndulgentiaZusatz, Value: "ne de def. et disp. de cetero mentionem facere teneatur et de exped. litt. sub prima data"]
+
 #### Label: Incorporatio
 
 ##### Beschreibung:
@@ -1180,6 +1192,11 @@ Erklärung der Gültigkeit einer verfallenen Gnade
 
 * Text: **reval.**  
   Annotation: [Type: Revalidatio, Value: "reval."]
+
+##### Other Examples:
+
+* Text: de **revalidando** litt.  
+  Annotation: [Type: Revalidatio, Value: "revalidando"]
 
 #### Label: SalvusConductus
 
