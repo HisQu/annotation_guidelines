@@ -78,6 +78,8 @@ Explizit nicht als Namenszusatz gelten kirchliche Ämter (Albertus **el. Ratisp.
   Annotation: [Type: Personengruppe, Value: "8000 et infra"]
 * Text: **6000 parochiani**
   Annotation: [Type: Personengruppe, Value: "6000 parochiani"]
+* Text: Proconsules et consules et **commune** op. D. Traiect. dioc.
+  Annotation: [Type: Personengruppe, Value: "commune"]
 
 #### Label: Papst
 
@@ -217,7 +219,9 @@ In den Regesten wird für viele Personen eine Verwandtschaftbeziehung angegeben.
 * Text: **mercator**  
   Annotation: [Type: SozialerStand, Value: "mercator"]
 * Text: **incola**  
-  Annotation: [Type: SozialerStand, Value: "incola"] 
+  Annotation: [Type: SozialerStand, Value: "incola"]
+* Text: **parochianus**  
+  Annotation: [Type: SozialerStand, Value: "parochianus"] 
 
 #### Label: KirchlicherStand
 
