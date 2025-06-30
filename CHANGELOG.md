@@ -1,3 +1,7 @@
+## v0.11.0 (2025-06-30)
+### Update annotation_guidelines.md
+  Prior als KirchlichesAmt und Prioratus als Institution
+  
 ## v0.10.1 (2025-06-30)
 ### Update annotation_guidelines.md
   motuproprio Fehler
