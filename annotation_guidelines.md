@@ -68,6 +68,17 @@ Explizit nicht als Namenszusatz gelten kirchliche Ämter (Albertus **el. Ratisp.
 * Text: cum **30 pers.** de confess. elig.  
   Annotation: [Type: PersonImplizit, Value: "30 pers."]
 
+#### Label: Personengruppe
+
+##### Standard Examples:
+
+* Text: **alii**
+  Annotation: [Type: Personengruppe, Value: "alii"]
+* Text: quidem **8000 et infra** lim. eccl. s. Nicolai
+  Annotation: [Type: Personengruppe, Value: "8000 et infra"]
+* Text: **6000 parochiani**
+  Annotation: [Type: Personengruppe, Value: "6000 parochiani"]
+
 #### Label: Papst
 
 ##### Beschreibung:
@@ -81,7 +92,7 @@ Die Namen der Päpste kommen auch dekliniert vor, z.B. "Bonifatio VIII" statt "B
   Annotation: [Type: Papst, Value: "papa"]
   * **Häufigkeit:** 480x in den Bänden 1-9, pape: 5307x in den Bänden 1-9.
 * Text: **Bonifatio VIII papa**  
-  Annotation: [Type: Papst, Value: "Bonifatio VIII papa"]  
+  Annotation: [Type: Papst, Value: "Bonifatio VIII papa"]
 
 ### Kategorie: Vita
 
@@ -1540,6 +1551,8 @@ Implizite Ortsangaben (s. Notizen unten).
 
 * Text: in **castro** Quernfort  
   Annotation: [Type: OrtImplizit, Value: "castro"]
+* Text: **cripta**   
+  Annotation: [Type: OrtImplizit, Value: "cripta"]
 
 #### Label: Kollatur
 
