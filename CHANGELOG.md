@@ -1,3 +1,7 @@
+## v0.6.0 (2025-06-30)
+### Update annotation_guidelines.md
+  LitteraTestimonialis und LitteraTestimonialisZusatz hinzugefügt
+  
 ## v0.5.0 (2025-06-30)
 ### Update annotation_guidelines.md
   privatio als Gnade hinzugefügt
