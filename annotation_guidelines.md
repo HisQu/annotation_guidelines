@@ -993,9 +993,19 @@ Verleihung und Modifizierung von Pensionsleistunen
 ##### Standard Examples:
 
 * Text: de **reductione pensionis**  
-  Annotation: [Type: Pensio, Value: "reductione pensionis."]
+  Annotation: [Type: Pensio, Value: "reductione pensionis"]
 * Text: de **transl. pensionis**  
-  Annotation: [Type: Pensio, Value: "transl. pensionis."]
+  Annotation: [Type: Pensio, Value: "transl. pensionis"]
+
+#### Label: Privatio
+
+##### Beschreibung:
+Der Papst entzieht jemandem Rechte/Pfründen etc.
+
+##### Standard Examples:
+
+* Text: adherens Barth. **priv.** can. et preb.
+  Annotation: [Type: Pensio, Value: "priv."]
 
 #### Label: Prerogativa
 
