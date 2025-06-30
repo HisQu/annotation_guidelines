@@ -250,6 +250,8 @@ Eine Position, die an eine Institution –Kirche, Kloster etc. – gebunden ist 
   * **Hinweis:** s. Notizen unten.
 * Text: **ep.**  
   Annotation: [Type: KirchlichesAmt, Value: "ep."]
+* Text: **benef.**  
+  Annotation: [Type: KirchlichesAmt, Value: "benef."]
 
 ##### Other Examples:
 
@@ -341,6 +343,13 @@ Eine Position, die an eine Institution –Kirche, Kloster etc. – gebunden ist 
   Annotation:[Type: KirchlichesAmt, Value: "succentor"]
 * Text: **capn.**  
   Annotation:[Type: KirchlichesAmt, Value: "capn."] 
+* Text: **benef. curato**  
+  Annotation: [Type: KirchlichesAmt, Value: "benef. curato"]
+* Text: **benef. s. c.**  
+  Annotation: [Type: KirchlichesAmt, Value: "benef. s. c."]
+* Text: **benef. c. c.**  
+  Annotation: [Type: KirchlichesAmt, Value: "benef. c. c."]
+  * **Hinweis:** c.c. kann in seltenen Fällen im Kontext einer Dispens wegen def. nat. auch für den Ehestand der Eltern stehen; c. = conjugatus bzw. conjugata.
 
 #### Label: WeltlichesAmt
 
@@ -1576,12 +1585,14 @@ Geldbeträge in historischen Einheiten (Betrag und Währung).
 #### Label: Dauer
 
 ##### Beschreibung:
-Dauer eines Dispens etc.
+Dauer eines Dispens, einer Pfründe etc.
 
 ##### Standard Examples:
 
 * Text: **3 an.**  
   Annotation: [Type: Dauer, Value: "3 an."]
+* Text: **perp.**  
+  Annotation: [Type: Dauer, Value: "perp."]
 
 #### Label: NonObstantien
 
