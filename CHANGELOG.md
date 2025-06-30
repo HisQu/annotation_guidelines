@@ -1,3 +1,7 @@
+## v0.7.2 (2025-06-30)
+### Update annotation_guidelines.md
+  Civitasnova (Neustadt) als weiteres Beispiel für Ort 
+  
 ## v0.7.1 (2025-06-30)
 ### Update annotation_guidelines.md
   Privatio Fehler behoben
