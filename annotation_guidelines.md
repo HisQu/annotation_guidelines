@@ -1024,8 +1024,8 @@ Der Papst entzieht jemandem Rechte/Pfründen etc.
 
 ##### Standard Examples:
 
-* Text: adherens Barth. **priv.** can. et preb.
-  Annotation: [Type: Pensio, Value: "priv."]
+* Text: adherens Barth. **priv.** can. et preb.  
+  Annotation: [Type: Privatio, Value: "priv."]
 
 #### Label: Prerogativa
 
