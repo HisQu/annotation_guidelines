@@ -747,6 +747,12 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Dis
 * Text: de disp. **ut d. Theordericus d. prepos. unac. alio benef. recip. valeat**   
   Annotation: [Type: DispensatioZusatz, Value: "ut d. Theordericus d. prepos. unac. alio benef. recip. valeat"]
 
+##### Other Examples:
+
+* Text: n.o. **def. nat. (p.s.)**
+  Annotation: [Type: DispensatioZusatz, Value: "def. nat. (p.s.)"]
+
+
 #### Label: Erectio
 
 ##### Beschreibung:
