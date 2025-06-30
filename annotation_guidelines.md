@@ -1235,7 +1235,9 @@ Handlungen, die von einer anderen Person als dem Papst bzw. von nicht-Personen a
 * Text: **iuram. fidel.**    
   Annotation: [Type: EventNichtPapst, Value: "iuram. fidel."]
 * Text: **constit. iudices appellat.**    
-  Annotation: [Type: EventNichtPapst, Value: "constit. iudices appellat."]    
+  Annotation: [Type: EventNichtPapst, Value: "constit. iudices appellat."]
+* Text: **quond.**    
+  Annotation: [Type: EventNichtPapst, Value: "quond."]     
 
 * **Hinweis:** Achtung: Erstmal nur Groberfassung, z.B. de qua **litig.**
 
@@ -1544,6 +1546,16 @@ Implizite Ortsangaben (s. Notizen unten).
 * Text: **mutatio coll.**  
   Annotation: [Type: Kollatur, Value: "mutatio coll."]
 
+#### Label: Konzil
+
+##### Beschreibung:
+Kirchliches Konzil / Synode
+
+##### Standard Examples:
+
+* Text: **concil.**  
+  Annotation: [Type: Konzil, Value: "concil."]
+
 #### Label: Annaten
 
 ##### Beschreibung:
@@ -1581,6 +1593,7 @@ Geldbeträge in historischen Einheiten (Betrag und Währung).
   Annotation: [Type: Geldsumme, Value: "9 fl."]
 * Text: **4 m. arg.**  
   Annotation: [Type: Geldsumme, Value: "4 m. arg."]
+
 
 #### Label: Dauer
 
