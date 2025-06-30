@@ -350,6 +350,8 @@ Eine Position, die an eine Institution –Kirche, Kloster etc. – gebunden ist 
 * Text: **benef. c. c.**  
   Annotation: [Type: KirchlichesAmt, Value: "benef. c. c."]
   * **Hinweis:** c.c. kann in seltenen Fällen im Kontext einer Dispens wegen def. nat. auch für den Ehestand der Eltern stehen; c. = conjugatus bzw. conjugata.
+* Text: **prior**  
+  Annotation: [Type: KirchlichesAmt, Value: "prior"]
 
 #### Label: WeltlichesAmt
 
@@ -1338,7 +1340,9 @@ Kirchen, Klöster, Universitäten, etc.
 * Text: **domus**  
   Annotation: [Type: Institution, Value: "domus"]
 * Text: **preceptoria**  
-  Annotation: [Type: Institution, Value: "preceptoria"]  
+  Annotation: [Type: Institution, Value: "preceptoria"]
+* Text: **prioratus**  
+  Annotation: [Type: Institution, Value: "prioratus"]  
 
 #### Label: InstitutionZusatz
 
