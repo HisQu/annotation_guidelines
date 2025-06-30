@@ -1,3 +1,7 @@
+## v0.10.0 (2025-06-30)
+### Update annotation_guidelines.md
+  Motu proprio 
+  
 ## v0.9.0 (2025-06-30)
 ### Update annotation_guidelines.md
   - Konzil hinzugefügt 
