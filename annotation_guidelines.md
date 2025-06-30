@@ -918,6 +918,26 @@ Reiseerlaubnis und Schutzbrief
 * Text: **littera passus**  
   Annotation: [Type: LitteraPassus, Value: "littera passus"]
 
+#### Label: LitteraTestimonialibus
+
+##### Beschreibung:
+Bescheinigung, Zeugnis
+
+##### Standard Examples:
+
+* Text: **testimonialis litt.** vicecamerarii ad senatorem Urbis quod d. calcelarii iurisdictioni mareschalli R. cur. suppositi sint 20. febr. 1432 DC 16 183rs.
+  Annotation: [Type: LitteraTestimonialibus, Value: "testimonialis litt."]
+
+#### Label: LitteraTestimonialibusZusatz
+
+##### Beschreibung:
+Inhaltliche Beschreibung der Bescheinigung bzw. des Zeugnisses
+
+##### Standard Examples:
+
+* Text: testimonialis litt. **vicecamerarii ad senatorem Urbis quod d. calcelarii iurisdictioni mareschalli R. cur. suppositi sint** 20. febr. 1432 DC 16 183rs.
+  Annotation: [Type: LitteraTestimonialibusZusatz, Value: "vicecamerarii ad senatorem Urbis quod d. calcelarii iurisdictioni mareschalli R. cur. suppositi sint"]
+
 #### Label: Licentia
 
 ##### Beschreibung:
