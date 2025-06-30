@@ -1,3 +1,12 @@
+## v0.12.0 (2025-06-30)
+### Update annotation_guidelines.md
+  Habe eben aus Versehen committed one message: 
+  - cripta als OrtImplizit
+  - Personengruppe eingeführt
+  
+  Jetzt: 
+  - parochianus als SozialerStand
+  
 ## v0.11.0 (2025-06-30)
 ### Update annotation_guidelines.md
   Prior als KirchlichesAmt und Prioratus als Institution
