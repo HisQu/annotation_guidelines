@@ -1556,7 +1556,7 @@ Kirchliches Konzil / Synode
 * Text: **concil.**  
   Annotation: [Type: Konzil, Value: "concil."]
 
-#### Label: Motu proprio
+#### Label: MotuProprio
 
 ##### Beschreibung:
 Drückt aus, dass ein Brief - im Gegensatz zum üblichen Reskriptionsverfahren – vom Papst selbst ausgeht; Ausdruck besonderen Wohlwollens.
