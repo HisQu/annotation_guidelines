@@ -221,7 +221,9 @@ In den Regesten wird für viele Personen eine Verwandtschaftbeziehung angegeben.
 * Text: **incola**  
   Annotation: [Type: SozialerStand, Value: "incola"]
 * Text: **parochianus**  
-  Annotation: [Type: SozialerStand, Value: "parochianus"] 
+  Annotation: [Type: SozialerStand, Value: "parochianus"]
+* Text: **curtesanus**  
+  Annotation: [Type: SozialerStand, Value: "curtesanus"] 
 
 #### Label: KirchlicherStand
 
@@ -405,7 +407,9 @@ Eine Position, die an eine Institution, z.B. Königreich, gebunden ist und mit E
 * Text: **consul**    
   Annotation: [Type: WeltlichesAmt, Value: "consul"]
 * Text: **burggravius**    
-  Annotation: [Type: WeltlichesAmt, Value: "burggravius"]  
+  Annotation: [Type: WeltlichesAmt, Value: "burggravius"]
+* Text: **senator**  
+  Annotation: [Type: WeltlichesAmt, Value: "senator"]
  
 #### Label: Verwaltungsamt
 
@@ -468,7 +472,9 @@ Eine Position, die an eine Institution, z.B. apostolische Kammer, gebunden ist u
 * Text: **iud.**  
   Annotation: [Type: Verwaltungsamt, Value: "iud."]
 * Text: **iudex**  
-  Annotation: [Type: Verwaltungsamt, Value: "iudex"] 
+  Annotation: [Type: Verwaltungsamt, Value: "iudex"]
+* Text: **mareschallus**  
+  Annotation: [Type: Verwaltungsamt, Value: "mareschallus"]
 
 #### Label: Bildung
 
@@ -672,6 +678,16 @@ Auftrag zur weiteren Bearbeitung eines Falles
 * Text: **committ.**  
   Annotation: [Type: Commissio, Value: "committ."]
 
+#### Label: CommissioZusatz
+
+##### Beschreibung:
+Inhalt eines Auftrages zur weiteren Bearbeitung eines Falles
+
+##### Standard Examples:
+
+* Text: de commiss. **priv. Nicolai Overcamp par. eccl. in Naerden (Narden) d. dioc. (4 m. arg.) propter contemptum clavium et concubinatum et de prov. ipsi Cl. de ea** 27. mai. 1437  
+  Annotation: [Type: CommissioZusatz, Value: "priv. Nicolai Overcamp par. eccl. in Naerden (Narden) d. dioc. (4 m. arg.) propter contemptum clavium et concubinatum et de prov. ipsi Cl. de ea"]
+
 #### Label: Concessio
 
 ##### Beschreibung:
@@ -781,6 +797,8 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Dis
   Annotation: [Type: DispensatioZusatz, Value: "def. nat. (p.s.)"]
 * Text: de **uberiori** disp.
   Annotation: [Type: DispensatioZusatz, Value: "uberiori"]
+* Text: de disp. **sup. incompat.**
+  Annotation: [Type: DispensatioZusatz, Value: "sup. incompat."]
 
 
 #### Label: Erectio
@@ -1141,6 +1159,17 @@ Abänderung, Nachbesserung einer päpstlichen Gnade (?)
   Annotation: [Type: Reformatio, Value: "ref."]
 * Text: **reformatio**  
   Annotation: [Type: Reformatio, Value: "reformatio"]
+
+#### Label: ReformatioZusatz
+
+##### Beschreibung:
+Inhalt der Abänderung, Nachbesserung einer päpstlichen Gnade (?)
+
+##### Standard Examples:
+
+* Text: ref. **sup. primissaria in par. eccl. s. Mauritii Spiren. vac. p. assec. can. et preb. eccl. s. Germani e. m. Spiren. p. Wipertum Hetzler c. expressione quod n. par. eccl. in Hambach sed in Zeysziche obtineat et sub prima data 28** S 230 298v.  
+  Annotation: [Type: Reformatio, Value: "sup. primissaria in par. eccl. s. Mauritii Spiren. vac. p. assec. can. et preb. eccl. s. Germani e. m. Spiren. p. Wipertum Hetzler c. expressione quod n. par. eccl. in Hambach sed in Zeysziche obtineat et sub prima data 28"]
+
 
 #### Label: Revalidatio
 
@@ -1522,7 +1551,13 @@ Namenspatrone von Kirchen oder Institutionen.
 * Text: **s. Johannis ev.**  
   Annotation: [Type: Patrozinium, Value: "s. Johannis ev."]
 * Text: **s. crucis**  
-  Annotation: [Type: Patrozinium, Value: "s. crucis"]  
+  Annotation: [Type: Patrozinium, Value: "s. crucis"]
+* Text: in alt. **ss. Andree appl.**, **Katherine virg.** et **Hedwigis regine** in par. eccl.  
+  Annotation: [Type: Patrozinium, Value: "ss. Andree appl."]
+  Annotation: [Type: Patrozinium, Value: "Katherine virg."]
+  Annotation: [Type: Patrozinium, Value: "Hedwigis regine"]
+* Text: **s. Petri appl.**  
+  Annotation: [Type: Patrozinium, Value: "s. Petri appl."]
 
 #### Label: Objekt
 
@@ -1557,6 +1592,8 @@ Namen von Städten, Dörfern und Bergen (s. Notizen unten).
   Annotation: [Type: Ort, Value: "Schlechthin Kulm"]
 * Text: **Civitasnova**  
   Annotation: [Type: Ort, Value: "Civitasnova"]
+* Text: **Urbs**  
+  Annotation: [Type: Ort, Value: "Urbs"]
 
 #### Label: OrtImplizit
 
