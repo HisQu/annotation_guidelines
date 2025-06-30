@@ -755,9 +755,9 @@ Kennzeichnung des Gnadeninhalts der Derogatio. Der gesamte Gnadeninhalt wird mit
 
 ##### Other Examples:
 
-* Text: de derog. **antelationum quibusdam aliis prerog. curialium habentibus in concil. Basil. existentibus conc. ratione gr. expect. sue** s.d. 24. apr. 31 20. decb. 1436 S 329 239rs.
+* Text: de derog. **antelationum quibusdam aliis prerog. curialium habentibus in concil. Basil. existentibus conc. ratione gr. expect. sue** s.d. 24. apr. 31 20. decb. 1436 S 329 239rs.  
   Annotation: [Type: DerogatioZusatz, Value: "antelationum quibusdam aliis prerog. curialium habentibus in concil. Basil. existentibus conc. ratione gr. expect. sue"]
-* Text: c. derog. **statutis eccl. s. Petri de optando** 18. aug. 1463 S 566 89r, L 582 63v-65r.
+* Text: c. derog. **statutis eccl. s. Petri de optando** 18. aug. 1463 S 566 89r, L 582 63v-65r.  
   Annotation: [Type: DerogatioZusatz, Value: "statutis eccl. s. Petri de optando"]
 
 #### Label: Dispensatio
