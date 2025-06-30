@@ -1,3 +1,8 @@
+## v0.8.0 (2025-06-30)
+### Update annotation_guidelines.md
+  - Beneficium als KirchlichesAmt, mit den Spielarten c. c. / curato bzw. s. c.; Hinweis darauf, dass c.c. auch für conjugatus/conjugata stehen kann
+  - perp. bei Dauer aufgenommen
+  
 ## v0.7.3 (2025-06-30)
 ### Update annotation_guidelines.md
   def. nat. (p.s.) als DispensatioZusatz
