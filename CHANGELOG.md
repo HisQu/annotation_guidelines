@@ -1,3 +1,7 @@
+## v0.7.0 (2025-06-30)
+### Update annotation_guidelines.md
+  Preceptoria als Institution (wie monasterium), preceptor weiterhin KirchlichesAmt
+  
 ## v0.6.0 (2025-06-30)
 ### Update annotation_guidelines.md
   LitteraTestimonialis und LitteraTestimonialisZusatz hinzugefügt
