@@ -1572,9 +1572,9 @@ Namenspatrone von Kirchen oder Institutionen.
 * Text: **s. crucis**  
   Annotation: [Type: Patrozinium, Value: "s. crucis"]
 * Text: in alt. **ss. Andree appl.**, **Katherine virg.** et **Hedwigis regine** in par. eccl.  
-  Annotation: [Type: Patrozinium, Value: "ss. Andree appl."]
-  Annotation: [Type: Patrozinium, Value: "Katherine virg."]
-  Annotation: [Type: Patrozinium, Value: "Hedwigis regine"]
+  - Annotation: [Type: Patrozinium, Value: "ss. Andree appl."]
+  - Annotation: [Type: Patrozinium, Value: "Katherine virg."]
+  - Annotation: [Type: Patrozinium, Value: "Hedwigis regine"]
 * Text: **s. Petri appl.**  
   Annotation: [Type: Patrozinium, Value: "s. Petri appl."]
 
