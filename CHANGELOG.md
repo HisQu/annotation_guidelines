@@ -1,3 +1,7 @@
+## v0.12.1 (2025-06-30)
+### Update annotation_guidelines.md
+  -
+  
 ## v0.12.0 (2025-06-30)
 ### Update annotation_guidelines.md
   Habe eben aus Versehen committed one message: 
