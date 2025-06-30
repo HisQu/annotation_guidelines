@@ -1498,6 +1498,8 @@ Namen von Städten, Dörfern und Bergen (s. Notizen unten).
 * Text: in **Rauhen** et in **Schlechthin Kulm** castris
   Annotation: [Type: Ort, Value: "Rauhen"]
   Annotation: [Type: Ort, Value: "Schlechthin Kulm"]
+* Text: **Civitasnova**  
+  Annotation: [Type: Ort, Value: "Civitasnova"]
 
 #### Label: OrtImplizit
 
