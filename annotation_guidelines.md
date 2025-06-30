@@ -463,6 +463,8 @@ Eine Position, die an eine Institution, z.B. apostolische Kammer, gebunden ist u
   Annotation: [Type: Verwaltungsamt, Value: "subcollector"]  
 * Text: **tab.**  
   Annotation: [Type: Verwaltungsamt, Value: "tab."]
+* Text: **tab. off.**  
+  Annotation: [Type: Verwaltungsamt, Value: "tab. off."]
 * Text: **iud.**  
   Annotation: [Type: Verwaltungsamt, Value: "iud."]
 * Text: **iudex**  
@@ -777,6 +779,8 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Dis
 
 * Text: n.o. **def. nat. (p.s.)**
   Annotation: [Type: DispensatioZusatz, Value: "def. nat. (p.s.)"]
+* Text: de **uberiori** disp.
+  Annotation: [Type: DispensatioZusatz, Value: "uberiori"]
 
 
 #### Label: Erectio
@@ -1185,6 +1189,8 @@ Gnaden, die nicht explizit den Begriff der gewährten Gnade – Abolitio, Absolu
   Annotation: [Type: UndefinierteGnade, Value: "rem. plen."]
 * Text: de **locis interdictis**  
   Annotation: [Type: UndefinierteGnade, Value: "locis interdictis"]
+* Text: de **interd. loc.**  
+  Annotation: [Type: UndefinierteGnade, Value: "interd. loc."]
 * Text: de **benef.**  
   Annotation: [Type: UndefinierteGnade, Value: "benef."]
 * Text: de **prom. ad ord.**  
@@ -1193,12 +1199,18 @@ Gnaden, die nicht explizit den Begriff der gewährten Gnade – Abolitio, Absolu
   Annotation: [Type: UndefinierteGnade, Value: "prom. ad ord. extra temp."]
 * Text: de **n. prom.**  
   Annotation: [Type: UndefinierteGnade, Value: "n. prom."]
+* Text: de **n. prom. ad ord.**  
+  Annotation: [Type: UndefinierteGnade, Value: "n. prom. ad ord."]
 * Text: de **n. resid.**  
   Annotation: [Type: UndefinierteGnade, Value: "n. resid."]
 * Text: de **fruct. percip.**  
   Annotation: [Type: UndefinierteGnade, Value: "fruct. percip."]
 * Text: de **visitatione et reformatione**  
   Annotation: [Type: UndefinierteGnade, Value: "visitatione et reformatione"]
+* Text: supplic. **pro diversis**  
+  Annotation: [Type: UndefinierteGnade, Value: "pro diversis"]
+* Text: de **pont. insign.**  
+  Annotation: [Type: UndefinierteGnade, Value: "pont. insign."]
 
 ### Event: EventNichtPapst
 
@@ -1327,6 +1339,8 @@ Kirchen, Klöster, Universitäten, etc.
   Annotation: [Type: Institution, Value: "capit. eccl."]
 * Text: **fil. eccl.**  
   Annotation: [Type: Institution, Value: "fil. eccl."]
+* Text: **fil. par. eccl.**  
+  Annotation: [Type: Institution, Value: "fil. par. eccl."]
 * Text: **colleg. eccl.**  
   Annotation: [Type: Institution, Value: "colleg. eccl."]
 * Text: **capel.**  
@@ -1502,6 +1516,13 @@ Namenspatrone von Kirchen oder Institutionen.
   Annotation: [Type: Patrozinium, Value: "b. Marie"]
 * Text: **s. Johannis bapt.**  
   Annotation: [Type: Patrozinium, Value: "s. Johannis bapt."]
+
+##### Other Examples:
+
+* Text: **s. Johannis ev.**  
+  Annotation: [Type: Patrozinium, Value: "s. Johannis ev."]
+* Text: **s. crucis**  
+  Annotation: [Type: Patrozinium, Value: "s. crucis"]  
 
 #### Label: Objekt
 
