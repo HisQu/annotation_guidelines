@@ -1,3 +1,7 @@
+## v0.9.0 (2025-06-30)
+### Update annotation_guidelines.md
+  - Konzil hinzugefügt 
+  
 ## v0.8.0 (2025-06-30)
 ### Update annotation_guidelines.md
   - Beneficium als KirchlichesAmt, mit den Spielarten c. c. / curato bzw. s. c.; Hinweis darauf, dass c.c. auch für conjugatus/conjugata stehen kann
