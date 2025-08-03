@@ -1,3 +1,6 @@
+## 0.12.2 (2025-08-03)
+- Versionbump um zu testen ob die Versionierung über den datamodel-workflow funktioniert
+
 ## v0.12.1 (2025-06-30)
 ### Update annotation_guidelines.md
   -
