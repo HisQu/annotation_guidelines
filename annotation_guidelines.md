@@ -2,7 +2,7 @@
 
 ## Allgemeine Prinzipien
 
-### 1. Ziel und Umfang der Annotation:
+### 1. Ziel und Umfang der Annotationen:
 
 Die Annotation von Regesten dient der strukturierten Erfassung relevanter Entitäten zur besseren Analyse und maschinellen Verarbeitung.  
 Annotiert werden all jene Begriffe bzw. Konzepte, für die sich ein Forschungsinteresse in der wissenschaftlichen Literatur nachweisen lässt. Neben der Forschungsliteratur berücksichtigen wir ebenfalls die Ergebnisse einer von uns in der historischen Forschungsgemeinschaft durchgeführten Umfrage zu früheren, aktuellen und geplanten Forschungsvorhaben mit Bezug zum Repertorium Germanicum.   
@@ -54,7 +54,7 @@ Bei der Annotation von Personen unterscheiden wir vier Unterkategorien:
   Annotation: [Type: Namenszusatz, Value: "Florentin. nunc."]
 
 ##### Other Examples:
-* Text: castrum **das Newhaus nunc.**   
+* Text: castrum **das Newhaus nunc.** 
   Annotation: [Type: Namenszusatz, Value: "das Newhaus nunc."]
 
 ##### Hinweis 
@@ -72,13 +72,13 @@ Explizit nicht als Namenszusatz gelten kirchliche Ämter (Albertus **el. Ratisp.
 
 ##### Standard Examples:
 
-* Text: **alii**  
+* Text: **alii**
   Annotation: [Type: Personengruppe, Value: "alii"]
-* Text: quidem **8000 et infra** lim. eccl. s. Nicolai  
+* Text: quidem **8000 et infra** lim. eccl. s. Nicolai
   Annotation: [Type: Personengruppe, Value: "8000 et infra"]
-* Text: **6000 parochiani**  
+* Text: **6000 parochiani**
   Annotation: [Type: Personengruppe, Value: "6000 parochiani"]
-* Text: Proconsules et consules et **commune** op. D. Traiect. dioc.  
+* Text: Proconsules et consules et **commune** op. D. Traiect. dioc.
   Annotation: [Type: Personengruppe, Value: "commune"]
 
 #### Label: Papst
@@ -221,9 +221,7 @@ In den Regesten wird für viele Personen eine Verwandtschaftbeziehung angegeben.
 * Text: **incola**  
   Annotation: [Type: SozialerStand, Value: "incola"]
 * Text: **parochianus**  
-  Annotation: [Type: SozialerStand, Value: "parochianus"]
-* Text: **curtesanus**  
-  Annotation: [Type: SozialerStand, Value: "curtesanus"] 
+  Annotation: [Type: SozialerStand, Value: "parochianus"] 
 
 #### Label: KirchlicherStand
 
@@ -407,9 +405,7 @@ Eine Position, die an eine Institution, z.B. Königreich, gebunden ist und mit E
 * Text: **consul**    
   Annotation: [Type: WeltlichesAmt, Value: "consul"]
 * Text: **burggravius**    
-  Annotation: [Type: WeltlichesAmt, Value: "burggravius"]
-* Text: **senator**  
-  Annotation: [Type: WeltlichesAmt, Value: "senator"]
+  Annotation: [Type: WeltlichesAmt, Value: "burggravius"]  
  
 #### Label: Verwaltungsamt
 
@@ -435,8 +431,6 @@ Eine Position, die an eine Institution, z.B. apostolische Kammer, gebunden ist u
   Annotation: [Type: Verwaltungsamt, Value: "consilarius"]
 * Text: **cubic.**  
   Annotation: [Type: Verwaltungsamt, Value: "cubic."]
-* Text: **cubic. ap. secretorum**  
-  Annotation: [Type: Verwaltungsamt, Value: "cubic. ap. secretorum"]
 * Text: **cursor**  
   Annotation: [Type: Verwaltungsamt, Value: "cursor"]
 * Text: **not.**  
@@ -474,9 +468,7 @@ Eine Position, die an eine Institution, z.B. apostolische Kammer, gebunden ist u
 * Text: **iud.**  
   Annotation: [Type: Verwaltungsamt, Value: "iud."]
 * Text: **iudex**  
-  Annotation: [Type: Verwaltungsamt, Value: "iudex"]
-* Text: **mareschallus**  
-  Annotation: [Type: Verwaltungsamt, Value: "mareschallus"]
+  Annotation: [Type: Verwaltungsamt, Value: "iudex"] 
 
 #### Label: Bildung
 
@@ -680,16 +672,6 @@ Auftrag zur weiteren Bearbeitung eines Falles
 * Text: **committ.**  
   Annotation: [Type: Commissio, Value: "committ."]
 
-#### Label: CommissioZusatz
-
-##### Beschreibung:
-Inhalt eines Auftrages zur weiteren Bearbeitung eines Falles
-
-##### Standard Examples:
-
-* Text: de commiss. **priv. Nicolai Overcamp par. eccl. in Naerden (Narden) d. dioc. (4 m. arg.) propter contemptum clavium et concubinatum et de prov. ipsi Cl. de ea** 27. mai. 1437  
-  Annotation: [Type: CommissioZusatz, Value: "priv. Nicolai Overcamp par. eccl. in Naerden (Narden) d. dioc. (4 m. arg.) propter contemptum clavium et concubinatum et de prov. ipsi Cl. de ea"]
-
 #### Label: Concessio
 
 ##### Beschreibung:
@@ -750,14 +732,14 @@ Kennzeichnung des Gnadeninhalts der Derogatio. Der gesamte Gnadeninhalt wird mit
 
 ##### Standard Examples:
 
-* Text: c. derog. **statut. d. eccl. quod nullus nisi can. actu prebend. et capitul. inibi dign. assequi val.** 6. decb. 1437 S 342 193v.  
+* Text: c. derog. **statut. d. eccl. quod nullus nisi can. actu prebend. et capitul. inibi dign. assequi val.** 6. decb. 1437 S 342 193v.
   Annotation: [Type: DerogatioZusatz, Value: "statut. d. eccl. quod nullus nisi can. actu prebend. et capitul. inibi dign. assequi val."]
 
 ##### Other Examples:
 
-* Text: de derog. **antelationum quibusdam aliis prerog. curialium habentibus in concil. Basil. existentibus conc. ratione gr. expect. sue** s.d. 24. apr. 31 20. decb. 1436 S 329 239rs.  
+* Text: de derog. **antelationum quibusdam aliis prerog. curialium habentibus in concil. Basil. existentibus conc. ratione gr. expect. sue** s.d. 24. apr. 31 20. decb. 1436 S 329 239rs.
   Annotation: [Type: DerogatioZusatz, Value: "antelationum quibusdam aliis prerog. curialium habentibus in concil. Basil. existentibus conc. ratione gr. expect. sue"]
-* Text: c. derog. **statutis eccl. s. Petri de optando** 18. aug. 1463 S 566 89r, L 582 63v-65r.  
+* Text: c. derog. **statutis eccl. s. Petri de optando** 18. aug. 1463 S 566 89r, L 582 63v-65r.
   Annotation: [Type: DerogatioZusatz, Value: "statutis eccl. s. Petri de optando"]
 
 #### Label: Dispensatio
@@ -799,8 +781,6 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Dis
   Annotation: [Type: DispensatioZusatz, Value: "def. nat. (p.s.)"]
 * Text: de **uberiori** disp.
   Annotation: [Type: DispensatioZusatz, Value: "uberiori"]
-* Text: de disp. **sup. incompat.**
-  Annotation: [Type: DispensatioZusatz, Value: "sup. incompat."]
 
 
 #### Label: Erectio
@@ -926,16 +906,6 @@ Indulgenz, Ablass
 * Text: **indulg.**  
   Annotation: [Type: Indulgentia, Value: "indulg."]
 
-#### Label: IndulgentiaZusatz
-
-##### Beschreibung:
-Inhalt der Indulgenz, des Ablasses
-
-##### Standard Examples:
-
-* Text: de indulg. **ne de def. et disp. de cetero mentionem facere teneatur et de exped. litt. sub prima data** 30 sept. 1455  
-  Annotation: [Type: IndulgentiaZusatz, Value: "ne de def. et disp. de cetero mentionem facere teneatur et de exped. litt. sub prima data"]
-
 #### Label: Incorporatio
 
 ##### Beschreibung:
@@ -1001,7 +971,7 @@ Inhaltliche Beschreibung der Bescheinigung bzw. des Zeugnisses
 
 ##### Standard Examples:
 
-* Text: testimonialis litt. **vicecamerarii ad senatorem Urbis quod d. calcelarii iurisdictioni mareschalli R. cur. suppositi sint** 20. febr. 1432 DC 16 183rs.  
+* Text: testimonialis litt. **vicecamerarii ad senatorem Urbis quod d. calcelarii iurisdictioni mareschalli R. cur. suppositi sint** 20. febr. 1432 DC 16 183rs.
   Annotation: [Type: LitteraTestimonialibusZusatz, Value: "vicecamerarii ad senatorem Urbis quod d. calcelarii iurisdictioni mareschalli R. cur. suppositi sint"]
 
 #### Label: Licentia
@@ -1172,17 +1142,6 @@ Abänderung, Nachbesserung einer päpstlichen Gnade (?)
 * Text: **reformatio**  
   Annotation: [Type: Reformatio, Value: "reformatio"]
 
-#### Label: ReformatioZusatz
-
-##### Beschreibung:
-Inhalt der Abänderung, Nachbesserung einer päpstlichen Gnade (?)
-
-##### Standard Examples:
-
-* Text: ref. **sup. primissaria in par. eccl. s. Mauritii Spiren. vac. p. assec. can. et preb. eccl. s. Germani e. m. Spiren. p. Wipertum Hetzler c. expressione quod n. par. eccl. in Hambach sed in Zeysziche obtineat et sub prima data 28** S 230 298v.  
-  Annotation: [Type: Reformatio, Value: "sup. primissaria in par. eccl. s. Mauritii Spiren. vac. p. assec. can. et preb. eccl. s. Germani e. m. Spiren. p. Wipertum Hetzler c. expressione quod n. par. eccl. in Hambach sed in Zeysziche obtineat et sub prima data 28"]
-
-
 #### Label: Revalidatio
 
 ##### Beschreibung:
@@ -1192,11 +1151,6 @@ Erklärung der Gültigkeit einer verfallenen Gnade
 
 * Text: **reval.**  
   Annotation: [Type: Revalidatio, Value: "reval."]
-
-##### Other Examples:
-
-* Text: de **revalidando** litt.  
-  Annotation: [Type: Revalidatio, Value: "revalidando"]
 
 #### Label: SalvusConductus
 
@@ -1312,9 +1266,7 @@ Handlungen, die von einer anderen Person als dem Papst bzw. von nicht-Personen a
 * Text: **constit. iudices appellat.**    
   Annotation: [Type: EventNichtPapst, Value: "constit. iudices appellat."]
 * Text: **quond.**    
-  Annotation: [Type: EventNichtPapst, Value: "quond."]
-* Text: asa**d.**    
-  Annotation: [Type: EventNichtPapst, Value: "d."]      
+  Annotation: [Type: EventNichtPapst, Value: "quond."]     
 
 * **Hinweis:** Achtung: Erstmal nur Groberfassung, z.B. de qua **litig.**
 
@@ -1570,13 +1522,7 @@ Namenspatrone von Kirchen oder Institutionen.
 * Text: **s. Johannis ev.**  
   Annotation: [Type: Patrozinium, Value: "s. Johannis ev."]
 * Text: **s. crucis**  
-  Annotation: [Type: Patrozinium, Value: "s. crucis"]
-* Text: in alt. **ss. Andree appl.**, **Katherine virg.** et **Hedwigis regine** in par. eccl.  
-  - Annotation: [Type: Patrozinium, Value: "ss. Andree appl."]
-  - Annotation: [Type: Patrozinium, Value: "Katherine virg."]
-  - Annotation: [Type: Patrozinium, Value: "Hedwigis regine"]
-* Text: **s. Petri appl.**  
-  Annotation: [Type: Patrozinium, Value: "s. Petri appl."]
+  Annotation: [Type: Patrozinium, Value: "s. crucis"]  
 
 #### Label: Objekt
 
@@ -1611,8 +1557,6 @@ Namen von Städten, Dörfern und Bergen (s. Notizen unten).
   Annotation: [Type: Ort, Value: "Schlechthin Kulm"]
 * Text: **Civitasnova**  
   Annotation: [Type: Ort, Value: "Civitasnova"]
-* Text: **Urbs**  
-  Annotation: [Type: Ort, Value: "Urbs"]
 
 #### Label: OrtImplizit
 
@@ -1634,8 +1578,6 @@ Implizite Ortsangaben (s. Notizen unten).
   Annotation: [Type: OrtImplizit, Value: "castro"]
 * Text: **cripta**   
   Annotation: [Type: OrtImplizit, Value: "cripta"]
-* Text: a**sa**d.   
-  Annotation: [Type: OrtImplizit, Value: "sa"]
 
 #### Label: Kollatur
 
