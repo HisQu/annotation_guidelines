@@ -1,3 +1,6 @@
+## 0.12.3 (2025-08-05)
+- kleine rechtschreibkorrekturen
+
 ## 0.12.2 (2025-08-03)
 - Versionbump um zu testen ob die Versionierung über den datamodel-workflow funktioniert
 
