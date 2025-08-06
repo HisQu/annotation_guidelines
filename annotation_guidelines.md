@@ -932,47 +932,6 @@ Einführung in die Besitztümer einer Pfründe
   - [Type: Introductio, Value: "in possessionem"]
   - [Type: Introductio, Value: "introducat"]
 
-#### Label: LitteraConservatoriaBonorum
-
-##### Beschreibung:
-Schutzbrief
-
-##### Standard Examples:
-
-* Text: de **conserv.**  
-  Annotation: [Type: LitteraConservatoriaBonorum, Value: "conserv."]
-
-#### Label: LitteraPassus
-
-##### Beschreibung:
-Reiseerlaubnis und Schutzbrief
-
-##### Standard Examples:
-
-* Text: **litt. passus**  
-  Annotation: [Type: LitteraPassus, Value: "litt. passus"]
-* Text: **littera passus**  
-  Annotation: [Type: LitteraPassus, Value: "littera passus"]
-
-#### Label: LitteraTestimonialibus
-
-##### Beschreibung:
-Bescheinigung, Zeugnis
-
-##### Standard Examples:
-
-* Text: **testimonialis litt.** vicecamerarii ad senatorem Urbis quod d. calcelarii iurisdictioni mareschalli R. cur. suppositi sint 20. febr. 1432 DC 16 183rs.  
-  Annotation: [Type: LitteraTestimonialibus, Value: "testimonialis litt."]
-
-#### Label: LitteraTestimonialibusZusatz
-
-##### Beschreibung:
-Inhaltliche Beschreibung der Bescheinigung bzw. des Zeugnisses
-
-##### Standard Examples:
-
-* Text: testimonialis litt. **vicecamerarii ad senatorem Urbis quod d. calcelarii iurisdictioni mareschalli R. cur. suppositi sint** 20. febr. 1432 DC 16 183rs.
-  Annotation: [Type: LitteraTestimonialibusZusatz, Value: "vicecamerarii ad senatorem Urbis quod d. calcelarii iurisdictioni mareschalli R. cur. suppositi sint"]
 
 #### Label: Licentia
 
@@ -1015,6 +974,49 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Lic
 
 * Text: lic. **ratione par. eccl. s. Martini, … in casu quod rect. unius ex d. eccl. fuerit excom., per alios presb. sibi sacramenta ministrari faciendi**  
   Annotation: [Type: LicentiaZusatz, Value: "ratione par. eccl. s. Martini, … in casu quod rect. unius ex d. eccl. fuerit excom., per alios presb. sibi sacramenta ministrari faciendi"]
+
+
+#### Label: LitteraConservatoriaBonorum
+
+##### Beschreibung:
+Schutzbrief
+
+##### Standard Examples:
+
+* Text: de **conserv.**  
+  Annotation: [Type: LitteraConservatoriaBonorum, Value: "conserv."]
+
+#### Label: LitteraPassus
+
+##### Beschreibung:
+Reiseerlaubnis und Schutzbrief
+
+##### Standard Examples:
+
+* Text: **litt. passus**  
+  Annotation: [Type: LitteraPassus, Value: "litt. passus"]
+* Text: **littera passus**  
+  Annotation: [Type: LitteraPassus, Value: "littera passus"]
+
+#### Label: LitteraTestimonialibus
+
+##### Beschreibung:
+Bescheinigung, Zeugnis
+
+##### Standard Examples:
+
+* Text: **testimonialis litt.** vicecamerarii ad senatorem Urbis quod d. calcelarii iurisdictioni mareschalli R. cur. suppositi sint 20. febr. 1432 DC 16 183rs.  
+  Annotation: [Type: LitteraTestimonialibus, Value: "testimonialis litt."]
+
+#### Label: LitteraTestimonialibusZusatz
+
+##### Beschreibung:
+Inhaltliche Beschreibung der Bescheinigung bzw. des Zeugnisses
+
+##### Standard Examples:
+
+* Text: testimonialis litt. **vicecamerarii ad senatorem Urbis quod d. calcelarii iurisdictioni mareschalli R. cur. suppositi sint** 20. febr. 1432 DC 16 183rs.
+  Annotation: [Type: LitteraTestimonialibusZusatz, Value: "vicecamerarii ad senatorem Urbis quod d. calcelarii iurisdictioni mareschalli R. cur. suppositi sint"]
 
 #### Label: Monitorium
 
