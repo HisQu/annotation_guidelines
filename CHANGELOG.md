@@ -1,3 +1,7 @@
+## v0.12.4 (2025-08-06)
+### Update annotation_guidelines.md
+  Licentia und LicentiaZusatz alphabetisch verschoben
+  
 ## 0.12.3 (2025-08-05)
 - kleine rechtschreibkorrekturen
 
