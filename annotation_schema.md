@@ -1,57 +1,56 @@
-# Titel der Annotationsrichtlinie
+# [Titel der Annotationsrichtlinie]
 
 ## Allgemeine Prinzipien
 
-* Dies ist ein allgemeiner Punkt der Richtlinie.
-* Ein weiterer allgemeiner Punkt.
-Hinweis zur Darstellung: Spezielle Formatierungen werden hier erklärt.
-Hier kann auch ein Absatz mit allgemeineren Informationen stehen.
+Hier können allgemeine Ziele, der Umfang der Annotation und übergreifende Regeln beschrieben werden. Dieser Abschnitt kann durch Unterüberschriften weiter gegliedert werden.
+
+* Ein allgemeiner Grundsatz.
+* Ein weiterer allgemeiner Grundsatz.
+
+### [Unterpunkt der Prinzipien, z.B. Darstellung]
+
+Erläuterungen zu spezifischen Formatierungen oder Konventionen im Dokument.
+
+---
 
 ### Kategorie: [Name der Hauptkategorie]
 
-* **Hinweis:** Dies ist ein allgemeiner Hinweis für alle Labels in dieser Kategorie.
+* **Hinweis:** Ein allgemeiner Hinweis, der für alle Labels innerhalb dieser Hauptkategorie gilt.
 
 #### Label: [Name des Labels]
 
-##### Beschreibung:
-Dies ist die Beschreibung für das Label.
-Der Text kann über mehrere Zeilen gehen, solange er direkt nach der Überschrift oder eingerückt beginnt.
+##### Beschreibung
+Eine präzise Definition des Labels und seiner Abgrenzung zu anderen Labels. Der Text kann über mehrere Zeilen gehen.
 
-##### Standard Examples:
+##### Standard Examples
+Dies sind die häufigsten und eindeutigsten Anwendungsfälle für das Label.
 
-* Text: Ein Satz mit dem **Beispielwort**.
-  Annotation: [Type: [Name des Labels], Value: "Beispielwort"]
+* Text: Ein Beispielsatz mit dem **annotierten Fragment**.
+    Annotation: [Type: [Name des Labels], Value: "annotiertes Fragment"]
+    * **Häufigkeit:** [Anzahl der Vorkommen, falls bekannt]
 
-* Text: Ein komplexeres Beispiel mit **mehreren** zu **annotierenden** Teilen.
-  Annotations:
-  - [Type: [Label für 'mehreren'], Value: "mehreren"]
-  - [Type: [Label für 'annotierenden'], Value: "annotierenden"]
+* Text: Ein Beispiel, das **mehrere** **Annotationen** erzeugt.
+    Annotations:
+    - [Type: [Label A], Value: "mehrere"]
+    - [Type: [Label B], Value: "Annotationen"]
 
-* Text: Beispiel mit **zwei Fragmenten** für dasselbe Label.
-  Annotations:
-  - [Type: [Name des Labels], Value: "zwei Fragmenten"]
-  - [Type: [Name des Labels], Value: "dasselbe Label"]
+##### Other Examples
+Hier werden seltenere Fälle, Grenzfälle oder Variationen aufgeführt.
 
+* Text: Ein weiteres Beispiel für ein **Fragment**.
+    Annotation: [Type: [Name des Labels], Value: "Fragment"]
+    * **Hinweis:** Ein spezifischer Hinweis, der nur für dieses Beispiel oder diesen Anwendungsfall relevant ist.
 
-##### Other Examples:
+---
 
-* Text: Ein weiteres Beispiel für **dasselbe Label**.
-  Annotation: [Type: [Name des Labels], Value: "dasselbe Label"]
+## Unklare Fälle und Richtlinien zur Entscheidung
 
-* **Hinweis:** Dies ist ein spezifischer Hinweis zu diesem Label.
-* **Hinweis:** Ein weiterer relevanter Punkt für dieses Label.
+In diesem Abschnitt werden spezifische, wiederkehrende Probleme, mehrdeutige Begriffe oder komplexe Konstellationen behandelt und klare Anweisungen zur Lösung gegeben.
 
-### Kategorie: [Name der nächsten Hauptkategorie]
+### [Thema des unklaren Falls, z.B. Doppeldeutige Begriffe]
 
-## Zusätzliche Regeln und Unklare Fälle
+Eine Erläuterung des Problems und die festgelegte Regel zur Annotation.
 
-* **Hinweis:** Regel zu doppeldeutige Begriffe.
-  Text: Beispieltext zur Regel mit **annotierter Teil**.
-  Annotation: [Type: [Zugehöriges Label], Value: "annotierter Teil"]
-* **Hinweis:** Regel zu Kombinationen aus mehreren Kategorien.
-  Text: can. et preb. **eccl.** **Sleswic.**
-  Annotations:
-  - [Type: KirchlichesAmt, Value: "can. et preb."]
-  - [Type: Institution, Value: "eccl."]
-  - [Type: Diözese, Value: "Sleswic."]
-
+* **Regel:** [Beschreibung der Regel]
+    Text: Ein Beispieltext, der die **Regel** illustriert.
+    Annotation: [Type: [Zugehöriges Label], Value: "Regel"]
