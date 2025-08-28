@@ -83,6 +83,8 @@ Der Vorname ist ein Namensbestandteil von fast allen explizit genannten Personen
 
 ##### Standard Examples:
 
+* Text: **Johannes** de Azel  
+  Annotation: [Type: Vorname, Value: "Johannes"]
 * Text: **Henricus** de Bocholdia    
   Annotation: [Type: Vorname, Value: "Henricus"]
 * Text: **Floora** relicta Magni Bootes armig.  
@@ -97,10 +99,10 @@ Der "Namenszusatz" ist eine Sammelbezeichnung für eine Vielzahl möglicher Name
 
 ##### Standard Examples:
 
+* Text: Johannes **de Azel**  
+  Annotation: [Type: Namenszusatz, Value: "de Azel"]
 * Text: Achacius **Berolczhaimer**  
   Annotation: [Type: Namenszusatz, Value: "Berolczhaimer"]
-* Text: Henricus **de Bocholdia**  
-  Annotation: [Type: Namenszusatz, Value: "de Bocholdia"]  
 * Text: Bertholdus **Schomaker al. dictus Dives**   
   Annotation: [Type: Namenszusatz, Value: "Schomaker al. dictus Dives"]
 * Text: Bertholdus **Denen (Deynen) de Wildunghen**  
@@ -119,8 +121,7 @@ Der "Namenszusatz" ist eine Sammelbezeichnung für eine Vielzahl möglicher Name
 #### Label: Papst
 
 ##### Beschreibung:
-
-Die Päpste sind eine besondere Ausformung der Klasse Person und werden deshalb extra getaggt. Die Namen der Päpste kommen dekliniert vor, z.B. "Bonifatio VIII" statt "Bonifatius VIII"; ebenso: "pape" statt "papa". Achtung: Nicht als Papst getaggt werden Patrozinien, die ohne die Ordinalzahl (z.B. VIII) oder den Zusatz "papa" vorkommen, z.B.: Bonifatii in dem Kontext "eccl. s. Bonifatii Halberstad.".
+Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klasse "Person" und werden deshalb extra getaggt. Die Namen der Päpste kommen dekliniert vor, z.B. "Bonifatio VIII" statt "Bonifatius VIII"; ebenso: "pape" statt "papa". Achtung: Nicht als Papst getaggt werden Patrozinien, die ohne die Ordinalzahl (z.B. VIII) oder den Zusatz "papa" vorkommen, z.B.: Bonifatii in dem Kontext "eccl. s. Bonifatii Halberstad.".
 
 ##### Standard Examples:
 
