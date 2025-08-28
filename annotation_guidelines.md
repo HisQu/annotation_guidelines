@@ -135,6 +135,23 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
   Annotation: [Type: Papst, Value: "Bonifatio VIII papa"]
 
 
+### Kategorie: Akteur
+
+---
+#### Label: Prozessvorsteher
+
+##### Beschreibung: 
+Eine Person, meist ein Richter, der einem Gerichtsprozess vorsteht.
+
+##### Standard Examples:
+
+* Text: **iud.**  
+  Annotation: [Type: Prozessvorsteher, Value: "iud."]
+* Text: **iudex**  
+  Annotation: [Type: Prozessvorsteher, Value: "iudex"]
+
+---
+
 ### Kategorie: Vita
 
 #### Label: Familienbeziehung
@@ -174,6 +191,8 @@ In den Regesten wird für viele Personen eine "Familienbeziehung" angegeben. Die
 * Text: **consanguineus**  
   Annotation: [Type: Verwandtschaft, Value: "consanguineus"]
 
+---
+
 #### Label: Familiar
 
 ##### Standard Examples:
@@ -191,7 +210,12 @@ In den Regesten wird für viele Personen eine "Familienbeziehung" angegeben. Die
   Annotation: [Type: Familiar, Value: "(unknown)"]
   * **Hinweis:** Neben den oben genannten Beispielen "acolit. pape" und "parafrenarius pape" kann es noch weitere Ämter geben, die im direkten Umfeld des Papstes ausgeübt werden. Diese kirchlichen Ämter, die im Regest durch die direkte Nähe zum Wort "pape" gekennzeichnet sind, werden hier durch den Platzhalter (unknown) bezeichnet. Dieser Platzhalter soll ebenfalls das Label "Familiar" bekommen. Wieder entfernt aus der Kategorie "Familiar" haben wir Fälle wie "cap. ap. sed." oder "script. litt. ap.", da es sich bei ihnen zwar um Bedienstete der Kurie,  nicht aber zwangsläufig um Familiare handelt.
 
+---
+
 #### Label: SozialerStand
+
+##### Beschreibung:
+Der soziale Stand einer Person ergibt sich u.a. aus Angaben zu seiner (nicht-)adligen Herkunft.
 
 ##### Standard Examples:
 
@@ -255,12 +279,12 @@ In den Regesten wird für viele Personen eine "Familienbeziehung" angegeben. Die
 * Text: **dux**  
   Annotation: [Type: SozialerStand, Value: "dux"]
   * **Hinweis:** Wenn kein Herrschaftsgebiet genannt wird; vgl. WeltlichesAmt.
-* Text: **mercator**  
-  Annotation: [Type: SozialerStand, Value: "mercator"]
 * Text: **incola**  
   Annotation: [Type: SozialerStand, Value: "incola"]
 * Text: **parochianus**  
   Annotation: [Type: SozialerStand, Value: "parochianus"] 
+
+---
 
 #### Label: KirchlicherStand
 
@@ -292,10 +316,27 @@ Der kirchliche Stand ergibt sich aus dem Empfang der niederen Weihen (Lektor, Ak
   Annotation: [Type: KirchlicherStand, Value: "diac."]
   * **Hinweis:** vgl. KirchlichesAmt
 
+---
+
+#### Label: Beruf
+
+##### Beschreibung
+Bei einigen Personen, vor allem bei Laien, werden Angaben zum Beruf gemacht.
+
+##### Standard Examples:
+* Text: **mercator**  
+  Annotation: [Type: Beruf, Value: "mercator"]
+* Text: **medicus**  
+  Annotation: [Type: Beruf, Value: "medicus"]  
+
+---
+
 #### Label: KirchlichesAmt
 
 ##### Beschreibung
-Eine Position, die an eine Institution –Kirche, Kloster etc. – gebunden ist und mit Einnahmen verbunden ist. Durch die Implikation einer festen Stelle mit Einnahmen unterscheiden sich die hier in den Beispielen erfassten kirchlichen Ämter (z.B. presb. card. = Kardinalpriester mit einer Titelkirche) von den unter dem Label KirchlichesAmt gesammelten kirchlichen Weihen (z.B. presb. = Priester, i.e. Person, die die Priesterweihe empfangen hat). Es wird sowohl der Amtsträger (decanus) als auch das Amt (decanatus) getaggt.
+Ein kirchliches Amt ist eine offizielle Stellung oder Funktion, die eine Person innerhalb der römisch-katholischen Kirche einnahm. Ein kirchliches Amt kann als Ehrenamt (z. B. Senior in einem Kollegiatsstift) ausgeübt werden oder mit Einnahmen (Pfründe) verbunden sein (z. B. Dekan in einem Kollegiatsstift).  
+Durch die Implikation einer festen Stelle mit Einnahmen unterscheiden sich die hier in den Beispielen erfassten kirchlichen Ämter (z.B. presb. card. = Kardinalpriester mit einer Titelkirche) von den unter dem Label KirchlicherStand gesammelten kirchlichen Weihen (z.B. presb. = Priester, i.e. Person, die die Priesterweihe empfangen hat, aber eventuell keine Pfründe erhalten hat).   
+Es wird sowohl der Amtsträger (decanus) als auch das Amt (decanatus) getaggt.
 
 ##### Standard Examples:
 
@@ -407,10 +448,65 @@ Eine Position, die an eine Institution –Kirche, Kloster etc. – gebunden ist 
 * Text: **prior**  
   Annotation: [Type: KirchlichesAmt, Value: "prior"]
 
+---
+
+#### Label: KurialesAmt
+
+##### Beschreibung:
+Ein kuriales Amt ist eine offizielle Stellung oder Funktion, die eine Person an der römischen Kurie einnahm. Es wird sowohl der Amtsträger als auch das Amt getaggt.
+
+##### Standard Examples:
+
+* Text: **abbr.**  
+  Annotation: [Type: KurialesAmt, Value: "abbr."]
+* Text: **administr.**  
+  Annotation: [Type: KurialesAmt, Value: "administr."]
+* Text: **aud.**  
+  Annotation: [Type: KurialesAmt, Value: "aud."]
+
+##### Other Examples:
+
+* Text: **cancell.**  
+  Annotation: [Type: KurialesAmt, Value: "cancell."]
+* Text: **cubic.**  
+  Annotation: [Type: KurialesAmt, Value: "cubic."]
+* Text: **cursor**  
+  Annotation: [Type: KurialesAmt, Value: "cursor"]
+* Text: **not.**  
+  Annotation: [Type: KurialesAmt, Value: "not."]
+* Text: **nunt.**  
+  Annotation: [Type: KurialesAmt, Value: "nunt."]
+* Text: **offic.**  
+  Annotation: [Type: KurialesAmt, Value: "offic."]
+* Text: **procur.**  
+  Annotation: [Type: KurialesAmt, Value: "procur."] 
+* Text: **proc.**  
+  Annotation: [Type: KurialesAmt, Value: "proc."]
+* Text: **proc.** ap. sed.  
+  Annotation: [Type: KurialesAmt, Value: "proc."]
+* Text: **prothonot.**  
+  Annotation: [Type: KurialesAmt, Value: "prothonot."]
+* Text: **refer.**  
+  Annotation: [Type: KurialesAmt, Value: "refer."]
+* Text: **script.**  
+  Annotation: [Type: KurialesAmt, Value: "script."]
+* Text: **script. litt. ap.**  
+  Annotation: [Type: KurialesAmt, Value: "script. litt. ap."]
+* Text: **secret.**  
+  Annotation: [Type: KurialesAmt, Value: "secret."]
+* Text: **secr.**  
+  Annotation: [Type: KurialesAmt, Value: "secr."]
+* Text: **tab.**  
+  Annotation: [Type: KurialesAmt, Value: "tab."]
+* Text: **tab. off.**  
+  Annotation: [Type: KurialesAmt, Value: "tab. off."]
+
+---
+
 #### Label: WeltlichesAmt
 
 ##### Beschreibung:
-Eine Position, die an eine Institution, z.B. Königreich, gebunden ist und mit Einnahmen verbunden ist.
+Ein weltliches Amt ist eine offizielle Stellung oder Funktion, die eine Person im höfischen Kontext (Fürstenhof, Bischofshof etc.) oder als städtischer Funktionsträger (Bürgermeister, Kanzler einer städtischen Kanzlei, Zunftmeister) einnahm.
 
 ##### Standard Examples:
 
@@ -445,69 +541,10 @@ Eine Position, die an eine Institution, z.B. Königreich, gebunden ist und mit E
   Annotation: [Type: WeltlichesAmt, Value: "consul"]
 * Text: **burggravius**    
   Annotation: [Type: WeltlichesAmt, Value: "burggravius"]  
- 
-#### Label: Verwaltungsamt
-
-##### Beschreibung:
-Eine Position, die an eine Institution, z.B. apostolische Kammer, gebunden ist und mit Einnahmen verbunden ist. Es wird sowohl der Amtsträger (subcollector) als auch das Amt (officium subcollectorie) getaggt.
-
-##### Standard Examples:
-
-* Text: **abbr.**  
-  Annotation: [Type: Verwaltungsamt, Value: "abbr."]
-* Text: **administr.**  
-  Annotation: [Type: Verwaltungsamt, Value: "administr."]
-* Text: **aud.**  
-  Annotation: [Type: Verwaltungsamt, Value: "aud."]
-
-##### Other Examples:
-
-* Text: **cancell.**  
-  Annotation: [Type: Verwaltungsamt, Value: "cancell."]
-* Text: **collect.**  
-  Annotation: [Type: Verwaltungsamt, Value: "collect."]
-* Text: **consilarius**  
-  Annotation: [Type: Verwaltungsamt, Value: "consilarius"]
-* Text: **cubic.**  
-  Annotation: [Type: Verwaltungsamt, Value: "cubic."]
-* Text: **cursor**  
-  Annotation: [Type: Verwaltungsamt, Value: "cursor"]
-* Text: **not.**  
-  Annotation: [Type: Verwaltungsamt, Value: "not."]
-* Text: **nunt.**  
-  Annotation: [Type: Verwaltungsamt, Value: "nunt."]
-* Text: **offic.**  
-  Annotation: [Type: Verwaltungsamt, Value: "offic."]
-* Text: **procur.**  
-  Annotation: [Type: Verwaltungsamt, Value: "procur."] 
-* Text: **proc.**  
-  Annotation: [Type: Verwaltungsamt, Value: "proc."]
-* Text: **proc.** ap. sed.  
-  Annotation: [Type: Verwaltungsamt, Value: "proc."]
-* Text: **prothonot.**  
-  Annotation: [Type: Verwaltungsamt, Value: "prothonot."]
-* Text: **refer.**  
-  Annotation: [Type: Verwaltungsamt, Value: "refer."]
-* Text: **script.**  
-  Annotation: [Type: Verwaltungsamt, Value: "script."]
-* Text: **script. litt. ap.**  
-  Annotation: [Type: Verwaltungsamt, Value: "script. litt. ap."]
 * Text: **scult.**  
-  Annotation: [Type: Verwaltungsamt, Value: "scult."]
-* Text: **secret.**  
-  Annotation: [Type: Verwaltungsamt, Value: "secret."]
-* Text: **secr.**  
-  Annotation: [Type: Verwaltungsamt, Value: "secr."]
-* Text: **subcollector**  
-  Annotation: [Type: Verwaltungsamt, Value: "subcollector"]  
-* Text: **tab.**  
-  Annotation: [Type: Verwaltungsamt, Value: "tab."]
-* Text: **tab. off.**  
-  Annotation: [Type: Verwaltungsamt, Value: "tab. off."]
-* Text: **iud.**  
-  Annotation: [Type: Verwaltungsamt, Value: "iud."]
-* Text: **iudex**  
-  Annotation: [Type: Verwaltungsamt, Value: "iudex"] 
+  Annotation: [Type: KurialesAmt, Value: "scult."]  
+
+---
 
 #### Label: Bildung
 
