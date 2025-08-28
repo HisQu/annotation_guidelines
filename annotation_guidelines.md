@@ -1820,6 +1820,8 @@ Kirchliches Konzil / Synode
 In den Regesten werden manchmal Angaben dazu gemacht, wie der Gnadenbrief ausgestellt werden soll. 
 - motu proprio: Drückt aus, dass ein Brief - im Gegensatz zum üblichen Reskriptionsverfahren – vom Papst selbst ausgeht; Ausdruck besonderen Wohlwollens.
 - sola signatura: Es wird kein Gnadenbrief ausgestellt; die Genehmigung des Gesuches wird durch eine Unterschrift auf der Supplik angezeigt.
+- rationi congruit: Vermerk, dass die Gnade bereits genehmigt worden war, aber vor dem Tod des Papstes nicht mehr expediert werden konnte.
+- gratis: Die Expedition der Urkunde erfolgt kostenlos für den Petenten.
 
 ##### Standard Examples:
 
