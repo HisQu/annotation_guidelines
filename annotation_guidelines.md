@@ -161,7 +161,14 @@ Eine Person, meist ein Richter, der einem Gerichtsprozess vorsteht.
   Annotation: [Type: Kollatur, Value: "mutatio coll."]
 
 ---
+#### Label: Anhänger
 
+##### Standard Examples:
+* Text: **adher.**  
+  Annotation: [Type: Anhänger, Value: "adher."]
+
+---
+  
 ### Kategorie: Vita
 
 #### Label: Familienbeziehung
@@ -600,8 +607,6 @@ Weitere Informationen zur Person, z.B. in Form von längeren Relativsätzen.
 
 ##### Standard Examples:
 
-* Text: **adh.**  
-  Annotation: [Type: VitaZusatz, Value: "adh."] 
 * Text: **qui per multos annos cur. secutus est absque consolatione benef. et ratione alicuius proc. Magnis expensis oppressus est**  
   Annotation: [Type: VitaZusatz, Value: "qui per multos annos cur. secutus est absque consolatione benef. et ratione alicuius proc. Magnis expensis oppressus est"]
 
