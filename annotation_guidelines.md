@@ -7,6 +7,7 @@
 Die Annotation von Regesten dient der strukturierten Erfassung relevanter Entitäten zur besseren Analyse und maschinellen Verarbeitung.  
 Annotiert werden all jene Begriffe bzw. Konzepte, für die sich ein Forschungsinteresse in der wissenschaftlichen Literatur nachweisen lässt. Neben der Forschungsliteratur berücksichtigen wir ebenfalls die Ergebnisse einer von uns in der historischen Forschungsgemeinschaft durchgeführten Umfrage zu früheren, aktuellen und geplanten Forschungsvorhaben mit Bezug zum Repertorium Germanicum.   
 Nicht getaggte Inhalte können dennoch durch KI-gestützte Verfahren erfasst werden. Annotiert werden ausschließlich Begriffe, die explizit im Regesttext vorkommen – Begriffe, die nur implizit mitgedacht werden müssen, z.B. (prov.) de eccl., bleiben unberücksichtigt.  
+Wörter können auch mit mehreren Labels gleichzeitig versehen werden, z.B. presbiteros (Personengruppe, KirchlicherStand, KirchlichesAmt).  
 Abkürzungspunkte und Endpunkte nach der Quellenangabe, sind Teil der Annotation und werden entsprechend mit ausgezeichnet.      
 
 ### 2. Kategorien:
@@ -136,10 +137,10 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
 
 ### Kategorie: Vita
 
-#### Label: Verwandtschaft
+#### Label: Familienbeziehung
 
 ##### Beschreibung:
-In den Regesten wird für viele Personen eine Verwandtschaftbeziehung angegeben. Die unter den Examples gelisteten Beispiele können auch dekliniert vorkommen. Die deklinierten Formen sollen ebenfalls das Label "Verwandtschaft" erhalten, z.B. uxoris statt uxor.
+In den Regesten wird für viele Personen eine "Familienbeziehung" angegeben. Die unter den Examples gelisteten Beispiele können auch dekliniert vorkommen. Die deklinierten Formen sollen ebenfalls das Label "Familienbeziehung" erhalten, z.B. uxoris statt uxor.
 
 ##### Standard Examples:
 
@@ -224,7 +225,7 @@ In den Regesten wird für viele Personen eine Verwandtschaftbeziehung angegeben.
 * Text: **nob.**  
   Annotation: [Type: SozialerStand, Value: "nob."]
 * Text: **mul.**  
-  Annotation: [Type: SozialerStand, Value: "mulier"]
+  Annotation: [Type: SozialerStand, Value: "mul."]
 * Text: **mulier**  
   Annotation: [Type: SozialerStand, Value: "mulier"]
 * Text: **armig.**  
