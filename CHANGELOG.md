@@ -1,3 +1,8 @@
+## v0.12.5 (2025-08-28)
+### Update annotation_guidelines.md
+  Verbesserungen der Kategorien: Person und Personengruppe
+  Labels: Person_explizit, Person_implizit, Personengruppe, Vorname, Namenszusatz, Papst
+  
 ## v0.12.4 (2025-08-06)
 ### Update annotation_guidelines.md
   Licentia und LicentiaZusatz alphabetisch verschoben
