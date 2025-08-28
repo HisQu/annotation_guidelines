@@ -151,6 +151,16 @@ Eine Person, meist ein Richter, der einem Gerichtsprozess vorsteht.
   Annotation: [Type: Prozessvorsteher, Value: "iudex"]
 
 ---
+#### Label: Kollator
+
+##### Standard Examples:
+
+* Text: ad **coll.** epp.  
+  Annotation: [Type: Kollatur, Value: "coll."]
+* Text: **mutatio coll.**  
+  Annotation: [Type: Kollatur, Value: "mutatio coll."]
+
+---
 
 ### Kategorie: Vita
 
@@ -1381,6 +1391,8 @@ Vor allem weltliche Verwaltungseinheiten, z.B. Herzogtümer.
 * Text: **villa**  
   Annotation: [Type: Verwaltungseinheit, Value: "villa"]
 
+---
+
 #### Label: Diözese
 
 ##### Beschreibung:
@@ -1400,6 +1412,8 @@ Eine kirchliche Verwaltungseinheit.
   Annotation: [Type: Diözese, Value: "Magunt. dioc."]
 * Text: **Colon. dioc.**  
   Annotation: [Type: Diözese, Value: "Colon. dioc."]
+
+---
 
 #### Label: Institution
 
@@ -1457,6 +1471,8 @@ Kirchen, Klöster, Universitäten, etc.
 * Text: **prioratus**  
   Annotation: [Type: Institution, Value: "prioratus"]  
 
+---
+
 #### Label: InstitutionZusatz
 
 ##### Beschreibung:
@@ -1466,6 +1482,8 @@ Information zur Beziehung einer kirchlichen Institution zur Kurie, insbesondere 
 
 * Text: eccl. b. Marie castri Aldenburg. Rom. eccl. **immed. subiect.**  
   Annotation: [Type: Institution, Value: "immed. subiect."]
+
+---
 
 #### Label: Titelkirche
 
@@ -1587,6 +1605,8 @@ Kirchen, die Bischöfen, Priestern und Diakonen bei ihrer Kardinalsweihe zugetei
   * Text: **Ss. Viti et Modesti**  
     Annotation: [Type: Titelkirche, Value: "Ss. Viti et Modesti"]
 
+---
+
 #### Label: Patrozinium
 
 ##### Beschreibung:
@@ -1608,6 +1628,8 @@ Namenspatrone von Kirchen oder Institutionen.
 * Text: **s. crucis**  
   Annotation: [Type: Patrozinium, Value: "s. crucis"]  
 
+---
+
 #### Label: Objekt
 
 ##### Beschreibung:
@@ -1620,6 +1642,8 @@ unspezifizierte Objekte.
 * Text: **alt. port.**  
   Annotation: [Type: Objekt, Value: "alt. port."]
   * **Hinweis:** s. UndefinierteGnade
+
+---
 
 #### Label: Ort
 
@@ -1642,6 +1666,8 @@ Namen von Städten, Dörfern und Bergen (s. Notizen unten).
 * Text: **Civitasnova**  
   Annotation: [Type: Ort, Value: "Civitasnova"]
 
+---
+
 #### Label: OrtImplizit
 
 ##### Beschreibung:
@@ -1663,14 +1689,7 @@ Implizite Ortsangaben (s. Notizen unten).
 * Text: **cripta**   
   Annotation: [Type: OrtImplizit, Value: "cripta"]
 
-#### Label: Kollatur
-
-##### Standard Examples:
-
-* Text: ad **coll.** epp.  
-  Annotation: [Type: Kollatur, Value: "coll."]
-* Text: **mutatio coll.**  
-  Annotation: [Type: Kollatur, Value: "mutatio coll."]
+---
 
 #### Label: Konzil
 
@@ -1682,15 +1701,23 @@ Kirchliches Konzil / Synode
 * Text: **concil.**  
   Annotation: [Type: Konzil, Value: "concil."]
 
-#### Label: MotuProprio
+---
+
+#### Label: Expeditionsmodalitäten
 
 ##### Beschreibung:
-Drückt aus, dass ein Brief - im Gegensatz zum üblichen Reskriptionsverfahren – vom Papst selbst ausgeht; Ausdruck besonderen Wohlwollens.
+In den Regesten werden manchmal Angaben dazu gemacht, wie der Gnadenbrief ausgestellt werden soll. 
+- motu proprio: Drückt aus, dass ein Brief - im Gegensatz zum üblichen Reskriptionsverfahren – vom Papst selbst ausgeht; Ausdruck besonderen Wohlwollens.
+- sola signatura: Es wird kein Gnadenbrief ausgestellt; die Genehmigung des Gesuches wird durch eine Unterschrift auf der Supplik angezeigt.
 
 ##### Standard Examples:
 
 * Text: **motu pr.**  
-  Annotation: [Type: Motu proprio, Value: "motu pr."]
+  Annotation: [Type: Expeditionsmodalitäten, Value: "motu pr."]
+* Text: **sola signatura**  
+  Annotation: [Type: Expeditionsmodalitäten, Value: "sola signatura"]  
+
+---
 
 #### Label: Annaten
 
@@ -1703,6 +1730,8 @@ Zahlungen an den Papst für die Verleihung einer Pfründe.
   Annotation: [Type: Annaten, Value: "annat."]
 * Text: **annata**  
   Annotation: [Type: Annaten, Value: "annata"]
+
+---
 
 #### Label: Servitien
 
@@ -1718,6 +1747,8 @@ Zahlungen des Bischöfe und einiger Äbte an den Papst anlässlich ihrer Einsetz
 * Text: comm. **serv.**  
   Annotation: [Type: Servitien, Value: "serv."]
 
+---
+
 #### Label: Geldsumme
 
 ##### Beschreibung:
@@ -1730,6 +1761,7 @@ Geldbeträge in historischen Einheiten (Betrag und Währung).
 * Text: **4 m. arg.**  
   Annotation: [Type: Geldsumme, Value: "4 m. arg."]
 
+---
 
 #### Label: Dauer
 
@@ -1742,6 +1774,8 @@ Dauer eines Dispens, einer Pfründe etc.
   Annotation: [Type: Dauer, Value: "3 an."]
 * Text: **perp.**  
   Annotation: [Type: Dauer, Value: "perp."]
+
+---
 
 #### Label: NonObstantien
 
@@ -1772,6 +1806,8 @@ Klauseln, die andere Regelungen / Tatsachen außer Kraft setzen; vgl. die Label 
   Annotation: [Type: NonObstantien, Value: "n. o."]
   * **Häufigkeit** 13x, nur in Band 3
 
+---
+
 #### Label: Datum
 
 ##### Beschreibung:
@@ -1782,7 +1818,9 @@ exakte oder ungefähre Datumsangaben
 * Text: **9 apr. 1410**  
   Annotation: [Type: Datum, Value: "9 apr. 1410"]
 
-#### Label: Quelle
+---
+
+#### Label: Fundstelle
 
 ##### Beschreibung:
 Verweise auf Dokumente oder Handschriften.
@@ -1790,7 +1828,9 @@ Verweise auf Dokumente oder Handschriften.
 ##### Standard Examples:
 
 * Text: **L 138 254v**  
-  Annotation: [Type: Quelle, Value: "L 138 254v."]
+  Annotation: [Type: Fundstelle, Value: "L 138 254v."]
+
+---
 
 ## Unklare Fälle und Richtlinien zur Entscheidung
 
@@ -1806,7 +1846,7 @@ An dieser Stelle sollen weitere ambige Fälle gesammelt werden und unsere Entsch
   - vic. = KirchlichesAmt
 
 ### Fit mentio
-Fit mentio wird nicht getaggt.
+Fit mentio ("wird erwähnt") wird nicht getaggt.
 
 ### Klammern
 
@@ -1847,13 +1887,13 @@ Bei Fällen wie „incorp. maioris preb. eccl.“, bei denen nicht immer gleich 
 Die Präposition *de* wird nur beim Label Namenszusatz und SozialerStand mitgetaggt: 
 * Johannis **de Yselsteine** (de Yselsteine = Namenszusatz), Ghiselbertus de Lochorst **de nob. gen.** (de nob. gen. = SozialerStand)    
 In allen anderen Fällen wird nur der relevante Hauptbegriff annotiert, nicht die Präposition:  
-* **de eccl.** (eccl. = Institution), **de locis interdictis** (locis interdictis = UndefinierteGnade) etc.  
+* **de eccl.** (eccl. = Institution), **de locis interdictis** (locis interdictis = Gnadenerweis) etc.  
 
 Entsprechendes gilt für weitere Präpositionen wie post ob. etc.
 
-### Quellen
-Für jede Quelle wird je ein Tag „Quelle“ vergeben, z.B. *C 1 4* (Quelle), *Ind. 323 127.* (Quelle)
-Aber: *047 40 et 40v.* wird als eine Quelle getaggt.
+### Fundstelle
+Für jede Quelle wird je ein Tag „Fundstelle“ vergeben, z.B. *C 1 4* (Fundstelle), *Ind. 323 127.* (Fundstelle)
+Aber: *047 40 et 40v.* wird als eine Fundstelle getaggt.
 
 ### Thematische- / Topik-Tags
 Wir haben uns aus zeitökonomischen Gründen dazu entschieden, keine thematischen Tags zu vergeben (z.B. „Geburtsdefekt“ für def. nat., „Interdikt“ für locis interdictis, „Ehe“ für matrim. usw.). Allerdings sollen die Nutzer/innen der fertigen Anwendung explizit darauf hingewiesen werden, dass sie bestimmte Themen, wie gewohnt, über die entsprechenden RG-Abkürzungen abrufen können. 
