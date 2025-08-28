@@ -1,3 +1,9 @@
+## v0.13.0 (2025-08-28)
+### Update annotation_guidelines.md
+  Kategorie Akteur, Beispiel-Label: Prozessvorsteher (die anderen Akteure müssen hier noch ergänzt werden)
+  
+  Kategorie Vita: WeltlichesAmt, KurialesAmt, KirchlichesAmt
+  
 ## v0.12.6 (2025-08-28)
 ### Update annotation_guidelines.md
   - Wörter können mehr als ein Tag erhalten
