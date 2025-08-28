@@ -453,7 +453,7 @@ Es wird sowohl der Amtsträger (decanus) als auch das Amt (decanatus) getaggt.
 #### Label: KurialesAmt
 
 ##### Beschreibung:
-Ein kuriales Amt ist eine offizielle Stellung oder Funktion, die eine Person an der römischen Kurie einnahm. Es wird sowohl der Amtsträger als auch das Amt getaggt.
+Ein kuriales Amt ist eine offizielle Stellung oder Funktion, die eine Person an der römischen Kurie einnahm. Es wird sowohl der Amtsträger als auch das Amt getaggt. Achtung: Manche Positionen kommen auch außerhalb der Kurie an kirchlichen und weltlichen Höfen vor, sodass sich die genaue Zuschreibung des Labels nur aus dem Kontext ergibt (so z.B. beim Notar).
 
 ##### Standard Examples:
 
@@ -581,6 +581,8 @@ Ein weltliches Amt ist eine offizielle Stellung oder Funktion, die eine Person i
 
 * **Hinweis:** Und entsprechende Permutationen (mag. in art. / art. mag. …, utriusque iuris, theol. … Bitte ergänzen).
 
+---
+
 #### Label: VitaZusatz
 
 ##### Beschreibung:
@@ -592,6 +594,8 @@ Weitere Informationen zur Person, z.B. in Form von längeren Relativsätzen.
   Annotation: [Type: VitaZusatz, Value: "adh."] 
 * Text: **qui per multos annos cur. secutus est absque consolatione benef. et ratione alicuius proc. Magnis expensis oppressus est**  
   Annotation: [Type: VitaZusatz, Value: "qui per multos annos cur. secutus est absque consolatione benef. et ratione alicuius proc. Magnis expensis oppressus est"]
+
+---
 
 #### Label: Orden
 
@@ -631,6 +635,8 @@ Ausdruck der Zugehörigkeit zu einer religiösen Ordensgemeinschaft
   Annotation: [Type: Orden, Value: "o. Prem."]
 
 * **Hinweis:** Und deren Variationen (z.B. o. Cist.; Cist. ord.). Bitte ergänzen!
+
+---
 
 ### Kategorie: Event
 
