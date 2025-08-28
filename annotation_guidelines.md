@@ -59,20 +59,20 @@ Eine Person_implizit liegt vor, wenn eine einzelne Person nicht namentlich auftr
 Eine "Personengruppe" liegt immer dann vor, wenn ein sprachlicher Ausdruck sich auf mehr als eine Person bezieht. Nicht im Label enthalten sind attributiv gebrauchte Adjektive oder Ähnliches (vgl. Standard Examples: successores suos).
 
 ##### Standard Examples:
-* Text: **legatos** natos cum plena potestate
-  Annotation: [Type: Personengruppe, Value: "legatos"]
-* Text: cum **30 pers.** de confess. elig.  
-  Annotation: [Type: Personengruppe, Value: "30 pers."]
-* Text: eum et **successores** suos in Magunt. provin.
-  Annotation: [Type: Personengruppe, Value: "successores"]
-* Text: **alii**
-  Annotation: [Type: Personengruppe, Value: "alii"]
-* Text: quidem **8000 et infra** lim. eccl. s. Nicolai
-  Annotation: [Type: Personengruppe, Value: "8000 et infra"]
-* Text: **6000 parochiani**
-  Annotation: [Type: Personengruppe, Value: "6000 parochiani"]
-* Text: Proconsules et consules et **commune** op. D. Traiect. dioc.
-  Annotation: [Type: Personengruppe, Value: "commune"]
+* Text: **legatos** natos cum plena potestate  
+  Annotation: [Type: Personengruppe, Value: "legatos"]  
+* Text: cum **30 pers.** de confess. elig.    
+  Annotation: [Type: Personengruppe, Value: "30 pers."]  
+* Text: eum et **successores** suos in Magunt. provin.  
+  Annotation: [Type: Personengruppe, Value: "successores"]  
+* Text: **alii**  
+  Annotation: [Type: Personengruppe, Value: "alii"]  
+* Text: quidem **8000 et infra** lim. eccl. s. Nicolai  
+  Annotation: [Type: Personengruppe, Value: "8000 et infra"]  
+* Text: **6000 parochiani**  
+  Annotation: [Type: Personengruppe, Value: "6000 parochiani"]  
+* Text: Proconsules et consules et **commune** op. D. Traiect. dioc.  
+  Annotation: [Type: Personengruppe, Value: "commune"]  
 
 ---
 
@@ -100,7 +100,7 @@ Der "Namenszusatz" ist eine Sammelbezeichnung für eine Vielzahl möglicher Name
 ##### Standard Examples:
 
 * Text: Johannes **de Azel**  
-  Annotation: [Type: Namenszusatz, Value: "de Azel"]
+  Annotation: [Type: Namenszusatz, Value: "de Azel"]  
 * Text: Achacius **Berolczhaimer**  
   Annotation: [Type: Namenszusatz, Value: "Berolczhaimer"]
 * Text: Bertholdus **Schomaker al. dictus Dives**   
