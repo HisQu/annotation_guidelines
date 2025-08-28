@@ -1048,6 +1048,7 @@ Sondererlaubnis
 * Text: **lic.** ratione par. eccl. s. Martini, … in casu quod rect. unius ex d. eccl. fuerit excom., per alios presb. sibi sacramenta ministrari faciendi  
   Annotation: [Type: Licentia, Value: "lic."]
 
+
 #### Label: LicentiaZusatz
 
 ##### Beschreibung:
@@ -1078,6 +1079,7 @@ Schutzbrief
 * Text: de **conserv.**  
   Annotation: [Type: LitteraConservatoriaBonorum, Value: "conserv."]
 
+
 #### Label: LitteraPassus
 
 ##### Beschreibung:
@@ -1090,6 +1092,7 @@ Reiseerlaubnis und Schutzbrief
 * Text: **littera passus**  
   Annotation: [Type: LitteraPassus, Value: "littera passus"]
 
+
 #### Label: LitteraTestimonialibus
 
 ##### Beschreibung:
@@ -1099,6 +1102,7 @@ Bescheinigung, Zeugnis
 
 * Text: **testimonialis litt.** vicecamerarii ad senatorem Urbis quod d. calcelarii iurisdictioni mareschalli R. cur. suppositi sint 20. febr. 1432 DC 16 183rs.  
   Annotation: [Type: LitteraTestimonialibus, Value: "testimonialis litt."]
+
 
 #### Label: LitteraTestimonialibusZusatz
 
@@ -1110,6 +1114,7 @@ Inhaltliche Beschreibung der Bescheinigung bzw. des Zeugnisses
 * Text: testimonialis litt. **vicecamerarii ad senatorem Urbis quod d. calcelarii iurisdictioni mareschalli R. cur. suppositi sint** 20. febr. 1432 DC 16 183rs.
   Annotation: [Type: LitteraTestimonialibusZusatz, Value: "vicecamerarii ad senatorem Urbis quod d. calcelarii iurisdictioni mareschalli R. cur. suppositi sint"]
 
+
 #### Label: Monitorium
 
 ##### Beschreibung:
@@ -1119,6 +1124,7 @@ Ermahnung durch den Papst
 
 * Text: **monitorium penale**  
   Annotation: [Type: Monitorium, Value: "monitorium penale"]
+
 
 #### Label: Moratorium
 
@@ -1135,6 +1141,7 @@ Zahlungsaufschub
 ##### Hinweis
 Hauptsächlich in RG 10 (?)
 
+
 #### Label: Pensio
 
 ##### Beschreibung:
@@ -1147,15 +1154,6 @@ Verleihung und Modifizierung von Pensionsleistunen
 * Text: de **transl. pensionis**  
   Annotation: [Type: Pensio, Value: "transl. pensionis"]
 
-#### Label: Privatio
-
-##### Beschreibung:
-Der Papst entzieht jemandem Rechte/Pfründen etc.
-
-##### Standard Examples:
-
-* Text: adherens Barth. **priv.** can. et preb.  
-  Annotation: [Type: Privatio, Value: "priv."]
 
 #### Label: Prerogativa
 
@@ -1260,27 +1258,39 @@ Sicherheitsbrief für flüchtige Personen
 * Text: **salc. cond.**  
   Annotation: [Type: SalvusConductus, Value: "salc. cond."]
   * **Hinweis:** Achtung: im Digitalisat von Band 3 falsch eingelesen als salc. statt salv.
+ 
+---
 
-#### Label: UndefinierteGnade
+#### Label: TragbarerAltar
 
-##### Beschreibung:
-Gnaden, die nicht explizit den Begriff der gewährten Gnade – Abolitio, Absolution, Dispens etc. – , sondern nur den Inhalt der Gnade [de alt. port.] oder den allgemeinen Terminus gratia angeben. Hier ist keine vollständige Liste möglich.
+##### Standard Examples:
+* Text: gratia de **alt. port.**  
+  Annotation: [Type: TragbarerAltar, Value: "alt. port."]
+* Text: de **alt. port.**  
+  Annotation: [Type: TragbarerAltar, Value: "alt. port."]
+
+---
+#### Label: Beichtprivileg
+
+##### Standard Examples:
+* Text: gratia de **confess. elig.**  
+  Annotation: [Type: Beichtprivileg, Value: "confess. elig."]
+* Text: de **confess. elig.**  
+  Annotation: [Type: Beichtprivileg, Value: "confess. elig."]
+
+---
+#### Label: Plenarablass
+
+##### Standard Examples:
+* Text: de **rem. plen.**  
+  Annotation: [Type: Plenarablass, Value: "rem. plen."]
+
+---
+
+#### Label: WeitereGnaden [bitte einzeln wie oben und mit Ontologie-Klasse "Gnadenerweis" abgleichen und ergänzen]
 
 ##### Standard Examples:
 
-* Text: gratia de **alt. port.**  
-  Annotation: [Type: UndefinierteGnade, Value: "alt. port."]
-* Text: de **alt. port.**  
-  Annotation: [Type: UndefinierteGnade, Value: "alt. port."]
-* Text: gratia de **confess. elig.**  
-  Annotation: [Type: UndefinierteGnade, Value: "confess. elig."]
-* Text: de **confess. elig.**  
-  Annotation: [Type: UndefinierteGnade, Value: "confess. elig."]
-
-##### Other Examples:
-
-* Text: de **rem. plen.**  
-  Annotation: [Type: UndefinierteGnade, Value: "rem. plen."]
 * Text: de **locis interdictis**  
   Annotation: [Type: UndefinierteGnade, Value: "locis interdictis"]
 * Text: de **interd. loc.**  
@@ -1307,6 +1317,7 @@ Gnaden, die nicht explizit den Begriff der gewährten Gnade – Abolitio, Absolu
   Annotation: [Type: UndefinierteGnade, Value: "pont. insign."]
 
 ---
+
 ### Event: Zahlungsverpflichtung
 
 #### Label: Zahlungsverpflichtung
@@ -1421,6 +1432,7 @@ Jemand beauftragt eine Person, irgendwohin zu gehen.
   Annotation: [Type: Entsendung, Value: "destin."]
 
 ---
+
 ### Event: ErlangungPfründe
 
 #### Label: ErlangungPfründe
@@ -1433,6 +1445,18 @@ Angaben zur Erlangung einer Pfründe (assec. est); nicht identisch mit dem Gnade
   Annotation: [Type: ErlangungPfründe, Value: "assec. est"]
 * Text: **indebite assec. fuit**  
   Annotation: [Type: ErlangungPfründe, Value: "indebite assec. fuit"]
+
+---
+### Event: Pfründenentzug
+
+#### Label: Pfründenentzug
+
+##### Beschreibung:
+Jemand, z.B. der Papst, entzieht jemandem Rechte/Pfründen etc. (privatio)
+
+##### Standard Examples:
+* Text: adherens Barth. **priv.** can. et preb.  
+  Annotation: [Type: Pfründenentzug, Value: "priv."]
 
 ---
 
