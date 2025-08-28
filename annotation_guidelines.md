@@ -1553,33 +1553,34 @@ Gründe, die für die Vakanz einer Pfründe gegeben werden.
 
 ---
 
-#### Label: Verwaltungseinheit
+#### Label: Herrschaftsgebiet
 
 ##### Beschreibung:
-Vor allem weltliche Verwaltungseinheiten, z.B. Herzogtümer.
+Bezeichnungen für weltliche Herrschaftsgebiete, z.B. Herzogtümer.
 
 ##### Standard Examples:
-
 * Text: **ducat.**  
-  Annotation: [Type: Verwaltungseinheit, Value: "ducat."]
+  Annotation: [Type: Herrschaftsgebiet, Value: "ducat."]
 * Text: **baron.**  
-  Annotation: [Type: Verwaltungseinheit, Value: "baron."]
-* Text: **civit.**  
-  Annotation: [Type: Verwaltungseinheit, Value: "civit."]
+  Annotation: [Type: Herrschaftsgebiet, Value: "baron."]
 
-##### Other Examples:
+---
+#### Label: Stadt_Dorf
 
+##### Beschreibung:
+Bezeichnungen für Städte und Dörfer; die Begriffe sind nicht immer klar zu unterscheiden, deshalb bekommen sie ein Label.
+
+##### Standard Examples:
 * Text: **op.**  
   Annotation: [Type: Verwaltungseinheit, Value: "op."]
 * Text: **op. imp.**  
   Annotation: [Type: Verwaltungseinheit, Value: "op. imp."]
-* Text: **Slesia**  
-  Annotation: [Type: Verwaltungseinheit, Value: "Slesia"]
 * Text: **villa**  
   Annotation: [Type: Verwaltungseinheit, Value: "villa"]
+* Text: **civit.**  
+  Annotation: [Type: Stadt_Dorf, Value: "civit."]
 
 ---
-
 #### Label: Diözese
 
 ##### Beschreibung:
@@ -1835,23 +1836,25 @@ unspezifizierte Objekte.
 #### Label: Name_Ort
 
 ##### Beschreibung:
-Namen von Städten, Dörfern und Bergen (s. Notizen unten).
+Namen von Städten, Dörfern, Regionen und Bergen (s. Notizen unten).
 
 ##### Standard Examples:
 
 * Text: **Bodegrauen**  
-  Annotation: [Type: Ort, Value: "Bodegrauen"]
+  Annotation: [Type: Name_Ort, Value: "Bodegrauen"]
 * Text: Novifori **Magdeburg.**  
-  Annotation: [Type: Ort, Value: "Magdeburg."]
+  Annotation: [Type: Name_Ort, Value: "Magdeburg."]
 * Text: in castro **Quernfort**  
-  Annotation: [Type: Ort, Value: "Quernfort"]
+  Annotation: [Type: Name_Ort, Value: "Quernfort"]
+* Text: **Slesia**  
+  Annotation: [Type: Name_Ort, Value: "Slesia"]  
 
 ##### Other Examples:
 * Text: in **Rauhen** et in **Schlechthin Kulm** castris
-  Annotation: [Type: Ort, Value: "Rauhen"]
-  Annotation: [Type: Ort, Value: "Schlechthin Kulm"]
+  Annotation: [Type: Name_Ort, Value: "Rauhen"]
+  Annotation: [Type: Name_Ort, Value: "Schlechthin Kulm"]
 * Text: **Civitasnova**  
-  Annotation: [Type: Ort, Value: "Civitasnova"]
+  Annotation: [Type: Name_Ort, Value: "Civitasnova"]
 
 ---
 
