@@ -46,9 +46,9 @@ Eine Person_explizit liegt immer dann vor, wenn die Person mit einem Vornamen un
 Eine Person_implizit liegt vor, wenn eine einzelne Person nicht namentlich auftritt, sondern über ein Pronomen, eine Amtsbezeichnung oder eine andere als die namentliche Bezeichnung referenziert wird.
 
 ##### Standard Examples:
-* Text: **eum** et successores suos in Magunt. provin.
-  Annotation: [Type: Person_implizit, Value: "eum"]
-* Text: supplic. **aep. Magunt.**
+* Text: **eum** et successores suos in Magunt. provin.  
+  Annotation: [Type: Person_implizit, Value: "eum"]  
+* Text: supplic. **aep. Magunt.**  
   Annotation: [Type: Person_implizit, Value: "aep. Magunt."]
 
 ---
