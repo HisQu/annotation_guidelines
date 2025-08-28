@@ -113,7 +113,7 @@ Der "Namenszusatz" ist eine Sammelbezeichnung für eine Vielzahl möglicher Name
   Annotation: [Type: Namenszusatz, Value: "Florentin. nunc."]
 
 ##### Other Examples:
-* Text: castrum **das Newhaus nunc.** 
+* Text: castrum **das Newhaus nunc.**   
   Annotation: [Type: Namenszusatz, Value: "das Newhaus nunc."]
 
 ---
