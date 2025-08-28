@@ -1,3 +1,10 @@
+## v0.12.6 (2025-08-28)
+### Update annotation_guidelines.md
+  - Wörter können mehr als ein Tag erhalten
+  - Verwandtschaft -> Familienbeziehung
+  
+  -
+  
 ## v0.12.5 (2025-08-28)
 ### Update annotation_guidelines.md
   Verbesserungen der Kategorien: Person und Personengruppe
