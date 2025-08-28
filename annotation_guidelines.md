@@ -208,7 +208,7 @@ In den Regesten wird für viele Personen eine "Familienbeziehung" angegeben. Die
 * Text: **consanguineus**  
   Annotation: [Type: Verwandtschaft, Value: "consanguineus"]
 
----
+-
 
 #### Label: Familiar
 
