@@ -1,3 +1,17 @@
+## v0.14.0 (2025-08-28)
+### Update annotation_guidelines.md
+  Event_ErlangungPfründe
+  Event_Entsendung
+  Event_Resignation
+  Event_Tod
+  Event_Treueschwur
+  Event_Zahlungsverpflichtung
+  Event_Geldzahlung
+  Event_Gerichtsprozess
+  Event_Weihe
+  
+  -
+  
 ## v0.13.0 (2025-08-28)
 ### Update annotation_guidelines.md
   Kategorie Akteur, Beispiel-Label: Prozessvorsteher (die anderen Akteure müssen hier noch ergänzt werden)
