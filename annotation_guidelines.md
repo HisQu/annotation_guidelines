@@ -238,6 +238,10 @@ Der soziale Stand einer Person ergibt sich u.a. aus Angaben zu seiner (nicht-)ad
 
 ##### Other Examples:
 
+* Text: **scol.**  
+  Annotation: [Type: SozialerStand, Value: "scol."]
+  * Text: **studens**  
+  Annotation: [Type: SozialerStand, Value: "studens"]
 * Text: **baron. gen.**  
   Annotation: [Type: SozialerStand, Value: "baron. gen."]
 * Text: **de com. gen.**  
@@ -556,38 +560,34 @@ Ein weltliches Amt ist eine offizielle Stellung oder Funktion, die eine Person i
 
 ---
 
-#### Label: Bildung
+#### Label: AkademischerGrad
 
 ##### Standard Examples:
 
 * Text: **licent.**  
-  Annotation: [Type: Bildung, Value: "licent."]
-* Text: **scol.**  
-  Annotation: [Type: Bildung, Value: "scol."]
+  Annotation: [Type: AkademischerGrad, Value: "licent."]
 * Text: **bac. in decr.**  
-  Annotation: [Type: Bildung, Value: "bac. in decr."]
+  Annotation: [Type: AkademischerGrad, Value: "bac. in decr."]
 
 ##### Other Examples:
 
-* Text: **studens**  
-  Annotation: [Type: Bildung, Value: "studens"]
 * Text: **lic.**   
-  Annotation: [Type: Bildung, Value: "lic."]
+  Annotation: [Type: AkademischerGrad, Value: "lic."]
   * **Hinweis:** Nur selten steht lic. für das Lizenziat, i.d.R. nur in Verbindung mit einem Namen. Häufiger steht es für die päpstliche Lizenz und wird dann als Event getaggt.
 * Text: **lic. in decr.**    
-  Annotation: [Type: Bildung, Value: "lic. in decr."]
+  Annotation: [Type: AkademischerGrad, Value: "lic. in decr."]
 * Text: **lic. in leg.**  
-  Annotation: [Type: Bildung, Value: "lic. in leg."]
+  Annotation: [Type: AkademischerGrad, Value: "lic. in leg."]
 * Text: **lic. in iure can.**  
-  Annotation: [Type: Bildung, Value: "lic. in iure can."]
+  Annotation: [Type: AkademischerGrad, Value: "lic. in iure can."]
 * Text: **mag.**  
-  Annotation: [Type: Bildung, Value: "mag."]
+  Annotation: [Type: AkademischerGrad, Value: "mag."]
 * Text: **mag. in art.**  
-  Annotation: [Type: Bildung, Value: "mag. in art."]
+  Annotation: [Type: AkademischerGrad, Value: "mag. in art."]
 * Text: **decr. doct.**  
-  Annotation: [Type: Bildung, Value: "decr. doct."]
+  Annotation: [Type: AkademischerGrad, Value: "decr. doct."]
 * Text: **aud. gen.**  
-  Annotation: [Type: Bildung, Value: "aud. gen."]
+  Annotation: [Type: AkademischerGrad, Value: "aud. gen."]
 
 * **Hinweis:** Und entsprechende Permutationen (mag. in art. / art. mag. …, utriusque iuris, theol. … Bitte ergänzen).
 
