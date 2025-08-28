@@ -208,7 +208,7 @@ In den Regesten wird für viele Personen eine "Familienbeziehung" angegeben. Die
 * Text: **consanguineus**  
   Annotation: [Type: Verwandtschaft, Value: "consanguineus"]
 
--
+---
 
 #### Label: Familiar
 
@@ -659,6 +659,8 @@ Ausdruck der Zugehörigkeit zu einer religiösen Ordensgemeinschaft
 
 ### Event: Gnadenerweis
 
+---
+
 #### Label: Abolitio
 
 ##### Beschreibung:
@@ -683,6 +685,7 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Abo
 * Text: m. abol. inhabil., **quia sacr. ord. una die per Matheum ep. olim Placentin. indebite recepit, n. o. proc. per mag. Angelum de Balionibus aud. gen. cam. ap. instructo** 4 mart. 1412 L 158 130.  
   Annotation: [Type: AbolitioZusatz, Value: "quia sacr. ord. una die per Matheum ep. olim Placentin. indebite recepit, n. o. proc. per mag. Angelum de Balionibus aud. gen. cam. ap. instructo"]
 
+---
 
 #### Label: Absolutio
 
@@ -719,6 +722,8 @@ Kennzeichnung des Gnadeninhalts der Absolution. Der gesamte Gnadeninhalt wird mi
 * Text: absol., **quod olim …**  
   Annotation: [Type: AbsolutioZusatz, Value: "quod olim …"]
 
+---
+
 #### Label: Aggravatio
 
 ##### Beschreibung:
@@ -732,6 +737,8 @@ Verstärkung einer Strafe
   Annotation: [Type: Aggravatio, Value: "m. aggrav. excom. sent."]
 * Text: **m. aggravandi sent.**  
   Annotation: [Type: Aggravatio, Value: "m. aggravandi sent."]
+
+---
 
 #### Label: Cassatio
 
@@ -759,6 +766,8 @@ Kennzeichnung des Gnadeninhalts der Cassatio. Der gesamte Gnadeninhalt wird mit 
 * Text: de cass. **pensionis**  
   Annotation: [Type: CassatioZusatz, Value: "pensionis."]
 
+---
+
 #### Label: Commissio
 
 ##### Beschreibung:
@@ -768,6 +777,8 @@ Auftrag zur weiteren Bearbeitung eines Falles
 
 * Text: **committ.**  
   Annotation: [Type: Commissio, Value: "committ."]
+
+---
 
 #### Label: Concessio
 
@@ -779,6 +790,8 @@ Verleihung / Erlaubnis = Lizenz (?)
 * Text: **conc. transgr.**  
   Annotation: [Type: Concessio, Value: "conc. transgr."]
   * **Hinweis:** vgl. Licentia -> lic. transgr.
+
+---
 
 #### Label: Confirmatio
 
@@ -800,6 +813,8 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Con
 * Text: conf. **emptionem pratorum ac al. bonorum in villa Diczisow Constant. dioc. ac donationem iuris patron. super par. eccl. in dicta villa ex possess. Eberhardi Burgermaister incole dicti op. factam** 22 oct. 1411 L 157 113.  
   Annotation: [Type: ConfirmatioZusatz, Value: "emptionem pratorum ac al. bonorum in villa Diczisow Constant. dioc. ac donationem iuris patron. super par. eccl. in dicta villa ex possess. Eberhardi Burgermaister incole dicti op. factam"]
 
+---
+
 #### Label: Declaratio
 
 ##### Beschreibung:
@@ -809,6 +824,8 @@ Erklärung
 
 * Text: **decl.**  
   Annotation: [Type: Declaratio, Value: "decl."]
+
+---
 
 #### Label: Derogatio
 
@@ -838,6 +855,8 @@ Kennzeichnung des Gnadeninhalts der Derogatio. Der gesamte Gnadeninhalt wird mit
   Annotation: [Type: DerogatioZusatz, Value: "antelationum quibusdam aliis prerog. curialium habentibus in concil. Basil. existentibus conc. ratione gr. expect. sue"]
 * Text: c. derog. **statutis eccl. s. Petri de optando** 18. aug. 1463 S 566 89r, L 582 63v-65r.
   Annotation: [Type: DerogatioZusatz, Value: "statutis eccl. s. Petri de optando"]
+
+---
 
 #### Label: Dispensatio
 
@@ -879,6 +898,7 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Dis
 * Text: de **uberiori** disp.
   Annotation: [Type: DispensatioZusatz, Value: "uberiori"]
 
+---
 
 #### Label: Erectio
 
@@ -905,6 +925,8 @@ Erlaubnis zur Errichtung einer neuen kirchlichen Institution oder der Erhebung e
 * Text: de **institutione**  
   Annotation: [Type: Erectio, Value: "institutione."]
 
+---
+
 #### Label: Exemptio
 
 ##### Beschreibung:
@@ -923,6 +945,8 @@ Befreiung, Ausnahmestellung
 
 * Text: **exemtione** de iurisdictione ordin.  
   Annotation: [Type: Exemptio, Value: "exemtione"]
+
+---
 
 #### Label: Facultas
 
@@ -974,6 +998,8 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Fac
   - [Type: FacultasZusatz, Value: "alternativa"]
   - [Type: FacultasZusatz, Value: "disponendi"]
 
+---
+
 #### Label: Habilitatio
 
 ##### Beschreibung:
@@ -993,6 +1019,8 @@ Wiederherstellung der Befähigung zur Ausübung einer Rechtshandlung
 * Text: **habilitatio**  
   Annotation: [Type: Habilitatio, Value: "habilitatio"]
 
+---
+
 #### Label: Indulgentia
 
 ##### Beschreibung:
@@ -1002,6 +1030,8 @@ Indulgenz, Ablass
 
 * Text: **indulg.**  
   Annotation: [Type: Indulgentia, Value: "indulg."]
+
+---
 
 #### Label: Incorporatio
 
@@ -1014,6 +1044,8 @@ Einverleibung einer kirchlichen Institution durch eine andere
   Annotation: [Type: Incorporatio, Value: "inkorp."]
 * Text: **unio**  
   Annotation: [Type: Incorporatio, Value: "unio"]
+
+---
 
 #### Label: Introductio
 
@@ -1029,7 +1061,7 @@ Einführung in die Besitztümer einer Pfründe
   - [Type: Introductio, Value: "in possessionem"]
   - [Type: Introductio, Value: "introducat"]
 
-
+---
 #### Label: Licentia
 
 ##### Beschreibung:
@@ -1053,7 +1085,6 @@ Sondererlaubnis
 * Text: **lic.** ratione par. eccl. s. Martini, … in casu quod rect. unius ex d. eccl. fuerit excom., per alios presb. sibi sacramenta ministrari faciendi  
   Annotation: [Type: Licentia, Value: "lic."]
 
-
 #### Label: LicentiaZusatz
 
 ##### Beschreibung:
@@ -1073,6 +1104,7 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Lic
 * Text: lic. **ratione par. eccl. s. Martini, … in casu quod rect. unius ex d. eccl. fuerit excom., per alios presb. sibi sacramenta ministrari faciendi**  
   Annotation: [Type: LicentiaZusatz, Value: "ratione par. eccl. s. Martini, … in casu quod rect. unius ex d. eccl. fuerit excom., per alios presb. sibi sacramenta ministrari faciendi"]
 
+---
 
 #### Label: LitteraConservatoriaBonorum
 
@@ -1084,6 +1116,7 @@ Schutzbrief
 * Text: de **conserv.**  
   Annotation: [Type: LitteraConservatoriaBonorum, Value: "conserv."]
 
+---
 
 #### Label: LitteraPassus
 
@@ -1097,6 +1130,7 @@ Reiseerlaubnis und Schutzbrief
 * Text: **littera passus**  
   Annotation: [Type: LitteraPassus, Value: "littera passus"]
 
+---
 
 #### Label: LitteraTestimonialibus
 
@@ -1108,7 +1142,6 @@ Bescheinigung, Zeugnis
 * Text: **testimonialis litt.** vicecamerarii ad senatorem Urbis quod d. calcelarii iurisdictioni mareschalli R. cur. suppositi sint 20. febr. 1432 DC 16 183rs.  
   Annotation: [Type: LitteraTestimonialibus, Value: "testimonialis litt."]
 
-
 #### Label: LitteraTestimonialibusZusatz
 
 ##### Beschreibung:
@@ -1119,6 +1152,7 @@ Inhaltliche Beschreibung der Bescheinigung bzw. des Zeugnisses
 * Text: testimonialis litt. **vicecamerarii ad senatorem Urbis quod d. calcelarii iurisdictioni mareschalli R. cur. suppositi sint** 20. febr. 1432 DC 16 183rs.
   Annotation: [Type: LitteraTestimonialibusZusatz, Value: "vicecamerarii ad senatorem Urbis quod d. calcelarii iurisdictioni mareschalli R. cur. suppositi sint"]
 
+---
 
 #### Label: Monitorium
 
@@ -1130,6 +1164,7 @@ Ermahnung durch den Papst
 * Text: **monitorium penale**  
   Annotation: [Type: Monitorium, Value: "monitorium penale"]
 
+---
 
 #### Label: Moratorium
 
@@ -1146,6 +1181,7 @@ Zahlungsaufschub
 ##### Hinweis
 Hauptsächlich in RG 10 (?)
 
+---
 
 #### Label: Pensio
 
@@ -1159,6 +1195,7 @@ Verleihung und Modifizierung von Pensionsleistunen
 * Text: de **transl. pensionis**  
   Annotation: [Type: Pensio, Value: "transl. pensionis"]
 
+---
 
 #### Label: Prerogativa
 
@@ -1176,6 +1213,8 @@ Vorrecht, Prärogative
 
 * Text: **prerog.** pape fam. in absentia  
   Annotation: [Type: Prerogativa, Value: "prerog."]
+
+---
 
 #### Label: Prorogatio
 
@@ -1202,6 +1241,8 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Pro
 * Text: cum prorog. **term. solut. ad 1 an. propter incertitudinem taxe**  
   Annotation: [Type: ProrogatioZusatz, Value: "term. solut. ad 1 an. propter incertitudinem taxe"]
 
+---
+
 #### Label: Provisio
 
 ##### Beschreibung:
@@ -1227,6 +1268,8 @@ Bestimmungen zur Verleihung eines Benefizes
 * Text: **gr. expect.**  
   Annotation: [Type: Provisio, Value: "gr. expect."]
 
+---
+
 #### Label: Reformatio
 
 ##### Beschreibung:
@@ -1239,6 +1282,8 @@ Abänderung, Nachbesserung einer päpstlichen Gnade (?)
 * Text: **reformatio**  
   Annotation: [Type: Reformatio, Value: "reformatio"]
 
+---
+
 #### Label: Revalidatio
 
 ##### Beschreibung:
@@ -1248,6 +1293,8 @@ Erklärung der Gültigkeit einer verfallenen Gnade
 
 * Text: **reval.**  
   Annotation: [Type: Revalidatio, Value: "reval."]
+
+---
 
 #### Label: SalvusConductus
 
