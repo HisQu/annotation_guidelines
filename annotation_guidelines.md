@@ -552,7 +552,7 @@ Ein weltliches Amt ist eine offizielle Stellung oder Funktion, die eine Person i
 * Text: **burggravius**    
   Annotation: [Type: WeltlichesAmt, Value: "burggravius"]  
 * Text: **scult.**  
-  Annotation: [Type: KurialesAmt, Value: "scult."]  
+  Annotation: [Type: WeltlichesAmt, Value: "scult."]  
 
 ---
 
