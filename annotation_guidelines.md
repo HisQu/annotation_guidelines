@@ -1832,7 +1832,7 @@ unspezifizierte Objekte.
 
 ---
 
-#### Label: Ort
+#### Label: Name_Ort
 
 ##### Beschreibung:
 Namen von Städten, Dörfern und Bergen (s. Notizen unten).
@@ -1855,26 +1855,38 @@ Namen von Städten, Dörfern und Bergen (s. Notizen unten).
 
 ---
 
-#### Label: OrtImplizit
+#### Label: Kurie
 
 ##### Beschreibung:
-Implizite Ortsangaben (s. Notizen unten).
+Die Kurie ist an dem Ort, an dem der Papst ist.
 
 ##### Standard Examples:
 
 * Text: apud. **cur.**  
-  Annotation: [Type: OrtImplizit, Value: "cur."]
+  Annotation: [Type: Kurie, Value: "cur."]
 * Text: **ap. sed.**  
-  Annotation: [Type: OrtImplizit, Value: "ap. sed."]
-* Text: **Novifori** Magdeburg.  
-  Annotation: [Type: OrtImplizit, Value: "Novifori"]
+  Annotation: [Type: Kurie, Value: "ap. sed."]
 
-##### Other Examples:
+---
+#### Label: Burg
 
+##### Beschreibung:
+Ein Bauwerk, das militärischen, administrativen und herrschaftlichen Zwecken dient.
+
+##### Standard Examples:
 * Text: in **castro** Quernfort  
-  Annotation: [Type: OrtImplizit, Value: "castro"]
-* Text: **cripta**   
-  Annotation: [Type: OrtImplizit, Value: "cripta"]
+  Annotation: [Type: Burg, Value: "castro"]
+
+---
+
+#### Label: Vorstadt
+
+##### Beschreibung:
+Ein Ort außerhalb der Stadtmauern (=Vorstadt) wird im RG über die Abkürzung "e. m." ("extra muros") angegeben.
+
+##### Standard Examples:
+* Text: eccl. s. Victoris **e. m.** Magunt.
+  Annotation: [Type: Vorstadt, Value: "e. m."]
 
 ---
 
