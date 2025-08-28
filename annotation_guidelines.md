@@ -573,7 +573,7 @@ Ein weltliches Amt ist eine offizielle Stellung oder Funktion, die eine Person i
 
 * Text: **licent.**  
   Annotation: [Type: AkademischerGrad, Value: "licent."]
-* Text: **bac. in decr.**  
+* Text: **bac.** in decr.
   Annotation: [Type: AkademischerGrad, Value: "bac. in decr."]
 
 ##### Other Examples:
@@ -581,22 +581,25 @@ Ein weltliches Amt ist eine offizielle Stellung oder Funktion, die eine Person i
 * Text: **lic.**   
   Annotation: [Type: AkademischerGrad, Value: "lic."]
   * **Hinweis:** Nur selten steht lic. für das Lizenziat, i.d.R. nur in Verbindung mit einem Namen. Häufiger steht es für die päpstliche Lizenz und wird dann als Event getaggt.
-* Text: **lic. in decr.**    
-  Annotation: [Type: AkademischerGrad, Value: "lic. in decr."]
-* Text: **lic. in leg.**  
-  Annotation: [Type: AkademischerGrad, Value: "lic. in leg."]
-* Text: **lic. in iure can.**  
-  Annotation: [Type: AkademischerGrad, Value: "lic. in iure can."]
 * Text: **mag.**  
   Annotation: [Type: AkademischerGrad, Value: "mag."]
-* Text: **mag. in art.**  
-  Annotation: [Type: AkademischerGrad, Value: "mag. in art."]
-* Text: **decr. doct.**  
-  Annotation: [Type: AkademischerGrad, Value: "decr. doct."]
-* Text: **aud. gen.**  
-  Annotation: [Type: AkademischerGrad, Value: "aud. gen."]
+* Text: decr.**doct.**  
+  Annotation: [Type: AkademischerGrad, Value: "doct."]
+* Text: theol. **profes.**
+  Annotation: [Type: AkademischerGrad, Value: "profes."]
 
-* **Hinweis:** Und entsprechende Permutationen (mag. in art. / art. mag. …, utriusque iuris, theol. … Bitte ergänzen).
+---
+#### Label: Studienfach
+
+##### Standard Examples:
+* Text: mag. **in art.**  
+  Annotation: [Type: Studienfach, Value: "in art."]
+* Text: **decr.** doct. 
+  Annotation: [Type: Studienfach, Value: "decr."]
+* Text: lic. **in leg.**  
+  Annotation: [Type: Studienfach, Value: "in leg."]
+* Text: lic. **in iure can.**  
+  Annotation: [Type: Studienfach, Value: "in iure can."]
 
 ---
 
