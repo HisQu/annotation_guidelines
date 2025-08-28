@@ -23,11 +23,63 @@ Der Fettdruck kennzeichnet, welche Wörter mit dem Kategorielabel getaggt werden
 
 Jede Kategorie (Person, Vita, Event, Varia) enthält eine Liste von Labels (Unterkategorien). Für jedes Label werden "Standardbeispiele" (Standard Examples) und "Sonstige Beispiele" (Other Examples) aufgeführt. Jedes Beispiel umfasst den Kontext und das zu annotierende Textfragment, wobei das Fragment in doppelten Sternchen (`**`) eingeschlossen ist. Die erwartete Annotation wird im Format `[Type: Value]` angegeben. Bei Beispielen, die mehrere Annotationen ergeben, werden alle aufgeführt.
 
-### Kategorie: Person
+### Kategorie: Personen und Personengruppen
 
-Bei der Annotation von Personen unterscheiden wir vier Unterkategorien:
+In den Regesten erscheinen Personen sowohl explizit, d.h. namentlich genannt, als auch implizit, d.h. nicht namentlich genannt, sondern in Form von Umschreibungen.
+
+---
+
+#### Label: Person_explizit
+
+##### Beschreibung:
+Eine Person_explizit liegt immer dann vor, wenn die Person mit einem Vornamen und Namenszusatz auftritt. Gelegentlich werden Personen auch nur mit Vornamen oder nur mit Namenszusatz genannt. Das Label "Person_explizit" beinhaltet alle Namensbestandteile.
+
+##### Standard Examples:
+* Text: **Johannes de Azel**   
+  Annotation: [Type: Person_explizit, Value: "Johannes de Azel"]
+
+--- 
+
+#### Label: Person_implizit
+
+##### Beschreibung:
+Eine Person_implizit liegt vor, wenn eine einzelne Person nicht namentlich auftritt, sondern über ein Pronomen, eine Amtsbezeichnung oder eine andere als die namentliche Bezeichnung referenziert wird.
+
+##### Standard Examples:
+* Text: **eum** et successores suos in Magunt. provin.
+  Annotation: [Type: Person_implizit, Value: "eum"]
+* Text: supplic. **aep. Magunt.**
+  Annotation: [Type: Person_implizit, Value: "aep. Magunt."]
+
+---
+
+#### Label: Personengruppe
+
+##### Beschreibung:
+Eine "Personengruppe" liegt immer dann vor, wenn ein sprachlicher Ausdruck sich auf mehr als eine Person bezieht. Nicht im Label enthalten sind attributiv gebrauchte Adjektive oder Ähnliches (vgl. Standard Examples: successores suos).
+
+##### Standard Examples:
+* Text: **legatos** natos cum plena potestate
+  Annotation: [Type: Personengruppe, Value: "legatos"]
+* Text: cum **30 pers.** de confess. elig.  
+  Annotation: [Type: Personengruppe, Value: "30 pers."]
+* Text: eum et **successores** suos in Magunt. provin.
+  Annotation: [Type: Personengruppe, Value: "successores"]
+* Text: **alii**
+  Annotation: [Type: Personengruppe, Value: "alii"]
+* Text: quidem **8000 et infra** lim. eccl. s. Nicolai
+  Annotation: [Type: Personengruppe, Value: "8000 et infra"]
+* Text: **6000 parochiani**
+  Annotation: [Type: Personengruppe, Value: "6000 parochiani"]
+* Text: Proconsules et consules et **commune** op. D. Traiect. dioc.
+  Annotation: [Type: Personengruppe, Value: "commune"]
+
+---
 
 #### Label: Vorname
+
+##### Beschreibung:
+Der Vorname ist ein Namensbestandteil von fast allen explizit genannten Personen.
 
 ##### Standard Examples:
 
@@ -36,7 +88,12 @@ Bei der Annotation von Personen unterscheiden wir vier Unterkategorien:
 * Text: **Floora** relicta Magni Bootes armig.  
   Annotation: [Type: Vorname, Value: "Floora"] 
 
+---
+
 #### Label: Namenszusatz
+
+##### Beschreibung:
+Der "Namenszusatz" ist eine Sammelbezeichnung für eine Vielzahl möglicher Namensbestandteile, die auf einen "Vornamen" folgen. Sie werden gesammelt als "Namenszusatz" gelabelt. Gemeinsam mit dem "Vornamen" konstituiert der "Namenszusatz" in den allermeisten Fällen die Kategorie "Person_explizit". Achtung: Nicht als Namenszusatz gelten kirchliche Ämter (Albertus **el. Ratisp.** /Angelus **abb. mon. in Runa**), weltliche Ämter (Antonius **dux Brabantie**), Identifikation über eine andere Person (Alexander **nob. viri Semonithi ducis Masouie** natus).
 
 ##### Standard Examples:
 
@@ -57,34 +114,13 @@ Bei der Annotation von Personen unterscheiden wir vier Unterkategorien:
 * Text: castrum **das Newhaus nunc.** 
   Annotation: [Type: Namenszusatz, Value: "das Newhaus nunc."]
 
-##### Hinweis 
-Namenszusätze können sowohl für
-Explizit nicht als Namenszusatz gelten kirchliche Ämter (Albertus **el. Ratisp.** /Angelus **abb. mon. in Runa**), weltliche Ämter (Antonius **dux Brabantie**), Identifikation über eine andere Person (Alexander **nob. viri Semonithi ducis Masouie** natus).
-
-#### Label: PersonImplizit
-
-##### Standard Examples:
-
-* Text: cum **30 pers.** de confess. elig.  
-  Annotation: [Type: PersonImplizit, Value: "30 pers."]
-
-#### Label: Personengruppe
-
-##### Standard Examples:
-
-* Text: **alii**
-  Annotation: [Type: Personengruppe, Value: "alii"]
-* Text: quidem **8000 et infra** lim. eccl. s. Nicolai
-  Annotation: [Type: Personengruppe, Value: "8000 et infra"]
-* Text: **6000 parochiani**
-  Annotation: [Type: Personengruppe, Value: "6000 parochiani"]
-* Text: Proconsules et consules et **commune** op. D. Traiect. dioc.
-  Annotation: [Type: Personengruppe, Value: "commune"]
+---
 
 #### Label: Papst
 
 ##### Beschreibung:
-Die Namen der Päpste kommen auch dekliniert vor, z.B. "Bonifatio VIII" statt "Bonifatius VIII"; ebenso: "pape" statt "papa". Achtung: Nicht als Papst getaggt werden Patrozinien, die ohne die Ordinalzahl (z.B. VIII) oder den Zusatz "papa" vorkommen, z.B.: Bonifatii in dem Kontext "eccl. s. Bonifatii Halberstad.".
+
+Die Päpste sind eine besondere Ausformung der Klasse Person und werden deshalb extra getaggt. Die Namen der Päpste kommen dekliniert vor, z.B. "Bonifatio VIII" statt "Bonifatius VIII"; ebenso: "pape" statt "papa". Achtung: Nicht als Papst getaggt werden Patrozinien, die ohne die Ordinalzahl (z.B. VIII) oder den Zusatz "papa" vorkommen, z.B.: Bonifatii in dem Kontext "eccl. s. Bonifatii Halberstad.".
 
 ##### Standard Examples:
 
@@ -95,6 +131,7 @@ Die Namen der Päpste kommen auch dekliniert vor, z.B. "Bonifatio VIII" statt "B
   * **Häufigkeit:** 480x in den Bänden 1-9, pape: 5307x in den Bänden 1-9.
 * Text: **Bonifatio VIII papa**  
   Annotation: [Type: Papst, Value: "Bonifatio VIII papa"]
+
 
 ### Kategorie: Vita
 
@@ -520,7 +557,7 @@ Weitere Informationen zur Person, z.B. in Form von längeren Relativsätzen.
 #### Label: Orden
 
 ##### Beschreibung: 
-Religiöse Ordensgemeinschaften
+Ausdruck der Zugehörigkeit zu einer religiösen Ordensgemeinschaft
 
 ##### Standard Examples:
 
