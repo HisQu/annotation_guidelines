@@ -650,9 +650,9 @@ Ausdruck der Zugehörigkeit zu einer religiösen Ordensgemeinschaft
 
 ### Kategorie: Event
 
-* **Hinweis:** Die Kategorie Event zerfällt in die zwei Unterkategorien "Gnadenerweise/Indulta/Gratiae" und “EventNichtPapst”. Die Unterkategorie "Gnadenerweise" umfasst alle Labels von "Abolitio" bis einschließlich "UndefinierteGnade" und bezieht sich auf Handlungen, die vom Papst ausgehen (i.e. Gnaden, die vom Papst gewährt werden). Die Labels der Unterkategorie "EventNichtPapst" beziehen sich auf Handlungen des Petenten oder einer anderen Person, die im Regest auftritt. Zu einem späteren Zeitpunkt, wenn wir mehr Daten ausgewertet haben, könnte es sinnvoll sein, die Labels der Unterkategorie "Gnadenerweise/Indulta/Gratiae" nach kirchenrechtlichen (oder anderen) Kriterien zu gruppieren und ggf. weiter zu unterteilen (z.B. disp. de def. nat.; disp. de def. et. ...).
+---
 
-### Event: Gnadenerweise/Indult/Gratiae
+### Event: Gnadenerweis
 
 #### Label: Abolitio
 
@@ -1306,12 +1306,143 @@ Gnaden, die nicht explizit den Begriff der gewährten Gnade – Abolitio, Absolu
 * Text: de **pont. insign.**  
   Annotation: [Type: UndefinierteGnade, Value: "pont. insign."]
 
-### Event: EventNichtPapst
+---
+### Event: Zahlungsverpflichtung
 
-#### Label: EventNichtPapst
+#### Label: Zahlungsverpflichtung
 
 ##### Beschreibung:
-Handlungen, die von einer anderen Person als dem Papst bzw. von nicht-Personen ausgehen. Hier ist keine vollständige Liste möglich.
+Angaben zu einer Zahlungsverpflichtung.
+
+##### Standard Examples:
+
+* Text: **oblig.**    
+  Annotation: [Type: Zahlungsverpflichtung, Value: "oblig."] 
+
+---
+
+### Event: Geldzahlung
+
+#### Label: Geldzahlung
+
+##### Beschreibung:
+Angaben zu einer Geldzahlung.
+
+##### Standard Examples:
+
+* Text: **solv.**    
+  Annotation: [Type: Geldzahlung, Value: "solv."] 
+
+---
+
+### Event: Gerichtsprozess
+
+#### Label: Gerichtsprozess
+
+##### Beschreibung:
+Angaben zu einem Gerichtsprozess.
+
+##### Standard Examples:
+
+* Text: **litig.**  
+  Annotation: [Type: Gerichtsprozess, Value: "litig."]
+* Text: **constit. iudices appellat.**    
+  Annotation: [Type: Gerichtsprozess, Value: "constit. iudices appellat."]
+
+---
+
+### Event: Treueschwur
+
+#### Label: Treueschwur
+
+##### Beschreibung:
+Angaben zu einem Treueschwur.
+
+##### Standard Examples:
+* Text: **iuram. fidel.**    
+  Annotation: [Type: Treueschwur, Value: "iuram. fidel."]
+
+---
+
+### Event: Tod
+
+#### Label: Tod
+
+##### Beschreibung:
+Angaben zum Tod einer Person.
+
+##### Standard Examples:
+* Text: vac. p. **o.**    
+  Annotation: [Type: Tod, Value: "o."]
+* Text: **defuncti**    
+  Annotation: [Type: Tod, Value: "defuncti"]
+* Text: **mori**   
+  Annotation: [Type: Tod, Value: "o."]
+* Text: **quond.**    
+  Annotation: [Type: Tod, Value: "quond."]
+
+---
+
+### Event: Weihe
+
+#### Label: Weihe
+
+##### Beschreibung:
+Angaben zum Weihempfang.
+
+##### Standard Examples:
+* Text: **prom.**  
+  Annotation: [Type: Weihe, Value: "prom."]
+
+---
+
+### Event: Resignation
+
+#### Label: Resignation
+
+##### Beschreibung:
+Angaben zur Aufgabe einer Pfründe.
+
+##### Standard Examples:
+* Text: **resign.**  
+  Annotation: [Type: Resignation, Value: "resign."]
+
+---
+
+### Event: Entsendung
+
+#### Label: Entsendung
+
+##### Beschreibung:
+Jemand beauftragt eine Person, irgendwohin zu gehen.
+  
+##### Standard Examples:
+* Text: **destin.**    
+  Annotation: [Type: Entsendung, Value: "destin."]
+
+---
+### Event: ErlangungPfründe
+
+#### Label: ErlangungPfründe
+
+##### Beschreibung:
+Angaben zur Erlangung einer Pfründe (assec. est); nicht identisch mit dem Gnadenerweis der bloßen Provision einer Pfründe.
+
+##### Standard Examples:
+* Text: **assec. est**  
+  Annotation: [Type: ErlangungPfründe, Value: "assec. est"]
+* Text: **indebite assec. fuit**  
+  Annotation: [Type: ErlangungPfründe, Value: "indebite assec. fuit"]
+
+---
+
+### Kategorie: Varia
+
+---
+#### Label: Vakanzgrund
+
+##### Beschreibung:
+Gründe, die für die Vakanz einer Pfründe gegeben werden.
 
 ##### Standard Examples:
 
@@ -1343,28 +1474,8 @@ Handlungen, die von einer anderen Person als dem Papst bzw. von nicht-Personen a
   Annotation: [Type: EventNichtPapst, Value: "vac. p. contract. matrim."]
 * Text: **vac. ex eo quod** …  
   Annotation: [Type: EventNichtPapst, Value: "vac. ex eo quod"]
-* Text: **prom.**  
-  Annotation: [Type: EventNichtPapst, Value: "prom."]
-* Text: **resign.**  
-  Annotation: [Type: EventNichtPapst, Value: "resign."]
-* Text: **litig.**  
-  Annotation: [Type: EventNichtPapst, Value: "litig."]
-* Text: **indebite assec. fuit**  
-  Annotation: [Type: EventNichtPapst, Value: "indebite assec. fuit"]
-* Text: **destin.**    
-  Annotation: [Type: EventNichtPapst, Value: "destin."]
-* Text: **solv.**    
-  Annotation: [Type: EventNichtPapst, Value: "solv."]  
-* Text: **iuram. fidel.**    
-  Annotation: [Type: EventNichtPapst, Value: "iuram. fidel."]
-* Text: **constit. iudices appellat.**    
-  Annotation: [Type: EventNichtPapst, Value: "constit. iudices appellat."]
-* Text: **quond.**    
-  Annotation: [Type: EventNichtPapst, Value: "quond."]     
 
-* **Hinweis:** Achtung: Erstmal nur Groberfassung, z.B. de qua **litig.**
-
-### Kategorie: Varia
+---
 
 #### Label: Verwaltungseinheit
 
