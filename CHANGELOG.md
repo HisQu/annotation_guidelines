@@ -1,3 +1,7 @@
+## v0.15.0 (2025-09-01)
+### Update annotation_guidelines.md
+  - Familiar Akteur
+  
 ## v0.14.1 (2025-08-28)
 ### Update annotation_guidelines.md
   Expeditionsmodalität: gratis + rationi congruit
