@@ -137,6 +137,22 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
 
 ### Kategorie: Akteur
 
+#### Label: Familiar
+
+##### Standard Examples:
+
+* Text: **fam.** Antonii ep. Portuen. card.  
+  Annotation: [Type: Familiar, Value: "fam."]
+* Text: **acolit.** pape  
+  Annotation: [Type: Familiar, Value: "acolit."]
+
+##### Other Examples:
+
+* Text: **parafrenarius** pape  
+  Annotation: [Type: Familiar, Value: "parafrenarius pape"]
+* Text: **(unknown)** pape
+  Annotation: [Type: Familiar, Value: "(unknown)"]
+  * **Hinweis:** Neben den oben genannten Beispielen "acolit. pape" und "parafrenarius pape" kann es noch weitere Ämter geben, die im direkten Umfeld des Papstes ausgeübt werden. Diese kirchlichen Ämter, die im Regest durch die direkte Nähe zum Wort "pape" gekennzeichnet sind, werden hier durch den Platzhalter (unknown) bezeichnet. Dieser Platzhalter soll ebenfalls das Label "Familiar" bekommen. Wieder entfernt aus der Kategorie "Familiar" haben wir Fälle wie "cap. ap. sed." oder "script. litt. ap.", da es sich bei ihnen zwar um Bedienstete der Kurie,  nicht aber zwangsläufig um Familiare handelt.
 ---
 #### Label: Prozessvorsteher
 
@@ -207,25 +223,6 @@ In den Regesten wird für viele Personen eine "Familienbeziehung" angegeben. Die
   * **Hinweis:** (unknown) steht hier als Platzhalter für den Namen des Vaters, z.B. "Bernhardus natus Johannis Berlin", wobei Johannes Berlin der Vater von Bernhardus ist. Oder: "Alexander nob. viri Semonithi ducis Masouie natus", wobei Semonithus der Vater des Alexander ist.
 * Text: **consanguineus**  
   Annotation: [Type: Verwandtschaft, Value: "consanguineus"]
-
----
-
-#### Label: Familiar
-
-##### Standard Examples:
-
-* Text: **fam.** Antonii ep. Portuen. card.  
-  Annotation: [Type: Familiar, Value: "fam."]
-* Text: **acolit.** pape  
-  Annotation: [Type: Familiar, Value: "acolit."]
-
-##### Other Examples:
-
-* Text: **parafrenarius** pape  
-  Annotation: [Type: Familiar, Value: "parafrenarius pape"]
-* Text: **(unknown)** pape
-  Annotation: [Type: Familiar, Value: "(unknown)"]
-  * **Hinweis:** Neben den oben genannten Beispielen "acolit. pape" und "parafrenarius pape" kann es noch weitere Ämter geben, die im direkten Umfeld des Papstes ausgeübt werden. Diese kirchlichen Ämter, die im Regest durch die direkte Nähe zum Wort "pape" gekennzeichnet sind, werden hier durch den Platzhalter (unknown) bezeichnet. Dieser Platzhalter soll ebenfalls das Label "Familiar" bekommen. Wieder entfernt aus der Kategorie "Familiar" haben wir Fälle wie "cap. ap. sed." oder "script. litt. ap.", da es sich bei ihnen zwar um Bedienstete der Kurie,  nicht aber zwangsläufig um Familiare handelt.
 
 ---
 
