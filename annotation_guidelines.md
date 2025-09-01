@@ -137,21 +137,50 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
 
 ### Kategorie: Akteur
 
-#### Label: Familiar
+---
+
+#### Label: ArmePersonMarker
+
+##### Standard Examples:
+
+* Text: **gratis pro deo**
+  Annotation: [Type: ArmePersonMarker, Value: "gratis pro deo"]
+  
+---
+
+#### Label: DelegierterRichterMarker
+
+##### Standard Examples:
+
+* Text: **iudex delegatus**
+  Annotation: [Type: DelegierterRichterMarker, Value: "iudex delegatus"]
+
+---
+
+#### Label: ExekutorMarker
+
+##### Standard Examples: executor
+
+* Text: **executor**
+  Annotation: [Type: ExekutorMarker, Value: "executor"]
+
+---
+
+#### Label: FamiliarMarker
 
 ##### Standard Examples:
 
 * Text: **fam.** Antonii ep. Portuen. card.  
-  Annotation: [Type: Familiar, Value: "fam."]
+  Annotation: [Type: FamiliarMarker, Value: "fam."]
 * Text: **acolit.** pape  
-  Annotation: [Type: Familiar, Value: "acolit."]
+  Annotation: [Type: FamiliarMarker, Value: "acolit."]
 
 ##### Other Examples:
 
 * Text: **parafrenarius** pape  
-  Annotation: [Type: Familiar, Value: "parafrenarius pape"]
+  Annotation: [Type: FamiliarMarker, Value: "parafrenarius pape"]
 * Text: **(unknown)** pape
-  Annotation: [Type: Familiar, Value: "(unknown)"]
+  Annotation: [Type: FamiliarMarker, Value: "(unknown)"]
   * **Hinweis:** Neben den oben genannten Beispielen "acolit. pape" und "parafrenarius pape" kann es noch weitere Ämter geben, die im direkten Umfeld des Papstes ausgeübt werden. Diese kirchlichen Ämter, die im Regest durch die direkte Nähe zum Wort "pape" gekennzeichnet sind, werden hier durch den Platzhalter (unknown) bezeichnet. Dieser Platzhalter soll ebenfalls das Label "Familiar" bekommen. Wieder entfernt aus der Kategorie "Familiar" haben wir Fälle wie "cap. ap. sed." oder "script. litt. ap.", da es sich bei ihnen zwar um Bedienstete der Kurie,  nicht aber zwangsläufig um Familiare handelt.
 ---
 #### Label: Prozessvorsteher
