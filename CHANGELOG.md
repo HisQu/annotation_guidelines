@@ -1,3 +1,7 @@
+## v0.16.0 (2025-09-02)
+### Update annotation_guidelines.md
+  - Auffüllen der Kategorie Akteur (noch nicht vollständig)
+  
 ## v0.15.0 (2025-09-01)
 ### Update annotation_guidelines.md
   - Familiar Akteur
