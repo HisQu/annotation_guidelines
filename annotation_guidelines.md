@@ -139,6 +139,14 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
 
 ---
 
+#### Label: Anhänger
+
+##### Standard Examples:
+* Text: **adher.**  
+  Annotation: [Type: Anhänger, Value: "adher."]
+
+---
+
 #### Label: ArmePersonMarker
 
 ##### Standard Examples:
@@ -182,7 +190,68 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
 * Text: **(unknown)** pape
   Annotation: [Type: FamiliarMarker, Value: "(unknown)"]
   * **Hinweis:** Neben den oben genannten Beispielen "acolit. pape" und "parafrenarius pape" kann es noch weitere Ämter geben, die im direkten Umfeld des Papstes ausgeübt werden. Diese kirchlichen Ämter, die im Regest durch die direkte Nähe zum Wort "pape" gekennzeichnet sind, werden hier durch den Platzhalter (unknown) bezeichnet. Dieser Platzhalter soll ebenfalls das Label "Familiar" bekommen. Wieder entfernt aus der Kategorie "Familiar" haben wir Fälle wie "cap. ap. sed." oder "script. litt. ap.", da es sich bei ihnen zwar um Bedienstete der Kurie,  nicht aber zwangsläufig um Familiare handelt.
+
 ---
+
+#### Label: FürsprecherMarker
+
+##### Standard Examples: supplic. Johanne ep. Gurc.
+
+* Text: **supplic.** Johanne ep. Gurc.
+  Annotation: [Type: FürsprecherMarker, Value: "supplic."]
+
+---
+
+#### Label: KollatorMarker
+
+##### Standard Examples:
+
+* Text: ad **coll.** epp.  
+  Annotation: [Type: KollaturMarker, Value: "coll."]
+* Text: **mutatio coll.**  
+  Annotation: [Type: KollaturMarker, Value: "mutatio coll."]
+
+---
+
+#### Label: KollektorMarker
+
+##### Standard Examples:
+
+* Text: Gotfridi Bochorn **collect.**
+  Annotation: [Type: KollektorMarker, Value: "collect."]
+
+---
+
+#### Label: ObligationsbeauftragterMarker
+
+##### Standard Examples:
+
+* Text: **o.s.a.** per Johannem Scade procuratorem causarum in Romana curia
+  Annotation: [Type: ObligationsbeauftragterMarker, Value: "o.s.a."]
+
+---
+
+#### Label: PatronMarker
+
+##### Standard Examples:
+
+* Text: **patron.**
+  Annotation: [Type: PatronMarker, Value: "patron."]
+
+---
+
+#### Label: PetentMarker
+
+##### Beschreibung: 
+Immer wenn die Fundstelle das Suppilkenregister (S) ist(?), dann ist die am Anfang des Regestes genannte Person mit dem Label „Petent“ zu kennzeichnen. 
+
+##### Standard Examples:
+
+* Text: Adolphus (Adolfus) de Breithart (Breyt(h)art, Brenchart) rect. par. eccl. in Heydesheym (Beydesheym) Wormat. dioc. , Adolphi el. et conf. <aep.> Magunt. prothonot. < primus not. > de disp. ut unac. d. par. eccl. aliud incompat. benef. recip. valeat dummodo 2 par. eccl. n. sint 3. mart. 1465 **S** 579 228vs, L 605 5rs. 
+  Annotation: [Type: PetentMarker, Value: "S"]
+
+---
+
 #### Label: Prozessvorsteher
 
 ##### Beschreibung: 
@@ -196,21 +265,57 @@ Eine Person, meist ein Richter, der einem Gerichtsprozess vorsteht.
   Annotation: [Type: Prozessvorsteher, Value: "iudex"]
 
 ---
-#### Label: Kollator
+
+#### Label: StudentMarker
 
 ##### Standard Examples:
 
-* Text: ad **coll.** epp.  
-  Annotation: [Type: Kollatur, Value: "coll."]
-* Text: **mutatio coll.**  
-  Annotation: [Type: Kollatur, Value: "mutatio coll."]
+* Text: Albertus Milinchus cler. Colon. in alma Urbe in iure can. **studens**: ref. disp. sup. incompat. 5 mart. 1428 S 222 203v.
+  Annotation: [Type: StudentMarker, Value: "studens"]
+* Text: Adolffus de Nassauw **scol.** Trever. de disp. sup. def. nat. ( com. s., c. ) 15. mai. 1434 S 301 235vs. 
+  Annotation: [Type: StudentMarker, Value: "scol."]
 
 ---
-#### Label: Anhänger
+
+#### Label: SubkollektorMarker
 
 ##### Standard Examples:
-* Text: **adher.**  
-  Annotation: [Type: Anhänger, Value: "adher."]
+
+* Text: Erhardus Naseloys iuram. fidel. ratione off. **subcollectorie** in dioc. Constant. 18 mart. 1413 M 60.
+  Annotation: [Type: SubkollektorMarker, Value: "subcollectorie"]
+* Text: Johannes Kramer presb. Constant. dioc. de par. eccl. in Ynik Salzeburg. dioc. vac. per ob. Ottonis de Obenstetten in Ratisbon. et Salzeburg. dioc. fructuum camere ap. **subcollectoris** S 68 135 v.
+  Annotation: [Type: SubkollektorMarker, Value: "subcollectoris"]
+
+---
+
+#### Label: TischgenosseMarker
+
+##### Standard Examples:
+
+* Text: Adrianus Martini de Breda Leod. dioc. fam. **commensalis** Dominici [de Capranica] s. Marie in via lata diac. card.: prov. de benef. Leod. dioc. 26. sept. 1441 ( exped. 17. oct. 41) L 383 190r–191v.
+  Annotation: [Type: TischgenosseMarker, Value: "commensalis"]
+
+---
+
+#### Label: ZahlungsbeauftragterMarker
+
+##### Standard Examples:
+
+* Text: Adam Foyllen (Folen) de Yrmetrode oblig. sup. annat. ( **p.** mag. Henricum Erkel d. Hesse cant. eccl. s. Petri Magunt. ) par. eccl. in Wiilre Trever. dioc. vac. p. o. Sifridi de Westerburch 5 iun. 1426 A 2 166r.
+Annotation: [Type: ZahlungsbeauftragterMarker, Value: "p."]
+* Text: Abraham Johannis de lasothky can. Cracov. de nob. gen. ann. preb. eccl. Lancicien . Gneznen. dioc. **p. manus** Prothasii de Tabernis (19 fl. auri de cam. ) 6. oct. 1449 IE 416 35r, IE 417 35r, IE 418 36r, DG 1756 16v.
+Annotation: [Type: ZahlungsbeauftragterMarker, Value: "p. manus"]
+
+---
+
+#### Label: ZeugeMarker
+
+##### Standard Examples:
+
+* Text: Adolphus filius ducis Cleven. **testis** 21. febr. 1440 DC 20 141r.
+Annotation: [Type: ZeugeMarker, Value: "testis"]
+* Text: Jacobus Nedermolen cler. Colon. dioc. **testis** super quadam oblig. 28 iul. 1409 M 8.
+Annotation: [Type: ZeugeMarker, Value: "testis"]
 
 ---
   
