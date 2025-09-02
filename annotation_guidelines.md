@@ -329,34 +329,34 @@ In den Regesten wird für viele Personen eine "Familienbeziehung" angegeben. Die
 ##### Standard Examples:
 
 * Text: Albertus de Smolsco presb. Wladislav. dioc. **nepos** aep. Gneznen.  
-  Annotation: [Type: Verwandtschaft, Value: "nepos"]
+  Annotation: [Type: Familienbeziehung, Value: "nepos"]
   * **Häufigkeit:** 403x in den Bänden 1-9
 * Text: **ux.**  
-  Annotation: [Type: Verwandtschaft, Value: "ux."]
+  Annotation: [Type: Familienbeziehung, Value: "ux."]
   * **Häufigkeit:** 1878x in den Bänden 1-2 und 5-9
 * Text: **genitor**  
-  Annotation: [Type: Verwandtschaft, Value: "genitor"]
+  Annotation: [Type: Familienbeziehung, Value: "genitor"]
 
 ##### Other Examples:
 
 * Text: **uxor**  
-  Annotation: [Type: Verwandtschaft, Value: "uxor"]
+  Annotation: [Type: Familienbeziehung, Value: "uxor"]
   * **Häufigkeit:** 936x in den Bänden 1-5 und 9
 * Text: **filius**  
-  Annotation: [Type: Verwandtschaft, Value: "filius"]
+  Annotation: [Type: Familienbeziehung, Value: "filius"]
 * Text: **filia**  
-  Annotation: [Type: Verwandtschaft, Value: "filia"]
+  Annotation: [Type: Familienbeziehung, Value: "filia"]
 * Text: **pater**  
-  Annotation: [Type: Verwandtschaft, Value: "pater"]
+  Annotation: [Type: Familienbeziehung, Value: "pater"]
 * Text: **frater**  
-  Annotation: [Type: Verwandtschaft, Value: "frater"]
+  Annotation: [Type: Familienbeziehung, Value: "frater"]
 * Text: **relicta**  
-  Annotation: [Type: Verwandtschaft, Value: "relicta"]
+  Annotation: [Type: Familienbeziehung, Value: "relicta"]
 * Text: (unknown) **natus** (unknown)
-  Annotation: [Type: Verwandtschaft, Value: "natus"]
+  Annotation: [Type: Familienbeziehung, Value: "natus"]
   * **Hinweis:** (unknown) steht hier als Platzhalter für den Namen des Vaters, z.B. "Bernhardus natus Johannis Berlin", wobei Johannes Berlin der Vater von Bernhardus ist. Oder: "Alexander nob. viri Semonithi ducis Masouie natus", wobei Semonithus der Vater des Alexander ist.
 * Text: **consanguineus**  
-  Annotation: [Type: Verwandtschaft, Value: "consanguineus"]
+  Annotation: [Type: Familienbeziehung, Value: "consanguineus"]
 
 ---
 
