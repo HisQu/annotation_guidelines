@@ -776,11 +776,10 @@ Ausdruck der Zugehörigkeit zu einer religiösen Ordensgemeinschaft
 
 ### Kategorie: Event
 
----
 
 ### Gnadenerweis
 
----
+Hinweis: Die Unterklassen der Kategorie Gnadenerweis werden kontinuerlich weiterentwickelt. Insbesondere die Labels mit "_Zusatz" sind nur Hilfskonstrukte, bis wir die Unterarten der jeweiligen Gnade präziser ausgearbeitet haben. In Zukunft werden alle Gnadenerweise einheitlich mit deutschsprachigen Labels erscheinen.
 
 #### Label: Abolitio
 
@@ -863,7 +862,8 @@ Verstärkung einer Strafe
 
 #### Label: Alternativa_Facultas
 
-##### Beschreibung: "Fakultät für Bischöfe zur alternierenden Besetzung von Pfründen" (Bearbeitungshinweise, S. 67)
+##### Beschreibung: 
+"Fakultät für Bischöfe zur alternierenden Besetzung von Pfründen" (Bearbeitungshinweise, S. 67)
 
 ##### Standard Examples: 
 
@@ -874,7 +874,8 @@ Verstärkung einer Strafe
 
 #### Label: Antelatio
 
-##### Beschreibung: "Eine weitere Möglichkeit, sich gegenüber Konkurrenten eine Vorrangstellung zu verschaffen, wird durch die „antelatio“ geschaffen, die der Bevorzugung durch „prerogatio“ gleicht." (Bearbeitungshinweise, S. 66)
+##### Beschreibung: 
+"Eine weitere Möglichkeit, sich gegenüber Konkurrenten eine Vorrangstellung zu verschaffen, wird durch die „antelatio“ geschaffen, die der Bevorzugung durch „prerogatio“ gleicht." (Bearbeitungshinweise, S. 66)
 
 ##### Standard Examples: 
 
@@ -884,7 +885,8 @@ Verstärkung einer Strafe
 
 #### Label: Beichtprivileg
 
-##### Beschreibung: Erlaubnis, sich seinen Beichtvater selbst zu wählen; entgegen dem Pfarrzwang.
+##### Beschreibung: 
+Erlaubnis, sich seinen Beichtvater selbst zu wählen; entgegen dem Pfarrzwang.
 
 ##### Standard Examples:
 * Text: gratia de **confess. elig.**  
@@ -892,7 +894,19 @@ Verstärkung einer Strafe
 * Text: de **confess. elig.**  
   Annotation: [Type: Beichtprivileg, Value: "confess. elig."]
 
-  
+
+
+#### Label: Butterbrief
+
+##### Beschreibung: 
+Dispens von Fastenvorschriften.
+
+##### Standard Examples: 
+
+* Text: m. disp. ut **lacticiniis vesci** val.    
+  Annotation: [Type: Butterbrief, Value: "lacticiniis vesci"]
+
+
 
 #### Label: Cassatio
 
@@ -923,7 +937,8 @@ Kennzeichnung des Gnadeninhalts der Cassatio. Der gesamte Gnadeninhalt wird mit 
 
 #### Label: Collatio
 
-##### Beschreibung: Ist die Besetzung einer Pfründe.
+##### Beschreibung: 
+Ist die Besetzung einer Pfründe.
 
 ##### Standard Examples: 
 
@@ -969,7 +984,8 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Con
 
 #### Label: de_advoc
 
-##### Beschreibung: Die Verteidigung vor Gericht übernehmen.
+##### Beschreibung: 
+Die Verteidigung vor Gericht übernehmen.
 
 ##### Standard Examples: 
 
@@ -980,7 +996,8 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Con
 
 #### Label: de_benef.
 
-##### Beschreibung: Gnadenerweis mit Benefizialthematik.
+##### Beschreibung: 
+Gnadenerweis mit Benefizialthematik.
 
 ##### Standard Examples: 
 
@@ -1016,7 +1033,8 @@ Erklärung
 
 #### Label: Declaratio_Litteras_Perinde_Valere
 
-##### Beschreibung: Nachbesserung einer Supplik
+##### Beschreibung: 
+Nachbesserung einer Supplik
 
 
 ##### Standard Examples: 
@@ -1028,7 +1046,8 @@ Erklärung
 
 #### Label: de_fruct._percip.
 
-##### Beschreibung: Gnadenerweis mit Benefizialthematik.
+##### Beschreibung: 
+Gnadenerweis mit Benefizialthematik.
 
 ##### Standard Examples: 
 
@@ -1041,11 +1060,12 @@ Erklärung
 
 #### Label: de_loco_interdicto
 
-##### Beschreibung: Erlaubnis, trotz Interdikts u.a. die Messe feiern zu dürfen.
+##### Beschreibung: 
+Erlaubnis, trotz Interdikts u.a. die Messe feiern zu dürfen.
 
 ##### Standard Examples: 
 
-* Text: de **locis interdictis**  
+* Text: de **locis interdictis**    
   Annotation: [Type: de_loco_interdicto, Value: "locis interdictis"]
 
 
@@ -1053,11 +1073,12 @@ Erklärung
 
 #### Label: de_n._prom.
 
-##### Beschreibung: Erlaubnis, eine eigentlich notwendige Weihe aufschieben zu dürfen, z.B. wegen eines Studiums.
+##### Beschreibung: 
+Erlaubnis, eine eigentlich notwendige Weihe aufschieben zu dürfen, z.B. wegen eines Studiums.
 
 ##### Standard Examples: 
 
-* Text: de **n. prom.** ad 7 an.
+* Text: de **n. prom.** ad 7 an.  
   Annotation: [Type: de_n._prom., Value: "n. prom."]
 
 
@@ -1065,24 +1086,26 @@ Erklärung
 
 #### Label: de_n._resid.
 
-##### Beschreibung: Erlaubnis, nicht am Ort seines Benefizes wohnhaft sein zu müssen; entgegen der Anwesenheitspflicht.
+##### Beschreibung: 
+Erlaubnis, nicht am Ort seines Benefizes wohnhaft sein zu müssen; entgegen der Anwesenheitspflicht.
 
 ##### Standard Examples: 
 
-* Text: **n. resid.** ad quinquennium   
+* Text: **n. resid.** ad quinquennium    
   Annotation: [Type: de_n._resid., Value: "n. resid."]
 
 
 
 
-#### Label: de_prom_ad_ord_extra_temp
+#### Label: de_prom._ad_ord._extra_temp.
 
-##### Beschreibung: Erlaubnis, die höheren Weihen schneller als kanonisch vorgesehen empfangen zu dürfen.
+##### Beschreibung: 
+Erlaubnis, die höheren Weihen schneller als kanonisch vorgesehen empfangen zu dürfen.
 
 ##### Standard Examples: 
 
-* Text:  de lic. recip. ord. in curia **extra temp.**   
-  Annotation: [Type: de_prom_ad_ord_extra_temp, Value: "extra temp."]
+* Text:  de lic. recip. ord. in curia **extra temp.**    
+  Annotation: [Type: de_prom._ad_ord._extra_temp., Value: "extra temp."]
 
 
 
@@ -1090,131 +1113,145 @@ Erklärung
 #### Label: de_visitatione_et_reformatione
 
 ##### Beschreibung: 
+Besuch und Reform eines Klosters.
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: de_visitatione_et_reformatione, Value: ""]
+* Text: de fac. **visitandi et reformandi** mon. exempta   
+  Annotation: [Type: de_visitatione_et_reformatione, Value: "visitandi et reformandi"]
 
----
+
 
 #### Label: Derogatio
 
 ##### Beschreibung: 
-Klauseln, die andere Regelungen / Tatsachen außer Kraft setzen; vgl. das Label NonObstantien.
+Klauseln, die andere Regelungen / Tatsachen außer Kraft setzen; vgl. das Label Non_Obstantien.
 
 ##### Standard Examples:
 
-* Text: de **derog.**  
+* Text: de **derog.**    
   Annotation: [Type: Derogatio, Value: "derog."]
-* Text: c. **derog.**  
+* Text: c. **derog.**    
   Annotation: [Type: Derogatio, Value: "derog."]
 
-#### Label: DerogatioZusatz
+#### Label: Derogatio_Zusatz
 
 ##### Beschreibung:
 Kennzeichnung des Gnadeninhalts der Derogatio. Der gesamte Gnadeninhalt wird mit dem Label DerogatioZusatz getaggt, nicht aber die Gnade derog. selbst.
 
 ##### Standard Examples:
 
-* Text: c. derog. **statut. d. eccl. quod nullus nisi can. actu prebend. et capitul. inibi dign. assequi val.** 6. decb. 1437 S 342 193v.
-  Annotation: [Type: DerogatioZusatz, Value: "statut. d. eccl. quod nullus nisi can. actu prebend. et capitul. inibi dign. assequi val."]
+* Text: c. derog. **statut. d. eccl. quod nullus nisi can. actu prebend. et capitul. inibi dign. assequi val.** 6. decb. 1437 S 342 193v.  
+  Annotation: [Type: Derogatio_Zusatz, Value: "statut. d. eccl. quod nullus nisi can. actu prebend. et capitul. inibi dign. assequi val."]
 
 ##### Other Examples:
 
-* Text: de derog. **antelationum quibusdam aliis prerog. curialium habentibus in concil. Basil. existentibus conc. ratione gr. expect. sue** s.d. 24. apr. 31 20. decb. 1436 S 329 239rs.
-  Annotation: [Type: DerogatioZusatz, Value: "antelationum quibusdam aliis prerog. curialium habentibus in concil. Basil. existentibus conc. ratione gr. expect. sue"]
-* Text: c. derog. **statutis eccl. s. Petri de optando** 18. aug. 1463 S 566 89r, L 582 63v-65r.
-  Annotation: [Type: DerogatioZusatz, Value: "statutis eccl. s. Petri de optando"]
+* Text: de derog. **antelationum quibusdam aliis prerog. curialium habentibus in concil. Basil. existentibus conc. ratione gr. expect. sue** s.d. 24. apr. 31 20. decb. 1436 S 329 239rs.  
+  Annotation: [Type: Derogatio_Zusatz, Value: "antelationum quibusdam aliis prerog. curialium habentibus in concil. Basil. existentibus conc. ratione gr. expect. sue"]
+* Text: c. derog. **statutis eccl. s. Petri de optando** 18. aug. 1463 S 566 89r, L 582 63v-65r.  
+  Annotation: [Type: Derogatio_Zusatz, Value: "statutis eccl. s. Petri de optando"]
 
----
+
 
 #### Label: Dispensatio
 
 ##### Beschreibung:
-Befreiung, Außerkraftsetzung kirchlicher Gesetze
+Befreiung, Außerkraftsetzung kirchlicher Gesetze. Hinweis: Dieses Label soll nur dann vergeben werden, wenn eine andere als die hiernach folgendenen Unterarten der Dispense auftaucht. Die Unterarten werden sukkzessive von uns aufgefüllt.
 
 ##### Standard Examples:
 
-* Text: **disp.**  
+* Text: **disp.**    
   Annotation: [Type: Dispensatio, Value: "disp."]
 
-##### Other Examples:
 
-* Text: **disp.** sup. def. nat.  
-  Annotation: [Type: Dispensatio, Value: "disp."]
-* Text: **disp.** super def. etat. et super prom. ad sacr. ord.  
-  Annotation: [Type: Dispensatio, Value: "disp."]
-* Text: de **disp.** ut d. Theordericus d. prepos. unac. alio benef. recip. valeat    
-  Annotation: [Type: Dispensatio, Value: "disp."]
 
-#### Label: DispensatioZusatz
+#### Label: dispensatio_alia_beneficia
 
 ##### Beschreibung:
-Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label DispensatioZusatz getaggt, nicht aber die Gnade disp. selbst.
+Dispens für den Erhalt mehrerer Benefizien.
 
 ##### Standard Examples:
 
-* Text: disp. **sup. def. nat.**  
-  Annotation: [Type: DispensatioZusatz, Value: "sup. def. nat."]
-* Text: disp. **super def. etat. et super prom. ad sacr. ord.**  
-  Annotation: [Type: DispensatioZusatz, Value: "super def. etat. et super prom. ad sacr. ord."]
-* Text: de disp. **ut d. Theordericus d. prepos. unac. alio benef. recip. valeat**   
-  Annotation: [Type: DispensatioZusatz, Value: "ut d. Theordericus d. prepos. unac. alio benef. recip. valeat"]
+* Text: de disp. ut d. Theordericus d. prepos. unac. **alio benef.** recip. valeat    
+  Annotation: [Type: dispensatio_alia_beneficia, Value: "alio benef."]
+* Text: de **uberiori** disp.  
+  Annotation: [Type: dispensatio_alia_beneficia, Value: "uberiori"]
 
-##### Other Examples:
 
-* Text: n.o. **def. nat. (p.s.)**
-  Annotation: [Type: DispensatioZusatz, Value: "def. nat. (p.s.)"]
-* Text: de **uberiori** disp.
-  Annotation: [Type: DispensatioZusatz, Value: "uberiori"]
 
-#### Label: DispensatioAdIncompatibiliaBeneficia
+#### Label: dispensatio_ad_incompatibilia_beneficia
 
 ##### Beschreibung: 
+Dispens für den Erhalt mehrerer inkompatibler Benefizien.
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: ad aliud benef. **incompat.**      
+  Annotation: [Type: dispensatio_ad_incompatibilia_beneficia, Value: "incompat."]
 
-#### Label: DispensatioSuperDefNat
+
+
+#### Label: dispensatio_super_def._nat.
 
 ##### Beschreibung: 
+Dispens für einen Geburtsdefekt.
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: disp. super **def. nat.**  
+  Annotation: [Type: dispensatio_super_def._nat., Value: "def. nat."]
+* Text: n.o. **def. nat. (p.s.)**  
+  Annotation: [Type: dispensatio_super_def._nat., Value: "def. nat. (p.s.)"]
 
-#### Label: DispensatioSuperImpedimentoMatrimonii
+
+
+#### Label: dispensatio_def._et.
 
 ##### Beschreibung: 
+Dispens für den Empfang der Weihen vor dem Mindestalter.
+
+##### Standard Examples:
+
+* Text: disp. super **def. etat.** et super prom. ad sacr. ord.   
+  Annotation: [Type:  dispensatio_def._et., Value: "def. etat."]
+
+  
+
+#### Label: dispensatio_super_impedimento_matrimonii
+
+##### Beschreibung: 
+Dispens für ein Ehehindernis.
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: disp. super **impedimento consang. pro matrimonio** contrahendo    
+  Annotation: [Type: dispensatio_super_impedimento_matrimonii, Value: "impedimento consang. pro matrimonio"]
 
-#### Label: DispensatioSuperIrregularitate
+
+
+#### Label: dispensatio_super_irregularitate
 
 ##### Beschreibung: 
+Dispens von der Irregularität.
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: disp. super **irreg.**  
+  Annotation: [Type: dispensatio_super_irregularitate, Value: "irreg."]
 
-#### Label: VisitatioLiminumApostolorum
+
+
+#### Label: visitatio_liminum_apostolorum
 
 ##### Beschreibung: 
+Dispens von der Besuchspflicht in Rom.
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: liberatur a **visit. liminum**  
+  Annotation: [Type: visitatio_liminum_apostolorum, Value: "visit. liminum"]
 
----
+
 
 #### Label: Erectio
 
@@ -1241,18 +1278,7 @@ Erlaubnis zur Errichtung einer neuen kirchlichen Institution oder der Erhebung e
 * Text: de **institutione**  
   Annotation: [Type: Erectio, Value: "institutione."]
 
----
 
-#### Label: EsusLacticiniorumEsusCarnium
-
-##### Beschreibung: 
-
-##### Standard Examples: 
-
-* Text: ****  
-  Annotation: [Type: , Value: ""]
-
----
 
 #### Label: Exemptio
 
@@ -1273,7 +1299,7 @@ Befreiung, Ausnahmestellung
 * Text: **exemtione** de iurisdictione ordin.  
   Annotation: [Type: Exemptio, Value: "exemtione"]
 
----
+
 
 #### Label: Facultas
 
@@ -1298,7 +1324,7 @@ Erlaubnis. Vgl. Lizenz und Concessio (?)
 * Text: alternativa **facult.** disponendi  
   Annotation: [Type: Facultas, Value: "facult."]
 
-#### Label: FacultasZusatz
+#### Label: Facultas_Zusatz
 
 ##### Beschreibung:
 Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label FacultasZusatz getaggt, nicht aber die Gnade facult. selbst.
@@ -1306,26 +1332,26 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Fac
 ##### Standard Examples:
 
 * Text: facult. **resign.**  
-  Annotation: [Type: FacultasZusatz, Value: "resign."]
+  Annotation: [Type: Facultas_Zusatz, Value: "resign."]
 * Text: facult. **absol. eos, qui (unknown)**  
-  Annotation: [Type: FacultasZusatz, Value: "absol. eos, qui (unknown)"]
+  Annotation: [Type: Facultas_Zusatz, Value: "absol. eos, qui (unknown)"]
   * **Hinweis:** (unknown) steht für den Rest des Relativsatzes.
 * Text: facult. **absol. 100 person.**  
-  Annotation: [Type: FacultasZusatz, Value: "absol. 100 person."]
+  Annotation: [Type: Facultas_Zusatz, Value: "absol. 100 person."]
 
 ##### Other Examples:
 
 * Text: facult. **absol. in casibus, in quibus (unknown)**  
-  Annotation: [Type: FacultasZusatz, Value: "absol. in casibus, in quibus (unknown)"]
+  Annotation: [Type: Facultas_Zusatz, Value: "absol. in casibus, in quibus (unknown)"]
   * **Hinweis:** (unknown) steht für den Rest des Relativsatzes.
 * Text: facult. **reconciliandi**  
-  Annotation: [Type: FacultasZusatz, Value: "reconciliandi"]
+  Annotation: [Type: Facultas_Zusatz, Value: "reconciliandi"]
 * Text: **alternativa** facult. **disponendi**  
   Annotation: 
-  - [Type: FacultasZusatz, Value: "alternativa"]
-  - [Type: FacultasZusatz, Value: "disponendi"]
+  - [Type: Facultas_Zusatz, Value: "alternativa"]
+  - [Type: Facultas_Zusatz, Value: "disponendi"]
 
-#### Label: FacultasAbsolvendi
+#### Label: facultas_absolvendi
 
 ##### Beschreibung: 
 
@@ -2621,7 +2647,7 @@ Bei “frei stehenden” Angaben in Klammern werden die Klammern ignoriert.
 Ein Eintrag, der mehrere Entitäten beschreibt, wird in entsprechende Einzelannotationen aufgeteilt.
   * Beispiel: Text: can. et preb. eccl. Sleswic.
     Annotation:
-    - [Type: KirchlichesAmt, Value: "can. et preb."]
+    - [Type: Kirchliches_Amt, Value: "can. et preb."]
     - [Type: Institution, Value: "eccl."]
     - [Type: Diözese, Value: "Sleswic."]
 
