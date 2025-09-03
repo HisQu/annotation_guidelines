@@ -274,6 +274,8 @@ Eine Person, meist ein Richter, der einem Gerichtsprozess vorsteht.
   Annotation: [Type: StudentMarker, Value: "studens"]
 * Text: Adolffus de Nassauw **scol.** Trever. de disp. sup. def. nat. ( com. s., c. ) 15. mai. 1434 S 301 235vs.  
   Annotation: [Type: StudentMarker, Value: "scol."]
+   * **Hinweis:** Zu beachten ist, dass eine Person, die als **scol.** bezeichnet wird, nicht immer ein Student ist und somit in dem Fall auch nicht **scol.** als StudentMarker taggt werden darf. Hier ein Beispiel:
+     Text: Albertus Glenneman (Gleneman) **scol.** Colon. in 10 anno constitutus de can. et min. preb. eccl. ss. Petri et Andree Paderburn. vac. p. o. Jordani de Widonbunghe in curia 18 ian. 1426 S 201 223r.
 
 ---
 
