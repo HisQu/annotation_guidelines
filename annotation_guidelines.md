@@ -145,106 +145,106 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
 
 
 
-#### Label: ArmePersonMarker
+#### Label: Arme_Person_Marker
 
 ##### Standard Examples:
 
 * Text: **pauper**  
-  Annotation: [Type: ArmePersonMarker, Value: "pauper"]
+  Annotation: [Type: Arme_Person_Marker, Value: "pauper"]
 * Text: **gratis pro deo**  
-  Annotation: [Type: ArmePersonMarker, Value: "gratis pro deo"]
+  Annotation: [Type: Arme_Person_Marker, Value: "gratis pro deo"]
 * Text: **gratis**  
-  Annotation: [Type: ArmePersonMarker, Value: "gratis"]
+  Annotation: [Type: Arme_Person_Marker, Value: "gratis"]
 
 
 
-#### Label: DelegierterRichterMarker
+#### Label: Delegierter_Richter_Marker
 
 ##### Standard Examples:
 
 * Text: **iudex delegatus**  
-  Annotation: [Type: DelegierterRichterMarker, Value: "iudex delegatus"]
+  Annotation: [Type: Delegierter_Richter_Marker, Value: "iudex delegatus"]
 
 
 
-#### Label: ExekutorMarker
+#### Label: Exekutor_Marker
 
 ##### Standard Examples: executor
 
 * Text: **executor**  
-  Annotation: [Type: ExekutorMarker, Value: "executor"]
+  Annotation: [Type: Exekutor_Marker, Value: "executor"]
 
 
 
-#### Label: FamiliarMarker
+#### Label: Familiar_Marker
 
 ##### Standard Examples:
 
 * Text: **fam.** Antonii ep. Portuen. card.  
-  Annotation: [Type: FamiliarMarker, Value: "fam."]
+  Annotation: [Type: Familiar_Marker, Value: "fam."]
 * Text: **acolit.** pape  
-  Annotation: [Type: FamiliarMarker, Value: "acolit."]
+  Annotation: [Type: Familiar_Marker, Value: "acolit."]
 
 ##### Other Examples:
 
 * Text: **parafrenarius** pape  
-  Annotation: [Type: FamiliarMarker, Value: "parafrenarius pape"]
+  Annotation: [Type: Familiar_Marker, Value: "parafrenarius pape"]
 * Text: **(unknown)** pape  
-  Annotation: [Type: FamiliarMarker, Value: "(unknown)"]
+  Annotation: [Type: Familiar_Marker, Value: "(unknown)"]
   * **Hinweis:** Neben den oben genannten Beispielen "acolit. pape" und "parafrenarius pape" kann es noch weitere Ämter geben, die im direkten Umfeld des Papstes ausgeübt werden. Diese kirchlichen Ämter, die im Regest durch die direkte Nähe zum Wort "pape" gekennzeichnet sind, werden hier durch den Platzhalter (unknown) bezeichnet.
 
 
-#### Label: FürsprecherMarker
+#### Label: Fürsprecher_Marker
 
 ##### Standard Examples:
 
 * Text: **supplic.** Johanne ep. Gurc.  
-  Annotation: [Type: FürsprecherMarker, Value: "supplic."]
+  Annotation: [Type: Fürsprecher_Marker, Value: "supplic."]
 
 
 
-#### Label: KollatorMarker
+#### Label: Kollator_Marker
 
 ##### Standard Examples:
 
 * Text: ad **coll.** epp.  
-  Annotation: [Type: KollaturMarker, Value: "coll."]
+  Annotation: [Type: Kollatur_Marker, Value: "coll."]
 
 
 
-#### Label: KollektorMarker
+#### Label: Kollektor_Marker
 
 ##### Standard Examples:
 
 * Text: Gotfridi Bochorn **collect.**  
-  Annotation: [Type: KollektorMarker, Value: "collect."]
+  Annotation: [Type: Kollektor_Marker, Value: "collect."]
 
 
 
-#### Label: ObligationsbeauftragterMarker
+#### Label: Obligationsbeauftragter_Marker
 
 ##### Standard Examples:
 
 * Text: **o.s.a.** per Johannem Scade  
-  Annotation: [Type: ObligationsbeauftragterMarker, Value: "o.s.a."]
+  Annotation: [Type: Obligationsbeauftragter_Marker, Value: "o.s.a."]
 
 
 
-#### Label: PatronMarker
+#### Label: Patron_Marker
 
 ##### Standard Examples:
 
 * Text: **patron.**  
-  Annotation: [Type: PatronMarker, Value: "patron."]
+  Annotation: [Type: Patron_Marker, Value: "patron."]
 
 
 
-#### Label: PetentMarker
+#### Label: Petent_Marker
 
 ##### Standard Examples:
 
 * Text: **S** 579 228vs, L 605 5rs.  
-  Annotation: [Type: PetentMarker, Value: "S"]
+  Annotation: [Type: Petent_Marker, Value: "S"]
 
 
 
@@ -265,56 +265,56 @@ Eine Person, die einem Gerichtsprozess vorsteht.
   Annotation: [Type: Prozessvorsteher, Value: "offic."] 
 
 
-#### Label: StudentMarker
+#### Label: Student_Marker
 
 ##### Standard Examples:
 
 * Text: in alma Urbe in iure can. **studens**: ref. disp. sup. incompat.    
-  Annotation: [Type: StudentMarker, Value: "studens"]  
+  Annotation: [Type: Student_Marker, Value: "studens"]  
 * Text: Adolffus de Nassauw **scol.** Trever. de disp. sup. def. nat.    
-  Annotation: [Type: StudentMarker, Value: "scol."]  
+  Annotation: [Type: Student_Marker, Value: "scol."]  
   * **Hinweis:** Zu beachten ist, dass eine Person, die als **scol.** bezeichnet wird, nicht immer ein Student ist und somit in dem Fall auch nicht **scol.** als StudentMarker taggt werden darf. Hier ein Beispiel: Albertus Glenneman (Gleneman) **scol.** Colon. in 10 anno constitutus de can. et min. preb. eccl. ss. Petri et Andree Paderburn. vac. p. o. Jordani de Widonbunghe in curia 18 ian. 1426 S 201 223r.
 
 
-#### Label: SubkollektorMarker
+#### Label: Subkollektor_Marker
 
 ##### Standard Examples:
 
 * Text: ratione off. **subcollectorie** in dioc. Constant.  
-  Annotation: [Type: SubkollektorMarker, Value: "subcollectorie"]  
+  Annotation: [Type: Subkollektor_Marker, Value: "subcollectorie"]  
 * Text:  fructuum camere ap. **subcollectoris** S 68 135 v.    
-  Annotation: [Type: SubkollektorMarker, Value: "subcollectoris"]  
+  Annotation: [Type: Subkollektor_Marker, Value: "subcollectoris"]  
 
 
 
-#### Label: TischgenosseMarker
+#### Label: Tischgenosse_Marker
 
 ##### Standard Examples:
 
 * Text: fam. **commensalis** Dominici [de Capranica]  
-  Annotation: [Type: TischgenosseMarker, Value: "commensalis"]
+  Annotation: [Type: Tischgenosse_Marker, Value: "commensalis"]
 
 
 
-#### Label: ZahlungsbeauftragterMarker
+#### Label: Zahlungsbeauftragter_Marker
 
 ##### Standard Examples:
 
 * Text: oblig. sup. annat. ( **p.** mag. Henricum Erkel d. Hesse  
-Annotation: [Type: ZahlungsbeauftragterMarker, Value: "p."]  
+Annotation: [Type: Zahlungsbeauftragter_Marker, Value: "p."]  
 * Text: **p. manus** Prothasii de Tabernis (19 fl. auri de cam. )  
-Annotation: [Type: ZahlungsbeauftragterMarker, Value: "p. manus"]
+Annotation: [Type: Zahlungsbeauftragter_Marker, Value: "p. manus"]
 
 
 
-#### Label: ZeugeMarker
+#### Label: Zeuge_Marker
 
 ##### Standard Examples:
 
 * Text: Adolphus filius ducis Cleven. **testis**  
-Annotation: [Type: ZeugeMarker, Value: "testis"]  
+Annotation: [Type: Zeuge_Marker, Value: "testis"]  
 * Text: **testis** super quadam oblig. 28 iul. 1409 M 8.  
-Annotation: [Type: ZeugeMarker, Value: "testis"]
+Annotation: [Type: Zeuge_Marker, Value: "testis"]
 
 
   
@@ -357,87 +357,87 @@ In den Regesten wird für viele Personen eine "Familienbeziehung" angegeben. Die
 * Text: **consanguineus**  
   Annotation: [Type: Familienbeziehung, Value: "consanguineus"]
 
----
 
-#### Label: SozialerStand
+
+#### Label: Sozialer_Stand
 
 ##### Beschreibung:
-Der soziale Stand einer Person ergibt sich u.a. aus Angaben zu seiner (nicht-)adligen Herkunft.
+Der soziale Stand einer Person ergibt sich u.a. aus Angaben zu ihrer (nicht-)adligen Herkunft.
 
 ##### Standard Examples:
 
 * Text: **de nob. gen.**  
-  Annotation: [Type: SozialerStand, Value: "de nob. gen."]
+  Annotation: [Type: Sozialer_Stand, Value: "de nob. gen."]
 * Text: **nob. viri xxx**  
-  Annotation: [Type: SozialerStand, Value: "nob. viri xxx"]
+  Annotation: [Type: Sozialer_Stand, Value: "nob. viri xxx"]
 * Text: **de bar.**  
-  Annotation: [Type: SozialerStand, Value: "de bar."]
+  Annotation: [Type: Sozialer_Stand, Value: "de bar."]
 
 ##### Other Examples:
 
 * Text: **scol.**  
-  Annotation: [Type: SozialerStand, Value: "scol."]
+  Annotation: [Type: Sozialer_Stand, Value: "scol."]
   * Text: **studens**  
-  Annotation: [Type: SozialerStand, Value: "studens"]
+  Annotation: [Type: Sozialer_Stand, Value: "studens"]
 * Text: **baron. gen.**  
-  Annotation: [Type: SozialerStand, Value: "baron. gen."]
+  Annotation: [Type: Sozialer_Stand, Value: "baron. gen."]
 * Text: **de com. gen.**  
-  Annotation: [Type: SozialerStand, Value: "de com. gen."]
+  Annotation: [Type: Sozialer_Stand, Value: "de com. gen."]
 * Text: **de mil.**  
-  Annotation: [Type: SozialerStand, Value: "de mil."]
+  Annotation: [Type: Sozialer_Stand, Value: "de mil."]
 * Text: **milit. gen.**  
-  Annotation: [Type: SozialerStand, Value: "milit. gen."]  
+  Annotation: [Type: Sozialer_Stand, Value: "milit. gen."]  
 * Text: **de ducum et com. gen.**  
-  Annotation: [Type: SozialerStand, Value: "de ducum et com. gen."]
+  Annotation: [Type: Sozialer_Stand, Value: "de ducum et com. gen."]
 * Text: **de comit. gen.**  
-  Annotation: [Type: SozialerStand, Value: "de comit. gen."]
+  Annotation: [Type: Sozialer_Stand, Value: "de comit. gen."]
 * Text: **de ducum et comit. gen.**  
-  Annotation: [Type: SozialerStand, Value: "de ducum et comit. gen."]
+  Annotation: [Type: Sozialer_Stand, Value: "de ducum et comit. gen."]
 * Text: **de ducum et marchionum gen.**  
-  Annotation: [Type: SozialerStand, Value: "de ducum et marchionum gen."]
+  Annotation: [Type: Sozialer_Stand, Value: "de ducum et marchionum gen."]
 * Text: **de ducis** natus  
-  Annotation: [Type: SozialerStand, Value: "de ducis"]
+  Annotation: [Type: Sozialer_Stand, Value: "de ducis"]
 * Text: **nob.**  
-  Annotation: [Type: SozialerStand, Value: "nob."]
+  Annotation: [Type: Sozialer_Stand, Value: "nob."]
 * Text: **mul.**  
-  Annotation: [Type: SozialerStand, Value: "mul."]
+  Annotation: [Type: Sozialer_Stand, Value: "mul."]
 * Text: **mulier**  
-  Annotation: [Type: SozialerStand, Value: "mulier"]
+  Annotation: [Type: Sozialer_Stand, Value: "mulier"]
 * Text: **armig.**  
-  Annotation: [Type: SozialerStand, Value: "armig."]
+  Annotation: [Type: Sozialer_Stand, Value: "armig."]
 * Text: **mil.**  
-  Annotation: [Type: SozialerStand, Value: "mil."]
+  Annotation: [Type: Sozialer_Stand, Value: "mil."]
 * Text: **civ.**  
-  Annotation: [Type: SozialerStand, Value: "civ."]
+  Annotation: [Type: Sozialer_Stand, Value: "civ."]
 * Text: **civis**  
-  Annotation: [Type: SozialerStand, Value: "civis"]
+  Annotation: [Type: Sozialer_Stand, Value: "civis"]
 * Text: **domic.**  
-  Annotation: [Type: SozialerStand, Value: "domic."]
+  Annotation: [Type: Sozialer_Stand, Value: "domic."]
   * **Hinweis:** s. Notiz unten.   
 * Text: **de milit. gen.**  
-  Annotation: [Type: SozialerStand, Value: "de milit. gen."]
+  Annotation: [Type: Sozialer_Stand, Value: "de milit. gen."]
 * Text: **opid.**  
-  Annotation: [Type: SozialerStand, Value: "opid."]
+  Annotation: [Type: Sozialer_Stand, Value: "opid."]
 * Text: **bar.**  
-  Annotation: [Type: SozialerStand, Value: "bar."]
-  * **Hinweis:** Wenn kein Herrschaftsgebiet genannt wird; vgl. WeltlichesAmt.
+  Annotation: [Type: Sozialer_Stand, Value: "bar."]
+  * **Hinweis:** Wenn kein Herrschaftsgebiet genannt wird; vgl. Weltliches_Amt.
 * Text: **com.**  
-  Annotation: [Type: SozialerStand, Value: "com."]
-  * **Hinweis:** Wenn kein Herrschaftsgebiet genannt wird; vgl. WeltlichesAmt.
+  Annotation: [Type: Sozialer_Stand, Value: "com."]
+  * **Hinweis:** Wenn kein Herrschaftsgebiet genannt wird; vgl. Weltliches_Amt.
 * Text: **comes**  
-  Annotation: [Type: SozialerStand, Value: "comes"]
-  * **Hinweis:** Wenn kein Herrschaftsgebiet genannt wird; vgl. WeltlichesAmt.
+  Annotation: [Type: Sozialer_Stand, Value: "comes"]
+  * **Hinweis:** Wenn kein Herrschaftsgebiet genannt wird; vgl. Weltliches_Amt.
 * Text: **dux**  
-  Annotation: [Type: SozialerStand, Value: "dux"]
-  * **Hinweis:** Wenn kein Herrschaftsgebiet genannt wird; vgl. WeltlichesAmt.
+  Annotation: [Type: Sozialer_Stand, Value: "dux"]
+  * **Hinweis:** Wenn kein Herrschaftsgebiet genannt wird; vgl. Weltliches_Amt.
 * Text: **incola**  
-  Annotation: [Type: SozialerStand, Value: "incola"]
+  Annotation: [Type: Sozialer_Stand, Value: "incola"]
 * Text: **parochianus**  
-  Annotation: [Type: SozialerStand, Value: "parochianus"] 
+  Annotation: [Type: Sozialer_Stand, Value: "parochianus"] 
 
----
 
-#### Label: KirchlicherStand
+
+#### Label: Kirchlicher_Stand
 
 ##### Beschreibung:
 Der kirchliche Stand ergibt sich aus dem Empfang der niederen Weihen (Lektor, Akoluth, Subdiakon etc.) und der höheren Weihen (Diakonat, Presbyterat, Episkopat); er schlägt sich auch in der generellen Unterscheidung zwischen Laien und Klerikern nieder (laic. = Laie; cler. = Kleriker).
@@ -445,29 +445,29 @@ Der kirchliche Stand ergibt sich aus dem Empfang der niederen Weihen (Lektor, Ak
 ##### Standard Examples:
 
 * Text: **presb.**  
-  Annotation: [Type: KirchlicherStand, Value: "presb."]
-  * **Hinweis:** vgl. KirchlichesAmt
+  Annotation: [Type: Kirchlicher_Stand, Value: "presb."]
+  * **Hinweis:** vgl. Kirchliches_Amt
 * Text: **laic.**  
-  Annotation: [Type: KirchlicherStand, Value: "laic."]
+  Annotation: [Type: Kirchlicher_Stand, Value: "laic."]
 * Text: **in minore ord. constit.**  
-  Annotation: [Type: KirchlicherStand, Value: "in minore ord. constit."]
+  Annotation: [Type: Kirchlicher_Stand, Value: "in minore ord. constit."]
 
 ##### Other Examples:
 
 * Text: **cler.**  
-  Annotation: [Type: KirchlicherStand, Value: "cler."]
+  Annotation: [Type: Kirchlicher_Stand, Value: "cler."]
 * Text: **acol.**  
-  Annotation: [Type: KirchlicherStand, Value: "acol."]
+  Annotation: [Type: Kirchlicher_Stand, Value: "acol."]
 * Text: **lect.**  
-  Annotation: [Type: KirchlicherStand, Value: "lect."]
-  * **Hinweis:** selten, eher: KirchlichesAmt, s. Notizen unten.
+  Annotation: [Type: Kirchlicher_Stand, Value: "lect."]
+  * **Hinweis:** selten, eher: Kirchliches_Amt, s. Notizen unten.
 * Text: **subdiac.**  
-  Annotation: [Type: KirchlicherStand, Value: "subdiac."]
+  Annotation: [Type: Kirchlicher_Stand, Value: "subdiac."]
 * Text: **diac.**  
-  Annotation: [Type: KirchlicherStand, Value: "diac."]
-  * **Hinweis:** vgl. KirchlichesAmt
+  Annotation: [Type: Kirchlicher_Stand, Value: "diac."]
+  * **Hinweis:** vgl. Kirchliches_Amt
 
----
+
 
 #### Label: Beruf
 
@@ -480,9 +480,9 @@ Bei einigen Personen, vor allem bei Laien, werden Angaben zum Beruf gemacht.
 * Text: **medicus**  
   Annotation: [Type: Beruf, Value: "medicus"]  
 
----
 
-#### Label: KirchlichesAmt
+
+#### Label: Kirchliches_Amt
 
 ##### Beschreibung
 Ein kirchliches Amt ist eine offizielle Stellung oder Funktion, die eine Person innerhalb der römisch-katholischen Kirche einnahm. Ein kirchliches Amt kann als Ehrenamt (z. B. Senior in einem Kollegiatsstift) ausgeübt werden oder mit Einnahmen (Pfründe) verbunden sein (z. B. Dekan in einem Kollegiatsstift).  
@@ -492,116 +492,116 @@ Es wird sowohl der Amtsträger (decanus) als auch das Amt (decanatus) getaggt.
 ##### Standard Examples:
 
 * Text: **can. et preb.**  
-  Annotation: [Type: KirchlichesAmt, Value: "can. et preb."]
+  Annotation: [Type: Kirchliches_Amt, Value: "can. et preb."]
   * **Hinweis:** s. Notizen unten.
 * Text: **ep.**  
-  Annotation: [Type: KirchlichesAmt, Value: "ep."]
+  Annotation: [Type: Kirchliches_Amt, Value: "ep."]
 * Text: **benef.**  
-  Annotation: [Type: KirchlichesAmt, Value: "benef."]
+  Annotation: [Type: Kirchliches_Amt, Value: "benef."]
 
 ##### Other Examples:
 
 * Text: **patr.**  
-  Annotation: [Type: KirchlichesAmt, Value: "patr."]
+  Annotation: [Type: Kirchliches_Amt, Value: "patr."]
 * Text: **aep.**  
-  Annotation: [Type: KirchlichesAmt, Value: "aep."]
+  Annotation: [Type: Kirchliches_Amt, Value: "aep."]
 * Text: **epp.**  
-  Annotation: [Type: KirchlichesAmt, Value: "epp."]
+  Annotation: [Type: Kirchliches_Amt, Value: "epp."]
 * Text: **episc.**  
-  Annotation: [Type: KirchlichesAmt, Value: "episc."]
+  Annotation: [Type: Kirchliches_Amt, Value: "episc."]
 * Text: **antistes**  
-  Annotation: [Type: KirchlichesAmt, Value: "antistes"]
+  Annotation: [Type: Kirchliches_Amt, Value: "antistes"]
 * Text: **el.**  
-  Annotation: [Type: KirchlichesAmt, Value: "el."]
+  Annotation: [Type: Kirchliches_Amt, Value: "el."]
 * Text: **ordin.**  
-  Annotation: [Type: KirchlichesAmt, Value: "ordin."]
+  Annotation: [Type: Kirchliches_Amt, Value: "ordin."]
 * Text: **decan.**  
-  Annotation: [Type: KirchlichesAmt, Value: "decan."]
+  Annotation: [Type: Kirchliches_Amt, Value: "decan."]
 * Text: **dec.**  
-  Annotation: [Type: KirchlichesAmt, Value: "dec."]  
+  Annotation: [Type: Kirchliches_Amt, Value: "dec."]  
 * Text: **archidiac.**  
-  Annotation: [Type: KirchlichesAmt, Value: "archidiac."]
+  Annotation: [Type: Kirchliches_Amt, Value: "archidiac."]
 * Text: **vic.**  
-  Annotation: [Type: KirchlichesAmt, Value: "vic."]
+  Annotation: [Type: Kirchliches_Amt, Value: "vic."]
 * Text: **abb.**  
-  Annotation: [Type: KirchlichesAmt, Value: "abb."]
+  Annotation: [Type: Kirchliches_Amt, Value: "abb."]
 * Text: **abbat.**  
-  Annotation: [Type: KirchlichesAmt, Value: "abbat."]
+  Annotation: [Type: Kirchliches_Amt, Value: "abbat."]
 * Text: **cant.**  
-  Annotation: [Type: KirchlichesAmt, Value: "cant."]
+  Annotation: [Type: Kirchliches_Amt, Value: "cant."]
 * Text: **cust.**  
-  Annotation: [Type: KirchlichesAmt, Value: "cust."]
+  Annotation: [Type: Kirchliches_Amt, Value: "cust."]
 * Text: **custod.**  
-  Annotation: [Type: KirchlichesAmt, Value: "custod."]
+  Annotation: [Type: Kirchliches_Amt, Value: "custod."]
   * **Hinweis:** Ganz selten auch Laien.
 * Text: **prepos.**  
-  Annotation: [Type: KirchlichesAmt, Value: "prepos."]
+  Annotation: [Type: Kirchliches_Amt, Value: "prepos."]
 * Text: **prep.**  
-  Annotation: [Type: KirchlichesAmt, Value: "prep."]
+  Annotation: [Type: Kirchliches_Amt, Value: "prep."]
 * Text: **scolast.**  
-  Annotation: [Type: KirchlichesAmt, Value: "scolast."]
+  Annotation: [Type: Kirchliches_Amt, Value: "scolast."]
 * Text: **rect.**  
-  Annotation: [Type: KirchlichesAmt, Value: "rect."]
+  Annotation: [Type: Kirchliches_Amt, Value: "rect."]
 * Text: **lect.**  
-  Annotation: [Type: KirchlichesAmt, Value: "lect."]
-  * **Hinweis:** Lektor im Kloster, selten: KirchlicherStand, s. Notizen unten.
+  Annotation: [Type: Kirchliches_Amt, Value: "lect."]
+  * **Hinweis:** Lektor im Kloster, selten: Kirchlicher_Stand, s. Notizen unten.
 * Text: **thesaur.**  
-  Annotation: [Type: KirchlichesAmt, Value: "thesaur."]
+  Annotation: [Type: Kirchliches_Amt, Value: "thesaur."]
 * Text: **monach.**  
-  Annotation: [Type: KirchlichesAmt, Value: "monach."]
+  Annotation: [Type: Kirchliches_Amt, Value: "monach."]
 * Text: **monialis**  
-  Annotation: [Type: KirchlichesAmt, Value: "monialis."]
+  Annotation: [Type: Kirchliches_Amt, Value: "monialis."]
 * Text: **dign.**  
-  Annotation: [Type: KirchlichesAmt, Value: "dign."]
+  Annotation: [Type: Kirchliches_Amt, Value: "dign."]
   * **Hinweis:** = Höhere Ämter in einem Kapitel: Propst, Dekan, Scholaster.
 * Text: **can.**  
-  Annotation: [Type: KirchlichesAmt, Value: "can."]
+  Annotation: [Type: Kirchliches_Amt, Value: "can."]
 * Text: **preb.**  
-  Annotation: [Type: KirchlichesAmt, Value: "preb."]
+  Annotation: [Type: Kirchliches_Amt, Value: "preb."]
 * Text: **can. sub expect. preb.**  
-  Annotation: [Type: KirchlichesAmt, Value: "can. sub expect. preb."]
+  Annotation: [Type: Kirchliches_Amt, Value: "can. sub expect. preb."]
 * Text: **can. et preb. ac supplem.**  
-  Annotation: [Type: KirchlichesAmt, Value: "can. et preb. ac supplem."]
+  Annotation: [Type: Kirchliches_Amt, Value: "can. et preb. ac supplem."]
 * Text: **canonicatus seu prebenda**  
-  Annotation: [Type: KirchlichesAmt, Value: "canonicatus seu prebenda"]
+  Annotation: [Type: Kirchliches_Amt, Value: "canonicatus seu prebenda"]
 * Text: **card.**  
-  Annotation: [Type: KirchlichesAmt, Value: "card."]
+  Annotation: [Type: Kirchliches_Amt, Value: "card."]
 * Text: **presb. card.**  
-  Annotation: [Type: KirchlichesAmt, Value: "presb. card."]
-  * **Hinweis:** Vgl. KirchlicherStand
+  Annotation: [Type: Kirchliches_Amt, Value: "presb. card."]
+  * **Hinweis:** Vgl. Kirchlicher_Stand
 * Text: **diac. card.**  
-  Annotation: [Type: KirchlichesAmt, Value: "diac. card."]
-  * **Hinweis:** Vgl. KirchlicherStand
+  Annotation: [Type: Kirchliches_Amt, Value: "diac. card."]
+  * **Hinweis:** Vgl. Kirchlicher_Stand
 * Text: **ep. card.**  
-  Annotation: [Type: KirchlichesAmt, Value: "ep. card."]
-  * **Hinweis:** Vgl. KirchlicherStand
+  Annotation: [Type: Kirchliches_Amt, Value: "ep. card."]
+  * **Hinweis:** Vgl. Kirchlicher_Stand
 * Text: **vic. generalis**  
-  Annotation: [Type: KirchlichesAmt, Value: "vic. generalis"]
+  Annotation: [Type: Kirchliches_Amt, Value: "vic. generalis"]
 * Text: **mag. gen.**  
-  Annotation:[Type: KirchlichesAmt, Value: "mag. gen."]
+  Annotation:[Type: Kirchliches_Amt, Value: "mag. gen."]
 * Text: **precept.**  
-  Annotation:[Type: KirchlichesAmt, Value: "precept."]
+  Annotation:[Type: Kirchliches_Amt, Value: "precept."]
 * Text: **capellan.**  
-  Annotation:[Type: KirchlichesAmt, Value: "capellan."]
+  Annotation:[Type: Kirchliches_Amt, Value: "capellan."]
 * Text: **cap.**  
-  Annotation:[Type: KirchlichesAmt, Value: "cap."]
+  Annotation:[Type: Kirchliches_Amt, Value: "cap."]
 * Text: **succentor**  
-  Annotation:[Type: KirchlichesAmt, Value: "succentor"]
+  Annotation:[Type: Kirchliches_Amt, Value: "succentor"]
 * Text: **capn.**  
-  Annotation:[Type: KirchlichesAmt, Value: "capn."] 
+  Annotation:[Type: Kirchliches_Amt, Value: "capn."] 
 * Text: **benef. curato**  
-  Annotation: [Type: KirchlichesAmt, Value: "benef. curato"]
+  Annotation: [Type: Kirchliches_Amt, Value: "benef. curato"]
 * Text: **benef. s. c.**  
-  Annotation: [Type: KirchlichesAmt, Value: "benef. s. c."]
+  Annotation: [Type: Kirchliches_Amt, Value: "benef. s. c."]
 * Text: **benef. c. c.**  
-  Annotation: [Type: KirchlichesAmt, Value: "benef. c. c."]
+  Annotation: [Type: Kirchliches_Amt, Value: "benef. c. c."]
   * **Hinweis:** c.c. kann in seltenen Fällen im Kontext einer Dispens wegen def. nat. auch für den Ehestand der Eltern stehen; c. = conjugatus bzw. conjugata.
 * Text: **prior**  
-  Annotation: [Type: KirchlichesAmt, Value: "prior"]
+  Annotation: [Type: Kirchliches_Amt, Value: "prior"]
+  
 
----
 
-#### Label: KurialesAmt
+#### Label: Kuriales_Amt
 
 ##### Beschreibung:
 Ein kuriales Amt ist eine offizielle Stellung oder Funktion, die eine Person an der römischen Kurie einnahm. Es wird sowohl der Amtsträger als auch das Amt getaggt. Achtung: Manche Positionen kommen auch außerhalb der Kurie an kirchlichen und weltlichen Höfen vor, sodass sich die genaue Zuschreibung des Labels nur aus dem Kontext ergibt (so z.B. beim Notar).
@@ -609,52 +609,52 @@ Ein kuriales Amt ist eine offizielle Stellung oder Funktion, die eine Person an 
 ##### Standard Examples:
 
 * Text: **abbr.**  
-  Annotation: [Type: KurialesAmt, Value: "abbr."]
+  Annotation: [Type: Kuriales_Amt, Value: "abbr."]
 * Text: **administr.**  
-  Annotation: [Type: KurialesAmt, Value: "administr."]
+  Annotation: [Type: Kuriales_Amt, Value: "administr."]
 * Text: **aud.**  
-  Annotation: [Type: KurialesAmt, Value: "aud."]
+  Annotation: [Type: Kuriales_Amt, Value: "aud."]
 
 ##### Other Examples:
 
 * Text: **cancell.**  
-  Annotation: [Type: KurialesAmt, Value: "cancell."]
+  Annotation: [Type: Kuriales_Amt, Value: "cancell."]
 * Text: **cubic.**  
-  Annotation: [Type: KurialesAmt, Value: "cubic."]
+  Annotation: [Type: Kuriales_Amt, Value: "cubic."]
 * Text: **cursor**  
-  Annotation: [Type: KurialesAmt, Value: "cursor"]
+  Annotation: [Type: Kuriales_Amt, Value: "cursor"]
 * Text: **not.**  
-  Annotation: [Type: KurialesAmt, Value: "not."]
+  Annotation: [Type: Kuriales_Amt, Value: "not."]
 * Text: **nunt.**  
-  Annotation: [Type: KurialesAmt, Value: "nunt."]
+  Annotation: [Type: Kuriales_Amt, Value: "nunt."]
 * Text: **offic.**  
-  Annotation: [Type: KurialesAmt, Value: "offic."]
+  Annotation: [Type: Kuriales_Amt, Value: "offic."]
 * Text: **procur.**  
-  Annotation: [Type: KurialesAmt, Value: "procur."] 
+  Annotation: [Type: Kuriales_Amt, Value: "procur."] 
 * Text: **proc.**  
-  Annotation: [Type: KurialesAmt, Value: "proc."]
+  Annotation: [Type: Kuriales_Amt, Value: "proc."]
 * Text: **proc.** ap. sed.  
-  Annotation: [Type: KurialesAmt, Value: "proc."]
+  Annotation: [Type: Kuriales_Amt, Value: "proc."]
 * Text: **prothonot.**  
-  Annotation: [Type: KurialesAmt, Value: "prothonot."]
+  Annotation: [Type: Kuriales_Amt, Value: "prothonot."]
 * Text: **refer.**  
-  Annotation: [Type: KurialesAmt, Value: "refer."]
+  Annotation: [Type: Kuriales_Amt, Value: "refer."]
 * Text: **script.**  
-  Annotation: [Type: KurialesAmt, Value: "script."]
+  Annotation: [Type: Kuriales_Amt, Value: "script."]
 * Text: **script. litt. ap.**  
-  Annotation: [Type: KurialesAmt, Value: "script. litt. ap."]
+  Annotation: [Type: Kuriales_Amt, Value: "script. litt. ap."]
 * Text: **secret.**  
-  Annotation: [Type: KurialesAmt, Value: "secret."]
+  Annotation: [Type: Kuriales_Amt, Value: "secret."]
 * Text: **secr.**  
-  Annotation: [Type: KurialesAmt, Value: "secr."]
+  Annotation: [Type: Kuriales_Amt, Value: "secr."]
 * Text: **tab.**  
-  Annotation: [Type: KurialesAmt, Value: "tab."]
+  Annotation: [Type: Kuriales_Amt, Value: "tab."]
 * Text: **tab. off.**  
-  Annotation: [Type: KurialesAmt, Value: "tab. off."]
+  Annotation: [Type: Kuriales_Amt, Value: "tab. off."]
 
----
 
-#### Label: WeltlichesAmt
+
+#### Label: Weltliches_Amt
 
 ##### Beschreibung:
 Ein weltliches Amt ist eine offizielle Stellung oder Funktion, die eine Person im höfischen Kontext (Fürstenhof, Bischofshof etc.) oder als städtischer Funktionsträger (Bürgermeister, Kanzler einer städtischen Kanzlei, Zunftmeister) einnahm.
@@ -662,61 +662,61 @@ Ein weltliches Amt ist eine offizielle Stellung oder Funktion, die eine Person i
 ##### Standard Examples:
 
 * Text: **imp.**  
-  Annotation: [Type: WeltlichesAmt, Value: "imp."]
+  Annotation: [Type: Weltliches_Amt, Value: "imp."]
 * Text: **rex**  
-  Annotation: [Type: WeltlichesAmt, Value: "rex"]
+  Annotation: [Type: Weltliches_Amt, Value: "rex"]
 
 ##### Other Examples:
 
 * Text: **bar.**  
-  Annotation: [Type: WeltlichesAmt, Value: "bar."]
-  * **Hinweis:** Wenn ein Herrschaftsgebiet genannt wird, ansonsten: SozialerStand.
+  Annotation: [Type: Weltliches_Amt, Value: "bar."]
+  * **Hinweis:** Wenn ein Herrschaftsgebiet genannt wird, ansonsten: Sozialer_Stand.
 * Text: **dux**  
-  Annotation: [Type: WeltlichesAmt, Value: "dux."]
-  * **Hinweis:** Wenn ein Herrschaftsgebiet genannt wird, ansonsten: SozialerStand.
+  Annotation: [Type: Weltliches_Amt, Value: "dux."]
+  * **Hinweis:** Wenn ein Herrschaftsgebiet genannt wird, ansonsten: Sozialer_Stand.
 * Text: **com.**  
-  Annotation: [Type: WeltlichesAmt, Value: "com."]
-  * **Hinweis:** Wenn ein Herrschaftsgebiet genannt wird, ansonsten: SozialerStand.
+  Annotation: [Type: Weltliches_Amt, Value: "com."]
+  * **Hinweis:** Wenn ein Herrschaftsgebiet genannt wird, ansonsten: Sozialer_Stand.
 * Text: **comes**  
-  Annotation: [Type: WeltlichesAmt, Value: "comes"]
-  * **Hinweis:** Wenn ein Herrschaftsgebiet genannt wird, ansonsten: SozialerStand.
+  Annotation: [Type: Weltliches_Amt, Value: "comes"]
+  * **Hinweis:** Wenn ein Herrschaftsgebiet genannt wird, ansonsten: Sozialer_Stand.
 * Text: **patron.**  
-  Annotation: [Type: WeltlichesAmt, Value: "patron."]
+  Annotation: [Type: Weltliches_Amt, Value: "patron."]
 * Text: **imperator**    
-  Annotation: [Type: WeltlichesAmt, Value: "imperator"]
+  Annotation: [Type: Weltliches_Amt, Value: "imperator"]
 * Text: **rex elect.**    
-  Annotation: [Type: WeltlichesAmt, Value: "rex elect."]
+  Annotation: [Type: Weltliches_Amt, Value: "rex elect."]
 * Text: **proconsul**    
-  Annotation: [Type: WeltlichesAmt, Value: "proconsul"]
+  Annotation: [Type: Weltliches_Amt, Value: "proconsul"]
 * Text: **consul**    
-  Annotation: [Type: WeltlichesAmt, Value: "consul"]
+  Annotation: [Type: Weltliches_Amt, Value: "consul"]
 * Text: **burggravius**    
-  Annotation: [Type: WeltlichesAmt, Value: "burggravius"]  
+  Annotation: [Type: Weltliches_Amt, Value: "burggravius"]  
 * Text: **scult.**  
-  Annotation: [Type: WeltlichesAmt, Value: "scult."]  
+  Annotation: [Type: Weltliches_Amt, Value: "scult."]  
 
 ---
 
-#### Label: AkademischerGrad
+#### Label: Akademischer_Grad
 
 ##### Standard Examples:
 
 * Text: **licent.**  
-  Annotation: [Type: AkademischerGrad, Value: "licent."]
+  Annotation: [Type: Akademischer_Grad, Value: "licent."]
 * Text: **bac.** in decr.
-  Annotation: [Type: AkademischerGrad, Value: "bac. in decr."]
+  Annotation: [Type: Akademischer_Grad, Value: "bac."]
 
 ##### Other Examples:
 
 * Text: **lic.**   
-  Annotation: [Type: AkademischerGrad, Value: "lic."]
+  Annotation: [Type: Akademischer_Grad, Value: "lic."]
   * **Hinweis:** Nur selten steht lic. für das Lizenziat, i.d.R. nur in Verbindung mit einem Namen. Häufiger steht es für die päpstliche Lizenz und wird dann als Event getaggt.
 * Text: **mag.**  
-  Annotation: [Type: AkademischerGrad, Value: "mag."]
+  Annotation: [Type: Akademischer_Grad, Value: "mag."]
 * Text: decr.**doct.**  
-  Annotation: [Type: AkademischerGrad, Value: "doct."]
+  Annotation: [Type: Akademischer_Grad, Value: "doct."]
 * Text: theol. **profes.**
-  Annotation: [Type: AkademischerGrad, Value: "profes."]
+  Annotation: [Type: Akademischer_Grad, Value: "profes."]
 
 ---
 #### Label: Studienfach
@@ -731,19 +731,7 @@ Ein weltliches Amt ist eine offizielle Stellung oder Funktion, die eine Person i
 * Text: lic. **in iure can.**  
   Annotation: [Type: Studienfach, Value: "in iure can."]
 
----
 
-#### Label: VitaZusatz
-
-##### Beschreibung:
-Weitere Informationen zur Person, z.B. in Form von längeren Relativsätzen.
-
-##### Standard Examples:
-
-* Text: **qui per multos annos cur. secutus est absque consolatione benef. et ratione alicuius proc. Magnis expensis oppressus est**  
-  Annotation: [Type: VitaZusatz, Value: "qui per multos annos cur. secutus est absque consolatione benef. et ratione alicuius proc. Magnis expensis oppressus est"]
-
----
 
 #### Label: Orden
 
@@ -784,13 +772,13 @@ Ausdruck der Zugehörigkeit zu einer religiösen Ordensgemeinschaft
 
 * **Hinweis:** Und deren Variationen (z.B. o. Cist.; Cist. ord.). Bitte ergänzen!
 
----
+
 
 ### Kategorie: Event
 
 ---
 
-### Event: Gnadenerweis
+### Gnadenerweis
 
 ---
 
@@ -808,7 +796,7 @@ Tilgung, z.B. von Inhabilität
 * Text: **abol. macule infamie**  
   Annotation: [Type: Abolitio, Value: "abol. macule infamie."]
 
-#### Label: AbolitioZusatz
+#### Label: Abolitio_Zusatz
 
 ##### Beschreibung:
 Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label AbolitioZusatz getaggt, nicht aber die Gnade abol. selbst.
@@ -816,9 +804,9 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Abo
 ##### Standard Examples:
 
 * Text: m. abol. inhabil., **quia sacr. ord. una die per Matheum ep. olim Placentin. indebite recepit, n. o. proc. per mag. Angelum de Balionibus aud. gen. cam. ap. instructo** 4 mart. 1412 L 158 130.  
-  Annotation: [Type: AbolitioZusatz, Value: "quia sacr. ord. una die per Matheum ep. olim Placentin. indebite recepit, n. o. proc. per mag. Angelum de Balionibus aud. gen. cam. ap. instructo"]
+  Annotation: [Type: Abolitio_Zusatz, Value: "quia sacr. ord. una die per Matheum ep. olim Placentin. indebite recepit, n. o. proc. per mag. Angelum de Balionibus aud. gen. cam. ap. instructo"]
 
----
+
 
 #### Label: Absolutio
 
@@ -841,7 +829,7 @@ Absolution
 * Text: **absol.**, quod olim …  
   Annotation: [Type: Absolutio, Value: "absol."]
 
-#### Label: AbsolutioZusatz
+#### Label: Absolutio_Zusatz
 
 ##### Beschreibung:
 Kennzeichnung des Gnadeninhalts der Absolution. Der gesamte Gnadeninhalt wird mit dem Label AbsolutioZusatz getaggt, nicht aber die Gnade absol. oder m. absol. selbst.
@@ -849,13 +837,13 @@ Kennzeichnung des Gnadeninhalts der Absolution. Der gesamte Gnadeninhalt wird mi
 ##### Standard Examples:
 
 * Text: m. absol. **a sent. excom.**  
-  Annotation: [Type: AbsolutioZusatz, Value: "a sent. excom."]
+  Annotation: [Type: Absolutio_Zusatz, Value: "a sent. excom."]
 * Text: absol. **a matrim. C. gentili et quasi pagano contracto**  
-  Annotation: [Type: AbsolutioZusatz, Value: "a matrim. C. gentili et quasi pagano contracto"]
+  Annotation: [Type: Absolutio_Zusatz, Value: "a matrim. C. gentili et quasi pagano contracto"]
 * Text: absol., **quod olim …**  
-  Annotation: [Type: AbsolutioZusatz, Value: "quod olim …"]
+  Annotation: [Type: Absolutio_Zusatz, Value: "quod olim …"]
 
----
+
 
 #### Label: Aggravatio
 
@@ -871,25 +859,40 @@ Verstärkung einer Strafe
 * Text: **m. aggravandi sent.**  
   Annotation: [Type: Aggravatio, Value: "m. aggravandi sent."]
 
----
 
-#### Label: AlternativaFacultas
+
+#### Label: Alternativa_Facultas
+
+##### Beschreibung: "Fakultät für Bischöfe zur alternierenden Besetzung von Pfründen" (Bearbeitungshinweise, S. 67)
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: motu pr. de **alternativa** videlicet fac. disponendi sup. benef. vacat.  
+  Annotation: [Type: , Value: "alternativa"]
 
----
+
 
 #### Label: Antelatio
 
+##### Beschreibung: "Eine weitere Möglichkeit, sich gegenüber Konkurrenten eine Vorrangstellung zu verschaffen, wird durch die „antelatio“ geschaffen, die der Bevorzugung durch „prerogatio“ gleicht." (Bearbeitungshinweise, S. 66)
+
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: de **antelatione**  
+  Annotation: [Type: , Value: "antelatione"]
 
----
+
+#### Label: Beichtprivileg
+
+##### Beschreibung: Erlaubnis, sich seinen Beichtvater selbst zu wählen; entgegen dem Pfarrzwang.
+
+##### Standard Examples:
+* Text: gratia de **confess. elig.**  
+  Annotation: [Type: Beichtprivileg, Value: "confess. elig."]
+* Text: de **confess. elig.**  
+  Annotation: [Type: Beichtprivileg, Value: "confess. elig."]
+
+  
 
 #### Label: Cassatio
 
@@ -905,7 +908,7 @@ Ungültigkeitserklärung
 * Text: **cass.** pensionis  
   Annotation: [Type: Cassatio, Value: "cass."]
 
-#### Label: CassatioZusatz
+#### Label: Cassatio_Zusatz
 
 #### Beschreibung:
 Kennzeichnung des Gnadeninhalts der Cassatio. Der gesamte Gnadeninhalt wird mit dem Label CassatioZusatz getaggt, nicht aber die Gnade cass. selbst.
@@ -913,39 +916,21 @@ Kennzeichnung des Gnadeninhalts der Cassatio. Der gesamte Gnadeninhalt wird mit 
 ##### Standard Examples:
 
 * Text: m. cass. **litt.**  
-  Annotation: [Type: CassatioZusatz, Value: "litt."]
+  Annotation: [Type: Cassatio_Zusatz, Value: "litt."]
 * Text: de cass. **pensionis**  
-  Annotation: [Type: CassatioZusatz, Value: "pensionis."]
+  Annotation: [Type: Cassatio_Zusatz, Value: "pensionis."]
   
-#### Label: CassatioReductioTranslatioPensionis
-
-##### Standard Examples: 
-
-* Text: ****  
-  Annotation: [Type: , Value: ""]
-
----
 
 #### Label: Collatio
 
+##### Beschreibung: Ist die Besetzung einer Pfründe.
+
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: **coll.**  
+  Annotation: [Type: , Value: "coll."]
 
----
 
-#### Label: Commissio
-
-##### Beschreibung:
-Auftrag zur weiteren Bearbeitung eines Falles
-
-##### Standard Examples:
-
-* Text: **committ.**  
-  Annotation: [Type: Commissio, Value: "committ."]
-
----
 
 #### Label: Concessio
 
@@ -958,7 +943,7 @@ Verleihung / Erlaubnis = Lizenz (?)
   Annotation: [Type: Concessio, Value: "conc. transgr."]
   * **Hinweis:** vgl. Licentia -> lic. transgr.
 
----
+
 
 #### Label: Confirmatio
 
@@ -970,35 +955,51 @@ Bestätigung
 * Text: **conf.**  
   Annotation: [Type: Confirmatio, Value: "conf."]
 
-#### Label: ConfirmatioZusatz
+#### Label: Confirmatio_Zusatz
 
 ##### Beschreibung:
-Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label ConfirmatioZusatz getaggt, nicht aber die Gnade conf. selbst.
+Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Confirmatio_Zusatz getaggt, nicht aber die Gnade conf. selbst.
 
 ##### Standard Examples:
 
 * Text: conf. **emptionem pratorum ac al. bonorum in villa Diczisow Constant. dioc. ac donationem iuris patron. super par. eccl. in dicta villa ex possess. Eberhardi Burgermaister incole dicti op. factam** 22 oct. 1411 L 157 113.  
-  Annotation: [Type: ConfirmatioZusatz, Value: "emptionem pratorum ac al. bonorum in villa Diczisow Constant. dioc. ac donationem iuris patron. super par. eccl. in dicta villa ex possess. Eberhardi Burgermaister incole dicti op. factam"]
+  Annotation: [Type: Confirmatio_Zusatz, Value: "emptionem pratorum ac al. bonorum in villa Diczisow Constant. dioc. ac donationem iuris patron. super par. eccl. in dicta villa ex possess. Eberhardi Burgermaister incole dicti op. factam"]
 
----
 
-#### Label: DeAdvoc
 
-##### Standard Examples: 
+#### Label: de_advoc
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
-
----
-
-#### Label: DeBenef.
+##### Beschreibung: Die Verteidigung vor Gericht übernehmen.
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: de **advoc.** et committ. causam in cur.   
+  Annotation: [Type: de_advoc, Value: "advoc."]
 
----
+
+
+#### Label: de_benef.
+
+##### Beschreibung: Gnadenerweis mit Benefizialthematik.
+
+##### Standard Examples: 
+
+* Text: de **benef.** Leod. dioc.  
+  Annotation: [Type: de_benef., Value: "benef."]
+
+
+
+#### Label: de_committendo
+
+##### Beschreibung:
+Auftrag zur weiteren Bearbeitung eines Falles
+
+##### Standard Examples:
+
+* Text: de **committ.**  
+  Annotation: [Type: de_committendo, Value: "committ."]
+
+
 
 #### Label: Declaratio
 
@@ -1010,86 +1011,90 @@ Erklärung
 * Text: **decl.**  
   Annotation: [Type: Declaratio, Value: "decl."]
 
----
 
-#### Label: DeclaratioLitterasPerindeValere
+
+
+#### Label: Declaratio_Litteras_Perinde_Valere
+
+##### Beschreibung: Nachbesserung einer Supplik
+
+
+##### Standard Examples: 
+
+* Text: motu pr. de **perinde valere** gr. expect.   
+  Annotation: [Type: Declaratio_Litteras_Perinde_Valere, Value: "perinde valere"]
+
+
+
+#### Label: de_fruct._percip.
+
+##### Beschreibung: Gnadenerweis mit Benefizialthematik.
+
+##### Standard Examples: 
+
+* Text: de **fruct. percip.** in absentia    
+  Annotation: [Type: de_fruct._percip., Value: "fruct. percip."]
+
+
+
+
+
+#### Label: de_loco_interdicto
+
+##### Beschreibung: Erlaubnis, trotz Interdikts u.a. die Messe feiern zu dürfen.
+
+##### Standard Examples: 
+
+* Text: de **locis interdictis**  
+  Annotation: [Type: de_loco_interdicto, Value: "locis interdictis"]
+
+
+
+
+#### Label: de_n._prom.
+
+##### Beschreibung: Erlaubnis, eine eigentlich notwendige Weihe aufschieben zu dürfen, z.B. wegen eines Studiums.
+
+##### Standard Examples: 
+
+* Text: de **n. prom.** ad 7 an.
+  Annotation: [Type: de_n._prom., Value: "n. prom."]
+
+
+
+
+#### Label: de_n._resid.
+
+##### Beschreibung: Erlaubnis, nicht am Ort seines Benefizes wohnhaft sein zu müssen; entgegen der Anwesenheitspflicht.
+
+##### Standard Examples: 
+
+* Text: **n. resid.** ad quinquennium   
+  Annotation: [Type: de_n._resid., Value: "n. resid."]
+
+
+
+
+#### Label: de_prom_ad_ord_extra_temp
+
+##### Beschreibung: Erlaubnis, die höheren Weihen schneller als kanonisch vorgesehen empfangen zu dürfen.
+
+##### Standard Examples: 
+
+* Text:  de lic. recip. ord. in curia **extra temp.**   
+  Annotation: [Type: de_prom_ad_ord_extra_temp, Value: "extra temp."]
+
+
+
+
+#### Label: de_visitatione_et_reformatione
+
+##### Beschreibung: 
 
 ##### Standard Examples: 
 
 * Text: ****  
-  Annotation: [Type: , Value: ""]
-
----
-
-#### Label: DeConfessElig
-
-##### Standard Examples: 
-
-* Text: ****  
-  Annotation: [Type: , Value: ""]
-
----
-
-#### Label: DeFructPercip
-
-##### Standard Examples: 
-
-* Text: ****  
-  Annotation: [Type: , Value: ""]
-
----
-
-#### Label: DeLocoInterdicto
-
-##### Standard Examples: 
-
-* Text: ****  
-  Annotation: [Type: , Value: ""]
-
----
-
-#### Label: DeNProm
-
-##### Standard Examples: 
-
-* Text: ****  
-  Annotation: [Type: , Value: ""]
-
----
-
-#### Label: DeNResid
-
-##### Standard Examples: 
-
-* Text: ****  
-  Annotation: [Type: , Value: ""]
-
----
-
-#### Label: DePromAdOrdExtraTemp
-
-##### Standard Examples: 
-
-* Text: ****  
-  Annotation: [Type: , Value: ""]
-
----
-
-#### Label: DeRemPlen
-
-##### Standard Examples: 
-
-* Text: ****  
-  Annotation: [Type: , Value: ""]
-
----
-
-#### Label: DeVisitationeEtReformatione
-
-##### Standard Examples: 
-
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+  Annotation: [Type: de_visitatione_et_reformatione, Value: ""]
 
 ---
 
@@ -1166,12 +1171,16 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Dis
 
 #### Label: DispensatioAdIncompatibiliaBeneficia
 
+##### Beschreibung: 
+
 ##### Standard Examples: 
 
 * Text: ****  
   Annotation: [Type: , Value: ""]
 
 #### Label: DispensatioSuperDefNat
+
+##### Beschreibung: 
 
 ##### Standard Examples: 
 
@@ -1180,6 +1189,8 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Dis
 
 #### Label: DispensatioSuperImpedimentoMatrimonii
 
+##### Beschreibung: 
+
 ##### Standard Examples: 
 
 * Text: ****  
@@ -1187,12 +1198,16 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Dis
 
 #### Label: DispensatioSuperIrregularitate
 
+##### Beschreibung: 
+
 ##### Standard Examples: 
 
 * Text: ****  
   Annotation: [Type: , Value: ""]
 
 #### Label: VisitatioLiminumApostolorum
+
+##### Beschreibung: 
 
 ##### Standard Examples: 
 
@@ -1229,6 +1244,8 @@ Erlaubnis zur Errichtung einer neuen kirchlichen Institution oder der Erhebung e
 ---
 
 #### Label: EsusLacticiniorumEsusCarnium
+
+##### Beschreibung: 
 
 ##### Standard Examples: 
 
@@ -1310,6 +1327,8 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Fac
 
 #### Label: FacultasAbsolvendi
 
+##### Beschreibung: 
+
 ##### Standard Examples: 
 
 * Text: ****  
@@ -1317,12 +1336,16 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Fac
 
 #### Label: FacultasReconciliandi
 
+##### Beschreibung: 
+
 ##### Standard Examples: 
 
 * Text: ****  
   Annotation: [Type: , Value: ""]
 
 #### Label: FacultasResignandi
+
+##### Beschreibung: 
 
 ##### Standard Examples: 
 
@@ -1379,6 +1402,8 @@ Indulgenz, Ablass
 ---
 
 #### Label: Indultum
+
+##### Beschreibung: 
 
 ##### Standard Examples: 
 
@@ -1446,12 +1471,16 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Lic
 
 #### Label: LicentiaArrendandiLocandi
 
+##### Beschreibung: 
+
 ##### Standard Examples: 
 
 * Text: ****  
   Annotation: [Type: , Value: ""]
 
 #### Label: LicentiaDemoliendi
+
+##### Beschreibung: 
 
 ##### Standard Examples: 
 
@@ -1460,12 +1489,16 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Lic
 
 #### Label: LicentiaDicendiHorasCanonicas
 
+##### Beschreibung: 
+
 ##### Standard Examples: 
 
 * Text: ****  
   Annotation: [Type: , Value: ""]
 
 #### Label: LicentiaPermutandi
+
+##### Beschreibung: 
 
 ##### Standard Examples: 
 
@@ -1474,6 +1507,8 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Lic
 
 #### Label: LicentiaStudendi
 
+##### Beschreibung: 
+
 ##### Standard Examples: 
 
 * Text: ****  
@@ -1481,12 +1516,16 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Lic
 
 #### Label: LicentiaTacendiSuperDefectuNatalium
 
+##### Beschreibung: 
+
 ##### Standard Examples: 
 
 * Text: ****  
   Annotation: [Type: , Value: ""]
 
 #### Label: LicentiaTestandi
+
+##### Beschreibung: 
 
 ##### Standard Examples: 
 
@@ -1508,6 +1547,8 @@ Schutzbrief
 ---
 
 #### Label: LitteraDimissoralis
+
+##### Beschreibung: 
 
 ##### Standard Examples: 
 
@@ -1583,6 +1624,8 @@ Hauptsächlich in RG 10 (?)
 
 #### Label: MutatioCollatoris
 
+##### Beschreibung: 
+
 ##### Standard Examples: 
 
 * Text: ****  
@@ -1602,8 +1645,19 @@ Verleihung und Modifizierung von Pensionsleistunen
 * Text: de **transl. pensionis**  
   Annotation: [Type: Pensio, Value: "transl. pensionis"]
 
----
 
+
+#### Label: Plenarablass
+
+##### Beschreibung: Erlaubnis des einmaligen vollkommenen Ablasses
+
+##### Standard Examples:
+* Text: de **rem. plen.**  
+  Annotation: [Type: Plenarablass, Value: "rem. plen."]
+
+
+
+  
 #### Label: Prerogativa
 
 ##### Beschreibung:
@@ -1623,12 +1677,16 @@ Vorrecht, Prärogative
 
 #### Label: PrerogatioAdInstarPapeFamilaris
 
+##### Beschreibung: 
+
 ##### Standard Examples: 
 
 * Text: ****  
   Annotation: [Type: , Value: ""]
 
 #### Label: PrerogatioPapeFamiliarisInAbsentia
+
+##### Beschreibung: 
 
 ##### Standard Examples: 
 
@@ -1691,12 +1749,16 @@ Bestimmungen zur Verleihung eines Benefizes
 
 #### Label: EinfacheProvisio
 
+##### Beschreibung: 
+
 ##### Standard Examples: 
 
 * Text: ****  
   Annotation: [Type: , Value: ""]
 
 #### Label: GratiaExpectativa
+
+##### Beschreibung: 
 
 ##### Standard Examples: 
 
@@ -1705,12 +1767,16 @@ Bestimmungen zur Verleihung eines Benefizes
 
 #### Label: NovaProvisio
 
+##### Beschreibung: 
+
 ##### Standard Examples: 
 
 * Text: ****  
   Annotation: [Type: , Value: ""]
 
 #### Label: ProvisioSiNeutri
+
+##### Beschreibung: 
 
 ##### Standard Examples: 
 
@@ -1719,12 +1785,16 @@ Bestimmungen zur Verleihung eines Benefizes
 
 #### Label: ProvisioSiNulli
 
+##### Beschreibung: 
+
 ##### Standard Examples: 
 
 * Text: ****  
   Annotation: [Type: , Value: ""]
 
 #### Label: SurrogatioAdIus
+
+##### Beschreibung: 
 
 ##### Standard Examples: 
 
@@ -1749,6 +1819,8 @@ Abänderung, Nachbesserung einer päpstlichen Gnade (?)
 
 #### Label: Rehabilitatio
 
+##### Beschreibung: 
+
 ##### Standard Examples: 
 
 * Text: ****  
@@ -1757,6 +1829,8 @@ Abänderung, Nachbesserung einer päpstlichen Gnade (?)
 ---
 
 #### Label: Reservatio
+
+##### Beschreibung: 
 
 ##### Standard Examples: 
 
@@ -1796,31 +1870,20 @@ Sicherheitsbrief für flüchtige Personen
 
 #### Label: TragbarerAltar
 
+##### Beschreibung: 
+
 ##### Standard Examples:
 * Text: gratia de **alt. port.**  
   Annotation: [Type: TragbarerAltar, Value: "alt. port."]
 * Text: de **alt. port.**  
   Annotation: [Type: TragbarerAltar, Value: "alt. port."]
 
----
-#### Label: Beichtprivileg
 
-##### Standard Examples:
-* Text: gratia de **confess. elig.**  
-  Annotation: [Type: Beichtprivileg, Value: "confess. elig."]
-* Text: de **confess. elig.**  
-  Annotation: [Type: Beichtprivileg, Value: "confess. elig."]
 
----
-#### Label: Plenarablass
-
-##### Standard Examples:
-* Text: de **rem. plen.**  
-  Annotation: [Type: Plenarablass, Value: "rem. plen."]
-
----
 
 #### Label: Unio
+
+##### Beschreibung: 
 
 ##### Standard Examples: 
 
