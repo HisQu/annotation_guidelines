@@ -1151,6 +1151,41 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Dis
 * Text: de **uberiori** disp.
   Annotation: [Type: DispensatioZusatz, Value: "uberiori"]
 
+#### Label: DispensatioAdIncompatibiliaBeneficia
+
+##### Standard Examples: 
+
+* Text: ****  
+  Annotation: [Type: , Value: ""]
+
+#### Label: DispensatioSuperDefNat
+
+##### Standard Examples: 
+
+* Text: ****  
+  Annotation: [Type: , Value: ""]
+
+#### Label: DispensatioSuperImpedimentoMatrimonii
+
+##### Standard Examples: 
+
+* Text: ****  
+  Annotation: [Type: , Value: ""]
+
+#### Label: DispensatioSuperIrregularitate
+
+##### Standard Examples: 
+
+* Text: ****  
+  Annotation: [Type: , Value: ""]
+
+#### Label: VisitatioLiminumApostolorum
+
+##### Standard Examples: 
+
+* Text: ****  
+  Annotation: [Type: , Value: ""]
+
 ---
 
 #### Label: Erectio
