@@ -291,7 +291,7 @@ Eine Person, die einem Gerichtsprozess vorsteht.
 
 ##### Standard Examples:
 
-* Text: fam. **commensalis** Dominici [de Capranica] s. Marie
+* Text: fam. **commensalis** Dominici [de Capranica]  
   Annotation: [Type: TischgenosseMarker, Value: "commensalis"]
 
 
