@@ -151,7 +151,7 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
 
 ##### Standard Examples:
 
-* Text: **gratis pro deo**
+* Text: **gratis pro deo**  
   Annotation: [Type: ArmePersonMarker, Value: "gratis pro deo"]
   
 ---
@@ -160,7 +160,7 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
 
 ##### Standard Examples:
 
-* Text: **iudex delegatus**
+* Text: **iudex delegatus**  
   Annotation: [Type: DelegierterRichterMarker, Value: "iudex delegatus"]
 
 ---
@@ -169,7 +169,7 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
 
 ##### Standard Examples: executor
 
-* Text: **executor**
+* Text: **executor**  
   Annotation: [Type: ExekutorMarker, Value: "executor"]
 
 ---
@@ -187,7 +187,7 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
 
 * Text: **parafrenarius** pape  
   Annotation: [Type: FamiliarMarker, Value: "parafrenarius pape"]
-* Text: **(unknown)** pape
+* Text: **(unknown)** pape  
   Annotation: [Type: FamiliarMarker, Value: "(unknown)"]
   * **Hinweis:** Neben den oben genannten Beispielen "acolit. pape" und "parafrenarius pape" kann es noch weitere Ämter geben, die im direkten Umfeld des Papstes ausgeübt werden. Diese kirchlichen Ämter, die im Regest durch die direkte Nähe zum Wort "pape" gekennzeichnet sind, werden hier durch den Platzhalter (unknown) bezeichnet. Dieser Platzhalter soll ebenfalls das Label "Familiar" bekommen. Wieder entfernt aus der Kategorie "Familiar" haben wir Fälle wie "cap. ap. sed." oder "script. litt. ap.", da es sich bei ihnen zwar um Bedienstete der Kurie,  nicht aber zwangsläufig um Familiare handelt.
 
@@ -197,7 +197,7 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
 
 ##### Standard Examples: supplic. Johanne ep. Gurc.
 
-* Text: **supplic.** Johanne ep. Gurc.
+* Text: **supplic.** Johanne ep. Gurc.  
   Annotation: [Type: FürsprecherMarker, Value: "supplic."]
 
 ---
@@ -217,7 +217,7 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
 
 ##### Standard Examples:
 
-* Text: Gotfridi Bochorn **collect.**
+* Text: Gotfridi Bochorn **collect.**  
   Annotation: [Type: KollektorMarker, Value: "collect."]
 
 ---
@@ -226,7 +226,7 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
 
 ##### Standard Examples:
 
-* Text: **o.s.a.** per Johannem Scade procuratorem causarum in Romana curia
+* Text: **o.s.a.** per Johannem Scade procuratorem causarum in Romana curia  
   Annotation: [Type: ObligationsbeauftragterMarker, Value: "o.s.a."]
 
 ---
@@ -235,7 +235,7 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
 
 ##### Standard Examples:
 
-* Text: **patron.**
+* Text: **patron.**  
   Annotation: [Type: PatronMarker, Value: "patron."]
 
 ---
@@ -247,7 +247,7 @@ Immer wenn die Fundstelle das Suppilkenregister (S) ist(?), dann ist die am Anfa
 
 ##### Standard Examples:
 
-* Text: Adolphus (Adolfus) de Breithart (Breyt(h)art, Brenchart) rect. par. eccl. in Heydesheym (Beydesheym) Wormat. dioc. , Adolphi el. et conf. <aep.> Magunt. prothonot. < primus not. > de disp. ut unac. d. par. eccl. aliud incompat. benef. recip. valeat dummodo 2 par. eccl. n. sint 3. mart. 1465 **S** 579 228vs, L 605 5rs. 
+* Text: Adolphus (Adolfus) de Breithart (Breyt(h)art, Brenchart) rect. par. eccl. in Heydesheym (Beydesheym) Wormat. dioc. , Adolphi el. et conf. <aep.> Magunt. prothonot. < primus not. > de disp. ut unac. d. par. eccl. aliud incompat. benef. recip. valeat dummodo 2 par. eccl. n. sint 3. mart. 1465 **S** 579 228vs, L 605 5rs.  
   Annotation: [Type: PetentMarker, Value: "S"]
 
 ---
@@ -270,9 +270,9 @@ Eine Person, meist ein Richter, der einem Gerichtsprozess vorsteht.
 
 ##### Standard Examples:
 
-* Text: Albertus Milinchus cler. Colon. in alma Urbe in iure can. **studens**: ref. disp. sup. incompat. 5 mart. 1428 S 222 203v.
+* Text: Albertus Milinchus cler. Colon. in alma Urbe in iure can. **studens**: ref. disp. sup. incompat. 5 mart. 1428 S 222 203v.  
   Annotation: [Type: StudentMarker, Value: "studens"]
-* Text: Adolffus de Nassauw **scol.** Trever. de disp. sup. def. nat. ( com. s., c. ) 15. mai. 1434 S 301 235vs. 
+* Text: Adolffus de Nassauw **scol.** Trever. de disp. sup. def. nat. ( com. s., c. ) 15. mai. 1434 S 301 235vs.  
   Annotation: [Type: StudentMarker, Value: "scol."]
 
 ---
@@ -281,9 +281,9 @@ Eine Person, meist ein Richter, der einem Gerichtsprozess vorsteht.
 
 ##### Standard Examples:
 
-* Text: Erhardus Naseloys iuram. fidel. ratione off. **subcollectorie** in dioc. Constant. 18 mart. 1413 M 60.
+* Text: Erhardus Naseloys iuram. fidel. ratione off. **subcollectorie** in dioc. Constant. 18 mart. 1413 M 60.  
   Annotation: [Type: SubkollektorMarker, Value: "subcollectorie"]
-* Text: Johannes Kramer presb. Constant. dioc. de par. eccl. in Ynik Salzeburg. dioc. vac. per ob. Ottonis de Obenstetten in Ratisbon. et Salzeburg. dioc. fructuum camere ap. **subcollectoris** S 68 135 v.
+* Text: Johannes Kramer presb. Constant. dioc. de par. eccl. in Ynik Salzeburg. dioc. vac. per ob. Ottonis de Obenstetten in Ratisbon. et Salzeburg. dioc. fructuum camere ap. **subcollectoris** S 68 135 v.  
   Annotation: [Type: SubkollektorMarker, Value: "subcollectoris"]
 
 ---
@@ -292,7 +292,7 @@ Eine Person, meist ein Richter, der einem Gerichtsprozess vorsteht.
 
 ##### Standard Examples:
 
-* Text: Adrianus Martini de Breda Leod. dioc. fam. **commensalis** Dominici [de Capranica] s. Marie in via lata diac. card.: prov. de benef. Leod. dioc. 26. sept. 1441 ( exped. 17. oct. 41) L 383 190r–191v.
+* Text: Adrianus Martini de Breda Leod. dioc. fam. **commensalis** Dominici [de Capranica] s. Marie in via lata diac. card.: prov. de benef. Leod. dioc. 26. sept. 1441 ( exped. 17. oct. 41) L 383 190r–191v.  
   Annotation: [Type: TischgenosseMarker, Value: "commensalis"]
 
 ---
@@ -301,9 +301,9 @@ Eine Person, meist ein Richter, der einem Gerichtsprozess vorsteht.
 
 ##### Standard Examples:
 
-* Text: Adam Foyllen (Folen) de Yrmetrode oblig. sup. annat. ( **p.** mag. Henricum Erkel d. Hesse cant. eccl. s. Petri Magunt. ) par. eccl. in Wiilre Trever. dioc. vac. p. o. Sifridi de Westerburch 5 iun. 1426 A 2 166r.
+* Text: Adam Foyllen (Folen) de Yrmetrode oblig. sup. annat. ( **p.** mag. Henricum Erkel d. Hesse cant. eccl. s. Petri Magunt. ) par. eccl. in Wiilre Trever. dioc. vac. p. o. Sifridi de Westerburch 5 iun. 1426 A 2 166r.  
 Annotation: [Type: ZahlungsbeauftragterMarker, Value: "p."]
-* Text: Abraham Johannis de lasothky can. Cracov. de nob. gen. ann. preb. eccl. Lancicien . Gneznen. dioc. **p. manus** Prothasii de Tabernis (19 fl. auri de cam. ) 6. oct. 1449 IE 416 35r, IE 417 35r, IE 418 36r, DG 1756 16v.
+* Text: Abraham Johannis de lasothky can. Cracov. de nob. gen. ann. preb. eccl. Lancicien . Gneznen. dioc. **p. manus** Prothasii de Tabernis (19 fl. auri de cam. ) 6. oct. 1449 IE 416 35r, IE 417 35r, IE 418 36r, DG 1756 16v.  
 Annotation: [Type: ZahlungsbeauftragterMarker, Value: "p. manus"]
 
 ---
@@ -312,9 +312,9 @@ Annotation: [Type: ZahlungsbeauftragterMarker, Value: "p. manus"]
 
 ##### Standard Examples:
 
-* Text: Adolphus filius ducis Cleven. **testis** 21. febr. 1440 DC 20 141r.
+* Text: Adolphus filius ducis Cleven. **testis** 21. febr. 1440 DC 20 141r.  
 Annotation: [Type: ZeugeMarker, Value: "testis"]
-* Text: Jacobus Nedermolen cler. Colon. dioc. **testis** super quadam oblig. 28 iul. 1409 M 8.
+* Text: Jacobus Nedermolen cler. Colon. dioc. **testis** super quadam oblig. 28 iul. 1409 M 8.  
 Annotation: [Type: ZeugeMarker, Value: "testis"]
 
 ---
