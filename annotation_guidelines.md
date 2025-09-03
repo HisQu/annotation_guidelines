@@ -255,12 +255,12 @@ Eine Person, die einem Gerichtsprozess vorsteht.
 
 ##### Standard Examples:
 
-* Text: **iud.**    
+* Text: **iud.**      
   Annotation: [Type: Prozessvorsteher, Value: "iud."]  
-* Text: **iudex**  
-  Annotation: [Type: Prozessvorsteher, Value: "iudex"]  
-* Text: **official.** Minden. hab. pot. ab ep. Verden. 
-  Annotation: [Type: Prozessvorsteher, Value: "official."]  
+* Text: **iudex**    
+  Annotation: [Type: Prozessvorsteher, Value: "iudex"]    
+* Text: **official.** Minden. hab. pot. ab ep. Verden.   
+  Annotation: [Type: Prozessvorsteher, Value: "official."]    
 * Text: **offic.** Minden. perm. causa de par. eccl.  
   Annotation: [Type: Prozessvorsteher, Value: "offic."] 
 
