@@ -143,7 +143,7 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
 * Text: **adher.**  
   Annotation: [Type: Anhänger, Value: "adher."]
 
----
+
 
 #### Label: ArmePersonMarker
 
