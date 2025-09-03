@@ -196,7 +196,7 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
 
 #### Label: FürsprecherMarker
 
-##### Standard Examples: supplic. Johanne ep. Gurc.
+##### Standard Examples:
 
 * Text: **supplic.** Johanne ep. Gurc.  
   Annotation: [Type: FürsprecherMarker, Value: "supplic."]
