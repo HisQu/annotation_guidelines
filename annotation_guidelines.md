@@ -876,6 +876,24 @@ Verstärkung einer Strafe
 
 ---
 
+#### Label: AlternativaFacultas
+
+##### Standard Examples: 
+
+* Text: ****
+  Annotation: [Type: , Value: ""]
+
+---
+
+#### Label: Antelatio
+
+##### Standard Examples: 
+
+* Text: ****
+  Annotation: [Type: , Value: ""]
+
+---
+
 #### Label: Cassatio
 
 ##### Beschreibung:
@@ -901,6 +919,24 @@ Kennzeichnung des Gnadeninhalts der Cassatio. Der gesamte Gnadeninhalt wird mit 
   Annotation: [Type: CassatioZusatz, Value: "litt."]
 * Text: de cass. **pensionis**  
   Annotation: [Type: CassatioZusatz, Value: "pensionis."]
+  
+---
+
+#### Label: CassatioReductioTranslatioPensionis
+
+##### Standard Examples: 
+
+* Text: ****
+  Annotation: [Type: , Value: ""]
+
+---
+
+#### Label: Collatio
+
+##### Standard Examples: 
+
+* Text: ****
+  Annotation: [Type: , Value: ""]
 
 ---
 
@@ -960,6 +996,60 @@ Erklärung
 
 * Text: **decl.**  
   Annotation: [Type: Declaratio, Value: "decl."]
+
+---
+
+#### Label: DeclaratioLitterasPerindeValere
+
+##### Standard Examples: 
+
+* Text: ****
+  Annotation: [Type: , Value: ""]
+
+---
+
+#### Label: DeConfessElig
+
+##### Standard Examples: 
+
+* Text: ****
+  Annotation: [Type: , Value: ""]
+
+---
+
+#### Label: DeFructPercip
+
+##### Standard Examples: 
+
+* Text: ****
+  Annotation: [Type: , Value: ""]
+
+---
+
+#### Label: DeNProm
+
+##### Standard Examples: 
+
+* Text: ****
+  Annotation: [Type: , Value: ""]
+
+---
+
+#### Label: DeNResid
+
+##### Standard Examples: 
+
+* Text: ****
+  Annotation: [Type: , Value: ""]
+
+---
+
+#### Label: DePromAdOrdExtraTemp
+
+##### Standard Examples: 
+
+* Text: ****
+  Annotation: [Type: , Value: ""]
 
 ---
 
@@ -1063,6 +1153,15 @@ Erlaubnis zur Errichtung einer neuen kirchlichen Institution oder der Erhebung e
 
 ---
 
+#### Label: EsusLacticiniorumEsusCarnium
+
+##### Standard Examples: 
+
+* Text: ****
+  Annotation: [Type: , Value: ""]
+
+---
+
 #### Label: Exemptio
 
 ##### Beschreibung:
@@ -1134,6 +1233,27 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Fac
   - [Type: FacultasZusatz, Value: "alternativa"]
   - [Type: FacultasZusatz, Value: "disponendi"]
 
+#### Label: FacultasAbsolvendi
+
+##### Standard Examples: 
+
+* Text: ****
+  Annotation: [Type: , Value: ""]
+
+#### Label: FacultasReconciliandi
+
+##### Standard Examples: 
+
+* Text: ****
+  Annotation: [Type: , Value: ""]
+
+#### Label: FacultasResignandi
+
+##### Standard Examples: 
+
+* Text: ****
+  Annotation: [Type: , Value: ""]
+
 ---
 
 #### Label: Habilitatio
@@ -1157,6 +1277,20 @@ Wiederherstellung der Befähigung zur Ausübung einer Rechtshandlung
 
 ---
 
+#### Label: Incorporatio
+
+##### Beschreibung:
+Einverleibung einer kirchlichen Institution durch eine andere
+
+##### Standard Examples:
+
+* Text: **inkorp.**  
+  Annotation: [Type: Incorporatio, Value: "inkorp."]
+* Text: **unio**  
+  Annotation: [Type: Incorporatio, Value: "unio"]
+
+---
+
 #### Label: Indulgentia
 
 ##### Beschreibung:
@@ -1169,17 +1303,12 @@ Indulgenz, Ablass
 
 ---
 
-#### Label: Incorporatio
+#### Label: Indultum
 
-##### Beschreibung:
-Einverleibung einer kirchlichen Institution durch eine andere
+##### Standard Examples: 
 
-##### Standard Examples:
-
-* Text: **inkorp.**  
-  Annotation: [Type: Incorporatio, Value: "inkorp."]
-* Text: **unio**  
-  Annotation: [Type: Incorporatio, Value: "unio"]
+* Text: ****
+  Annotation: [Type: , Value: ""]
 
 ---
 
@@ -1240,6 +1369,55 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Lic
 * Text: lic. **ratione par. eccl. s. Martini, … in casu quod rect. unius ex d. eccl. fuerit excom., per alios presb. sibi sacramenta ministrari faciendi**  
   Annotation: [Type: LicentiaZusatz, Value: "ratione par. eccl. s. Martini, … in casu quod rect. unius ex d. eccl. fuerit excom., per alios presb. sibi sacramenta ministrari faciendi"]
 
+#### Label: LicentiaArrendandiLocandi
+
+##### Standard Examples: 
+
+* Text: ****
+  Annotation: [Type: , Value: ""]
+
+#### Label: LicentiaDemoliendi
+
+##### Standard Examples: 
+
+* Text: ****
+  Annotation: [Type: , Value: ""]
+
+#### Label: LicentiaDicendiHorasCanonicas
+
+##### Standard Examples: 
+
+* Text: ****
+  Annotation: [Type: , Value: ""]
+
+#### Label: LicentiaPermutandi
+
+##### Standard Examples: 
+
+* Text: ****
+  Annotation: [Type: , Value: ""]
+
+#### Label: LicentiaStudendi
+
+##### Standard Examples: 
+
+* Text: ****
+  Annotation: [Type: , Value: ""]
+
+#### Label: LicentiaTacendiSuperDefectuNatalium
+
+##### Standard Examples: 
+
+* Text: ****
+  Annotation: [Type: , Value: ""]
+
+#### Label: LicentiaTestandi
+
+##### Standard Examples: 
+
+* Text: ****
+  Annotation: [Type: , Value: ""]
+
 ---
 
 #### Label: LitteraConservatoriaBonorum
@@ -1251,6 +1429,15 @@ Schutzbrief
 
 * Text: de **conserv.**  
   Annotation: [Type: LitteraConservatoriaBonorum, Value: "conserv."]
+
+---
+
+#### Label: LitteraDimissoralis
+
+##### Standard Examples: 
+
+* Text: ****
+  Annotation: [Type: , Value: ""]
 
 ---
 
@@ -1350,6 +1537,20 @@ Vorrecht, Prärogative
 * Text: **prerog.** pape fam. in absentia  
   Annotation: [Type: Prerogativa, Value: "prerog."]
 
+#### Label: PrerogatioAdInstarPapeFamilaris
+
+##### Standard Examples: 
+
+* Text: ****
+  Annotation: [Type: , Value: ""]
+
+#### Label: PrerogatioPapeFamiliarisInAbsentia
+
+##### Standard Examples: 
+
+* Text: ****
+  Annotation: [Type: , Value: ""]
+
 ---
 
 #### Label: Prorogatio
@@ -1420,6 +1621,24 @@ Abänderung, Nachbesserung einer päpstlichen Gnade (?)
 
 ---
 
+#### Label: Rehabilitatio
+
+##### Standard Examples: 
+
+* Text: ****
+  Annotation: [Type: , Value: ""]
+
+---
+
+#### Label: Reservatio
+
+##### Standard Examples: 
+
+* Text: ****
+  Annotation: [Type: , Value: ""]
+
+---
+
 #### Label: Revalidatio
 
 ##### Beschreibung:
@@ -1472,6 +1691,15 @@ Sicherheitsbrief für flüchtige Personen
 ##### Standard Examples:
 * Text: de **rem. plen.**  
   Annotation: [Type: Plenarablass, Value: "rem. plen."]
+
+---
+
+#### Label: Unio
+
+##### Standard Examples: 
+
+* Text: ****
+  Annotation: [Type: , Value: ""]
 
 ---
 
