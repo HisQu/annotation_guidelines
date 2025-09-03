@@ -985,6 +985,15 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Con
 
 ---
 
+#### Label: DeAdvoc
+
+##### Standard Examples: 
+
+* Text: ****  
+  Annotation: [Type: , Value: ""]
+
+---
+
 #### Label: DeBenef.
 
 ##### Standard Examples: 
