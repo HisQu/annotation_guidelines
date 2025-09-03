@@ -1667,6 +1667,48 @@ Bestimmungen zur Verleihung eines Benefizes
 * Text: **gr. expect.**  
   Annotation: [Type: Provisio, Value: "gr. expect."]
 
+#### Label: EinfacheProvisio
+
+##### Standard Examples: 
+
+* Text: ****  
+  Annotation: [Type: , Value: ""]
+
+#### Label: GratiaExpectativa
+
+##### Standard Examples: 
+
+* Text: ****  
+  Annotation: [Type: , Value: ""]
+
+#### Label: NovaProvisio
+
+##### Standard Examples: 
+
+* Text: ****  
+  Annotation: [Type: , Value: ""]
+
+#### Label: ProvisioSiNeutri
+
+##### Standard Examples: 
+
+* Text: ****  
+  Annotation: [Type: , Value: ""]
+
+#### Label: ProvisioSiNulli
+
+##### Standard Examples: 
+
+* Text: ****  
+  Annotation: [Type: , Value: ""]
+
+#### Label: SurrogatioAdIus
+
+##### Standard Examples: 
+
+* Text: ****  
+  Annotation: [Type: , Value: ""]
+
 ---
 
 #### Label: Reformatio
