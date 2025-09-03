@@ -1584,6 +1584,15 @@ Hauptsächlich in RG 10 (?)
 
 ---
 
+#### Label: MutatioCollatoris
+
+##### Standard Examples: 
+
+* Text: ****  
+  Annotation: [Type: , Value: ""]
+
+---
+
 #### Label: Pensio
 
 ##### Beschreibung:
