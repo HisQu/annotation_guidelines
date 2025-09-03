@@ -987,6 +987,15 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Con
 
 ---
 
+#### Label: DeBenef.
+
+##### Standard Examples: 
+
+* Text: ****  
+  Annotation: [Type: , Value: ""]
+
+---
+
 #### Label: Declaratio
 
 ##### Beschreibung:
@@ -1026,6 +1035,15 @@ Erklärung
 
 ---
 
+#### Label: DeLocoInterdicto
+
+##### Standard Examples: 
+
+* Text: ****  
+  Annotation: [Type: , Value: ""]
+
+---
+
 #### Label: DeNProm
 
 ##### Standard Examples: 
@@ -1045,6 +1063,15 @@ Erklärung
 ---
 
 #### Label: DePromAdOrdExtraTemp
+
+##### Standard Examples: 
+
+* Text: ****  
+  Annotation: [Type: , Value: ""]
+
+---
+
+#### Label: DeVisitationeEtReformatione
 
 ##### Standard Examples: 
 
