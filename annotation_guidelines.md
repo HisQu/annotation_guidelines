@@ -920,8 +920,6 @@ Kennzeichnung des Gnadeninhalts der Cassatio. Der gesamte Gnadeninhalt wird mit 
 * Text: de cass. **pensionis**  
   Annotation: [Type: CassatioZusatz, Value: "pensionis."]
   
----
-
 #### Label: CassatioReductioTranslatioPensionis
 
 ##### Standard Examples: 
