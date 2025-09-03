@@ -243,7 +243,7 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
 
 ##### Standard Examples:
 
-* Text: Adolphus (Adolfus) de Breithart (Breyt(h)art, Brenchart) ... **S** 579 228vs, L 605 5rs.  
+* Text: **S** 579 228vs, L 605 5rs.  
   Annotation: [Type: PetentMarker, Value: "S"]
 
 
