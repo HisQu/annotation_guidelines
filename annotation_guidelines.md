@@ -880,7 +880,7 @@ Verstärkung einer Strafe
 
 ##### Standard Examples: 
 
-* Text: ****
+* Text: ****  
   Annotation: [Type: , Value: ""]
 
 ---
@@ -889,7 +889,7 @@ Verstärkung einer Strafe
 
 ##### Standard Examples: 
 
-* Text: ****
+* Text: ****  
   Annotation: [Type: , Value: ""]
 
 ---
@@ -926,7 +926,7 @@ Kennzeichnung des Gnadeninhalts der Cassatio. Der gesamte Gnadeninhalt wird mit 
 
 ##### Standard Examples: 
 
-* Text: ****
+* Text: ****  
   Annotation: [Type: , Value: ""]
 
 ---
@@ -935,7 +935,7 @@ Kennzeichnung des Gnadeninhalts der Cassatio. Der gesamte Gnadeninhalt wird mit 
 
 ##### Standard Examples: 
 
-* Text: ****
+* Text: ****  
   Annotation: [Type: , Value: ""]
 
 ---
@@ -1003,7 +1003,7 @@ Erklärung
 
 ##### Standard Examples: 
 
-* Text: ****
+* Text: ****  
   Annotation: [Type: , Value: ""]
 
 ---
@@ -1012,7 +1012,7 @@ Erklärung
 
 ##### Standard Examples: 
 
-* Text: ****
+* Text: ****  
   Annotation: [Type: , Value: ""]
 
 ---
@@ -1021,7 +1021,7 @@ Erklärung
 
 ##### Standard Examples: 
 
-* Text: ****
+* Text: ****  
   Annotation: [Type: , Value: ""]
 
 ---
@@ -1030,7 +1030,7 @@ Erklärung
 
 ##### Standard Examples: 
 
-* Text: ****
+* Text: ****  
   Annotation: [Type: , Value: ""]
 
 ---
@@ -1039,7 +1039,7 @@ Erklärung
 
 ##### Standard Examples: 
 
-* Text: ****
+* Text: ****  
   Annotation: [Type: , Value: ""]
 
 ---
@@ -1048,7 +1048,7 @@ Erklärung
 
 ##### Standard Examples: 
 
-* Text: ****
+* Text: ****  
   Annotation: [Type: , Value: ""]
 
 ---
@@ -1157,7 +1157,7 @@ Erlaubnis zur Errichtung einer neuen kirchlichen Institution oder der Erhebung e
 
 ##### Standard Examples: 
 
-* Text: ****
+* Text: ****  
   Annotation: [Type: , Value: ""]
 
 ---
@@ -1237,21 +1237,21 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Fac
 
 ##### Standard Examples: 
 
-* Text: ****
+* Text: ****  
   Annotation: [Type: , Value: ""]
 
 #### Label: FacultasReconciliandi
 
 ##### Standard Examples: 
 
-* Text: ****
+* Text: ****  
   Annotation: [Type: , Value: ""]
 
 #### Label: FacultasResignandi
 
 ##### Standard Examples: 
 
-* Text: ****
+* Text: ****  
   Annotation: [Type: , Value: ""]
 
 ---
@@ -1307,7 +1307,7 @@ Indulgenz, Ablass
 
 ##### Standard Examples: 
 
-* Text: ****
+* Text: ****  
   Annotation: [Type: , Value: ""]
 
 ---
@@ -1373,49 +1373,49 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Lic
 
 ##### Standard Examples: 
 
-* Text: ****
+* Text: ****  
   Annotation: [Type: , Value: ""]
 
 #### Label: LicentiaDemoliendi
 
 ##### Standard Examples: 
 
-* Text: ****
+* Text: ****  
   Annotation: [Type: , Value: ""]
 
 #### Label: LicentiaDicendiHorasCanonicas
 
 ##### Standard Examples: 
 
-* Text: ****
+* Text: ****  
   Annotation: [Type: , Value: ""]
 
 #### Label: LicentiaPermutandi
 
 ##### Standard Examples: 
 
-* Text: ****
+* Text: ****  
   Annotation: [Type: , Value: ""]
 
 #### Label: LicentiaStudendi
 
 ##### Standard Examples: 
 
-* Text: ****
+* Text: ****  
   Annotation: [Type: , Value: ""]
 
 #### Label: LicentiaTacendiSuperDefectuNatalium
 
 ##### Standard Examples: 
 
-* Text: ****
+* Text: ****  
   Annotation: [Type: , Value: ""]
 
 #### Label: LicentiaTestandi
 
 ##### Standard Examples: 
 
-* Text: ****
+* Text: ****  
   Annotation: [Type: , Value: ""]
 
 ---
@@ -1436,7 +1436,7 @@ Schutzbrief
 
 ##### Standard Examples: 
 
-* Text: ****
+* Text: ****  
   Annotation: [Type: , Value: ""]
 
 ---
@@ -1541,14 +1541,14 @@ Vorrecht, Prärogative
 
 ##### Standard Examples: 
 
-* Text: ****
+* Text: ****  
   Annotation: [Type: , Value: ""]
 
 #### Label: PrerogatioPapeFamiliarisInAbsentia
 
 ##### Standard Examples: 
 
-* Text: ****
+* Text: ****  
   Annotation: [Type: , Value: ""]
 
 ---
@@ -1625,7 +1625,7 @@ Abänderung, Nachbesserung einer päpstlichen Gnade (?)
 
 ##### Standard Examples: 
 
-* Text: ****
+* Text: ****  
   Annotation: [Type: , Value: ""]
 
 ---
@@ -1634,7 +1634,7 @@ Abänderung, Nachbesserung einer päpstlichen Gnade (?)
 
 ##### Standard Examples: 
 
-* Text: ****
+* Text: ****  
   Annotation: [Type: , Value: ""]
 
 ---
@@ -1698,7 +1698,7 @@ Sicherheitsbrief für flüchtige Personen
 
 ##### Standard Examples: 
 
-* Text: ****
+* Text: ****  
   Annotation: [Type: , Value: ""]
 
 ---
