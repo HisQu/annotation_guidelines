@@ -225,7 +225,7 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
 
 ##### Standard Examples:
 
-* Text: **o.s.a.** per Johannem Scade procuratorem causarum in Romana curia  
+* Text: **o.s.a.** per Johannem Scade  
   Annotation: [Type: ObligationsbeauftragterMarker, Value: "o.s.a."]
 
 
