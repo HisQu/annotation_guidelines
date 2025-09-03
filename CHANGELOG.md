@@ -1,3 +1,9 @@
+## v0.18.0 (2025-09-03)
+### Update annotation_guidelines.md
+  Personen und Personengruppen
+  
+  -
+  
 ## v0.17.0 (2025-09-03)
 ### Update annotation_guidelines.md
   - Update der Gnadenerweise -> leere Strukturen
