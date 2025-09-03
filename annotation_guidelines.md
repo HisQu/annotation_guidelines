@@ -1078,6 +1078,15 @@ Erklärung
 
 ---
 
+#### Label: DeRemPlen
+
+##### Standard Examples: 
+
+* Text: ****  
+  Annotation: [Type: , Value: ""]
+
+---
+
 #### Label: DeVisitationeEtReformatione
 
 ##### Standard Examples: 
