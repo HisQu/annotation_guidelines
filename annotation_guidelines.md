@@ -13,7 +13,7 @@ Abkürzungspunkte und Endpunkte nach der Quellenangabe, sind Teil der Annotation
 ### 2. Kategorien:
 
 Die Annotation erfolgt derzeit anhand einer Vielzahl von **basalen Kategorien**, also kleinster logisch abgrenzbarer Einheiten im Regesttext. Diese basalen Kategorien bilden die Grundlage der Auszeichnung.
-Behelfsmäßig sind diese Basiskategorien in vier übergeordnete Kategorien gruppiert: Person, Vita, Event und Varia. Diese dienen der besseren Übersichtlichkeit und Navigation innerhalb der Guidelines.
+Behelfsmäßig sind diese Basiskategorien in vier übergeordnete Kategorien gruppiert: Personen und Personengruppen, Vita, Event und Varia. Diese dienen der besseren Übersichtlichkeit und Navigation innerhalb der Guidelines.
 Perspektivisch werden diese übergeordneten Kategorien durch andere/weitere **semantische Kategorien** ersetzt bzw. ergänzt. Semantische Kategorien entstehen aus der Kombination mehrerer basaler Kategorien. Ein und dieselbe basale Einheit kann dabei mehreren semantischen Kategorien zugeordnet werden. Die semantischen Kategorien befinden sich aktuell im Aufbau und werden schrittweise in die Guidelines integriert.
 
 ### 3. Darstellung im Guidelines-Dokument:
@@ -26,25 +26,23 @@ Jede Kategorie (Person, Vita, Event, Varia) enthält eine Liste von Labels (Unte
 
 ### Kategorie: Personen und Personengruppen
 
-In den Regesten erscheinen Personen sowohl explizit, d.h. namentlich genannt, als auch implizit, d.h. nicht namentlich genannt, sondern in Form von Umschreibungen.
+In den Regesten erscheinen Personen sowohl explizit, d.h. namentlich genannt, als auch implizit, d.h. nicht namentlich genannt, in Form von Umschreibungen.
 
----
 
 #### Label: Person_explizit
 
 ##### Beschreibung:
-Eine Person_explizit liegt immer dann vor, wenn die Person mit einem Vornamen und Namenszusatz auftritt. Gelegentlich werden Personen auch nur mit Vornamen oder nur mit Namenszusatz genannt. Das Label "Person_explizit" beinhaltet alle Namensbestandteile.
+Eine Person_explizit liegt immer dann vor, wenn die Person mit "Vorname" und "Namenszusatz" auftritt. Gelegentlich werden Personen auch nur mit "Vorname" oder nur mit "Namenszusatz" genannt. Das Label "Person_explizit" beinhaltet alle Namensbestandteile.
 
 ##### Standard Examples:
 * Text: **Johannes de Azel**   
   Annotation: [Type: Person_explizit, Value: "Johannes de Azel"]
-
---- 
+  
 
 #### Label: Person_implizit
 
 ##### Beschreibung:
-Eine Person_implizit liegt vor, wenn eine einzelne Person nicht namentlich auftritt, sondern über ein Pronomen, eine Amtsbezeichnung oder eine andere als die namentliche Bezeichnung referenziert wird.
+Eine "Person_implizit" liegt vor, wenn eine einzelne Person nicht namentlich auftritt, sondern über ein Pronomen, eine Amtsbezeichnung oder eine andere als die namentliche Bezeichnung referenziert wird. Hiervon zu unterscheiden sind die Bezeichnungen von Personengruppen, die über Worte und Ausdrücke im Plural erfolgen (s. Kategorie: Personengruppe).
 
 ##### Standard Examples:
 * Text: **eum** et successores suos in Magunt. provin.  
@@ -52,7 +50,7 @@ Eine Person_implizit liegt vor, wenn eine einzelne Person nicht namentlich auftr
 * Text: supplic. **aep. Magunt.**  
   Annotation: [Type: Person_implizit, Value: "aep. Magunt."]
 
----
+
 
 #### Label: Personengruppe
 
@@ -60,27 +58,27 @@ Eine Person_implizit liegt vor, wenn eine einzelne Person nicht namentlich auftr
 Eine "Personengruppe" liegt immer dann vor, wenn ein sprachlicher Ausdruck sich auf mehr als eine Person bezieht. Nicht im Label enthalten sind attributiv gebrauchte Adjektive oder Ähnliches (vgl. Standard Examples: successores suos).
 
 ##### Standard Examples:
+* Text: eum et **successores** suos in Magunt. provin.  
+  Annotation: [Type: Personengruppe, Value: "successores"]  
 * Text: **legatos** natos cum plena potestate  
   Annotation: [Type: Personengruppe, Value: "legatos"]  
 * Text: cum **30 pers.** de confess. elig.    
   Annotation: [Type: Personengruppe, Value: "30 pers."]  
-* Text: eum et **successores** suos in Magunt. provin.  
-  Annotation: [Type: Personengruppe, Value: "successores"]  
 * Text: **alii**  
   Annotation: [Type: Personengruppe, Value: "alii"]  
 * Text: quidem **8000 et infra** lim. eccl. s. Nicolai  
   Annotation: [Type: Personengruppe, Value: "8000 et infra"]  
 * Text: **6000 parochiani**  
   Annotation: [Type: Personengruppe, Value: "6000 parochiani"]  
-* Text: Proconsules et consules et **commune** op. D. Traiect. dioc.  
+* Text: et **commune** op. D. Traiect. dioc.  
   Annotation: [Type: Personengruppe, Value: "commune"]  
 
----
+
 
 #### Label: Vorname
 
 ##### Beschreibung:
-Der Vorname ist ein Namensbestandteil von fast allen explizit genannten Personen.
+Der "Vorname" ist ein Namensbestandteil von fast allen explizit genannten Personen.
 
 ##### Standard Examples:
 
@@ -91,12 +89,12 @@ Der Vorname ist ein Namensbestandteil von fast allen explizit genannten Personen
 * Text: **Floora** relicta Magni Bootes armig.  
   Annotation: [Type: Vorname, Value: "Floora"] 
 
----
+
 
 #### Label: Namenszusatz
 
 ##### Beschreibung:
-Der "Namenszusatz" ist eine Sammelbezeichnung für eine Vielzahl möglicher Namensbestandteile, die auf einen "Vornamen" folgen. Sie werden gesammelt als "Namenszusatz" gelabelt. Gemeinsam mit dem "Vornamen" konstituiert der "Namenszusatz" in den allermeisten Fällen die Kategorie "Person_explizit". Achtung: Nicht als Namenszusatz gelten kirchliche Ämter (Albertus **el. Ratisp.** /Angelus **abb. mon. in Runa**), weltliche Ämter (Antonius **dux Brabantie**), Identifikation über eine andere Person (Alexander **nob. viri Semonithi ducis Masouie** natus).
+Der "Namenszusatz" ist eine Sammelbezeichnung für eine Vielzahl möglicher Namensbestandteile, die meist auf einen "Vornamen" folgen. Sie werden gesammelt als "Namenszusatz" gelabelt. Gemeinsam mit "Vorname" konstituiert der "Namenszusatz" in den allermeisten Fällen die Kategorie "Person_explizit". Achtung: Nicht als "Namenszusatz" gelten kirchliche Ämter (Albertus el. Ratisp. /Angelus abb. mon. in Runa), weltliche Ämter (Antonius dux Brabantie), Identifikation über eine andere Person (Alexander nob. viri Semonithi ducis Masouie natus).
 
 ##### Standard Examples:
 
@@ -117,12 +115,12 @@ Der "Namenszusatz" ist eine Sammelbezeichnung für eine Vielzahl möglicher Name
 * Text: castrum **das Newhaus nunc.**   
   Annotation: [Type: Namenszusatz, Value: "das Newhaus nunc."]
 
----
+
 
 #### Label: Papst
 
 ##### Beschreibung:
-Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klasse "Person" und werden deshalb extra getaggt. Die Namen der Päpste kommen dekliniert vor, z.B. "Bonifatio VIII" statt "Bonifatius VIII"; ebenso: "pape" statt "papa". Achtung: Nicht als Papst getaggt werden Patrozinien, die ohne die Ordinalzahl (z.B. VIII) oder den Zusatz "papa" vorkommen, z.B.: Bonifatii in dem Kontext "eccl. s. Bonifatii Halberstad.".
+Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klasse "Person_explizit" und werden deshalb separat getaggt. Die Namen der Päpste kommen dekliniert vor, z.B. "Bonifatio VIII" statt "Bonifatius VIII"; ebenso: "pape" statt "papa". Achtung: Nicht als "Papst" getaggt werden Patrozinien, die ohne die Ordinalzahl (z.B. VIII) oder den Zusatz "papa" vorkommen, z.B.: Bonifatii im Kontext "eccl. s. Bonifatii Halberstad.".
 
 ##### Standard Examples:
 
@@ -137,7 +135,7 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
 
 ### Kategorie: Akteur
 
----
+
 
 #### Label: Anhänger
 
@@ -151,10 +149,14 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
 
 ##### Standard Examples:
 
+* Text: **pauper**  
+  Annotation: [Type: ArmePersonMarker, Value: "pauper"]
 * Text: **gratis pro deo**  
   Annotation: [Type: ArmePersonMarker, Value: "gratis pro deo"]
-  
----
+* Text: **gratis**  
+  Annotation: [Type: ArmePersonMarker, Value: "gratis"]
+
+
 
 #### Label: DelegierterRichterMarker
 
@@ -163,7 +165,7 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
 * Text: **iudex delegatus**  
   Annotation: [Type: DelegierterRichterMarker, Value: "iudex delegatus"]
 
----
+
 
 #### Label: ExekutorMarker
 
@@ -172,7 +174,7 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
 * Text: **executor**  
   Annotation: [Type: ExekutorMarker, Value: "executor"]
 
----
+
 
 #### Label: FamiliarMarker
 
@@ -189,9 +191,8 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
   Annotation: [Type: FamiliarMarker, Value: "parafrenarius pape"]
 * Text: **(unknown)** pape  
   Annotation: [Type: FamiliarMarker, Value: "(unknown)"]
-  * **Hinweis:** Neben den oben genannten Beispielen "acolit. pape" und "parafrenarius pape" kann es noch weitere Ämter geben, die im direkten Umfeld des Papstes ausgeübt werden. Diese kirchlichen Ämter, die im Regest durch die direkte Nähe zum Wort "pape" gekennzeichnet sind, werden hier durch den Platzhalter (unknown) bezeichnet. Dieser Platzhalter soll ebenfalls das Label "Familiar" bekommen. Wieder entfernt aus der Kategorie "Familiar" haben wir Fälle wie "cap. ap. sed." oder "script. litt. ap.", da es sich bei ihnen zwar um Bedienstete der Kurie,  nicht aber zwangsläufig um Familiare handelt.
+  * **Hinweis:** Neben den oben genannten Beispielen "acolit. pape" und "parafrenarius pape" kann es noch weitere Ämter geben, die im direkten Umfeld des Papstes ausgeübt werden. Diese kirchlichen Ämter, die im Regest durch die direkte Nähe zum Wort "pape" gekennzeichnet sind, werden hier durch den Platzhalter (unknown) bezeichnet.
 
----
 
 #### Label: FürsprecherMarker
 
@@ -200,7 +201,7 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
 * Text: **supplic.** Johanne ep. Gurc.  
   Annotation: [Type: FürsprecherMarker, Value: "supplic."]
 
----
+
 
 #### Label: KollatorMarker
 
@@ -208,10 +209,8 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
 
 * Text: ad **coll.** epp.  
   Annotation: [Type: KollaturMarker, Value: "coll."]
-* Text: **mutatio coll.**  
-  Annotation: [Type: KollaturMarker, Value: "mutatio coll."]
 
----
+
 
 #### Label: KollektorMarker
 
@@ -220,7 +219,7 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
 * Text: Gotfridi Bochorn **collect.**  
   Annotation: [Type: KollektorMarker, Value: "collect."]
 
----
+
 
 #### Label: ObligationsbeauftragterMarker
 
@@ -229,7 +228,7 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
 * Text: **o.s.a.** per Johannem Scade procuratorem causarum in Romana curia  
   Annotation: [Type: ObligationsbeauftragterMarker, Value: "o.s.a."]
 
----
+
 
 #### Label: PatronMarker
 
@@ -238,24 +237,21 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
 * Text: **patron.**  
   Annotation: [Type: PatronMarker, Value: "patron."]
 
----
+
 
 #### Label: PetentMarker
 
-##### Beschreibung: 
-Immer wenn die Fundstelle das Suppilkenregister (S) ist(?), dann ist die am Anfang des Regestes genannte Person mit dem Label „Petent“ zu kennzeichnen. 
-
 ##### Standard Examples:
 
-* Text: Adolphus (Adolfus) de Breithart (Breyt(h)art, Brenchart) rect. par. eccl. in Heydesheym (Beydesheym) Wormat. dioc. , Adolphi el. et conf. <aep.> Magunt. prothonot. < primus not. > de disp. ut unac. d. par. eccl. aliud incompat. benef. recip. valeat dummodo 2 par. eccl. n. sint 3. mart. 1465 **S** 579 228vs, L 605 5rs.  
+* Text: Adolphus (Adolfus) de Breithart (Breyt(h)art, Brenchart) ... **S** 579 228vs, L 605 5rs.  
   Annotation: [Type: PetentMarker, Value: "S"]
 
----
+
 
 #### Label: Prozessvorsteher
 
 ##### Beschreibung: 
-Eine Person, meist ein Richter, der einem Gerichtsprozess vorsteht.
+Eine Person, die einem Gerichtsprozess vorsteht.  
 
 ##### Standard Examples:
 
@@ -263,63 +259,64 @@ Eine Person, meist ein Richter, der einem Gerichtsprozess vorsteht.
   Annotation: [Type: Prozessvorsteher, Value: "iud."]
 * Text: **iudex**  
   Annotation: [Type: Prozessvorsteher, Value: "iudex"]
+* Text: m. conf. prov. fact. p. **official.** Minden. hab. pot. ab ep. Verden. et ep. Minden. perm. causa
+  Annotation: [Type: Prozessvorsteher, Value: "official."]
+* Text: prov. fact. ab **offic.** Minden. perm. causa de par. eccl. in Kerdorff Minden. dioc.
+  Annotation: [Type: Prozessvorsteher, Value: "offic."]
 
----
 
 #### Label: StudentMarker
 
 ##### Standard Examples:
 
-* Text: Albertus Milinchus cler. Colon. in alma Urbe in iure can. **studens**: ref. disp. sup. incompat. 5 mart. 1428 S 222 203v.  
-  Annotation: [Type: StudentMarker, Value: "studens"]
-* Text: Adolffus de Nassauw **scol.** Trever. de disp. sup. def. nat. ( com. s., c. ) 15. mai. 1434 S 301 235vs.  
-  Annotation: [Type: StudentMarker, Value: "scol."]
-   * **Hinweis:** Zu beachten ist, dass eine Person, die als **scol.** bezeichnet wird, nicht immer ein Student ist und somit in dem Fall auch nicht **scol.** als StudentMarker taggt werden darf. Hier ein Beispiel:
-     Text: Albertus Glenneman (Gleneman) **scol.** Colon. in 10 anno constitutus de can. et min. preb. eccl. ss. Petri et Andree Paderburn. vac. p. o. Jordani de Widonbunghe in curia 18 ian. 1426 S 201 223r.
+* Text: in alma Urbe in iure can. **studens**: ref. disp. sup. incompat.    
+  Annotation: [Type: StudentMarker, Value: "studens"]  
+* Text: Adolffus de Nassauw **scol.** Trever. de disp. sup. def. nat.    
+  Annotation: [Type: StudentMarker, Value: "scol."]  
+  * **Hinweis:** Zu beachten ist, dass eine Person, die als **scol.** bezeichnet wird, nicht immer ein Student ist und somit in dem Fall auch nicht **scol.** als StudentMarker taggt werden darf. Hier ein Beispiel: Albertus Glenneman (Gleneman) **scol.** Colon. in 10 anno constitutus de can. et min. preb. eccl. ss. Petri et Andree Paderburn. vac. p. o. Jordani de Widonbunghe in curia 18 ian. 1426 S 201 223r.
 
----
 
 #### Label: SubkollektorMarker
 
 ##### Standard Examples:
 
-* Text: Erhardus Naseloys iuram. fidel. ratione off. **subcollectorie** in dioc. Constant. 18 mart. 1413 M 60.  
-  Annotation: [Type: SubkollektorMarker, Value: "subcollectorie"]
-* Text: Johannes Kramer presb. Constant. dioc. de par. eccl. in Ynik Salzeburg. dioc. vac. per ob. Ottonis de Obenstetten in Ratisbon. et Salzeburg. dioc. fructuum camere ap. **subcollectoris** S 68 135 v.  
-  Annotation: [Type: SubkollektorMarker, Value: "subcollectoris"]
+* Text: ratione off. **subcollectorie** in dioc. Constant.  
+  Annotation: [Type: SubkollektorMarker, Value: "subcollectorie"]  
+* Text:  fructuum camere ap. **subcollectoris** S 68 135 v.    
+  Annotation: [Type: SubkollektorMarker, Value: "subcollectoris"]  
 
----
+
 
 #### Label: TischgenosseMarker
 
 ##### Standard Examples:
 
-* Text: Adrianus Martini de Breda Leod. dioc. fam. **commensalis** Dominici [de Capranica] s. Marie in via lata diac. card.: prov. de benef. Leod. dioc. 26. sept. 1441 ( exped. 17. oct. 41) L 383 190r–191v.  
+* Text: fam. **commensalis** Dominici [de Capranica] s. Marie
   Annotation: [Type: TischgenosseMarker, Value: "commensalis"]
 
----
+
 
 #### Label: ZahlungsbeauftragterMarker
 
 ##### Standard Examples:
 
-* Text: Adam Foyllen (Folen) de Yrmetrode oblig. sup. annat. ( **p.** mag. Henricum Erkel d. Hesse cant. eccl. s. Petri Magunt. ) par. eccl. in Wiilre Trever. dioc. vac. p. o. Sifridi de Westerburch 5 iun. 1426 A 2 166r.  
-Annotation: [Type: ZahlungsbeauftragterMarker, Value: "p."]
-* Text: Abraham Johannis de lasothky can. Cracov. de nob. gen. ann. preb. eccl. Lancicien . Gneznen. dioc. **p. manus** Prothasii de Tabernis (19 fl. auri de cam. ) 6. oct. 1449 IE 416 35r, IE 417 35r, IE 418 36r, DG 1756 16v.  
+* Text: oblig. sup. annat. ( **p.** mag. Henricum Erkel d. Hesse  
+Annotation: [Type: ZahlungsbeauftragterMarker, Value: "p."]  
+* Text: **p. manus** Prothasii de Tabernis (19 fl. auri de cam. )  
 Annotation: [Type: ZahlungsbeauftragterMarker, Value: "p. manus"]
 
----
+
 
 #### Label: ZeugeMarker
 
 ##### Standard Examples:
 
-* Text: Adolphus filius ducis Cleven. **testis** 21. febr. 1440 DC 20 141r.  
-Annotation: [Type: ZeugeMarker, Value: "testis"]
-* Text: Jacobus Nedermolen cler. Colon. dioc. **testis** super quadam oblig. 28 iul. 1409 M 8.  
+* Text: Adolphus filius ducis Cleven. **testis**  
+Annotation: [Type: ZeugeMarker, Value: "testis"]  
+* Text: **testis** super quadam oblig. 28 iul. 1409 M 8.  
 Annotation: [Type: ZeugeMarker, Value: "testis"]
 
----
+
   
 ### Kategorie: Vita
 
