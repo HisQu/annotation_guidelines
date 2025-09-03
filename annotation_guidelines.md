@@ -351,7 +351,7 @@ In den Regesten wird für viele Personen eine "Familienbeziehung" angegeben. Die
   Annotation: [Type: Familienbeziehung, Value: "frater"]
 * Text: **relicta**  
   Annotation: [Type: Familienbeziehung, Value: "relicta"]
-* Text: (unknown) **natus** (unknown)
+* Text: **natus** (unknown)
   Annotation: [Type: Familienbeziehung, Value: "natus"]
   * **Hinweis:** (unknown) steht hier als Platzhalter für den Namen des Vaters, z.B. "Bernhardus natus Johannis Berlin", wobei Johannes Berlin der Vater von Bernhardus ist. Oder: "Alexander nob. viri Semonithi ducis Masouie natus", wobei Semonithus der Vater des Alexander ist.
 * Text: **consanguineus**  
