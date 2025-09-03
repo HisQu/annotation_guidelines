@@ -1,3 +1,7 @@
+## v0.17.0 (2025-09-03)
+### Update annotation_guidelines.md
+  - Update der Gnadenerweise -> leere Strukturen
+  
 ## v0.16.0 (2025-09-02)
 ### Update annotation_guidelines.md
   - Auffüllen der Kategorie Akteur (noch nicht vollständig)
