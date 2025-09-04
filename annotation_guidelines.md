@@ -1328,7 +1328,7 @@ Indulgenz, Ablass
 
 ##### Standard Examples: 
 
-* Text: c. **indulto** conferendi dign. 
+* Text: c. **indulto** conferendi dign.   
   Annotation: [Type: Indultum, Value: "indulto"]
 
 
