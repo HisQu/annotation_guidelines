@@ -1543,7 +1543,7 @@ Nachbesserung einer Supplik: Änderung des Kollators
 
 ##### Standard Examples: 
 
-* Text: motu pr. de **mutatione collationis** ad can. et preb. 
+* Text: motu pr. de **mutatione collationis** ad can. et preb.   
   Annotation: [Type: mutatio_collatoris, Value: "mutatione collationis"]
 
 
