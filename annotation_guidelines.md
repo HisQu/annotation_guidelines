@@ -849,7 +849,7 @@ Verstärkung einer Strafe
 
 
 
-#### Label: Antelatio
+#### Label: antelatio
 
 ##### Beschreibung: 
 "Eine weitere Möglichkeit, sich gegenüber Konkurrenten eine Vorrangstellung zu verschaffen, wird durch die „antelatio“ geschaffen, die der Bevorzugung durch „prerogatio“ gleicht." (Bearbeitungshinweise, S. 66)
@@ -857,7 +857,7 @@ Verstärkung einer Strafe
 ##### Standard Examples: 
 
 * Text: de **antelatione**  
-  Annotation: [Type: , Value: "antelatione"]
+  Annotation: [Type: antelatio, Value: "antelatione"]
 
 
 #### Label: Beichtprivileg
@@ -909,7 +909,7 @@ Ist die Besetzung einer Pfründe.
 ##### Standard Examples: 
 
 * Text: **coll.**  
-  Annotation: [Type: , Value: "coll."]
+  Annotation: [Type: Collatio, Value: "coll."]
 
 
 
@@ -991,7 +991,6 @@ Erklärung
 ##### Beschreibung: 
 Nachbesserung einer Supplik
 
-
 ##### Standard Examples: 
 
 * Text: motu pr. de **perinde valere** gr. expect.   
@@ -1011,8 +1010,6 @@ Gnadenerweis mit Benefizialthematik.
 
 
 
-
-
 #### Label: de_loco_interdicto
 
 ##### Beschreibung: 
@@ -1022,8 +1019,6 @@ Erlaubnis, trotz Interdikts u.a. die Messe feiern zu dürfen.
 
 * Text: de **locis interdictis**    
   Annotation: [Type: de_loco_interdicto, Value: "locis interdictis"]
-
-
 
 
 #### Label: de_n._prom.
@@ -1061,7 +1056,6 @@ Erlaubnis, die höheren Weihen schneller als kanonisch vorgesehen empfangen zu d
 
 * Text:  de lic. recip. ord. in curia **extra temp.**    
   Annotation: [Type: de_prom._ad_ord._extra_temp., Value: "extra temp."]
-
 
 
 
@@ -1241,24 +1235,11 @@ Befreiung, Ausnahmestellung
 #### Label: Facultas
 
 ##### Beschreibung:
-Erlaubnis. Vgl. Lizenz und Concessio (?)
+Erlaubnis. Vgl. Lizenz und Concessio (?). Hinweis: Dieses Label soll nur dann vergeben werden, wenn eine andere als die hiernach aufgeführten Unterarten der Facultas auftaucht. Die Unterarten werden sukkzessive von uns aufgefüllt. 
 
-##### Standard Examples:
+##### Standard Examples
 
-* Text: **facult.** resign.  
-  Annotation: [Type: Facultas, Value: "facult."]
-
-##### Other Examples:
-
-* Text: **facult.** absol. eos, qui…  
-  Annotation: [Type: Facultas, Value: "facult."]
-* Text: **facult.** absol. 100 person.  
-  Annotation: [Type: Facultas, Value: "facult."]
-* Text: **facult.** absol. in casibus, in quibus …  
-  Annotation: [Type: Facultas, Value: "facult."]  
-* Text: **facult.** reconciliandi  
-  Annotation: [Type: Facultas, Value: "facult."]
-* Text: alternativa **facult.** disponendi  
+* Text: **facult.**
   Annotation: [Type: Facultas, Value: "facult."]
 
 
@@ -1271,7 +1252,10 @@ Die Vollmacht, in bestimmten Fällen absolvieren zu dürfen.
 
 * Text: **facult. absol.** in casibus, in quibus
   Annotation: [Type: facultas_absolvendi, Value: "facult. absol."]
-
+  * Text: **facult. absol.** eos, qui…  
+  Annotation: [Type: facultas_absolvendi, Value: "facult. absol."]
+* Text: **facult. absol.** 100 person.  
+  Annotation: [Type: facultas_absolvendi, Value: "facult. absol."]
 
 
 #### Label: facultas_reconciliandi
