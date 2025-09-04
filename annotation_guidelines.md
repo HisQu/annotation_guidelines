@@ -2301,7 +2301,7 @@ Bauwerk oder Teil eines Bauwerks
 ##### Standard Examples:
 * Text: in **castro** Quernfort  
   Annotation: [Type: Gebäude_Gebäudeteil, Value: "castro"]
-* Text: in **cripta** eccl. Spiren.
+* Text: in **cripta** eccl. Spiren.  
   Annotation: [Type: Gebäude_Gebäudeteil, Value: "cripta"]
  
 
@@ -2312,7 +2312,7 @@ Bauwerk oder Teil eines Bauwerks
 Ein Ort außerhalb der Stadtmauern (=Vorstadt) wird im RG über die Abkürzung "e. m." ("extra muros") angegeben.
 
 ##### Standard Examples:
-* Text: eccl. s. Victoris **e. m.** Magunt.
+* Text: eccl. s. Victoris **e. m.** Magunt.  
   Annotation: [Type: Vorstadt, Value: "e. m."]
 
 
