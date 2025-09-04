@@ -252,7 +252,7 @@ Eine "Personengruppe" liegt immer dann vor, wenn ein sprachlicher Ausdruck sich 
 
 
 
-#### Label: Prozessvorsteher
+#### Label: Prozessvorsteher_Marker
 
 ##### Beschreibung: 
 Eine Person, die einem Gerichtsprozess vorsteht.  
@@ -260,13 +260,13 @@ Eine Person, die einem Gerichtsprozess vorsteht.
 ##### Standard Examples:
 
 * Text: **iud.**      
-  Annotation: [Type: Prozessvorsteher, Value: "iud."]  
+  Annotation: [Type: Prozessvorsteher_Marker, Value: "iud."]  
 * Text: **iudex**    
-  Annotation: [Type: Prozessvorsteher, Value: "iudex"]    
+  Annotation: [Type: Prozessvorsteher_Marker, Value: "iudex"]    
 * Text: **official.** Minden. hab. pot. ab ep. Verden.   
-  Annotation: [Type: Prozessvorsteher, Value: "official."]    
+  Annotation: [Type: Prozessvorsteher_Marker, Value: "official."]    
 * Text: **offic.** Minden. perm. causa de par. eccl.  
-  Annotation: [Type: Prozessvorsteher, Value: "offic."] 
+  Annotation: [Type: Prozessvorsteher_Marker, Value: "offic."] 
 
 
 #### Label: Student_Marker
