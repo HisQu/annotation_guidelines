@@ -726,13 +726,13 @@ Ein weltliches Amt ist eine offizielle Stellung oder Funktion, die eine Person i
 #### Label: Studienfach
 
 ##### Standard Examples:
-* Text: mag. **in art.**  
+* Text: mag. **in art.**    
   Annotation: [Type: Studienfach, Value: "in art."]
-* Text: **decr.** doct. 
+* Text: **decr.** doct.   
   Annotation: [Type: Studienfach, Value: "decr."]
-* Text: lic. **in leg.**  
+* Text: lic. **in leg.**    
   Annotation: [Type: Studienfach, Value: "in leg."]
-* Text: lic. **in iure can.**  
+* Text: lic. **in iure can.**    
   Annotation: [Type: Studienfach, Value: "in iure can."]
 
 
