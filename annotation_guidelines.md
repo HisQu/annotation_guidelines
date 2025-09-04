@@ -7,7 +7,7 @@
 * Die Annotation von Regesten dient der strukturierten Erfassung relevanter Entitäten zur besseren Analyse und maschinellen Verarbeitung des Repertorium Germanicum (RG).    
 * Annotiert werden all jene Begriffe bzw. Konzepte, die für die Modellierung der Sachverhalte im RG notwendig sind, insbesondere für solche, für die sich ein Forschungsinteresse in der wissenschaftlichen Literatur nachweisen lässt. Neben der Forschungsliteratur berücksichtigen wir ebenfalls die Ergebnisse einer von uns in der historischen Forschungsgemeinschaft durchgeführten Umfrage zu früheren, aktuellen und geplanten Forschungsvorhaben mit Bezug zum RG.   
 * Nicht getaggte Inhalte können später dennoch durch KI-gestützte Verfahren erfasst werden.
-* Annotiert werden ausschließlich Begriffe, die explizit im Regesttext vorkommen. Begriffe, die mitgedacht werden müssen, z.B. (prov.) de eccl., bleiben unberücksichtigt.  
+* Annotiert werden ausschließlich Begriffe, die explizit im Regesttext vorkommen. Begriffe, die mitgedacht werden müssen, z.B. (prov.) de eccl., bleiben ungetaggt.  
 * Wörter können auch mit mehreren Labels gleichzeitig versehen werden, z.B. presbiteros (Personengruppe, Kirchlicher_Stand, Kirchliches_Amt).  
 * Abkürzungspunkte und Endpunkte nach der Quellenangabe, sind Teil der Annotation und werden entsprechend mit ausgezeichnet.      
 
