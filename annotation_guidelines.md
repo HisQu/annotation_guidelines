@@ -1074,7 +1074,7 @@ Besuch und Reform eines Klosters.
 #### Label: Derogatio
 
 ##### Beschreibung: 
-Klauseln, die andere Regelungen / Tatsachen außer Kraft setzen; vgl. das Label Non_Obstantien.
+Klauseln, die andere Regelungen / Tatsachen außer Kraft setzen; vgl. das Label Non_Obstanz.
 
 ##### Standard Examples:
 
@@ -2416,7 +2416,7 @@ Dauer eines Dispens, einer Pfründe etc.
 
 
 
-#### Label: Non_Obstantien
+#### Label: Non_Obstanz
 
 ##### Beschreibung:
 Klauseln, die andere Regelungen / Tatsachen außer Kraft setzen; vgl. Derogatio.
@@ -2424,25 +2424,25 @@ Klauseln, die andere Regelungen / Tatsachen außer Kraft setzen; vgl. Derogatio.
 ##### Standard Examples:
 
 * Text: **n. o.** can. et preb.  
-  Annotation: [Type: Non_Obstantien, Value: "n. o."]
+  Annotation: [Type: Non_Obstanz, Value: "n. o."]
   * **Häufigkeit** 4459x in den Bänden 1-9
 
 ##### Other Examples:
 
 * Text: **n. o.** par. eccl.  
-  Annotation: [Type: Non_Obstantien, Value: "n. o."]
+  Annotation: [Type: Non_Obstanz, Value: "n. o."]
   * **Häufigkeit** 2665x in den Bänden 2-4 und 6-8
 * Text: **n. o.** def. nat.  
-  Annotation: [Type: Non_Obstantien, Value: "n. o."]
+  Annotation: [Type: Non_Obstanz, Value: "n. o."]
   * **Häufigkeit** 1044x in den Bänden 2-4 und 6-8
 * Text: **n. o.** perp. vicar.  
-  Annotation: [Type: Non_Obstantien, Value: "n. o."]
+  Annotation: [Type: Non_Obstanz, Value: "n. o."]
   * **Häufigkeit** 243x nur in den Bänden 7+8
 * Text: **n. o.** perp. s. c. vicar.  
-  Annotation: [Type: Non_Obstantien, Value: "n. o."]
+  Annotation: [Type: Non_Obstanz, Value: "n. o."]
   * **Häufigkeit** 122x, nur in den Bänden 7-8
 * Text: **n. o.** statut.  
-  Annotation: [Type: Non_Obstantien, Value: "n. o."]
+  Annotation: [Type: Non_Obstanz, Value: "n. o."]
   * **Häufigkeit** 13x, nur in Band 3
 
 
