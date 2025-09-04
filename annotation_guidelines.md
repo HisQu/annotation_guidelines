@@ -707,7 +707,7 @@ Ein weltliches Amt ist eine offizielle Stellung oder Funktion, die eine Person i
 
 * Text: **licent.**  
   Annotation: [Type: Akademischer_Grad, Value: "licent."]
-* Text: **bac.** in decr.
+* Text: **bac.** in decr.  
   Annotation: [Type: Akademischer_Grad, Value: "bac."]
 
 ##### Other Examples:
@@ -722,7 +722,7 @@ Ein weltliches Amt ist eine offizielle Stellung oder Funktion, die eine Person i
 * Text: theol. **profes.**
   Annotation: [Type: Akademischer_Grad, Value: "profes."]
 
----
+
 #### Label: Studienfach
 
 ##### Standard Examples:
@@ -1327,7 +1327,7 @@ Einverleibung einer kirchlichen Institution durch eine andere
 * Text: **unio**  
   Annotation: [Type: Incorporatio, Value: "unio"]
 
----
+
 
 #### Label: Indulgentia
 
@@ -1547,7 +1547,7 @@ Ermahnung durch den Papst
 * Text: **monitorium penale**  
   Annotation: [Type: Monitorium, Value: "monitorium penale"]
 
----
+
 
 #### Label: Moratorium
 
