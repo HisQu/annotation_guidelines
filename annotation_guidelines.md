@@ -1239,7 +1239,7 @@ Erlaubnis. Vgl. Lizenz und Concessio (?). Hinweis: Dieses Label soll nur dann ve
 
 ##### Standard Examples
 
-* Text: **facult.**
+* Text: **facult.**  
   Annotation: [Type: Facultas, Value: "facult."]
 
 
