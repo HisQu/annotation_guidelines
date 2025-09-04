@@ -2096,7 +2096,7 @@ Kirchen, Klöster, Universitäten, etc.
 
 
 
-#### Label: InstitutionZusatz
+#### Label: Exempter_Status
 
 ##### Beschreibung:
 Information zur Beziehung einer kirchlichen Institution zur Kurie, insbesondere die direkte Unterstellung unter den Papst (Exemption). 
@@ -2104,7 +2104,7 @@ Information zur Beziehung einer kirchlichen Institution zur Kurie, insbesondere 
 ##### Standard Examples:
 
 * Text: eccl. b. Marie castri Aldenburg. Rom. eccl. **immed. subiect.**  
-  Annotation: [Type: InstitutionZusatz, Value: "immed. subiect."]
+  Annotation: [Type: Exempter_Status, Value: "immed. subiect."]
 
 
 
