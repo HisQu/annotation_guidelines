@@ -740,7 +740,7 @@ Ein weltliches Amt ist eine offizielle Stellung oder Funktion, die eine Person i
 #### Label: Orden
 
 ##### Beschreibung: 
-Ausdruck der Zugehörigkeit zu einer religiösen Ordensgemeinschaft
+Ausdruck der Zugehörigkeit zu einer religiösen Ordensgemeinschaft. Hinweis: Und deren Variationen (z.B. o. Cist.; Cist. ord.). Bitte ergänzen!
 
 ##### Standard Examples:
 
@@ -773,8 +773,6 @@ Ausdruck der Zugehörigkeit zu einer religiösen Ordensgemeinschaft
   Annotation: [Type: Orden, Value: "o. pred."]
 * Text: **o. Prem.**  
   Annotation: [Type: Orden, Value: "o. Prem."]
-
-* **Hinweis:** Und deren Variationen (z.B. o. Cist.; Cist. ord.). Bitte ergänzen!
 
 
 
