@@ -779,7 +779,7 @@ Ausdruck der Zugehörigkeit zu einer religiösen Ordensgemeinschaft
 
 ### Gnadenerweis
 
-Hinweis: Die Unterklassen der Kategorie Gnadenerweis werden kontinuerlich weiterentwickelt. Insbesondere die Labels mit "_Zusatz" sind nur Hilfskonstrukte, bis wir die Unterarten der jeweiligen Gnade präziser ausgearbeitet haben. In Zukunft werden alle Gnadenerweise einheitlich mit deutschsprachigen Labels erscheinen.
+Hinweis: Die Unterklassen der Kategorie Gnadenerweis werden kontinuerlich weiterentwickelt. In Zukunft werden alle Gnadenerweise einheitlich mit deutschsprachigen Labels erscheinen.
 
 #### Label: Abolitio
 
@@ -794,17 +794,6 @@ Tilgung, z.B. von Inhabilität
   Annotation: [Type: Abolitio, Value: "abol. inhabil."]
 * Text: **abol. macule infamie**  
   Annotation: [Type: Abolitio, Value: "abol. macule infamie."]
-
-#### Label: Abolitio_Zusatz
-
-##### Beschreibung:
-Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label AbolitioZusatz getaggt, nicht aber die Gnade abol. selbst.
-
-##### Standard Examples:
-
-* Text: m. abol. inhabil., **quia sacr. ord. una die per Matheum ep. olim Placentin. indebite recepit, n. o. proc. per mag. Angelum de Balionibus aud. gen. cam. ap. instructo** 4 mart. 1412 L 158 130.  
-  Annotation: [Type: Abolitio_Zusatz, Value: "quia sacr. ord. una die per Matheum ep. olim Placentin. indebite recepit, n. o. proc. per mag. Angelum de Balionibus aud. gen. cam. ap. instructo"]
-
 
 
 #### Label: Absolutio
@@ -827,20 +816,6 @@ Absolution
   Annotation: [Type: Absolutio, Value: "absol."]
 * Text: **absol.**, quod olim …  
   Annotation: [Type: Absolutio, Value: "absol."]
-
-#### Label: Absolutio_Zusatz
-
-##### Beschreibung:
-Kennzeichnung des Gnadeninhalts der Absolution. Der gesamte Gnadeninhalt wird mit dem Label AbsolutioZusatz getaggt, nicht aber die Gnade absol. oder m. absol. selbst.
-
-##### Standard Examples:
-
-* Text: m. absol. **a sent. excom.**  
-  Annotation: [Type: Absolutio_Zusatz, Value: "a sent. excom."]
-* Text: absol. **a matrim. C. gentili et quasi pagano contracto**  
-  Annotation: [Type: Absolutio_Zusatz, Value: "a matrim. C. gentili et quasi pagano contracto"]
-* Text: absol., **quod olim …**  
-  Annotation: [Type: Absolutio_Zusatz, Value: "quod olim …"]
 
 
 
@@ -922,17 +897,6 @@ Ungültigkeitserklärung
 * Text: **cass.** pensionis  
   Annotation: [Type: Cassatio, Value: "cass."]
 
-#### Label: Cassatio_Zusatz
-
-#### Beschreibung:
-Kennzeichnung des Gnadeninhalts der Cassatio. Der gesamte Gnadeninhalt wird mit dem Label CassatioZusatz getaggt, nicht aber die Gnade cass. selbst.
-
-##### Standard Examples:
-
-* Text: m. cass. **litt.**  
-  Annotation: [Type: Cassatio_Zusatz, Value: "litt."]
-* Text: de cass. **pensionis**  
-  Annotation: [Type: Cassatio_Zusatz, Value: "pensionis."]
   
 
 #### Label: Collatio
@@ -969,17 +933,6 @@ Bestätigung
 
 * Text: **conf.**  
   Annotation: [Type: Confirmatio, Value: "conf."]
-
-#### Label: Confirmatio_Zusatz
-
-##### Beschreibung:
-Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Confirmatio_Zusatz getaggt, nicht aber die Gnade conf. selbst.
-
-##### Standard Examples:
-
-* Text: conf. **emptionem pratorum ac al. bonorum in villa Diczisow Constant. dioc. ac donationem iuris patron. super par. eccl. in dicta villa ex possess. Eberhardi Burgermaister incole dicti op. factam** 22 oct. 1411 L 157 113.  
-  Annotation: [Type: Confirmatio_Zusatz, Value: "emptionem pratorum ac al. bonorum in villa Diczisow Constant. dioc. ac donationem iuris patron. super par. eccl. in dicta villa ex possess. Eberhardi Burgermaister incole dicti op. factam"]
-
 
 
 #### Label: de_advoc
@@ -1133,24 +1086,6 @@ Klauseln, die andere Regelungen / Tatsachen außer Kraft setzen; vgl. das Label 
   Annotation: [Type: Derogatio, Value: "derog."]
 * Text: c. **derog.**    
   Annotation: [Type: Derogatio, Value: "derog."]
-
-#### Label: Derogatio_Zusatz
-
-##### Beschreibung:
-Kennzeichnung des Gnadeninhalts der Derogatio. Der gesamte Gnadeninhalt wird mit dem Label DerogatioZusatz getaggt, nicht aber die Gnade derog. selbst.
-
-##### Standard Examples:
-
-* Text: c. derog. **statut. d. eccl. quod nullus nisi can. actu prebend. et capitul. inibi dign. assequi val.** 6. decb. 1437 S 342 193v.  
-  Annotation: [Type: Derogatio_Zusatz, Value: "statut. d. eccl. quod nullus nisi can. actu prebend. et capitul. inibi dign. assequi val."]
-
-##### Other Examples:
-
-* Text: de derog. **antelationum quibusdam aliis prerog. curialium habentibus in concil. Basil. existentibus conc. ratione gr. expect. sue** s.d. 24. apr. 31 20. decb. 1436 S 329 239rs.  
-  Annotation: [Type: Derogatio_Zusatz, Value: "antelationum quibusdam aliis prerog. curialium habentibus in concil. Basil. existentibus conc. ratione gr. expect. sue"]
-* Text: c. derog. **statutis eccl. s. Petri de optando** 18. aug. 1463 S 566 89r, L 582 63v-65r.  
-  Annotation: [Type: Derogatio_Zusatz, Value: "statutis eccl. s. Petri de optando"]
-
 
 
 #### Label: Dispensatio
@@ -1324,31 +1259,6 @@ Erlaubnis. Vgl. Lizenz und Concessio (?)
 * Text: alternativa **facult.** disponendi  
   Annotation: [Type: Facultas, Value: "facult."]
 
-#### Label: Facultas_Zusatz
-
-##### Beschreibung:
-Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label FacultasZusatz getaggt, nicht aber die Gnade facult. selbst.
-
-##### Standard Examples:
-
-* Text: facult. **resign.**  
-  Annotation: [Type: Facultas_Zusatz, Value: "resign."]
-* Text: facult. **absol. eos, qui (unknown)**  
-  Annotation: [Type: Facultas_Zusatz, Value: "absol. eos, qui (unknown)"]
-  * **Hinweis:** (unknown) steht für den Rest des Relativsatzes.
-* Text: facult. **absol. 100 person.**  
-  Annotation: [Type: Facultas_Zusatz, Value: "absol. 100 person."]
-
-##### Other Examples:
-
-
-* Text: facult. **reconciliandi**  
-  Annotation: [Type: Facultas_Zusatz, Value: "reconciliandi"]
-* Text: **alternativa** facult. **disponendi**  
-  Annotation: 
-  - [Type: Facultas_Zusatz, Value: "alternativa"]
-  - [Type: Facultas_Zusatz, Value: "disponendi"]
-
 
 #### Label: facultas_absolvendi
 
@@ -1387,19 +1297,15 @@ Die Vollmacht zur Wiederherstellung kirchlicher Reinheit oder Gemeinschaft, sei 
 #### Label: Habilitatio
 
 ##### Beschreibung:
-Wiederherstellung der Befähigung zur Ausübung einer Rechtshandlung
+Befähigung zur Ausübung einer Rechtshandlung
 
 ##### Standard Examples:
 
 * Text: **habil.**  
   Annotation: [Type: Habilitatio, Value: "habil."]
-* Text: **rehab.**  
-  Annotation: [Type: Habilitatio, Value: "rehab."]
 
 ##### Other Examples: 
 
-* Text: **rehabilitatio**  
-  Annotation: [Type: Habilitatio, Value: "rehabilitatio"]
 * Text: **habilitatio**  
   Annotation: [Type: Habilitatio, Value: "habilitatio"]
 
@@ -1689,101 +1595,45 @@ Verleihung und Modifizierung von Pensionsleistunen
 
 
 
-  
-#### Label: Prerogativa
 
-##### Beschreibung:
-Vorrecht, Prärogative
+#### Label: prerogatio_ad_instar_pape_familaris
 
-##### Standard Examples:
+##### Beschreibung: 
+Vorrecht in der Weise der päpstlichen Familie = Ein Vorrecht, das einer Person oder Institution dieselben Rechte einräumt wie sie die Mitglieder der päpstlichen Familie haben.
+
+##### Standard Examples: 
 
 * Text: **prerog.** ad instrar pape fam.  
-  Annotation: [Type: Prerogativa, Value: "prerog."]
-* Text: **antelatio**  
-  Annotation: [Type: Prerogativa, Value: "antelatio"]
-
-##### Other Examples:
-
-* Text: **prerog.** pape fam. in absentia  
-  Annotation: [Type: Prerogativa, Value: "prerog."]
+  Annotation: [Type: Prerogativa, Value: "prerog."]]
 
 
 
 
-#### Label: PrerogatioAdInstarPapeFamilaris
+#### Label: prerogatio_pape_familiaris_in_absentia
 
-##### Beschreibung: 
+##### Beschreibung:
+Vorrecht: "Bei zu erwartender Abwesenheit von der Kurie suchen Papstfamiliaren eigens um die Fortdauer ihrer Prärogativen in absentia nach" (Bearbeitungshinweise, S. 65)
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
-
-
-
-
-#### Label: PrerogatioPapeFamiliarisInAbsentia
-
-##### Beschreibung: 
-
-##### Standard Examples: 
-
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: **prerog. pape fam. in absentia**  
+  Annotation: [Type: prerogatio_pape_familiaris_in_absentia, Value: "prerog. pape fam. in absentia"]
 
 
 
 #### Label: Prorogatio
 
 ##### Beschreibung:
-Fristverlängerung
+Fristverlängerung, Aufschub
 
 ##### Standard Examples:
 
 * Text: **prorog.**  
   Annotation: [Type: Prorogatio, Value: "prorog."]
-
-##### Other Examples: 
-
-* Text: cum **prorog.** term. solut. ad 1 an. propter incertitudinem taxe  
+* Text: cum **prorog. term. solut.** ad 1 an. propter incertitudinem taxe  
   Annotation: [Type: Prorogatio, Value: "prorog."]
 
-#### Label: ProrogatioZusatz
 
-##### Beschreibung:
-Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label ProrogatioZusatz getaggt, nicht aber die Gnade prorog. selbst.
-
-##### Standard Examples:
-
-* Text: cum prorog. **term. solut. ad 1 an. propter incertitudinem taxe**  
-  Annotation: [Type: ProrogatioZusatz, Value: "term. solut. ad 1 an. propter incertitudinem taxe"]
-
-
-
-#### Label: Provisio
-
-##### Beschreibung:
-Bestimmungen zur Verleihung eines Benefizes
-
-##### Standard Examples:
-
-* Text: **prov.**  
-  Annotation: [Type: Provisio, Value: "prov."]
-* Text: **m. prov.**  
-  Annotation: [Type: Provisio, Value: "m. prov."]
-* Text: **nova prov.**  
-  Annotation: [Type: Provisio, Value: "nova prov."]
-
-##### Other Examples:
-
-* Text: **prov. si neutri**  
-  Annotation: [Type: Provisio, Value: "prov. si neutri"]
-* Text: **prov. si nulli**  
-  Annotation: [Type: Provisio, Value: "prov. si nulli"]
-* Text: **surrog.** ad iur.  
-  Annotation: [Type: Provisio, Value: "surrog."]
-* Text: **gr. expect.**  
-  Annotation: [Type: Provisio, Value: "gr. expect."]
 
 
 #### Label: einfache_provisio
@@ -1793,60 +1643,77 @@ Gnadenbrief, kraft dessen ein Kirchenamt verliehen wird.
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: **prov.**  
+  Annotation: [Type: einfache_provisio, Value: "prov."]
+* Text: **m. prov.**  
+  Annotation: [Type: einfache_provisio, Value: "m. prov."]
 
-#### Label: GratiaExpectativa
+
+
+#### Label: gratia_expectativa
 
 ##### Beschreibung: 
+Verleihung der Anwartschaft auf eine Pfründe
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: **gr. expect.**  
+  Annotation: [Type: gratia_expectativa, Value: "gr. expect."]
 
-#### Label: NovaProvisio
+
+
+#### Label: nova_provisio
 
 ##### Beschreibung: 
+Bestätigung einer früheren provisio.
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: **nova prov.**  
+  Annotation: [Type: nova_provisio, Value: "nova prov."]
 
-#### Label: ProvisioSiNeutri
 
-##### Beschreibung: 
+  
+#### Label: provisio_si_neutri
 
-##### Standard Examples: 
-
-* Text: ****  
-  Annotation: [Type: , Value: ""]
-
-#### Label: ProvisioSiNulli
-
-##### Beschreibung: 
+##### Beschreibung:
+"Bei der Provision si neutri handelt es sich gewissermaßen um eine besondere Form der nova provisio, nämlich im Zusammenhang mit einem Prozess, den der Supplikant über seine Pfründe gegen einen Gegner (adversarius) führt. Für den Fall, dass sich in dem Gerichtsverfahren herausstellt, dass keinem von beiden (si neutri) Prozessgegnern ein Recht an der strittigen Pfründe zukommt, möge der Papst den Supplikanten mit dieser Pfründe providieren. Bei der Form si neutri wird in der Narratio grundsätzlich genannt: 1. die Prozessinstanz, 2. der Gegner und 3. der Prozessgegenstand." (Bearbeitungshinweise, S. 47f.)
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: **prov. si neutri**  
+  Annotation: [Type: provisio_si_neutri, Value: "prov. si neutri"]
 
-#### Label: SurrogatioAdIus
+
+
+#### Label: provisio_si_nulli
 
 ##### Beschreibung: 
+"Die Form „si nulli“ entspricht der „si neutri“ mit dem Unterschied, dass der Supplikant gegen mehrere Gegner prozessiert. Diese Gegner werden unter 2. contra .... aufgereiht, gleichgültig ob sie bei Prozessen mit mehreren Instanzen von Anfang an mit dabei waren." (Bearbeitungshinweise, S. 48)
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: **prov. si nulli**  
+  Annotation: [Type: provisio_si_nulli, Value: "prov. si nulli"]
 
----
+
+
+#### Label: surrogatio_ad_ius
+
+##### Beschreibung: 
+"Bei einer surrogatio geht es ähnlich wie bei den Formen si neutri, si nulli um einen Prozess wegen einer Pfründe. Im Besonderen handelt es sich hier darum, dass der Prozessgegner aus irgendeinem Grunde aus dem Prozess ausscheidet und der Supplikant nun darum bittet, in alle Rechtsansprüche des Ausgeschiedenen an der strittigen Pfründe einrücken zu dürfen; verbunden wird diese Bitte häufig mit der Bitte um Provision mit besagter Pfründe." (Bearbeitungshinweise, S. 48)
+
+##### Standard Examples: 
+
+* Text: **surrog. ad iur.**  
+  Annotation: [Type: surrogatio_ad_ius, Value: "surrog. ad iur."]
+
+
 
 #### Label: Reformatio
 
 ##### Beschreibung:
-Abänderung, Nachbesserung einer päpstlichen Gnade (?)
+Abänderung, Nachbesserung einer päpstlichen Gnade
 
 ##### Standard Examples:
 
@@ -1855,29 +1722,33 @@ Abänderung, Nachbesserung einer päpstlichen Gnade (?)
 * Text: **reformatio**  
   Annotation: [Type: Reformatio, Value: "reformatio"]
 
----
+
 
 #### Label: Rehabilitatio
 
 ##### Beschreibung: 
+Wiederherstellung der Befähigung zur Ausübung einer Rechtshandlung
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: **rehab.**  
+  Annotation: [Type: Rehabilitatio, Value: "rehab."]
+* Text: **rehabilitatio**  
+  Annotation: [Type: Rehabilitatio, Value: "rehabilitatio"]
 
----
+
 
 #### Label: Reservatio
 
 ##### Beschreibung: 
+Die Reservierung einer Pfründe / Kanonikats.
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: motu pr. de **reserv.** can. et preb.  
+  Annotation: [Type: Reservatio, Value: "reserv."]
 
----
+
 
 #### Label: Revalidatio
 
@@ -1889,24 +1760,23 @@ Erklärung der Gültigkeit einer verfallenen Gnade
 * Text: **reval.**  
   Annotation: [Type: Revalidatio, Value: "reval."]
 
----
 
-#### Label: SalvusConductus
+
+#### Label: salvus_conductus
 
 ##### Beschreibung:
-Sicherheitsbrief für flüchtige Personen
+Geleitsbrief / Sicheres Geleit. Achtung: im Digitalisat von Band 3 falsch eingelesen als salc. statt salv.
 
 ##### Standard Examples:
 
 * Text: **salv. cond.**  
-  Annotation: [Type: SalvusConductus, Value: "salv. cond."]
+  Annotation: [Type: salvus_conductus, Value: "salv. cond."]
 * Text: **salvus conductus**  
-  Annotation: [Type: SalvusConductus, Value: "salvus conductus"]
+  Annotation: [Type: salvus_conductus, Value: "salvus conductus"]
 * Text: **salc. cond.**  
-  Annotation: [Type: SalvusConductus, Value: "salc. cond."]
-  * **Hinweis:** Achtung: im Digitalisat von Band 3 falsch eingelesen als salc. statt salv.
- 
----
+  Annotation: [Type: salvus_conductus, Value: "salc. cond."]
+
+
 
 #### Label: TragbarerAltar
 
@@ -1919,51 +1789,40 @@ Sicherheitsbrief für flüchtige Personen
   Annotation: [Type: TragbarerAltar, Value: "alt. port."]
 
 
-
-
 #### Label: Unio
 
 ##### Beschreibung: 
+Aufnahme einer geistlichen Institution in eine andere, aber nur für einen gewissen Zeitraum. Vgl. Incorporatio (dauerhafte Aufnahme).
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: **unio** eccl. Rigen.  
+  Annotation: [Type: Unio, Value: "unio"]
 
----
 
-#### Label: WeitereGnaden [bitte einzeln wie oben und mit Ontologie-Klasse "Gnadenerweis" abgleichen und ergänzen]
+#### Label: Verleihung_Insignien
 
-##### Standard Examples:
+##### Beschreibung: 
+Die Verleihung bischöflicher Insignien ehrenhalber an Prälaten.
 
-* Text: de **locis interdictis**  
-  Annotation: [Type: UndefinierteGnade, Value: "locis interdictis"]
-* Text: de **interd. loc.**  
-  Annotation: [Type: UndefinierteGnade, Value: "interd. loc."]
-* Text: de **benef.**  
-  Annotation: [Type: UndefinierteGnade, Value: "benef."]
-* Text: de **prom. ad ord.**  
-  Annotation: [Type: UndefinierteGnade, Value: "prom. ad ord."]
-* Text: de **prom. ad ord. extra temp.**  
-  Annotation: [Type: UndefinierteGnade, Value: "prom. ad ord. extra temp."]
-* Text: de **n. prom.**  
-  Annotation: [Type: UndefinierteGnade, Value: "n. prom."]
-* Text: de **n. prom. ad ord.**  
-  Annotation: [Type: UndefinierteGnade, Value: "n. prom. ad ord."]
-* Text: de **n. resid.**  
-  Annotation: [Type: UndefinierteGnade, Value: "n. resid."]
-* Text: de **fruct. percip.**  
-  Annotation: [Type: UndefinierteGnade, Value: "fruct. percip."]
-* Text: de **visitatione et reformatione**  
-  Annotation: [Type: UndefinierteGnade, Value: "visitatione et reformatione"]
+##### Standard Examples: 
+
+* Text: conc. de usu **insign. pont.**
+  Annotation: [Type: Verleihung_Insignien, Value: "insign. pont."]
+
+
+#### Label: Unklare_Gnade
+
+##### Beschreibung: 
+Nicht näher beschriebene oder unklare Gnadenerweise.
+
+##### Standard Examples: 
+
 * Text: supplic. **pro diversis**  
-  Annotation: [Type: UndefinierteGnade, Value: "pro diversis"]
-* Text: de **pont. insign.**  
-  Annotation: [Type: UndefinierteGnade, Value: "pont. insign."]
+  Annotation: [Type: Unklare_Gnade, Value: "pro diversis"]
 
----
-
-### Event: Zahlungsverpflichtung
+  
+### Zahlungsverpflichtung
 
 #### Label: Zahlungsverpflichtung
 
@@ -1975,9 +1834,9 @@ Angaben zu einer Zahlungsverpflichtung.
 * Text: **oblig.**    
   Annotation: [Type: Zahlungsverpflichtung, Value: "oblig."] 
 
----
 
-### Event: Geldzahlung
+
+### Geldzahlung
 
 #### Label: Geldzahlung
 
@@ -1989,9 +1848,9 @@ Angaben zu einer Geldzahlung.
 * Text: **solv.**    
   Annotation: [Type: Geldzahlung, Value: "solv."] 
 
----
 
-### Event: Gerichtsprozess
+
+### Gerichtsprozess
 
 #### Label: Gerichtsprozess
 
@@ -2005,9 +1864,9 @@ Angaben zu einem Gerichtsprozess.
 * Text: **constit. iudices appellat.**    
   Annotation: [Type: Gerichtsprozess, Value: "constit. iudices appellat."]
 
----
 
-### Event: Treueschwur
+
+### Treueschwur
 
 #### Label: Treueschwur
 
@@ -2018,9 +1877,9 @@ Angaben zu einem Treueschwur.
 * Text: **iuram. fidel.**    
   Annotation: [Type: Treueschwur, Value: "iuram. fidel."]
 
----
 
-### Event: Tod
+
+### Tod
 
 #### Label: Tod
 
@@ -2034,12 +1893,11 @@ Angaben zum Tod einer Person.
   Annotation: [Type: Tod, Value: "defuncti"]
 * Text: **mori**   
   Annotation: [Type: Tod, Value: "o."]
-* Text: **quond.**    
+* Text: Alheydis relicta **quond.** Johannis Sibowen   
   Annotation: [Type: Tod, Value: "quond."]
 
----
 
-### Event: Weihe
+### Weihe
 
 #### Label: Weihe
 
@@ -2050,9 +1908,9 @@ Angaben zum Weihempfang.
 * Text: **prom.**  
   Annotation: [Type: Weihe, Value: "prom."]
 
----
 
-### Event: Resignation
+
+### Resignation
 
 #### Label: Resignation
 
@@ -2063,9 +1921,9 @@ Angaben zur Aufgabe einer Pfründe.
 * Text: **resign.**  
   Annotation: [Type: Resignation, Value: "resign."]
 
----
 
-### Event: Entsendung
+
+### Entsendung
 
 #### Label: Entsendung
 
@@ -2076,9 +1934,8 @@ Jemand beauftragt eine Person, irgendwohin zu gehen.
 * Text: **destin.**    
   Annotation: [Type: Entsendung, Value: "destin."]
 
----
 
-### Event: ErlangungPfründe
+### ErlangungPfründe
 
 #### Label: ErlangungPfründe
 
@@ -2091,8 +1948,8 @@ Angaben zur Erlangung einer Pfründe (assec. est); nicht identisch mit dem Gnade
 * Text: **indebite assec. fuit**  
   Annotation: [Type: ErlangungPfründe, Value: "indebite assec. fuit"]
 
----
-### Event: Pfründenentzug
+
+### Pfründenentzug
 
 #### Label: Pfründenentzug
 
@@ -2103,11 +1960,11 @@ Jemand, z.B. der Papst, entzieht jemandem Rechte/Pfründen etc. (privatio)
 * Text: adherens Barth. **priv.** can. et preb.  
   Annotation: [Type: Pfründenentzug, Value: "priv."]
 
----
+
 
 ### Kategorie: Varia
 
----
+
 #### Label: Vakanzgrund
 
 ##### Beschreibung:
@@ -2116,35 +1973,35 @@ Gründe, die für die Vakanz einer Pfründe gegeben werden.
 ##### Standard Examples:
 
 * Text: **vac. p. o.**  
-  Annotation: [Type: EventNichtPapst, Value: "vac. p. o."]
+  Annotation: [Type: Vakanzgrund, Value: "vac. p. o."]
 * Text: **vacat. p. o.**  
-  Annotation: [Type: EventNichtPapst, Value: "vacat. p. o."]
+  Annotation: [Type: Vakanzgrund, Value: "vacat. p. o."]
   * **Hinweis:** Neben p.o., das als Abkürzung für per obitum am häufigsten vorkommt, gibt es in Band 1 und 3 des RG per ob. als Alternative und in Band 9 p.o. in curia.
 * Text: **vac. p. prom.**  
-  Annotation: [Type: EventNichtPapst, Value: "vac. p. prom."]
+  Annotation: [Type: Vakanzgrund, Value: "vac. p. prom."]
 
 ##### Other Examples:
 
 * Text: **vac. p. n. prom.**  
-  Annotation: [Type: EventNichtPapst, Value: "vac. p. n. prom."]
+  Annotation: [Type: Vakanzgrund, Value: "vac. p. n. prom."]
 * Text: **vac. p. priv.**  
-  Annotation: [Type: EventNichtPapst, Value: "vac. p. priv."]
+  Annotation: [Type: Vakanzgrund, Value: "vac. p. priv."]
 * Text: **vac. p. devol.**  
-  Annotation: [Type: EventNichtPapst, Value: "vac. p. devol."]
+  Annotation: [Type: Vakanzgrund, Value: "vac. p. devol."]
 * Text: **vac. p. transgr.**  
-  Annotation: [Type: EventNichtPapst, Value: "vac. p. transgr."]
+  Annotation: [Type: Vakanzgrund, Value: "vac. p. transgr."]
 * Text: **vac. p. resign.**  
-  Annotation: [Type: EventNichtPapst, Value: "vac. p. resign."]
+  Annotation: [Type: Vakanzgrund, Value: "vac. p. resign."]
 * Text: **vac. p. assec.**  
-  Annotation: [Type: EventNichtPapst, Value: "vac. p. assec."]
+  Annotation: [Type: Vakanzgrund, Value: "vac. p. assec."]
 * Text: **vac. p. ingress. relig.**  
-  Annotation: [Type: EventNichtPapst, Value: "vac. p. ingress. relig."]
+  Annotation: [Type: Vakanzgrund, Value: "vac. p. ingress. relig."]
 * Text: **vac. p. contract. matrim.**  
-  Annotation: [Type: EventNichtPapst, Value: "vac. p. contract. matrim."]
+  Annotation: [Type: Vakanzgrund, Value: "vac. p. contract. matrim."]
 * Text: **vac. ex eo quod** …  
-  Annotation: [Type: EventNichtPapst, Value: "vac. ex eo quod"]
+  Annotation: [Type: Vakanzgrund, Value: "vac. ex eo quod"]
 
----
+
 
 #### Label: Herrschaftsgebiet
 
@@ -2157,7 +2014,7 @@ Bezeichnungen für weltliche Herrschaftsgebiete, z.B. Herzogtümer.
 * Text: **baron.**  
   Annotation: [Type: Herrschaftsgebiet, Value: "baron."]
 
----
+
 #### Label: Stadt_Dorf
 
 ##### Beschreibung:
@@ -2165,15 +2022,15 @@ Bezeichnungen für Städte und Dörfer; die Begriffe sind nicht immer klar zu un
 
 ##### Standard Examples:
 * Text: **op.**  
-  Annotation: [Type: Verwaltungseinheit, Value: "op."]
+  Annotation: [Type: Stadt_Dorf, Value: "op."]
 * Text: **op. imp.**  
-  Annotation: [Type: Verwaltungseinheit, Value: "op. imp."]
+  Annotation: [Type: Stadt_Dorf, Value: "op. imp."]
 * Text: **villa**  
-  Annotation: [Type: Verwaltungseinheit, Value: "villa"]
+  Annotation: [Type: Stadt_Dorf, Value: "villa"]
 * Text: **civit.**  
   Annotation: [Type: Stadt_Dorf, Value: "civit."]
 
----
+
 #### Label: Diözese
 
 ##### Beschreibung:
@@ -2194,7 +2051,7 @@ Eine kirchliche Verwaltungseinheit.
 * Text: **Colon. dioc.**  
   Annotation: [Type: Diözese, Value: "Colon. dioc."]
 
----
+
 
 #### Label: Institution
 
@@ -2252,7 +2109,7 @@ Kirchen, Klöster, Universitäten, etc.
 * Text: **prioratus**  
   Annotation: [Type: Institution, Value: "prioratus"]  
 
----
+
 
 #### Label: InstitutionZusatz
 
@@ -2262,9 +2119,9 @@ Information zur Beziehung einer kirchlichen Institution zur Kurie, insbesondere 
 ##### Standard Examples:
 
 * Text: eccl. b. Marie castri Aldenburg. Rom. eccl. **immed. subiect.**  
-  Annotation: [Type: Institution, Value: "immed. subiect."]
+  Annotation: [Type: InstitutionZusatz, Value: "immed. subiect."]
 
----
+
 
 #### Label: Titelkirche
 
@@ -2386,7 +2243,7 @@ Kirchen, die Bischöfen, Priestern und Diakonen bei ihrer Kardinalsweihe zugetei
   * Text: **Ss. Viti et Modesti**  
     Annotation: [Type: Titelkirche, Value: "Ss. Viti et Modesti"]
 
----
+
 
 #### Label: Patrozinium
 
@@ -2409,7 +2266,7 @@ Namenspatrone von Kirchen oder Institutionen.
 * Text: **s. crucis**  
   Annotation: [Type: Patrozinium, Value: "s. crucis"]  
 
----
+
 
 #### Label: Objekt
 
@@ -2424,7 +2281,7 @@ unspezifizierte Objekte.
   Annotation: [Type: Objekt, Value: "alt. port."]
   * **Hinweis:** s. UndefinierteGnade
 
----
+
 
 #### Label: Name_Ort
 
@@ -2449,7 +2306,7 @@ Namen von Städten, Dörfern, Regionen und Bergen (s. Notizen unten).
 * Text: **Civitasnova**  
   Annotation: [Type: Name_Ort, Value: "Civitasnova"]
 
----
+
 
 #### Label: Kurie
 
@@ -2463,17 +2320,19 @@ Die Kurie ist an dem Ort, an dem der Papst ist.
 * Text: **ap. sed.**  
   Annotation: [Type: Kurie, Value: "ap. sed."]
 
----
-#### Label: Burg
+
+#### Label: Gebäude_Gebäudeteil
 
 ##### Beschreibung:
-Ein Bauwerk, das militärischen, administrativen und herrschaftlichen Zwecken dient.
+Bauwerk oder Teil eines Bauwerks
 
 ##### Standard Examples:
 * Text: in **castro** Quernfort  
-  Annotation: [Type: Burg, Value: "castro"]
+  Annotation: [Type: Gebäude_Gebäudeteil, Value: "castro"]
+* Text: in **cripta** eccl. Spiren.
+  Annotation: [Type: Gebäude_Gebäudeteil, Value: "cripta"]
+ 
 
----
 
 #### Label: Vorstadt
 
@@ -2484,7 +2343,7 @@ Ein Ort außerhalb der Stadtmauern (=Vorstadt) wird im RG über die Abkürzung "
 * Text: eccl. s. Victoris **e. m.** Magunt.
   Annotation: [Type: Vorstadt, Value: "e. m."]
 
----
+
 
 #### Label: Konzil
 
@@ -2496,7 +2355,7 @@ Kirchliches Konzil / Synode
 * Text: **concil.**  
   Annotation: [Type: Konzil, Value: "concil."]
 
----
+
 
 #### Label: Expeditionsmodalitäten
 
@@ -2514,7 +2373,7 @@ In den Regesten werden manchmal Angaben dazu gemacht, wie der Gnadenbrief ausges
 * Text: **sola signatura**  
   Annotation: [Type: Expeditionsmodalitäten, Value: "sola signatura"]  
 
----
+
 
 #### Label: Annaten
 
@@ -2528,7 +2387,7 @@ Zahlungen an den Papst für die Verleihung einer Pfründe.
 * Text: **annata**  
   Annotation: [Type: Annaten, Value: "annata"]
 
----
+
 
 #### Label: Servitien
 
@@ -2544,7 +2403,7 @@ Zahlungen des Bischöfe und einiger Äbte an den Papst anlässlich ihrer Einsetz
 * Text: comm. **serv.**  
   Annotation: [Type: Servitien, Value: "serv."]
 
----
+
 
 #### Label: Geldsumme
 
@@ -2558,7 +2417,7 @@ Geldbeträge in historischen Einheiten (Betrag und Währung).
 * Text: **4 m. arg.**  
   Annotation: [Type: Geldsumme, Value: "4 m. arg."]
 
----
+
 
 #### Label: Dauer
 
@@ -2572,38 +2431,38 @@ Dauer eines Dispens, einer Pfründe etc.
 * Text: **perp.**  
   Annotation: [Type: Dauer, Value: "perp."]
 
----
 
-#### Label: NonObstantien
+
+#### Label: Non_Obstantien
 
 ##### Beschreibung:
-Klauseln, die andere Regelungen / Tatsachen außer Kraft setzen; vgl. die Label Derogatio und DerogatioZusatz.
+Klauseln, die andere Regelungen / Tatsachen außer Kraft setzen; vgl. Derogatio.
 
 ##### Standard Examples:
 
 * Text: **n. o.** can. et preb.
-  Annotation: [Type: NonObstantien, Value: "n. o."]
+  Annotation: [Type: Non_Obstantien, Value: "n. o."]
   * **Häufigkeit** 4459x in den Bänden 1-9
 
 ##### Other Examples:
 
 * Text: **n. o.** par. eccl.
-  Annotation: [Type: NonObstantien, Value: "n. o."]
+  Annotation: [Type: Non_Obstantien, Value: "n. o."]
   * **Häufigkeit** 2665x in den Bänden 2-4 und 6-8
 * Text: **n. o.** def. nat.  
-  Annotation: [Type: NonObstantien, Value: "n. o."]
+  Annotation: [Type: Non_Obstantien, Value: "n. o."]
   * **Häufigkeit** 1044x in den Bänden 2-4 und 6-8
 * Text: **n. o.** perp. vicar.  
-  Annotation: [Type: NonObstantien, Value: "n. o."]
+  Annotation: [Type: Non_Obstantien, Value: "n. o."]
   * **Häufigkeit** 243x nur in den Bänden 7+8
 * Text: **n. o.** perp. s. c. vicar.  
-  Annotation: [Type: NonObstantien, Value: "n. o."]
+  Annotation: [Type: Non_Obstantien, Value: "n. o."]
   * **Häufigkeit** 122x, nur in den Bänden 7-8
 * Text: **n. o.** statut.  
-  Annotation: [Type: NonObstantien, Value: "n. o."]
+  Annotation: [Type: Non_Obstantien, Value: "n. o."]
   * **Häufigkeit** 13x, nur in Band 3
 
----
+
 
 #### Label: Datum
 
@@ -2615,7 +2474,7 @@ exakte oder ungefähre Datumsangaben
 * Text: **9 apr. 1410**  
   Annotation: [Type: Datum, Value: "9 apr. 1410"]
 
----
+
 
 #### Label: Fundstelle
 
@@ -2627,7 +2486,7 @@ Verweise auf Dokumente oder Handschriften.
 * Text: **L 138 254v**  
   Annotation: [Type: Fundstelle, Value: "L 138 254v."]
 
----
+
 
 ## Unklare Fälle und Richtlinien zur Entscheidung
 
@@ -2708,8 +2567,3 @@ Manchmal kommt es vor, dass zwei Wörter, die eigentlich gemeinsam getaggt werde
 
 ### Unklare oder vage Ortsangaben
 Begriffe wie „apud cur.“ (an der Kurie), „Noviforum“ (Neumarkt) und „castrum“ (Burg) werden als "OrtImplizit" erfasst.
-
-### Zusätze
-Die Tags AbsolutioZusatz, CassatioZusatz, DispensatioZusatz, FacultasZusatz, LicentiaZusatz und ProrogatioZusatz dienen der Kennzeichnung des jeweiligen Gnadeninhalts im Regest (Bsp. s. jeweils oben). Wir verfahren so, dass der gesamte Gnadeninhalt, der oft bis zur Datumsangabe reicht, getaggt wird, nicht nur einzelne Wörter, da dieses Vorgehen sich bei mehreren Annotatoren als fehleranfälliger erwiesen hat. Beispiele: 
-- LicentiaZusatz: lic. **retin. scolast., can. et par. eccl. ad 5 an.** 24 iul. 1409; nicht nur: **retin.** oder **retin. scolast.**
-- ProrogatioZusatz: cum prorog. **term. solut. ad 1 an. propter incertitudinem taxe** 14 dec. 1409; nicht nur: **term.** oder **term. solut.**
