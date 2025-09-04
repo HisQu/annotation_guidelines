@@ -141,11 +141,11 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
 
 
 
-#### Label: Anhänger
+#### Label: Anhänger_Marker
 
 ##### Standard Examples:
 * Text: **adher.**  
-  Annotation: [Type: Anhänger, Value: "adher."]
+  Annotation: [Type: Anhänger_Marker, Value: "adher."]
 
 
 
