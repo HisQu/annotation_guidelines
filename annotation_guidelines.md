@@ -1781,7 +1781,7 @@ Die Verleihung bischöflicher Insignien ehrenhalber an Prälaten.
 
 ##### Standard Examples: 
 
-* Text: conc. de usu **insign. pont.**
+* Text: conc. de usu **insign. pont.**  
   Annotation: [Type: Verleihung_Insignien, Value: "insign. pont."]
 
 
