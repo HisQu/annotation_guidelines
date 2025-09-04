@@ -1275,8 +1275,8 @@ Die Vollmacht zur Wiederherstellung kirchlicher Reinheit oder Gemeinschaft, sei 
 
 ##### Standard Examples: 
 
-* Text: de disp. ut par. eccl. ut supra extra cur. **resignare val.**  
-  Annotation: [Type: facultas_resignandi, Value: "resignare val."]
+* Text: de disp. ut par. eccl. ut supra extra cur. **resignare** val.  
+  Annotation: [Type: facultas_resignandi, Value: "resignare"]
 
 
 
@@ -1300,14 +1300,12 @@ Befähigung zur Ausübung einer Rechtshandlung
 #### Label: Incorporatio
 
 ##### Beschreibung:
-Einverleibung einer kirchlichen Institution durch eine andere
+Einverleibung einer kirchlichen Institution durch eine andere, vgl. unio.
 
 ##### Standard Examples:
 
-* Text: **inkorp.**  
-  Annotation: [Type: Incorporatio, Value: "inkorp."]
-* Text: **unio**  
-  Annotation: [Type: Incorporatio, Value: "unio"]
+* Text: **incorp.**  
+  Annotation: [Type: Incorporatio, Value: "incorp."]
 
 
 
@@ -1331,7 +1329,7 @@ Indulgenz, Ablass
 ##### Standard Examples: 
 
 * Text: c. **indulto** conferendi dign. 
-  Annotation: [Type: , Value: "indulto"]
+  Annotation: [Type: Indultum, Value: "indulto"]
 
 
 
@@ -1342,14 +1340,10 @@ Einführung in die Besitztümer einer Pfründe
 
 ##### Standard Examples:
 
-* Text: **m. introduc. in possess.**  
-  Annotation: [Type: Introductio, Value: "m. introduc. in possess."]
-* Text: **in possessionem** bonorum eorum eccl. **introducat**  
-  Annotation: 
-  - [Type: Introductio, Value: "in possessionem"]
-  - [Type: Introductio, Value: "introducat"]
-
-
+* Text: m. **introduc.** in possess.    
+  Annotation: [Type: Introductio, Value: "introduc."]
+* Text: in possessionem bonorum eorum eccl. **introducat**    
+  Annotation: [Type: Introductio, Value: "introducat"]
 
 
 #### Label: Licentia
@@ -1366,7 +1360,6 @@ Sondererlaubnis. Dieses Label soll nur dann vergeben werden, wenn eine andere al
 
 
 
-
 #### Label: licentia_celebrandi_ante_diem
 
 ##### Beschreibung: 
@@ -1380,7 +1373,6 @@ Erlaubnis, die Messe vor Tagesanbruch zu feiern.
   Annotation: [Type: licentia_celebrandi_ante_diem, Value: "ante diem"]
 
 
-  
 
 #### Label: licentia_visitandi_sepulchrum
 
@@ -1391,7 +1383,6 @@ Die Erlaubnis, das heilige Grab in Jerusalem zu besuchen.
 
 * Text: lic. **visitandi Sepulcrum Dominicum**  
   Annotation: [Type: licentia_visitandi_sepulchrum, Value: "visitandi Sepulcrum Dominicum"]
-
 
 
 
@@ -1489,7 +1480,7 @@ Die Erlaubnis, als Zeuge aufzutreten.
 ##### Standard Examples:
 
 * Text: de **conserv.**  
-  Annotation: [Type: LitteraConservatoriaBonorum, Value: "conserv."]
+  Annotation: [Type: littera_conservatoria_bonorum, Value: "conserv."]
 
 
 
@@ -1590,9 +1581,7 @@ Vorrecht in der Weise der päpstlichen Familie = Ein Vorrecht, das einer Person 
 ##### Standard Examples: 
 
 * Text: **prerog.** ad instrar pape fam.  
-  Annotation: [Type: Prerogativa, Value: "prerog."]]
-
-
+  Annotation: [Type: prerogatio_ad_instar_pape_familaris, Value: "prerog."]]
 
 
 #### Label: prerogatio_pape_familiaris_in_absentia
@@ -1616,9 +1605,8 @@ Fristverlängerung, Aufschub
 
 * Text: **prorog.**  
   Annotation: [Type: Prorogatio, Value: "prorog."]
-* Text: cum **prorog. term. solut.** ad 1 an. propter incertitudinem taxe  
+* Text: cum **prorog.** term. solut. ad 1 an. propter incertitudinem taxe  
   Annotation: [Type: Prorogatio, Value: "prorog."]
-
 
 
 
@@ -1923,16 +1911,16 @@ Jemand beauftragt eine Person, irgendwohin zu gehen.
 
 ### ErlangungPfründe
 
-#### Label: ErlangungPfründe
+#### Label: Erlangung_Pfründe
 
 ##### Beschreibung:
 Angaben zur Erlangung einer Pfründe (assec. est); nicht identisch mit dem Gnadenerweis der bloßen Provision einer Pfründe.
 
 ##### Standard Examples:
 * Text: **assec. est**  
-  Annotation: [Type: ErlangungPfründe, Value: "assec. est"]
+  Annotation: [Type: Erlangung_Pfründe, Value: "assec. est"]
 * Text: **indebite assec. fuit**  
-  Annotation: [Type: ErlangungPfründe, Value: "indebite assec. fuit"]
+  Annotation: [Type: Erlangung_Pfründe, Value: "indebite assec. fuit"]
 
 
 ### Pfründenentzug
@@ -2257,7 +2245,7 @@ Namenspatrone von Kirchen oder Institutionen.
 #### Label: Objekt
 
 ##### Beschreibung:
-unspezifizierte Objekte.
+Unspezifizierte Objekte
 
 ##### Standard Examples:
 
@@ -2265,8 +2253,6 @@ unspezifizierte Objekte.
   Annotation: [Type: Objekt, Value: "alt."]
 * Text: **alt. port.**  
   Annotation: [Type: Objekt, Value: "alt. port."]
-  * **Hinweis:** s. UndefinierteGnade
-
 
 
 #### Label: Name_Ort
@@ -2484,8 +2470,8 @@ Manche Begriffe können in mehreren Kategorien fallen. Beispiel: „alt.“ kann
 An dieser Stelle sollen weitere ambige Fälle gesammelt werden und unsere Entscheidungen festgehalten werden:
   - alt. = Objekt
   - par. eccl. = Institution
-  - archidiac. = KirchlichesAmt
-  - vic. = KirchlichesAmt
+  - archidiac. = Kirchliches_Amt
+  - vic. = Kirchliches_Amt
 
 ### Fit mentio
 Fit mentio ("wird erwähnt") wird nicht getaggt.
@@ -2496,11 +2482,11 @@ Alle Angaben in Klammern, die eine Alternative darstellen, werden in den Tag ihr
 - Henricus **de Gerpstede (Gherbstede)** -> Namenszusatz: de Gerpstede (Gherbstede)
 - **Erhardus (Gerardus)** -> Vorname: Erhardus (Gerardus)
 - **24 oct. 13 (20 sept. 1413)** -> Datum: 24 oct. 13 (20 sept. 1413)
-- **056 148 (ASO 2 11).** -> Quelle: 056 148 (ASO 2 11).
-- **Berpenick (Berporch)** -> Ort: Berpenick (Berporch)
+- **056 148 (ASO 2 11).** -> Fundstelle: 056 148 (ASO 2 11).
+- **Berpenick (Berporch)** -> Name_Ort: Berpenick (Berporch)
 Bei “frei stehenden” Angaben in Klammern werden die Klammern ignoriert.  
 - (**33,33 fl.**) -> Geldsumme: 33,33 fl.
-- (procur. mag. Bruno Boghel) -> Verwaltungsamt: procur.; Bildung: mag.; Vorname: Bruno; Namenszusatz: Boghel  
+- (procur. mag. Bruno Boghel) -> Kuriales_Amt: procur.; Akademischer_Grad: mag.; Vorname: Bruno; Namenszusatz: Boghel  
 
 ### Kombinationen aus mehreren Kategorien
 Ein Eintrag, der mehrere Entitäten beschreibt, wird in entsprechende Einzelannotationen aufgeteilt.
@@ -2514,22 +2500,22 @@ Ein Eintrag, der mehrere Entitäten beschreibt, wird in entsprechende Einzelanno
 Bei der Abkürzung "lect." gibt es (wenigstens für das RG 3) noch Klärungsbedarf, weil es selten für Lektor und häufiger für einen Vermerk zum Geschäftsgang (lectio) zu stehen scheint. Wenn lect. am Ende des Regests steht, dann wird es nicht ausgezeichnet.
 
 ### maior und minor prebenda / ecclesia
-Bei Fällen wie „incorp. maioris preb. eccl.“, bei denen nicht immer gleich klar ist, ob sich das Adjektiv maior/minor auf die Präbende oder die Kirche bezieht, wird es grundsätzlich gemeinsam mit preb. mit dem Tag „KirchlichesAmt“ versehen (also nicht zu eccl. gezogen). 
+Bei Fällen wie „incorp. maioris preb. eccl.“, bei denen nicht immer gleich klar ist, ob sich das Adjektiv maior/minor auf die Präbende oder die Kirche bezieht, wird es grundsätzlich gemeinsam mit preb. mit dem Tag „Kirchliches_Amt“ versehen (also nicht zu eccl. gezogen). 
 
 ### Ort vs. Diözese
 - Steht nach der Angabe der Weihe (subdiac, diac., presb. , ep. etc.) der Name einer Stadt so muss diese als Diözese getaggt werden, weil Weihen auf Diözesen, nicht auf Städte erfolgen.
   - Beispiele: Henricus de Bocholdia al. d. Foet cler. Traiect.; ep. Vulterran. 
-  - Achtung: Bei prepos. Plocen. wird Plocen. als Ort, nicht als Diözese, getaggt.
-- Die Ortsbezeichnungen nach e.m. (extra muros = außerhalb der Mauern von) werden immer als Ort getaggt, z.B. e.m. Traiect.
-- In Fällen wie “Prag. et Olumuc. dioc.” Ist davon auszugehen, dass das erste dioc. Weggefallen ist. Es werden also sowohl Prag. als auch Olumuc. als Diözesen getaggt.
-- Wenn marchio (Markgraf) vor Brandenburg. steht, wird Brandenburg. als Verwaltungseinheit (nicht als Ort oder Diözese) getaggt.
+  - Achtung: Bei prepos. Plocen. wird Plocen. als Name_Ort, nicht als Diözese, getaggt.
+- Die Ortsbezeichnungen nach e.m. (extra muros = außerhalb der Mauern von) werden immer als "Vorstadt" getaggt, z.B. e.m. Traiect.
+- In Fällen wie “Prag. et Olumuc. dioc.” Ist davon auszugehen, dass das erste dioc. Weggefallen ist. Es werden also sowohl Prag. als auch Olumuc. als "Diözese" getaggt.
+- Wenn marchio (Markgraf) vor Brandenburg. steht, wird Brandenburg. als "Herrschaftsgebiet" (nicht als Name_Ort oder Diözese) getaggt.
 
 ### Präpositionen
 
-Die Präposition *de* wird nur beim Label Namenszusatz und SozialerStand mitgetaggt: 
-* Johannis **de Yselsteine** (de Yselsteine = Namenszusatz), Ghiselbertus de Lochorst **de nob. gen.** (de nob. gen. = SozialerStand)    
+Die Präposition *de* wird nur beim Label Namenszusatz und Sozialer_Stand mitgetaggt: 
+* Johannis **de Yselsteine** (de Yselsteine = Namenszusatz), Ghiselbertus de Lochorst **de nob. gen.** (de nob. gen. = Sozialer_Stand)    
 In allen anderen Fällen wird nur der relevante Hauptbegriff annotiert, nicht die Präposition:  
-* **de eccl.** (eccl. = Institution), **de locis interdictis** (locis interdictis = Gnadenerweis) etc.  
+* **de eccl.** (eccl. = "Institution"), **de locis interdictis** (locis interdictis = "de_loco_interdicto") etc.  
 
 Entsprechendes gilt für weitere Präpositionen wie post ob. etc.
 
@@ -2550,6 +2536,3 @@ Da die Namen derjenigen Kirchen, die Kardinalbischöfen, -priestern und -diakone
 
 ### Ungünstige Trennung von zwei oder mehreren Wörtern
 Manchmal kommt es vor, dass zwei Wörter, die eigentlich gemeinsam getaggt werden sollten (m. incorp.; ep. card.), durch andere Wörter getrennt werden (m. (Sigismundo Rom. Et Vng. rege) incorp.; ep. Portuen. card.). Behelfsmäßig haben wir jetzt beide Teile einzeln mit dem Tag Incorporatio bzw. KirchlichesAmt versehen - eine Lösung dafür muss noch gefunden werden, damit die Zuordnung eindeutig und konsistent ist (z.B. Pfeilverbindungen in Inception, die anzeigen, dass zwei Wörter zusammen unter ein Tag gehören).(?)
-
-### Unklare oder vage Ortsangaben
-Begriffe wie „apud cur.“ (an der Kurie), „Noviforum“ (Neumarkt) und „castrum“ (Burg) werden als "OrtImplizit" erfasst.
