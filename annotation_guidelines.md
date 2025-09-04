@@ -1252,7 +1252,7 @@ Die Vollmacht, in bestimmten Fällen absolvieren zu dürfen.
 
 * Text: **facult. absol.** in casibus, in quibus
   Annotation: [Type: facultas_absolvendi, Value: "facult. absol."]
-  * Text: **facult. absol.** eos, qui…  
+* Text: **facult. absol.** eos, qui…  
   Annotation: [Type: facultas_absolvendi, Value: "facult. absol."]
 * Text: **facult. absol.** 100 person.  
   Annotation: [Type: facultas_absolvendi, Value: "facult. absol."]
