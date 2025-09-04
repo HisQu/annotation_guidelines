@@ -1939,6 +1939,17 @@ Jemand, z.B. der Papst, entzieht jemandem Rechte/Pfründen etc. (privatio)
 ### Kategorie: Varia
 
 
+#### Label: Kommissionsvermerk
+
+##### Beschreibung:
+Der Verweis darauf, dass ein Fall zur weiteren Bearbeitung an eine andere Person oder Institution weitergeleitet wird. Achtung: Es gibt es auch einen Gnadenerweis namens de committ., bei dem eine Kommission als Gnade erbeten wird.
+
+
+##### Standard Examples:
+
+* Text: **committ.** mag. Petro de Mera    
+  Annotation: [Type: Kommissionsvermerk, Value: "committ."]
+
 #### Label: Vakanzgrund
 
 ##### Beschreibung:
