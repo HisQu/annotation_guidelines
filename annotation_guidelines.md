@@ -212,7 +212,7 @@ Eine "Personengruppe" liegt immer dann vor, wenn ein sprachlicher Ausdruck sich 
 ##### Standard Examples:
 
 * Text: ad **coll.** epp.  
-  Annotation: [Type: Kollatur_Marker, Value: "coll."]
+  Annotation: [Type: Kollator_Marker, Value: "coll."]
 
 
 
