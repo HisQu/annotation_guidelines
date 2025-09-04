@@ -2412,7 +2412,7 @@ Klauseln, die andere Regelungen / Tatsachen außer Kraft setzen; vgl. Derogatio.
 
 ##### Standard Examples:
 
-* Text: **n. o.** can. et preb.
+* Text: **n. o.** can. et preb.  
   Annotation: [Type: Non_Obstantien, Value: "n. o."]
   * **Häufigkeit** 4459x in den Bänden 1-9
 
