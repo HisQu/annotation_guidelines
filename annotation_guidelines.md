@@ -719,7 +719,7 @@ Ein weltliches Amt ist eine offizielle Stellung oder Funktion, die eine Person i
   Annotation: [Type: Akademischer_Grad, Value: "mag."]
 * Text: decr.**doct.**  
   Annotation: [Type: Akademischer_Grad, Value: "doct."]
-* Text: theol. **profes.**
+* Text: theol. **profes.**  
   Annotation: [Type: Akademischer_Grad, Value: "profes."]
 
 
