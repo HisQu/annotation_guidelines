@@ -1456,7 +1456,7 @@ Die Erlaubnis, den eigenen Geburtsdefekt verschweigen zu dürfen.
 
 ##### Standard Examples: 
 
-* Text: de lic. deinceps disp. **sup. def. nat. ( p., s. ) tacendi**
+* Text: de lic. deinceps disp. **sup. def. nat. ( p., s. ) tacendi**  
   Annotation: [Type: licentia_tacendi_super_defectu_natalium, Value: "sup. def. nat. ( p., s. ) tacendi"]
 
 
