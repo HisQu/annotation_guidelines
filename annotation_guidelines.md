@@ -1369,7 +1369,7 @@ Erlaubnis, die Messe vor Tagesanbruch zu feiern.
 
 * Text: lic. de **ante diem**  
   Annotation: [Type: licentia_celebrandi_ante_diem, Value: "ante diem"]
-* Text: lic. celebrandi missam **ante diem***  
+* Text: lic. celebrandi missam **ante diem**  
   Annotation: [Type: licentia_celebrandi_ante_diem, Value: "ante diem"]
 
 
