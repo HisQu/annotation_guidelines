@@ -837,7 +837,7 @@ Verstärkung einer Strafe
 
 
 
-#### Label: Alternativa_Facultas
+#### Label: alternativa_facultas
 
 ##### Beschreibung: 
 "Fakultät für Bischöfe zur alternierenden Besetzung von Pfründen" (Bearbeitungshinweise, S. 67)
@@ -845,7 +845,7 @@ Verstärkung einer Strafe
 ##### Standard Examples: 
 
 * Text: motu pr. de **alternativa** videlicet fac. disponendi sup. benef. vacat.  
-  Annotation: [Type: , Value: "alternativa"]
+  Annotation: [Type: alternativa_facultas, Value: "alternativa"]
 
 
 
