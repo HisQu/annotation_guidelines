@@ -381,7 +381,7 @@ Der soziale Stand einer Person ergibt sich u.a. aus Angaben zu ihrer (nicht-)adl
 
 * Text: **scol.**  
   Annotation: [Type: Sozialer_Stand, Value: "scol."]
-  * Text: **studens**  
+* Text: **studens**  
   Annotation: [Type: Sozialer_Stand, Value: "studens"]
 * Text: **baron. gen.**  
   Annotation: [Type: Sozialer_Stand, Value: "baron. gen."]
