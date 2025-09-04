@@ -2418,7 +2418,7 @@ Klauseln, die andere Regelungen / Tatsachen außer Kraft setzen; vgl. Derogatio.
 
 ##### Other Examples:
 
-* Text: **n. o.** par. eccl.
+* Text: **n. o.** par. eccl.  
   Annotation: [Type: Non_Obstantien, Value: "n. o."]
   * **Häufigkeit** 2665x in den Bänden 2-4 und 6-8
 * Text: **n. o.** def. nat.  
