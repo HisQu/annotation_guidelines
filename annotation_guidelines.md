@@ -14,7 +14,7 @@
 ### 2. Kategorien:
 
 * Die Annotation erfolgt derzeit anhand einer Vielzahl von **basalen Kategorien**, also kleinster logisch abgrenzbarer Einheiten im Regesttext.
-* Behelfsmäßig sind diese Basiskategorien in vier übergeordnete Kategorien gruppiert: Personen und Personengruppen, Vita, Event und Varia. Diese dienen der besseren Übersichtlichkeit und Navigation innerhalb der Guidelines.
+* Behelfsmäßig sind diese Basiskategorien in fünf übergeordnete Kategorien gruppiert: Personen und Personengruppen, Akteur, Vita, Event und Varia. Diese dienen der besseren Übersichtlichkeit und Navigation innerhalb der Guidelines.
 Perspektivisch werden diese übergeordneten Kategorien durch andere/weitere semantische Kategorien ersetzt bzw. ergänzt. Semantische Kategorien entstehen aus der Kombination mehrerer basaler Kategorien. Ein und dieselbe basale Einheit kann dabei mehreren semantischen Kategorien zugeordnet werden. Die semantischen Kategorien befinden sich aktuell im Aufbau und werden schrittweise in die Guidelines integriert.
 
 ### 3. Darstellung im Guidelines-Dokument:
@@ -23,7 +23,7 @@ Perspektivisch werden diese übergeordneten Kategorien durch andere/weitere sema
 
 ## Strukturierung der Labels und Beispiele
 
-* Jede Kategorie (Personen und Personengruppen, Vita, Event, Varia) enthält eine Liste von Labels (Unterkategorien). * Für jedes Label werden "Standardbeispiele" (Standard Examples) und "Sonstige Beispiele" (Other Examples) aufgeführt.
+* Jede Kategorie (Personen und Personengruppen, Akteur, Vita, Event, Varia) enthält eine Liste von Labels (Unterkategorien). * Für jedes Label werden "Standardbeispiele" (Standard Examples) und "Sonstige Beispiele" (Other Examples) aufgeführt.
 * Jedes Beispiel umfasst den Kontext und das zu annotierende Textfragment, wobei das Fragment in doppelten Sternchen (`**`) eingeschlossen ist. Die erwartete Annotation wird im Format `[Type: Value]` angegeben. Bei Beispielen, die mehrere Annotationen ergeben, werden alle aufgeführt.
 
 ## Kategorien
