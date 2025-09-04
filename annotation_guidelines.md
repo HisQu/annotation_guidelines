@@ -1909,18 +1909,18 @@ Jemand beauftragt eine Person, irgendwohin zu gehen.
   Annotation: [Type: Entsendung, Value: "destin."]
 
 
-### ErlangungPfründe
+### ErlangungAmt
 
-#### Label: Erlangung_Pfründe
+#### Label: Erlangung_eines_Amtes
 
 ##### Beschreibung:
-Angaben zur Erlangung einer Pfründe (assec. est); nicht identisch mit dem Gnadenerweis der bloßen Provision einer Pfründe.
+Angaben zur Erlangung eines Amtes (assec. est); nicht identisch mit dem Gnadenerweis der bloßen Provision einer Pfründe.
 
 ##### Standard Examples:
 * Text: **assec. est**  
-  Annotation: [Type: Erlangung_Pfründe, Value: "assec. est"]
+  Annotation: [Type: Erlangung_eines_Amtes, Value: "assec. est"]
 * Text: **indebite assec. fuit**  
-  Annotation: [Type: Erlangung_Pfründe, Value: "indebite assec. fuit"]
+  Annotation: [Type: Erlangung_eines_Amtes, Value: "indebite assec. fuit"]
 
 
 ### Pfründenentzug
