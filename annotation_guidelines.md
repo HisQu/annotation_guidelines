@@ -2272,9 +2272,9 @@ Namen von Städten, Dörfern, Regionen und Bergen (s. Notizen unten).
   Annotation: [Type: Name_Ort, Value: "Slesia"]  
 
 ##### Other Examples:
-* Text: in **Rauhen** et in **Schlechthin Kulm** castris
-  Annotation: [Type: Name_Ort, Value: "Rauhen"]
-  Annotation: [Type: Name_Ort, Value: "Schlechthin Kulm"]
+* Text: in **Rauhen** et in **Schlechthin Kulm** castris  
+  Annotation: [Type: Name_Ort, Value: "Rauhen"]  
+  Annotation: [Type: Name_Ort, Value: "Schlechthin Kulm"]  
 * Text: **Civitasnova**  
   Annotation: [Type: Name_Ort, Value: "Civitasnova"]
 
