@@ -9,7 +9,7 @@
 * Nicht getaggte Inhalte können später dennoch durch KI-gestützte Verfahren erfasst werden.
 * Annotiert werden ausschließlich Begriffe, die explizit im Regesttext vorkommen. Begriffe, die mitgedacht werden müssen, z.B. (prov.) de eccl., bleiben ungetaggt.  
 * Wörter können auch mit mehreren Labels gleichzeitig versehen werden, z.B. presbiteros (Personengruppe, Kirchlicher_Stand, Kirchliches_Amt).  
-* Abkürzungspunkte und Endpunkte nach der Quellenangabe, sind Teil der Annotation und werden entsprechend mit ausgezeichnet.      
+* Abkürzungspunkte und Endpunkte nach der Quellenangabe sind Teil der Annotation und werden entsprechend mit ausgezeichnet.      
 
 ### 2. Kategorien:
 
