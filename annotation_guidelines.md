@@ -42,43 +42,6 @@ Eine Person_explizit liegt immer dann vor, wenn die Person mit "Vorname" und "Na
 * Text: **Johannes de Azel**   
   Annotation: [Type: Person_explizit, Value: "Johannes de Azel"]
   
-
-#### Label: Person_implizit
-
-##### Beschreibung:
-Eine "Person_implizit" liegt vor, wenn eine einzelne Person nicht namentlich auftritt, sondern über ein Pronomen, eine Amtsbezeichnung oder eine andere als die namentliche Bezeichnung referenziert wird. Hiervon zu unterscheiden sind die Bezeichnungen von Personengruppen, die über Worte und Ausdrücke im Plural erfolgen (s. Kategorie: Personengruppe).
-
-##### Standard Examples:
-* Text: **eum** et successores suos in Magunt. provin.  
-  Annotation: [Type: Person_implizit, Value: "eum"]  
-* Text: supplic. **aep. Magunt.**  
-  Annotation: [Type: Person_implizit, Value: "aep. Magunt."]
-
-
-
-#### Label: Personengruppe
-
-##### Beschreibung:
-Eine "Personengruppe" liegt immer dann vor, wenn ein sprachlicher Ausdruck sich auf mehr als eine Person bezieht. Nicht im Label enthalten sind attributiv gebrauchte Adjektive oder Ähnliches (vgl. Standard Examples: successores suos).
-
-##### Standard Examples:
-* Text: eum et **successores** suos in Magunt. provin.  
-  Annotation: [Type: Personengruppe, Value: "successores"]  
-* Text: **legatos** natos cum plena potestate  
-  Annotation: [Type: Personengruppe, Value: "legatos"]  
-* Text: cum **30 pers.** de confess. elig.    
-  Annotation: [Type: Personengruppe, Value: "30 pers."]  
-* Text: **alii**  
-  Annotation: [Type: Personengruppe, Value: "alii"]  
-* Text: quidem **8000 et infra** lim. eccl. s. Nicolai  
-  Annotation: [Type: Personengruppe, Value: "8000 et infra"]  
-* Text: **6000 parochiani**  
-  Annotation: [Type: Personengruppe, Value: "6000 parochiani"]  
-* Text: et **commune** op. D. Traiect. dioc.  
-  Annotation: [Type: Personengruppe, Value: "commune"]  
-
-
-
 #### Label: Vorname
 
 ##### Beschreibung:
@@ -135,6 +98,43 @@ Die Päpste sind im Kontext des RG eine besonders relevante Ausformung der Klass
   * **Häufigkeit:** 480x in den Bänden 1-9, pape: 5307x in den Bänden 1-9.
 * Text: **Bonifatio VIII papa**  
   Annotation: [Type: Papst, Value: "Bonifatio VIII papa"]
+
+
+
+#### Label: Person_implizit
+
+##### Beschreibung:
+Eine "Person_implizit" liegt vor, wenn eine einzelne Person nicht namentlich auftritt, sondern über ein Pronomen, eine Amtsbezeichnung oder eine andere als die namentliche Bezeichnung referenziert wird. Hiervon zu unterscheiden sind die Bezeichnungen von Personengruppen, die über Worte und Ausdrücke im Plural erfolgen (s. Kategorie: Personengruppe).
+
+##### Standard Examples:
+* Text: **eum** et successores suos in Magunt. provin.  
+  Annotation: [Type: Person_implizit, Value: "eum"]  
+* Text: supplic. **aep. Magunt.**  
+  Annotation: [Type: Person_implizit, Value: "aep. Magunt."]
+
+
+
+#### Label: Personengruppe
+
+##### Beschreibung:
+Eine "Personengruppe" liegt immer dann vor, wenn ein sprachlicher Ausdruck sich auf mehr als eine Person bezieht. Nicht im Label enthalten sind attributiv gebrauchte Adjektive oder Ähnliches (vgl. Standard Examples: successores suos).
+
+##### Standard Examples:
+* Text: eum et **successores** suos in Magunt. provin.  
+  Annotation: [Type: Personengruppe, Value: "successores"]  
+* Text: **legatos** natos cum plena potestate  
+  Annotation: [Type: Personengruppe, Value: "legatos"]  
+* Text: cum **30 pers.** de confess. elig.    
+  Annotation: [Type: Personengruppe, Value: "30 pers."]  
+* Text: **alii**  
+  Annotation: [Type: Personengruppe, Value: "alii"]  
+* Text: quidem **8000 et infra** lim. eccl. s. Nicolai  
+  Annotation: [Type: Personengruppe, Value: "8000 et infra"]  
+* Text: **6000 parochiani**  
+  Annotation: [Type: Personengruppe, Value: "6000 parochiani"]  
+* Text: et **commune** op. D. Traiect. dioc.  
+  Annotation: [Type: Personengruppe, Value: "commune"]  
+
 
 
 ### Kategorie: Akteur
