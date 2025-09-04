@@ -699,7 +699,7 @@ Ein weltliches Amt ist eine offizielle Stellung oder Funktion, die eine Person i
 * Text: **scult.**  
   Annotation: [Type: Weltliches_Amt, Value: "scult."]  
 
----
+
 
 #### Label: Akademischer_Grad
 
