@@ -1156,7 +1156,7 @@ Kennzeichnung des Gnadeninhalts der Derogatio. Der gesamte Gnadeninhalt wird mit
 #### Label: Dispensatio
 
 ##### Beschreibung:
-Befreiung, Außerkraftsetzung kirchlicher Gesetze. Hinweis: Dieses Label soll nur dann vergeben werden, wenn eine andere als die hiernach folgendenen Unterarten der Dispense auftaucht. Die Unterarten werden sukkzessive von uns aufgefüllt.
+Befreiung, Außerkraftsetzung kirchlicher Gesetze. Hinweis: Dieses Label soll nur dann vergeben werden, wenn eine andere als die hiernach aufgeführten Unterarten der Dispense auftaucht. Die Unterarten werden sukkzessive von uns aufgefüllt.
 
 ##### Standard Examples:
 
@@ -1341,9 +1341,7 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Fac
 
 ##### Other Examples:
 
-* Text: facult. **absol. in casibus, in quibus (unknown)**  
-  Annotation: [Type: Facultas_Zusatz, Value: "absol. in casibus, in quibus (unknown)"]
-  * **Hinweis:** (unknown) steht für den Rest des Relativsatzes.
+
 * Text: facult. **reconciliandi**  
   Annotation: [Type: Facultas_Zusatz, Value: "reconciliandi"]
 * Text: **alternativa** facult. **disponendi**  
@@ -1351,34 +1349,40 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Fac
   - [Type: Facultas_Zusatz, Value: "alternativa"]
   - [Type: Facultas_Zusatz, Value: "disponendi"]
 
+
 #### Label: facultas_absolvendi
 
 ##### Beschreibung: 
+Die Vollmacht, in bestimmten Fällen absolvieren zu dürfen.
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: **facult. absol.** in casibus, in quibus
+  Annotation: [Type: facultas_absolvendi, Value: "facult. absol."]
 
-#### Label: FacultasReconciliandi
+
+
+#### Label: facultas_reconciliandi
 
 ##### Beschreibung: 
+Die Vollmacht zur Wiederherstellung kirchlicher Reinheit oder Gemeinschaft, sei es durch die rituelle Reinigung verunreinigter Kirchenräume oder durch die Reintegration von Personen in die Kirche.
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: de **fac. reconciliandi** d. eccl. et eius cimit.   
+  Annotation: [Type: facultas_reconciliandi, Value: "fac. reconciliandi"]
 
-#### Label: FacultasResignandi
+#### Label: facultas_resignandi
 
 ##### Beschreibung: 
+"Gelegentlich wird die generelle Erlaubnis erteilt, Pfründen zu resignieren oder zu tauschen. Diese Erlaubnis bezieht sich auch auf die künftig zu erwerbenden Benefizien, was im Regest nicht eigens zum Ausdruck gebracht wird." (Bearbeitungshinweise, S. 63f.)
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: de disp. ut par. eccl. ut supra extra cur. **resignare val.**  
+  Annotation: [Type: facultas_resignandi, Value: "resignare val."]
 
----
+
 
 #### Label: Habilitatio
 
@@ -1399,7 +1403,7 @@ Wiederherstellung der Befähigung zur Ausübung einer Rechtshandlung
 * Text: **habilitatio**  
   Annotation: [Type: Habilitatio, Value: "habilitatio"]
 
----
+
 
 #### Label: Incorporatio
 
@@ -1425,18 +1429,19 @@ Indulgenz, Ablass
 * Text: **indulg.**  
   Annotation: [Type: Indulgentia, Value: "indulg."]
 
----
+
 
 #### Label: Indultum
 
 ##### Beschreibung: 
+"Indultum ist wie gratia und declaratio ein sehr weit gefasster Begriff, der, soweit nicht die oben behandelten Fälle betroffen sind, von der Kanzlei für viele unterschiedliche Gnadenerweise gebraucht wird" (Bearbeitungshinweise, S. 57)
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: c. **indulto** conferendi dign. 
+  Annotation: [Type: , Value: "indulto"]
 
----
+
 
 #### Label: Introductio
 
@@ -1452,11 +1457,13 @@ Einführung in die Besitztümer einer Pfründe
   - [Type: Introductio, Value: "in possessionem"]
   - [Type: Introductio, Value: "introducat"]
 
----
+
+
+
 #### Label: Licentia
 
 ##### Beschreibung:
-Sondererlaubnis
+Sondererlaubnis. Dieses Label soll nur dann vergeben werden, wenn eine andere als die hiernach aufgeführten Unterarten der Lizenzen auftaucht. Die Unterarten werden sukkzessive von uns aufgefüllt.
 
 ##### Standard Examples:
 
@@ -1465,125 +1472,148 @@ Sondererlaubnis
 * Text: **m. lic.**  
   Annotation: [Type: Licentia, Value: "m. lic."]
 
-##### Other Examples:
 
-* Text: **lic.** de ante diem  
-  Annotation: [Type: Licentia, Value: "lic."]
-* Text: **lic.** armuciis de vario et griseo utendi  
-  Annotation: [Type: Licentia, Value: "lic."]
-* Text: **lic.** visitandi Sepulcrum Dominicum  
-  Annotation: [Type: Licentia, Value: "lic."]
-* Text: **lic.** ratione par. eccl. s. Martini, … in casu quod rect. unius ex d. eccl. fuerit excom., per alios presb. sibi sacramenta ministrari faciendi  
-  Annotation: [Type: Licentia, Value: "lic."]
 
-#### Label: LicentiaZusatz
 
-##### Beschreibung:
-Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label LicentiaZusatz getaggt, nicht aber die Gnade lic. selbst.
+#### Label: licentia_celebrandi_ante_diem
 
-##### Standard Examples:
+##### Beschreibung: 
+Erlaubnis, die Messe vor Tagesanbruch zu feiern.
 
-* Text: lic. **de ante diem**  
-  Annotation: [Type: LicentiaZusatz, Value: "de ante diem"]
-* Text: lic. **armuciis de vario et griseo utendi**  
-  Annotation: [Type: LicentiaZusatz, Value: "armuciis de vario et griseo utendi"]
+##### Standard Examples: 
+
+* Text: lic. de **ante diem**  
+  Annotation: [Type: licentia_celebrandi_ante_diem, Value: "ante diem"]
+* Text: lic. celebrandi missam **ante diem***
+  Annotation: [Type: licentia_celebrandi_ante_diem, Value: "ante diem"]
+
+
+  
+
+#### Label: licentia_visitandi_sepulchrum
+
+##### Beschreibung: 
+Die Erlaubnis, das heilige Grab in Jerusalem zu besuchen.
+
+##### Standard Examples: 
+
 * Text: lic. **visitandi Sepulcrum Dominicum**  
-  Annotation: [Type: LicentiaZusatz, Value: "visitandi Sepulcrum Dominicum"]
+  Annotation: [Type: licentia_visitandi_sepulchrum, Value: "visitandi Sepulcrum Dominicum"]
 
-##### Other Examples:
 
-* Text: lic. **ratione par. eccl. s. Martini, … in casu quod rect. unius ex d. eccl. fuerit excom., per alios presb. sibi sacramenta ministrari faciendi**  
-  Annotation: [Type: LicentiaZusatz, Value: "ratione par. eccl. s. Martini, … in casu quod rect. unius ex d. eccl. fuerit excom., per alios presb. sibi sacramenta ministrari faciendi"]
 
-#### Label: LicentiaArrendandiLocandi
+
+#### Label: licentia_arrendandi_locandi
 
 ##### Beschreibung: 
+"Die unter Sixtus IV. offensichtlich neu eingerichtete Möglichkeit zur (zeitlich befristeten) Weitergabe einer beliebigen Pfründe wird mit Dauer der Befristung angegeben" (Bearbeitungshinweise, S. 64)
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: lic. fruct. **arrendandi**  
+  Annotation: [Type: licentia_arrendandi_locandi, Value: "arrendandi"]
+* Text: de lic. **locandi** agros mense ep.  
+  Annotation: [Type: licentia_arrendandi_locandi, Value: "locandi"]
+ 
 
-#### Label: LicentiaDemoliendi
+
+#### Label: licentia_demoliendi
 
 ##### Beschreibung: 
+Erlaubnis zum (teilweisen) Abriss eines kirchlichen Gebäudes.
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: de lic. **demoliendi** capel.   
+  Annotation: [Type: licentia_demoliendi, Value: "demoliendi"]
 
-#### Label: LicentiaDicendiHorasCanonicas
+
+
+
+#### Label: licentia_dicendi_horas_canonicas
 
 ##### Beschreibung: 
+"Erlaubnis, das Beten des Breviers (der kanonischen Stunden) in der an der Kurie praktizierten verkürzten Form vorzunehmen." (Bearbeitungshinweise, S. 62)
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: lic. **dicendi horas** more Romano  
+  Annotation: [Type: licentia_dicendi_horas_canonicas, Value: "dicendi horas"]
 
-#### Label: LicentiaPermutandi
+
+
+#### Label: licentia_permutandi
 
 ##### Beschreibung: 
+Die Erlaubnis, Benefizien zu tauschen.
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: lic. **permutandi beneficia**   
+  Annotation: [Type: licentia_permutandi, Value: "permutandi beneficia"]
 
-#### Label: LicentiaStudendi
+
+
+#### Label: licentia_studendi
 
 ##### Beschreibung: 
+Erlaubnis, zu studieren.
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: de **lic. studendi** leg. civiles  
+  Annotation: [Type: licentia_studendi, Value: "lic. studendi"]
 
-#### Label: LicentiaTacendiSuperDefectuNatalium
+
+
+#### Label: licentia_tacendi_super_defectu_natalium
 
 ##### Beschreibung: 
+Die Erlaubnis, den eigenen Geburtsdefekt verschweigen zu dürfen.
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: de lic. deinceps disp. **sup. def. nat. ( p., s. ) tacendi**
+  Annotation: [Type: licentia_tacendi_super_defectu_natalium, Value: "sup. def. nat. ( p., s. ) tacendi"]
 
-#### Label: LicentiaTestandi
 
-##### Beschreibung: 
-
-##### Standard Examples: 
-
-* Text: ****  
-  Annotation: [Type: , Value: ""]
-
----
-
-#### Label: LitteraConservatoriaBonorum
+#### Label: licentia_testandi
 
 ##### Beschreibung:
-Schutzbrief
+Die Erlaubnis, als Zeuge aufzutreten.
+
+##### Standard Examples: 
+
+* Text: de **lic. testandi**  
+  Annotation: [Type: licentia_testandi, Value: "lic. testandi"]
+
+
+
+#### Label: littera_conservatoria_bonorum
+
+##### Beschreibung:
+"Bei der littera conservatoria bonorum handelt es sich um einen allgemeinen Schutzbrief für Kirchen und Klöster. Es heißt im Regest nur: de conserv." (Bearbeitungshinweise, S. 64)
 
 ##### Standard Examples:
 
 * Text: de **conserv.**  
   Annotation: [Type: LitteraConservatoriaBonorum, Value: "conserv."]
 
----
 
-#### Label: LitteraDimissoralis
+
+#### Label: littera_testimonialis
 
 ##### Beschreibung: 
+Beurkundung (meist) einer Weihe
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: **litt. testimonialis**  
+  Annotation: [Type: littera_testimonialis, Value: "litt. testimonialis"]
 
----
 
-#### Label: LitteraPassus
+
+#### Label: littera_passus
 
 ##### Beschreibung:
 Reiseerlaubnis und Schutzbrief
@@ -1591,33 +1621,11 @@ Reiseerlaubnis und Schutzbrief
 ##### Standard Examples:
 
 * Text: **litt. passus**  
-  Annotation: [Type: LitteraPassus, Value: "litt. passus"]
+  Annotation: [Type: littera_passus, Value: "litt. passus"]
 * Text: **littera passus**  
-  Annotation: [Type: LitteraPassus, Value: "littera passus"]
+  Annotation: [Type: littera_passus, Value: "littera passus"]
 
----
 
-#### Label: LitteraTestimonialibus
-
-##### Beschreibung:
-Bescheinigung, Zeugnis
-
-##### Standard Examples:
-
-* Text: **testimonialis litt.** vicecamerarii ad senatorem Urbis quod d. calcelarii iurisdictioni mareschalli R. cur. suppositi sint 20. febr. 1432 DC 16 183rs.  
-  Annotation: [Type: LitteraTestimonialibus, Value: "testimonialis litt."]
-
-#### Label: LitteraTestimonialibusZusatz
-
-##### Beschreibung:
-Inhaltliche Beschreibung der Bescheinigung bzw. des Zeugnisses
-
-##### Standard Examples:
-
-* Text: testimonialis litt. **vicecamerarii ad senatorem Urbis quod d. calcelarii iurisdictioni mareschalli R. cur. suppositi sint** 20. febr. 1432 DC 16 183rs.
-  Annotation: [Type: LitteraTestimonialibusZusatz, Value: "vicecamerarii ad senatorem Urbis quod d. calcelarii iurisdictioni mareschalli R. cur. suppositi sint"]
-
----
 
 #### Label: Monitorium
 
@@ -1634,7 +1642,7 @@ Ermahnung durch den Papst
 #### Label: Moratorium
 
 ##### Beschreibung:
-Zahlungsaufschub
+Zahlungsaufschub, Hauptsächlich in RG 10 (?)
 
 ##### Standard Examples:
 
@@ -1643,21 +1651,19 @@ Zahlungsaufschub
 * Text: **moratorium**  
   Annotation: [Type: Moratorium, Value: "moratorium"]
 
-##### Hinweis
-Hauptsächlich in RG 10 (?)
 
----
 
-#### Label: MutatioCollatoris
+#### Label: mutatio_collatoris
 
 ##### Beschreibung: 
+Nachbesserung einer Supplik: Änderung des Kollators
 
 ##### Standard Examples: 
 
-* Text: ****  
-  Annotation: [Type: , Value: ""]
+* Text: motu pr. de **mutatione collationis** ad can. et preb. 
+  Annotation: [Type: mutatio_collatoris, Value: "mutatione collationis"]
 
----
+
 
 #### Label: Pensio
 
@@ -1701,6 +1707,9 @@ Vorrecht, Prärogative
 * Text: **prerog.** pape fam. in absentia  
   Annotation: [Type: Prerogativa, Value: "prerog."]
 
+
+
+
 #### Label: PrerogatioAdInstarPapeFamilaris
 
 ##### Beschreibung: 
@@ -1709,6 +1718,9 @@ Vorrecht, Prärogative
 
 * Text: ****  
   Annotation: [Type: , Value: ""]
+
+
+
 
 #### Label: PrerogatioPapeFamiliarisInAbsentia
 
@@ -1719,7 +1731,7 @@ Vorrecht, Prärogative
 * Text: ****  
   Annotation: [Type: , Value: ""]
 
----
+
 
 #### Label: Prorogatio
 
@@ -1746,7 +1758,7 @@ Kennzeichnung des Gnadeninhalts. Der gesamte Gnadeninhalt wird mit dem Label Pro
 * Text: cum prorog. **term. solut. ad 1 an. propter incertitudinem taxe**  
   Annotation: [Type: ProrogatioZusatz, Value: "term. solut. ad 1 an. propter incertitudinem taxe"]
 
----
+
 
 #### Label: Provisio
 
@@ -1773,9 +1785,11 @@ Bestimmungen zur Verleihung eines Benefizes
 * Text: **gr. expect.**  
   Annotation: [Type: Provisio, Value: "gr. expect."]
 
-#### Label: EinfacheProvisio
+
+#### Label: einfache_provisio
 
 ##### Beschreibung: 
+Gnadenbrief, kraft dessen ein Kirchenamt verliehen wird.
 
 ##### Standard Examples: 
 
