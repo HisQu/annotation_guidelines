@@ -24,6 +24,8 @@ Der Fettdruck kennzeichnet, welche Wörter mit dem Kategorielabel getaggt werden
 
 Jede Kategorie (Person, Vita, Event, Varia) enthält eine Liste von Labels (Unterkategorien). Für jedes Label werden "Standardbeispiele" (Standard Examples) und "Sonstige Beispiele" (Other Examples) aufgeführt. Jedes Beispiel umfasst den Kontext und das zu annotierende Textfragment, wobei das Fragment in doppelten Sternchen (`**`) eingeschlossen ist. Die erwartete Annotation wird im Format `[Type: Value]` angegeben. Bei Beispielen, die mehrere Annotationen ergeben, werden alle aufgeführt.
 
+## Kategorien
+
 ### Kategorie: Personen und Personengruppen
 
 In den Regesten erscheinen Personen sowohl explizit, d.h. namentlich genannt, als auch implizit, d.h. nicht namentlich genannt, in Form von Umschreibungen.
@@ -2488,7 +2490,7 @@ Verweise auf Dokumente oder Handschriften.
 
 
 
-## Unklare Fälle und Richtlinien zur Entscheidung
+## Kommentare, unklare Fälle und Richtlinien zur ihrer Entscheidung
 
 ### Domic.
 Im Abkürzungsverzeichnis des RG steht für domic. nur domicella/domicellus (Ritterfräulein, Stiftsdame; Knappe, Junker [kurialer Ehrentitel]), auch wenn man domicellarius (Domherr) erwarten würde.
